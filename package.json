@@ -1,12 +1,23 @@
 {
-  "name": "leyunone.com",
-  "version": "0.1.0",
+  "name": "javaguide",
+  "version": "2.0.0-alpha.40",
   "private": true,
+  "description": "javaguide",
+  "license": "MIT",
+  "author": "Guide",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "vite-build": "vuepress-vite build docs",
+    "vite-serve": "vuepress-vite dev docs",
+    "vite-clean-serve": "vuepress-vite dev docs --clean-cache",
+    "webpack-build": "vuepress-webpack build docs",
+    "webpack-clean-serve": "vuepress-webpack dev docs --clean-cache",
+    "webpack-serve": "vuepress-webpack dev docs"
   },
-  "devDependencies": {
-    "vuepress": "^1.9.7"
+  "dependencies": {
+    "vuepress": "^2.0.0-beta.53",
+    "vuepress-theme-hope": "^2.0.0-beta.122",
+    "vuepress-vite": "2.0.0-beta.53",
+    "vuepress-webpack": "2.0.0-beta.53",
+    "@vuepress/plugin-search": "^2.0.0-beta.53"
   }
 }

@@ -1,39 +1,38 @@
-'use strict';
-const path = require('path');
-const pathKey = require('path-key');
+import process from 'node:process';
+import path from 'node:path';
+import url from 'node:url';
+import pathKey from 'path-key';
 
-module.exports = opts => {
-	opts = Object.assign({
-		cwd: process.cwd(),
-		path: process.env[pathKey()]
-	}, opts);
+export function npmRunPath(options = {}) {
+	const {
+		cwd = process.cwd(),
+		path: path_ = process.env[pathKey()],
+		execPath = process.execPath,
+	} = options;
 
-	let prev;
-	let pth = path.resolve(opts.cwd);
-	const ret = [];
+	let previous;
+	const cwdString = cwd instanceof URL ? url.fileURLToPath(cwd) : cwd;
+	let cwdPath = path.resolve(cwdString);
+	const result = [];
 
-	while (prev !== pth) {
-		ret.push(path.join(pth, 'node_modules/.bin'));
-		prev = pth;
-		pth = path.resolve(pth, '..');
+	while (previous !== cwdPath) {
+		result.push(path.join(cwdPath, 'node_modules/.bin'));
+		previous = cwdPath;
+		cwdPath = path.resolve(cwdPath, '..');
 	}
 
-	// ensure the running `node` binary is used
-	ret.push(path.dirname(process.execPath));
+	// Ensure the running `node` binary is used.
+	result.push(path.resolve(cwdString, execPath, '..'));
 
-	return ret.concat(opts.path).join(path.delimiter);
-};
+	return [...result, path_].join(path.delimiter);
+}
 
-module.exports.env = opts => {
-	opts = Object.assign({
-		env: process.env
-	}, opts);
+export function npmRunPathEnv({env = process.env, ...options} = {}) {
+	env = {...env};
 
-	const env = Object.assign({}, opts.env);
 	const path = pathKey({env});
-
-	opts.path = env[path];
-	env[path] = module.exports(opts);
+	options.path = env[path];
+	env[path] = npmRunPath(options);
 
 	return env;
-};
+}
