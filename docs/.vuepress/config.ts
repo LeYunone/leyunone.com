@@ -6,13 +6,13 @@ export default defineUserConfig({
   dest: "./dist",
   theme: themeConfig,
   shouldPrefetch: false,
-  title: "JavaGuide(Java面试+学习指南)",
+  title: "Leyunone",
   description:
-    "「Java学习指北+Java面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，复习 Java 知识点，首选 JavaGuide！  ",
+    "「乐云一,博客,Java,后端开发,杂谈,番剧  ",
   head: [
     // meta
     ["meta", { name: "robots", content: "all" }],
-    ["meta", { name: "author", content: "Guide" }],
+    ["meta", { name: "author", content: "乐云一" }],
     [
       "meta",
       {

@@ -1,4 +1,5 @@
 ---
+date: 2021-09-24 10:11:56
 title: LeetCode-67. 二进制求和
 category: 刷题日记
 tag:
@@ -6,10 +7,10 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: LeetCode,算法,刷题日记
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 乐云一刷题日记！！！
 ---
 **示例：**
 ```
@@ -27,7 +28,7 @@ head:
 所以对问题考虑的严谨性，还是考虑本题对两原字符串进行计算。
 那么就要了解两个二进制数的加法规则了，‘逢二进1为0’。
 :::align-center
-![QQ截图20210924100703.png](https://www.leyuna.xyz/image/2021-09-24/QQ截图20210924100703.png)width="auto" height="300"}}}
+![QQ截图20210924100703.png](https://www.leyuna.xyz/image/2021-09-24/QQ截图20210924100703.png)
 :::
 如图，知道两个二进制加法计算的时候，如果相同位为1的时候，结果为0并且向前进一位。
 当遇到两字符串长短不一时，则向短的字符串前补0。

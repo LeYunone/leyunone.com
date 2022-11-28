@@ -1,15 +1,17 @@
 ---
+date: 2022-01-07 15:26:56
 title: 快速搭建微服务平台-SpringCloud
-category: Spring
+category:
+  - Spring
 tag:
   - SpringCloud
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: Spring,Spring
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 本文是在你了解好了SpringCloud相关知识后，快速搭建复制粘贴的一个模板，仅当参考
 ---
 
 > 前言：本文是在你了解好了SpringCloud相关知识后，快速搭建复制粘贴的一个模板，仅当参考

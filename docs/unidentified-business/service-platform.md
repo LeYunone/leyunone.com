@@ -1,15 +1,10 @@
 ---
+date: 2022-03-29 12:24:22
 title: 服务平台业务理解
-category: 业务
+category: 
+  - 业务
 tag:
   - 业务
-head:
-  - - meta
-    - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
-  - - meta
-    - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
 ---
 # 服务类系统业务理解
 
@@ -53,7 +48,7 @@ head:
 
 即，**内务登记单**。:smiley:
 
-但是这些都只是个人理解。![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210445.jpg)width="auto" height="auto"}}}
+但是这些都只是个人理解。![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210445.jpg)
 ## 业务实施
 
 以上述的营销服务平台为例：
@@ -108,4 +103,4 @@ head:
 
 首先说好，以上纯属个人理解，不带任何第三方因素影响。
 
-加上自己开发的分支模块：财务模块，开发过程的理解。![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210538.jpg)width="auto" height="auto"}}}
+加上自己开发的分支模块：财务模块，开发过程的理解。![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210538.jpg)

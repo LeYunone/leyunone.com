@@ -1,4 +1,5 @@
 ---
+date: 2021-11-19 16:38:50
 title: LeetCode-64. 最小路径和
 category: 刷题日记
 tag:
@@ -6,12 +7,12 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: LeetCode,算法,刷题日记
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 乐云一刷题日记！！！
 ---
-![QQ截图20211119163406.png](https://www.leyuna.xyz/image/2021-11-19/QQ截图20211119163406.png)width="auto" height="auto"}}}
+![QQ截图20211119163406.png](https://www.leyuna.xyz/image/2021-11-19/QQ截图20211119163406.png)
 ## 思路
 本题的解决思路和[LeetCode-62. 不同路径](https://leyuna.xyz/#/blog?blogId=73)
 相似。

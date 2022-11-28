@@ -1,4 +1,5 @@
 ---
+date: 2022-04-17 13:35:41
 title: 集合去重方案Function<T,R>
 category: 设计
 tag:
@@ -6,10 +7,10 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: Java,函数式接口,集合去重
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: Function<T, R>函数接口自定义一个UniqueSet
 ---
 # Function<T, R>函数接口自定义一个UniqueSet
 
@@ -17,7 +18,7 @@ head:
 一个List中Person对象，根据Person对象中的age年龄去重，留下年龄不重复的集合。
 
 ## 实现方案一：
-也是最传统最简单的：![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210445.jpg)width="50" height="50"}}}
+也是最传统最简单的：![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210445.jpg)
 ```
         List<Person> list = new ArrayList();
        //将list转成TreeSet 自定义一个比较器compartor
@@ -42,7 +43,7 @@ head:
 
 ## 实现方案二：
 通过自定义一个唯一规则，定义一个uniqueSet。
-通过Function<T，R> 函数式接口，以及Set底层map的特点，实现重复时不添加，不重复添加map的效果。![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210521.jpg)width="50" height="50"}}}
+通过Function<T，R> 函数式接口，以及Set底层map的特点，实现重复时不添加，不重复添加map的效果。![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210521.jpg)
 .
 **Function<T,R>**
 JDK8引入的函数式接口，其特点是：接受一个T，返回一个R。
@@ -115,7 +116,7 @@ this.uniqueCondition.apply(v)申请出来的是对象的属性值。
         return map.size();
     }
 ```
-理由不言而喻，懂的都懂![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210528.gif)width="50" height="50"}}}
+理由不言而喻，懂的都懂![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210528.gif)
 最后贴出完整的代码和测试。
 ### UniqueSet：
 ```

@@ -1,15 +1,14 @@
 ---
+date: 2021-09-10 16:53:17
 title: Lucene，全文检索工具
-category: Lucene
+category: 
+  - Lucene
 tag:
   - Lucene
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
-  - - meta
-    - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: Java,Lucene,全文检索,搜索引擎
 ---
 
 # Lucene

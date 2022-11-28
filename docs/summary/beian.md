@@ -1,15 +1,10 @@
 ---
+date: 2021-09-13 18:50:56
 title: 公安备案-阿里云和腾讯云服务商信息填写
-category: 总结
+category: 
+  - 总结
 tag:
   - 无
-head:
-  - - meta
-    - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
-  - - meta
-    - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
 ---
 > 阿里云
 > 网络接入服务商：

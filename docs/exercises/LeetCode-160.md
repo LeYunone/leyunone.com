@@ -1,4 +1,5 @@
 ---
+date: 2021-09-26 17:35:28
 title: LeetCode-160. 相交链表
 category: 刷题日记
 tag:
@@ -6,13 +7,13 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: LeetCode,算法,刷题日记
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 乐云一刷题日记！！！
 ---
 **示例：**
-![QQ截图20210926172556.png](https://www.leyuna.xyz/image/2021-09-26/QQ截图20210926172556.png)width="auto" height="auto"}}}
+![QQ截图20210926172556.png](https://www.leyuna.xyz/image/2021-09-26/QQ截图20210926172556.png)
 ## 思路
 考察公共链表的公共交点，最简单粗暴的是可用设置一张map表，将A遍历到的所有元素添加进去。
 然后遍历链表B时，如果某一节点在map表中存在，则说明改节点是相交节点。

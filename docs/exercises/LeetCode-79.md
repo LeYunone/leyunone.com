@@ -1,4 +1,5 @@
 ---
+date: 2021-11-12 10:52:22
 title: LeetCode-79. 单词搜索
 category: 刷题日记
 tag:
@@ -6,12 +7,12 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: LeetCode,算法,刷题日记
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 乐云一刷题日记！！！
 ---
-![企业微信截图_20211112104543.png](https://www.leyuna.xyz/image/2021-11-12/企业微信截图_20211112104543.png)width="auto" height="auto"}}}
+![企业微信截图_20211112104543.png](https://www.leyuna.xyz/image/2021-11-12/企业微信截图_20211112104543.png)
 ## 思路
 单词搜索，重要的是题意中的二维数组。
 由于是在二维数组中操作，所以需要想到二维数组中的遍历方式。

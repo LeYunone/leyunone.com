@@ -1,4 +1,5 @@
 ---
+date: 2021-09-25 11:48:29
 title: LeetCode-104. 二叉树的最大深度
 category: 刷题日记
 tag:
@@ -6,10 +7,10 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: LeetCode,算法,刷题日记
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 乐云一刷题日记！！！
 ---
 **示例：**
 
@@ -28,7 +29,7 @@ head:
 所以对于遍历层数操作，推荐使用广度优先遍历。
 这道题刚好要算出的结果是最大层数，所以在对每一层结点进行遍历的时候，只需要累计当前层数，层层操作就行。
 :::align-center
-![QQ截图20210925114601.png](https://www.leyuna.xyz/image/2021-09-25/QQ截图20210925114601.png)width="auto" height="auto"}}}
+![QQ截图20210925114601.png](https://www.leyuna.xyz/image/2021-09-25/QQ截图20210925114601.png)
 :::
 从根节点出发，遍历一层，如果某一节点的左孩子或者右孩子存在，则添加到遍历数组中。一层遍历完，计数最大层数+1
 如此翻译，则可得代码

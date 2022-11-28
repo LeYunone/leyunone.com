@@ -1,15 +1,17 @@
 ---
+date: 2022-05-16 17:47:07
 title: Lambda表达式的特殊序列化
-category: 笔记
+category: 
+  - 笔记
 tag:
   - note
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: JVM,JDK,JRE,Java,Lambda,序列化
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: Lambada作为JDK8的新特性，无论在框架或是工具中已经越来越发普及。
 ---
 # Lambda的特殊序列化
 
@@ -60,13 +62,13 @@ public class Test implements Serializable{
 
 但是在作为入参进入一个方法中，JVM会将函数式接口动态的解析成一个类。
 
-![image-20220517011206682.png](https://www.leyuna.xyz/image/2022-05-17/image-20220517011206682.png)width="auto" height="auto"}}}
+![image-20220517011206682.png](https://www.leyuna.xyz/image/2022-05-17/image-20220517011206682.png)
 
 
 所以晦涩难懂的一个原因也是我们无法直接根据DEBUG模式直接观测Lambda的流动。
 
 那么这个动态生成的类中有什么重要方法呢。
-![image-20220517011427449.png](https://www.leyuna.xyz/image/2022-05-17/image-20220517011427449.png)width="auto" height="auto"}}}
+![image-20220517011427449.png](https://www.leyuna.xyz/image/2022-05-17/image-20220517011427449.png)
 
 可以看到除了Object自有的方法以及可观测的Fuction接口的apply外，还有一个writeReplace方法。
 
@@ -121,7 +123,7 @@ SerializedLambda是作为Lambda表达式在序列化过程中，动态存储表�
 所以Lambda表达式将这些信息全部都存储在了SerializedLambda类中。
 
 所以我们就可以根据**writeReplace**返回的SerializedLambda对象进行二次封装及信息处理。
-![image-20220517013055613.png](https://www.leyuna.xyz/image/2022-05-17/image-20220517013055613.png)width="auto" height="auto"}}}
+![image-20220517013055613.png](https://www.leyuna.xyz/image/2022-05-17/image-20220517013055613.png)
 
 |                属性                |          解释          |
 | :--------------------------------: | :--------------------: |
@@ -139,7 +141,7 @@ SerializedLambda是作为Lambda表达式在序列化过程中，动态存储表�
 ## 反序列化
 
 在SerializedLambda的**readResolve方法**有详细说明。
-![image-20220517013942631.png](https://www.leyuna.xyz/image/2022-05-17/image-20220517013942631.png)width="auto" height="auto"}}}
+![image-20220517013942631.png](https://www.leyuna.xyz/image/2022-05-17/image-20220517013942631.png)
 
 但是由于使用的是非常隐晦的方法，暂时没有那个技术高度了解这个反序列的过程，所以本文中就不提起了。
 

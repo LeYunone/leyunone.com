@@ -1,15 +1,17 @@
 ---
+date: 2022-05-18 16:30:12
 title: SpringCloud源码阅读—负载均衡
-category: Spring
+category: 
+  - Spring
 tag:
   - SpringCloud
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: Spring,SpringCloud,源码阅读
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: SpringCloud的负载均衡由Ribbon组件完成，Ribbon组件在实际开发中很难直接接触，因...
 ---
 
 # SpringCloud源码阅读—负载均衡

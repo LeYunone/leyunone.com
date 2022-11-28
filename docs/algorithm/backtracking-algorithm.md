@@ -1,15 +1,17 @@
 ---
+date: 2021-11-01 20:43:30
 title: 常用算法之 【回溯法】
-category: 算法
+category: 
+  - 算法
 tag:
   - 算法
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: 数据结构,算法,常用算法
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 回溯算法，以递归为驱动遍历搜索的回溯操作。在算法题目中多有出现，例如：全排序、组合、子集、棋盘问题等等。
 ---
 > 回溯算法，以递归为驱动遍历搜索的回溯操作。在算法题目中多有出现，例如：全排序、组合、子集、棋盘问题等等。
 

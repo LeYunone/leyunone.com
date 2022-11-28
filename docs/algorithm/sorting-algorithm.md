@@ -1,15 +1,16 @@
 ---
-title: 常用算法之 【排序算法】
+date: 2022-04-07 04:27:52
+title: 常用算法之【排序算法】
 category: 算法
 tag:
   - 算法
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: 数据结构,算法,常用算法
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 排序算法有：冒泡、选择、插入、希尔、归并、快速、堆、基数、计数
 ---
 # 排序算法- 八大排序
 >  排序算法有：冒泡、选择、插入、希尔、归并、快速、堆、基数、计数

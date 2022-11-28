@@ -1,4 +1,5 @@
 ---
+date: 2021-11-03 14:43:25
 title: LeetCode-162. 寻找峰值
 category: 刷题日记
 tag:
@@ -6,10 +7,10 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: LeetCode,算法,刷题日记
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 乐云一刷题日记！！！
 ---
 **示例**
 ```
@@ -32,7 +33,7 @@ head:
 解题思路二：
 峰值，一定是一个大数，所以随机找到一个下标，从这个下标开始，一直往其前后对比后，大的数前进。
 基于数组无穷的环境，一定会有一个小于这个数的两边出现。
-![QQ截图20211103144029.png](https://www.leyuna.xyz/image/2021-11-03/QQ截图20211103144029.png)width="auto" height="auto"}}}
+![QQ截图20211103144029.png](https://www.leyuna.xyz/image/2021-11-03/QQ截图20211103144029.png)
 相当于爬坡，**只有一直往高处走才能搞到下坡**。
 
 所以以这个思路想，带入二分法，可以做到一直寻找数组的一半数。

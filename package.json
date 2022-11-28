@@ -1,10 +1,10 @@
 {
-  "name": "javaguide",
+  "name": "leyunone",
   "version": "2.0.0-alpha.40",
   "private": true,
-  "description": "javaguide",
+  "description": "乐云一",
   "license": "MIT",
-  "author": "Guide",
+  "author": "Leyunone",
   "scripts": {
     "vite-build": "vuepress-vite build docs",
     "vite-serve": "vuepress-vite dev docs",

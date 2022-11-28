@@ -1,15 +1,10 @@
 ---
+date: 2022-03-13 15:23:58
 title: 反射应用场景
-category: 笔记
+category: 
+  - 笔记
 tag:
   - note
-head:
-  - - meta
-    - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
-  - - meta
-    - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
 ---
 # 反射应用场景
 >本文不讲解反射的基本使用，仅记录反射的特殊使用场景
@@ -46,7 +41,7 @@ extends ServiceImpl<M, DO> implements BaseGateway<CO> {
         }
     }
 ```
-通过反射类**ParameterizedType**，参数化类型拿到任何<XX>中泛型类型![QQ图片20220302210528.gif](https://www.leyuna.xyz/image/2022-03-13/QQ图片20220302210528.gif)width="auto" height="auto"}}}
+通过反射类**ParameterizedType**，参数化类型拿到任何<XX>中泛型类型![QQ图片20220302210528.gif](https://www.leyuna.xyz/image/2022-03-13/QQ图片20220302210528.gif)
 
 ## 关于类型
 类型取自class，所以在仅知道class的条件下，类型转换上有很多很多的应用方式。
@@ -67,7 +62,7 @@ Collection.class.isAssignableFrom(class)
 判断两类是否是 子父级关系。
 **最后**，就是java中各包装类，Intege，Long等等的基本判断了。
 ### 场景二
-当仅有一个类的类名时，需要确定该类的类型，反向操作最为致命![QQ图片20220302210531.jpg](https://www.leyuna.xyz/image/2022-03-13/QQ图片20220302210531.jpg)width="auto" height="auto"}}}。
+当仅有一个类的类名时，需要确定该类的类型，反向操作最为致命![QQ图片20220302210531.jpg](https://www.leyuna.xyz/image/2022-03-13/QQ图片20220302210531.jpg)。
 1. 最简单的一种，通过**class.forName(className)**，拿到该类的class，然后如场景一中判断。
 2. 在只知一个类的类名，甚至说这个类极有可能不是全类名的场景中时。我们是无法通过**class.forName(className)**，去获取类的class的。所以在代码的层面中，没有办法去确定它[类名]的属性的。
 那么就需要把眼见拉大，跳出代码层面，到file文件中去探讨。

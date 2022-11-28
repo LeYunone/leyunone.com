@@ -1,15 +1,17 @@
 ---
+date: 2022-03-28 15:07:40
 title: 自拟！Redis死知识！！！
-category: 笔记
+category: 
+  - 笔记
 tag:
   - note
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: Java,八股文,面试
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: redis是基于内存存储的数据库，读写速度十分之快，所以多用于缓存方向...
 ---
 # 自拟！Redis死知识！！！
 
@@ -22,7 +24,7 @@ redis是基于内存存储的数据库，读写速度十分之快，所以多用
 但在分布式业务中，也可用于分布式锁，或作为消息队列存储，进行消耗和接受。
 
 此外，redis可存储很多中数据类型，又因为key - value Hash对、set、zset、list，存储String的原因，使其数据结构很丰富。
-![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210457.jpg)width="auto" height="auto"}}}
+![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210457.jpg)
 ### 指令
 
 包括set、get、exists、decrease、setex等等

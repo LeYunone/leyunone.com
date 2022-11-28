@@ -1,4 +1,5 @@
 ---
+date: 2022-05-12 16:38:50
 title: LeetCode-1019. 链表中的下一个更大节点
 category: 刷题日记
 tag:
@@ -6,14 +7,14 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: LeetCode,算法,刷题日记
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 乐云一刷题日记！！！
 ---
 **示例**
 
-![image.png](https://www.leyuna.xyz/image/2022-05-12/image.png)width="auto" height="auto"}}}
+![image.png](https://www.leyuna.xyz/image/2022-05-12/image.png)
 
 
 
@@ -68,7 +69,7 @@ head:
     }
 ```
 
-![image.png](https://www.leyuna.xyz/image/2022-05-13/DDDD.png)width="auto" height="auto"}}}
+![image.png](https://www.leyuna.xyz/image/2022-05-13/DDDD.png)
 
 ### 单调栈
 
@@ -102,4 +103,4 @@ head:
         return arr;
     }
 ```
-![EEEE.png](https://www.leyuna.xyz/image/2022-05-13/EEEE.png)width="auto" height="auto"}}}
+![EEEE.png](https://www.leyuna.xyz/image/2022-05-13/EEEE.png)

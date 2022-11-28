@@ -1,15 +1,17 @@
 ---
+date: 2022-04-13 13:01:26
 title: Alibaba Easy Excel 工具
-category: GitHub
+category: 
+  - GitHub
 tag:
   - GitHub
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: Java,工具,Alibaba,Easy Excel
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 导入和导出的工具：一是Poi，效率低慢，占内存高且上手复杂。二是EasyExcel，上手超级简单，读写效率高。
 ---
 # Alibaba Easy Excel
 >导入和导出的工具：一是Poi，效率低慢，占内存高且上手复杂。二是EasyExcel，上手超级简单，读写效率高。

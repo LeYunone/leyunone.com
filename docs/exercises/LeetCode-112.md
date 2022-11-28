@@ -1,4 +1,5 @@
 ---
+date: 2021-09-26 11:18:08
 title: LeetCode-112. 路径总和
 category: 刷题日记
 tag:
@@ -6,13 +7,13 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: LeetCode,算法,刷题日记
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 乐云一刷题日记！！！
 ---
 **示例：**
-![QQ截图20210924100703.png](https://www.leyuna.xyz/image/2021-09-26/QQ截图20210924100703.png)width="auto" height="auto"}}}
+![QQ截图20210924100703.png](https://www.leyuna.xyz/image/2021-09-26/QQ截图20210924100703.png)
 ## 思路
 二叉树的经典简单问题之一，求路径之和。
 和遍历树的方式息息相关，深度优先遍历或广度优先遍历。

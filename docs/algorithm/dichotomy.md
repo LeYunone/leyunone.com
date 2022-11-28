@@ -1,15 +1,17 @@
 ---
+date: 2021-11-03 16:00:05``
 title: 常用算法之 【二分法】
-category: 算法
+category: 
+  - 算法
 tag:
   - 算法
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: 数据结构,算法,常用算法
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 二分法，复杂级别为logn，是最基本也是最常使用的搜索方法；
 ---
 
 >二分法，复杂级别为logn，是最基本也是最常使用的搜索方法；

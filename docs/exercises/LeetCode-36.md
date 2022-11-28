@@ -1,4 +1,5 @@
 ---
+date: 2021-11-29 10:36:42
 title: LeetCode-36. 有效的数独
 category: 刷题日记
 tag:
@@ -6,12 +7,12 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: LeetCode,算法,刷题日记
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 乐云一刷题日记！！！
 ---
-![企业微信截图_20211129103012.png](https://www.leyuna.xyz/image/2021-11-29/企业微信截图_20211129103012.png)width="auto" height="auto"}}}
+![企业微信截图_20211129103012.png](https://www.leyuna.xyz/image/2021-11-29/企业微信截图_20211129103012.png)
 ## 思路
 题目给的难度是中等，但是用中等难度的路线想就很绕了。
 其实本题很简单，就是遍历所有格的字符，判断当前这个字符的位置，是否符合题意中的三规则。

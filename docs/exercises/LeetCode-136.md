@@ -1,4 +1,5 @@
 ---
+date: 2021-09-26 15:04:35
 title: LeetCode-136. 只出现一次的数字
 category: 刷题日记
 tag:
@@ -6,10 +7,10 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: LeetCode,算法,刷题日记
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 乐云一刷题日记！！！
 ---
 **示例：**
 ```
@@ -23,7 +24,7 @@ head:
 对于重复元素，其实在数学中还有一种处理方式：位运算。
 当有两个重复数字 10和10 时。
 :::align-center
-![QQ截图20210926150031.png](https://www.leyuna.xyz/image/2021-09-26/QQ截图20210926150031.png)width="auto" height="auto"}}}
+![QQ截图20210926150031.png](https://www.leyuna.xyz/image/2021-09-26/QQ截图20210926150031.png)
 :::
 使用异或 ^ 运算，相同的为0，不相同的为1。
 那么当数组是[4,10,10]时，有

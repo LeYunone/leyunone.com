@@ -1,15 +1,10 @@
 ---
+date: 2022-01-21 16:17:24
 title: 已知面试问题归纳
-category: 总结
+category: 
+  - 总结
 tag:
   - 无
-head:
-  - - meta
-    - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
-  - - meta
-    - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
 ---
 # 已知面试问题归纳
 

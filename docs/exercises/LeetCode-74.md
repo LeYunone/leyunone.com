@@ -1,4 +1,5 @@
 ---
+date: 2021-11-02 15:36:48
 title: LeetCode-74. 搜索二维矩阵
 category: 刷题日记
 tag:
@@ -6,12 +7,12 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: LeetCode,算法,刷题日记
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 乐云一刷题日记！！！
 ---
-![QQ截图20211102151636.png](https://www.leyuna.xyz/image/2021-11-02/QQ截图20211102151636.png)width="auto" height="auto"}}}
+![QQ截图20211102151636.png](https://www.leyuna.xyz/image/2021-11-02/QQ截图20211102151636.png)
 
 ## 思路
 虽然题目强调了二维矩阵，但当我们确定目标数在二维数组中的一个数组中时。

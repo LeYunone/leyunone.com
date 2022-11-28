@@ -1,15 +1,14 @@
 ---
+date: 2022-04-25 09:04:27
 title: 日记1
-category: 开发日记
+category: 
+  - 开发日记
 tag:
   - 开发日记
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
-  - - meta
-    - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 开发日记,云盘
 ---
 # 云盘开发日记2
 
@@ -18,7 +17,7 @@ head:
 作用是传输文件的时候，有分片上传/下载、断点上传/下载这样的功能，不过是通过Vue前端实现的。
 了解了一下，想到自己还有一个云盘坑没填，指目前云盘的上传、下载功能，没经过特殊化处理。
 也就顺其自然的去了解断点续传、分片续传、秒传、并发上传等等这些云盘应用肯定会有的场景及功能。
-![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210443.jpg)width="50" height="50"}}}
+![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210443.jpg)
 # 蓝图
 所以重新画了新云盘的蓝图，并且对项目结构进行的重构，之前根据WEB应用+纯服务应用搭建的。
 所以架构仅仅是**Web**>**Service**>Dao这样的流程，很不利于往后将这个云盘拓展出来，所以目前将项目改造成了
@@ -27,7 +26,7 @@ head:
 ## 新增表
 之前的表结构为：
 :::align-center
-![file.png](https://www.leyuna.xyz/image/2022-04-24/file.png)width="auto" height="auto"}}}
+![file.png](https://www.leyuna.xyz/image/2022-04-24/file.png)
 :::
 可以看到核心表是和userId冗余的，但是这是张文件信息表，所以当前非常不可取。
 所以拆成了以下表:
@@ -41,7 +40,7 @@ head:
 但是当前是基于文件的名字、大小去定位相同的文件的，在本次更新中就使用了文件的数据流MD5的形式当作文件的唯一标识。
 获得文件MD5的手法：
 :::align-center
-![image.png](https://www.leyuna.xyz/image/2022-04-24/image.png)width="auto" height="auto"}}}
+![image.png](https://www.leyuna.xyz/image/2022-04-24/image.png)
 :::
 那么有了MD5作为文件标识，我们只需要将此值去**file_md5**中查询，所有有值则说明服务器中已经有这个文件了，只需要在**file_user**表中新增本次上传用户和次文件的绑定关联即可。
 ## 分片

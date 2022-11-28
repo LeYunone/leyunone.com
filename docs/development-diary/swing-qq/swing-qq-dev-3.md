@@ -1,15 +1,10 @@
 ---
+date: 2022-03-12 14:58:55
 title: 日记1
-category: 开发日记
+category:
+  - 开发日记
 tag:
   - 开发日记
-head:
-  - - meta
-    - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
-  - - meta
-    - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
 ---
 # 基于Swing的伪QQ开发日记3
 本文与2019-12-29完成，怀念篇，归档。

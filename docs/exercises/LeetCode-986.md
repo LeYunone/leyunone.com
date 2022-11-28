@@ -1,4 +1,5 @@
 ---
+date: 2021-11-05 11:24:29
 title: LeetCode-986. 区间列表的交集
 category: 刷题日记
 tag:
@@ -6,19 +7,19 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: LeetCode,算法,刷题日记
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 乐云一刷题日记！！！
 ---
-![QQ截图20211105111509.png](https://www.leyuna.xyz/image/2021-11-05/QQ截图20211105111509.png)width="auto" height="auto"}}}
+![QQ截图20211105111509.png](https://www.leyuna.xyz/image/2021-11-05/QQ截图20211105111509.png)
 ## 思路
 简单的数学问题，求两个数组的交集，代码中用闭包的二维数组表示其范围。
 根据图示可以看出，A集合和B集合中各数组的交集的状态。
 根据数学思想可以知道，如果有两集合[1,4][2,5]。
 那么画出他的交集状态。
 ::: align-center
-  ![QQ截图20211105111947.png](https://www.leyuna.xyz/image/2021-11-05/QQ截图20211105111947.png)width="auto" height="auto"}}}
+  ![QQ截图20211105111947.png](https://www.leyuna.xyz/image/2021-11-05/QQ截图20211105111947.png)
 :::
 集合A中【1,4】和集合B中【2,5】，交集为2,4
 取得是两者从其最大值【左区间】和其最小值【右区间】。

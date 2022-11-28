@@ -1,15 +1,17 @@
 ---
+date: 2022-04-01 15:02:29
 title: 日记4
-category: 开发日记
+category: 
+  - 开发日记
 tag:
   - 开发日记
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: LeetCode,算法,刷题日记
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 乐云一刷题日记！！！
 ---
 # wayLocation 本地方法测试工具开发日记4
 

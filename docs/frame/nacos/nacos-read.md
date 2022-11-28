@@ -1,15 +1,17 @@
 ---
+date: 2022-05-22 14:50:42
 title: Nacos源码阅读—服务注册与发现
-category: nacos
+category:
+  - nacos
 tag:
   - nacos
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: Nacos,源码阅读
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 本文各功能呢的源码入口通过源码阅读经验以及官方文档找到，不详细说明。
 ---
 
 # Nacos源码阅读—服务注册与发现

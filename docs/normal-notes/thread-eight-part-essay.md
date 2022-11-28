@@ -1,15 +1,17 @@
 ---
+date: 2022-04-01 15:04:14
 title: 自拟！并发线程死知识！
-category: 笔记
+category: 
+  - 笔记
 tag:
   - note
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: Java,八股文,面试
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 分布式、缓存、线程、数据库都存在涉及再并发访问，操作的问题；此文章则记录了面对各样的场景和问题的解决方法和理论知识。
 ---
 # 自拟！并发线程死知识！
 
@@ -111,7 +113,7 @@ CPU缓存通常指的就是CPU内存，与CPU主存的关系相当于，redis和
 #### JMM模型
 
 线程和主存进行数据交换的模型
-![QQ截图20220404004146.png](https://www.leyuna.xyz/image/2022-04-04/QQ截图20220404004146.png)width="auto" height="auto"}}}
+![QQ截图20220404004146.png](https://www.leyuna.xyz/image/2022-04-04/QQ截图20220404004146.png)
 
 为了防止出现，线程A读到主内存，并且更新；线程B读到本地内存中的旧副本值的场景出现。
 

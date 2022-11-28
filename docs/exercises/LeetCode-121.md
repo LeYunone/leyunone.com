@@ -1,4 +1,5 @@
 ---
+date: 2021-09-26 14:07:04
 title: LeetCode-121. 买卖股票的最佳时机
 category: 刷题日记
 tag:
@@ -6,10 +7,10 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: LeetCode,算法,刷题日记
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 乐云一刷题日记！！！
 ---
 **示例：**
 ```
@@ -22,7 +23,7 @@ head:
 
 ## 思路
 最佳点问题，按照下图
-![cc4ef55d97cfef6f9215285c7573027c4b265c31101dd54e8555a7021c95c927-file_1555699418271.png](https://www.leyuna.xyz/image/2021-09-26/cc4ef55d97cfef6f9215285c7573027c4b265c31101dd54e8555a7021c95c927-file_1555699418271.png)width="auto" height="auto"}}}
+![cc4ef55d97cfef6f9215285c7573027c4b265c31101dd54e8555a7021c95c927-file_1555699418271.png](https://www.leyuna.xyz/image/2021-09-26/cc4ef55d97cfef6f9215285c7573027c4b265c31101dd54e8555a7021c95c927-file_1555699418271.png)
 可以看得出，如果想要收获最大化，则需要在最低谷时买入，离最低谷最远的最高谷时抛出。
 最高谷一定是在最低谷之后的日子中，所以我们只需要找到最低谷的日子，然后以这一天为准往后找最大的差。
 

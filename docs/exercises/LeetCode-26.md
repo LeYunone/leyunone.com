@@ -1,4 +1,5 @@
 ---
+date: 2021-09-23 10:39:47
 title: LeetCode-26. 删除有序数组中的重复项
 category: 刷题日记
 tag:
@@ -6,10 +7,10 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: LeetCode,算法,刷题日记
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 乐云一刷题日记！！！
 ---
 **示例:**
 ```
@@ -23,7 +24,7 @@ head:
 所以就要将重复的目标值删除(修改) ，其中删除的意思，由于无法开辟新的存储空间，所以需要将 删除 的目标值移到数组后面。
 那么又需要遍历原数组，又需要改变目标值的位置。
 我们只需要设置两个指针，前指针为当前指针，指向当前遍历下标。后指针为移动指针，帮助前指针寻找替换位置和判断重复值的作用。
-![QQ截图20210923103856.png](https://www.leyuna.xyz/image/2021-09-23/QQ截图20210923103856.png)width="auto" height="auto"}}}
+![QQ截图20210923103856.png](https://www.leyuna.xyz/image/2021-09-23/QQ截图20210923103856.png)
 
 ## 代码
 ```

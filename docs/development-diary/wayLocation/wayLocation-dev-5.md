@@ -1,15 +1,10 @@
 ---
+date: 2022-04-09 09:30:42
 title: 日记5
-category: 开发日记
+category: 
+  - 开发日记
 tag:
   - 开发日记
-head:
-  - - meta
-    - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
-  - - meta
-    - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
 ---
 # wayLocation 本地方法测试工具开发日记5
 > 0.0.1 - SNAPSHOT发布经历
@@ -46,7 +41,7 @@ com.leyuna.waylocation.autoconfig.WaylocationAutoConfiguration
 1、创建仓库
 2、在groupId那行，用自己的域名倒过来的顺序
 3、创建成功之后，bot发个验证码需要你在你的域名DNS解析上映射。
-![image.png](https://www.leyuna.xyz/image/2022-04-11/image.png)width="auto" height="auto"}}}
+![image.png](https://www.leyuna.xyz/image/2022-04-11/image.png)
 记录值是：**https://issues.sonatype.org/browse/OSSRH-79702**  ，后面就是验证码
 4、等，可能是几小时也可能是一星期。
 5、bot发邮件告诉你通过了
@@ -172,7 +167,7 @@ com.leyuna.waylocation.autoconfig.WaylocationAutoConfiguration
 最后就是 **mvn clear** **mvn deploy** 过程.
 最后就可以在[https://s01.oss.sonatype.org/#view-repositories;snapshots~browsestorage](https://s01.oss.sonatype.org/#view-repositories;snapshots~browsestorage)看到自己上传上去的依赖了。
 但是到这里并不是将依赖上传到了中央仓库，还需要手动进行同步操作。
-![企业微信截图_20220411171929.png](https://www.leyuna.xyz/image/2022-04-11/企业微信截图_20220411171929.png)width="auto" height="auto"}}}
+![企业微信截图_20220411171929.png](https://www.leyuna.xyz/image/2022-04-11/企业微信截图_20220411171929.png)
 到这里，只需要静等一天左右。
 就可以通过Maven中央仓库，引入自己的工具项目了。
 

@@ -1,15 +1,17 @@
 ---
+date: 2022-05-04 16:52:39
 title: Zookeeper实现分布式锁
-category: 设计
+category: 
+  - 设计
 tag:
   - 设计
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: Zookeeper,分布式锁
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 在分布式场景中，虽然可以用Redis实现分布式锁的概念，但是Redis在实现的过程中需要考虑到客户端锁释放以...
 ---
 # Zookeeper实现分布式锁
  在分布式场景中，虽然可以用Redis实现分布式锁的概念，但是Redis在实现的过程中需要考虑到客户端锁释放以及客户端挂掉的种种情况发生。但是Zookeeper由于是基于临时节点实现的锁，所以当客户端挂掉的时候，会自动释放锁。所以我们只需要关注用锁，释放锁的流程就行。![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210538.jpg)width="100" height="100"}}}

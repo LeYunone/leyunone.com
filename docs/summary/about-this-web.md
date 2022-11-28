@@ -1,15 +1,10 @@
 ---
+date: 2021-09-06 22:27:42
 title: 关于我不小心就成为一个小网站主人这件事
-category: 总结
+category:
+  - 总结
 tag:
   - 无
-head:
-  - - meta
-    - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
-  - - meta
-    - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
 ---
 `关于我不小心就成为一个小网站主人这件事`
 # 开章

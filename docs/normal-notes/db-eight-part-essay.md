@@ -1,15 +1,14 @@
 ---
+date: 2022-01-19 15:12:48
 title: 自拟！数据库死知识！！！
-category: 笔记
+category: 
+  - 笔记
 tag:
   - note
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
-  - - meta
-    - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 数据库,八股文,面试
 ---
 # 自拟！数据库死知识
 

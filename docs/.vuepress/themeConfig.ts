@@ -1,19 +1,21 @@
 import { hopeTheme } from "vuepress-theme-hope";
+import { commentPlugin } from "vuepress-plugin-comment2";
 import { navbarConfig } from "./navbar";
 import { sidebarConfig } from "./sidebar";
 
 export const themeConfig = hopeTheme({
-  logo: "/logo.png",
-  hostname: "https://javaguide.cn/",
+  logo: "/logo.gif",
+  hostname: "https://leyunone.com/",
   author: {
-    name: "Guide",
-    url: "https://javaguide.cn/article/",
+    name: "乐云一",
+    url: "https://leyunone.com/article/",
   },
-  repo: "https://github.com/Snailclimb/JavaGuide",
+  repo: "https://github.com/LeYunone/leyunone.com",
   docsDir: "docs",
   iconAssets: "//at.alicdn.com/t/c/font_2922463_bcn6tjuoz8b.css",
   navbar: navbarConfig,
   sidebar: sidebarConfig,
+  editLink:false,
   pageInfo: [
     "Author",
     "Category",
@@ -24,13 +26,18 @@ export const themeConfig = hopeTheme({
     "ReadingTime",
   ],
   blog: {
+    name:"乐云一",
+    avatar:"/head.png",
     intro: "/about-the-author/",
     sidebarDisplay: "mobile",
+    description:"快乐是可以具象化的！",
     medias: {
-      Zhihu: "https://www.zhihu.com/people/javaguide",
-      Github: "https://github.com/Snailclimb",
-      Gitee: "https://gitee.com/SnailClimb",
+      Zhihu: "https://www.zhihu.com/people/leyuna",
+      Github: "https://github.com/LeYunone",
+      QQ:"http://wpa.qq.com/msgrd?v=3&uin=365627310&site=qq&menu=yes"
     },
+    roundAvatar:true,
+    timeline:"时间线上的船只"
   },
   footer:
     '<a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备2020015769号-1</a>',
@@ -46,5 +53,10 @@ export const themeConfig = hopeTheme({
     feed: {
       json: true,
     },
+    comment:{
+      provider: "Waline",
+      search:true,
+      serverURL:"https://leyuna-com-comment-lhhmusl8l-leyunone.vercel.app/"
+    }
   },
 });

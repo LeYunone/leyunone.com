@@ -1,21 +1,9 @@
 import {sidebar} from "vuepress-theme-hope";
-import {highQualityTechnicalArticles} from "./sidebar/high-quality-technical-articles";
 import {aboutTheAuthor} from "./sidebar/about-the-author";
-import {books} from "./sidebar/books";
-import {openSourceProject} from "./sidebar/open-source-project";
 
 export const sidebarConfig = sidebar({
     // 应该把更精确的路径放置在前边
-    "/open-source-project/": openSourceProject,
-    "/books/": books,
-    "/about-the-author/": aboutTheAuthor,
-    "/high-quality-technical-articles/": highQualityTechnicalArticles,
-    "/javaguide/": ["intro", "history", "contribution-guideline", "faq", "todo"],
-    "/zhuanlan/": [
-        "java-mian-shi-zhi-bei",
-        "handwritten-rpc-framework",
-        "source-code-reading",
-    ],
+    "/leyunone/": ["intro"],
     // 必须放在最后面
     "/": [
         {

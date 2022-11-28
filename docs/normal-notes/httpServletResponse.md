@@ -6,10 +6,10 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: HttpServletResponse
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: Response的获得方式完全就像是框架的进化史一样...
 ---
 # 解读HttpServletResponse场景
 
@@ -58,7 +58,7 @@ void addDateHeader(String name, long date)
 
 一般要用到这个方法的场景，肯定是希望后端返回一个和业务有关的日期值出来。
 
-但是在一般业务中，都有Response BoBy带着业务数据出来，所以有些冷门。![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210452.png)width="50" height="50"}}}
+但是在一般业务中，都有Response BoBy带着业务数据出来，所以有些冷门。![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210452.png)
 
 可以通过
 
@@ -172,7 +172,7 @@ void setIntHeader(String name, int value)
 
 和setHeader的用法区别不大，主要是value一个是String，一个是value。
 
-首先要知道，由前端处理请求头时，是不会考虑整形或字符型的，因为他们根本就没得数据类型。![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210514.jpg)width="50" height="50"}}}
+首先要知道，由前端处理请求头时，是不会考虑整形或字符型的，因为他们根本就没得数据类型。![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210514.jpg)
 
 所以使用intHead还是Head，纯粹是由后端设置进去的值类型决定的。
 
@@ -272,7 +272,7 @@ response.setContentType("application/octet-stream");
 
  **getWriter()**：字符的输出流对象
 
-对上面的对象进行写入或写出，就会返回给客户端或反馈到服务端，但是一定要记得关流，因为response发生流泄漏的话对于一个Web应用是很恐怖的事。![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210533.jpg)width="50" height="50"}}}
+对上面的对象进行写入或写出，就会返回给客户端或反馈到服务端，但是一定要记得关流，因为response发生流泄漏的话对于一个Web应用是很恐怖的事。![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210533.jpg)
 
 然后就是页面接受的问题，这里我就无脑贴出来了：
 
@@ -300,7 +300,7 @@ response.setContentType("application/octet-stream");
 
 ## 总结
 
-由于Response有太多的请求头，参数，如果一一去解读加之深究的话，会很麻烦（不熟，而且很少用的知识最好不要产生模棱两可的感觉）。所以这次主要是挖掘一下下主要用的方法和参数，另外总结一下这次参考到的，很有用的场景知识。![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210528.gif)width="50" height="50"}}}
+由于Response有太多的请求头，参数，如果一一去解读加之深究的话，会很麻烦（不熟，而且很少用的知识最好不要产生模棱两可的感觉）。所以这次主要是挖掘一下下主要用的方法和参数，另外总结一下这次参考到的，很有用的场景知识。![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210528.gif)
 
 ### 用途
 

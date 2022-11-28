@@ -1,15 +1,17 @@
 ---
+date: 2022-05-03 16:01:54
 title: Dubbo源码阅读-可扩展机制
-category: Dubbo
+category: 
+  - Dubbo
 tag:
   - Dubbo
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: Dubbo,源码阅读
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: Dubbo在高性能的同时，依靠其特殊的SPI、自适应、包装、激活机制，提供了可扩展的机制。...
 ---
 
 # Dubbo源码阅读-可扩展机制

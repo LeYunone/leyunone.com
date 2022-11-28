@@ -1,15 +1,17 @@
 ---
+date: 2022-04-16 11:42:17
 title: 自定义一个CAS独占锁
-category: 设计
+category: 
+  - 设计
 tag:
   - 设计
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: Java,CAS,线程锁
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 首先作为一个简单的CAS控制并发，需要用到：一个控制锁状态的变量key，一个存储未抢到锁线程的阻塞队列。
 ---
 # 自定义一把CAS形式的锁
 
@@ -27,7 +29,7 @@ head:
  **AtomicReference**作为原子类，可以保证一次操作原子性。
 **BlockingQueue**阻塞队列，自定义规则存储什么情况下让线程进入并且阻塞，当然也可以使用任何队列，但为了锁的扩展及并发下的安全性，还是应该使用更为安全的阻塞形式。
 :::align-center
-![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210445.jpg)width="50" height="50"}}}
+![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210445.jpg)
 :::
 那么作为一把锁，当然需要两个方法，一是**lock**，二是**unLock**。
 **lock():**

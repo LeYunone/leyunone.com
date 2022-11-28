@@ -1,4 +1,5 @@
 ---
+date: 2021-11-05 14:15:10
 title: LeetCode-11. 盛最多水的容器
 category: 刷题日记
 tag:
@@ -6,12 +7,12 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: LeetCode,算法,刷题日记
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 乐云一刷题日记！！！
 ---
-![QQ截图20211105141053.png](https://www.leyuna.xyz/image/2021-11-05/QQ截图20211105141053.png)width="auto" height="auto"}}}
+![QQ截图20211105141053.png](https://www.leyuna.xyz/image/2021-11-05/QQ截图20211105141053.png)
 ## 思路
 非常经典的双指针问题。
 根据图形可以看出，最大的面积有两个条件，一是高度一定是高的，左边和右边有距离。

@@ -1,15 +1,17 @@
 ---
+date: 2022-05-30 18:26:49
 title: Java8-Arrays.sort
-category: Java
+category:
+  - Java
 tag:
   - Java
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: JVM,JDK,JRE,Java
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: Arrays.sort是我们常用来排序数组的方法，不止如此，其实Collections.sort方法中也是直接拿...
 ---
 # Java8-Arrays.sort
 
@@ -62,7 +64,7 @@ Arrays.sort是我们常用来排序数组的方法，不止如此，其实Collec
 
 根据最小长度以及排序长度的偏移量，进行不断Binary Sort过程：
 
-![image-20220531020302342.png](https://www.leyuna.xyz/image/2022-05-31/image-20220531020302342.png)width="auto" height="auto"}}}
+![image-20220531020302342.png](https://www.leyuna.xyz/image/2022-05-31/image-20220531020302342.png)
 
 ### 基本类型数组
 
@@ -71,10 +73,10 @@ Arrays.sort是我们常用来排序数组的方法，不止如此，其实Collec
 **DualPivotQuicksort**
 
 1. 当数组长度小于47时，采用直接插入排序算法。
-![image-20220531020546250.png](https://www.leyuna.xyz/image/2022-05-31/image-20220531020546250.png)width="auto" height="auto"}}}
+![image-20220531020546250.png](https://www.leyuna.xyz/image/2022-05-31/image-20220531020546250.png)
 
 2. 当数组长度大于等于47，小于286时，采用快速排序。
-![image-20220531020956652.png](https://www.leyuna.xyz/image/2022-05-31/image-20220531020956652.png)width="auto" height="auto"}}}
+![image-20220531020956652.png](https://www.leyuna.xyz/image/2022-05-31/image-20220531020956652.png)
 
    ```
                    /*

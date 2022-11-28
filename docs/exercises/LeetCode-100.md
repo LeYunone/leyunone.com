@@ -1,4 +1,5 @@
 ---
+date: 2021-09-24 15:17:31
 title: LeetCode-100. 相同的树
 category: 刷题日记
 tag:
@@ -6,14 +7,14 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: LeetCode,算法,刷题日记
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: 乐云一刷题日记！！！
 ---
 **示例：**
 :::align-center
-![2021-9-24-leetcode100.jpg](https://www.leyuna.xyz/image/2021-09-24/2021-9-24-leetcode100.jpg)width="auto" height="auto"}}}
+![2021-9-24-leetcode100.jpg](https://www.leyuna.xyz/image/2021-09-24/2021-9-24-leetcode100.jpg)
 :::
 ```
 输入：p = [1,2,3], q = [1,2,3]

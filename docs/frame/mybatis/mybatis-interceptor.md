@@ -1,15 +1,17 @@
 ---
+date: 2022-04-11 14:52:40
 title: Mybatis-Interceptor拦截Sql的始作俑者
-category: Mybatis
+category: 
+  - Mybatis
 tag:
   - Mybatis
 head:
   - - meta
     - name: keywords
-      content: JVM,JDK,JRE,字节码详解,Java 基本数据类型,装箱和拆箱
+      content: JVM,Mybatis,拦截器,Sql
   - - meta
     - name: description
-      content: 全网质量最高的Java基础常见知识点和面试题总结，希望对你有帮助！
+      content: Mybatis-plus的分页插件中，使用了Interceptor接口，对sql语句进行拦截做逻辑加强。那么我们是否也可以去拦截sql，做出有利于自己业务的加强呢。
 ---
 
 # 拦截Sql-Interceptor
