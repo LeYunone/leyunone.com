@@ -1,5 +1,5 @@
 ---
-date: 2021-09-30 17:18:36
+date: 2021-09-30
 title: LeetCode-2. 两数相加
 category: 刷题日记
 tag:
@@ -13,7 +13,7 @@ head:
       content: 乐云一刷题日记！！！
 ---
 **示例：**
-![QQ截图20210930171003.png](https://www.leyuna.xyz/image/2021-09-30/QQ截图20210930171003.png)
+![QQ截图20210930171003.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930171003.png)
 ## 思路
 链表的两数相加，首先根据题意要注意以下几点：
 1. 两联表长度不一

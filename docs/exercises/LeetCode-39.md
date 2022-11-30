@@ -1,5 +1,5 @@
 ---
-date: 2021-11-11 10:25:43
+date: 2021-11-11
 title: LeetCode-39. 组合总和
 category: 刷题日记
 tag:

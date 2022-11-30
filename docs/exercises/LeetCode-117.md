@@ -1,5 +1,5 @@
 ---
-date: 2021-11-08 15:33:50
+date: 2021-11-08
 title: LeetCode-117. 填充每个节点的下一个右侧节点指针 II
 category: 刷题日记
 tag:
@@ -12,7 +12,7 @@ head:
     - name: description
       content: 乐云一刷题日记！！！
 ---
-![QQ截图20211108152816.png](https://www.leyuna.xyz/image/2021-11-08/QQ截图20211108152816.png)
+![QQ截图20211108152816.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-11-08/QQ截图20211108152816.png)
 ## 思路
 虽然这道题的难度划到了中等，但是对于熟练了二叉树的遍历的人来说，思路清晰简单。
 首先根据题意，我们需要把每一个节点和其右侧节点使用next函数连起来。

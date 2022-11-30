@@ -1,5 +1,5 @@
 ---
-date: 2021-09-26 09:34:42
+date: 2021-09-26
 title: LeetCode-111. 二叉树的最小深度
 category: 刷题日记
 tag:
@@ -13,7 +13,7 @@ head:
       content: 乐云一刷题日记！！！
 ---
 **示例：**
-![image.png](https://www.leyuna.xyz/image/2021-09-26/image.png)
+![image.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-26/image.png)
 ## 思路
 求最小深度，和求[最大深度](https://leyuna.xyz/#/blog?blogId=25)一样，都是求离根节点最远或最近叶子节点的问题。
 因为是深度，所以不推荐使用深度优先遍历，因为不需要把所有节点遍历一次。

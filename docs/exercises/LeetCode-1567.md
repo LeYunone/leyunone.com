@@ -1,5 +1,5 @@
 ---
-date: 2021-11-16 15:48:00
+date: 2021-11-16
 title: LeetCode-1567. 乘积为正数的最长子数组长度
 category: 刷题日记
 tag:

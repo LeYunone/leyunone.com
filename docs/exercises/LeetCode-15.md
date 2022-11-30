@@ -1,5 +1,5 @@
 ---
-date: 2021-10-12 14:15:18
+date: 2021-10-12
 title: LeetCode-15. 三数之和
 category: 刷题日记
 tag:

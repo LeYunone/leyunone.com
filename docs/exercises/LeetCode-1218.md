@@ -1,5 +1,5 @@
 ---
-date: 2021-11-05 10:13:14
+date: 2021-11-05
 title: LeetCode-1218. 最长定差子序列
 category: 刷题日记
 tag:

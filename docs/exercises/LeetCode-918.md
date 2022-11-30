@@ -1,5 +1,5 @@
 ---
-date: 2021-11-16 11:24:06
+date: 2021-11-16
 title: LeetCode-918. 环形子数组的最大和
 category: 刷题日记
 tag:

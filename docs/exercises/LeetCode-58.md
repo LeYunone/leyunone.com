@@ -1,5 +1,5 @@
 ---
-date: 2021-09-23 11:20:09
+date: 2021-09-23
 title: LeetCode-58. 最后一个单词的长度
 category: 刷题日记
 tag:

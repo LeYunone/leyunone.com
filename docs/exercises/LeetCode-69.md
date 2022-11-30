@@ -1,5 +1,5 @@
 ---
-date: 2021-09-24 10:47:23
+date: 2021-09-24
 title: LeetCode-69. x 的平方根
 category: 刷题日记
 tag:

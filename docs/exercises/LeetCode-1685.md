@@ -1,5 +1,5 @@
 ---
-date: 2021-09-08 13:57:23
+date: 2021-09-08
 title: LeetCode-1685. 有序数组中差绝对值之和
 category: 刷题日记
 tag:
@@ -29,18 +29,18 @@ result[2] = |5-2| + |5-3| + |5-5| = 3 + 2 + 0 = 5。
 ## 解题思路
 审题，涉及到数组计算，第一反应就是去找规律公式。
 如示例2中  对于nums[2]而言 有：
-![QQ截图20210908112146.png](https://www.leyuna.xyz/image/2021-09-08/QQ截图20210908112146.png)width="450" height="200"}}}
+![QQ截图20210908112146.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-08/QQ截图20210908112146.png)
 因为题目里有说数组为**递增**的有序数组，result里的值为绝对值结果
 可以看出从nums[2]往前为nums[2] -nums[1] .....往后为nums[3]-nums[2]...nums[4]-nums[2]
 所以可以公式可以在往细划分
-![QQ截图20210908112621.png](https://www.leyuna.xyz/image/2021-09-08/QQ截图20210908112621.png)width="600" height="auto"}}}
+![QQ截图20210908112621.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-08/QQ截图20210908112621.png)
 
 这样写出来可以看出，result[2]的值可以当做以nums[2]为分界线；前缀和以及后缀和计算出的结果.
 设preSum为前缀和，sufSum为后缀和.
 则result[2]=2*nums[2]-preSum+sufSum-(2*nums[2])
 
 **所以解题的关键点就是求出前缀和和后缀和**
-![QQ截图20210910171720.png](https://www.leyuna.xyz/image/2021-09-10/QQ截图20210910171720.png)width="600" height="auto"}}}
+![QQ截图20210910171720.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-10/QQ截图20210910171720.png)
 列出当前的所有数组下标对应的前缀和.
 这样若以6->nums[2]为例，前缀和就是5  ，后缀就是29-11=18.
 最后将思路转换成代码就可以得出
@@ -63,7 +63,7 @@ public static int[] getSumAbsoluteDifferences(int[] nums) {
         return result;
     }
 ```
-![QQ截图20210908135039.png](https://www.leyuna.xyz/image/2021-09-08/QQ截图20210908135039.png)
+![QQ截图20210908135039.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-08/QQ截图20210908135039.png)
 
 ## 失败例子
 最开始的代码和思路，结果没错，但是时间复杂度怪怪的，所以一直超时。主要是没想到算所有数组下标对应的总和来以此计算。

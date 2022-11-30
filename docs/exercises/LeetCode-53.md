@@ -1,5 +1,5 @@
 ---
-date: 2021-09-23 11:10:27
+date: 2021-09-23
 title: LeetCode-53. 最大子序和
 category: 刷题日记
 tag:

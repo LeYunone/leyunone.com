@@ -1,5 +1,5 @@
 ---
-date: 2021-09-07 14:49:06
+date: 2021-09-07
 title: LeetCode-3. 无重复字符的最长子串
 category: 刷题日记
 tag:

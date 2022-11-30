@@ -1,5 +1,5 @@
 ---
-date: 2022-05-25 17:04:55
+date: 2022-05-25
 title: JAVA探针机制—Agent（一）
 category:
   - Java
@@ -80,7 +80,7 @@ Can-Retransform-Classes:是否需要retransform函数
 
 再Vm参数设置一行
 
-![image-20220526004726718.png](https://www.leyuna.xyz/image/2022-05-26/image-20220526004726718.png)
+![image-20220526004726718.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-26/image-20220526004726718.png)
 通过 **-javaagent:路径/agent的jar包名=你需要设置的入参agentOps**
 
 ## 代码实现
@@ -116,9 +116,9 @@ Can-Retransform-Classes:是否需要retransform函数
 Instrumentation，agent机制的核心类，使用该类，可以对类字节、原class等直接进行操作。
 
 那么这个方法的一个运行测试图下：
-![image-20220526005030543.png](https://www.leyuna.xyz/image/2022-05-26/image-20220526005030543.png)
+![image-20220526005030543.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-26/image-20220526005030543.png)
 
-![image-20220526005046486.png](https://www.leyuna.xyz/image/2022-05-26/image-20220526005046486.png)
+![image-20220526005046486.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-26/image-20220526005046486.png)
 
 ### agentmain
 

@@ -1,5 +1,5 @@
 ---
-date: 2022-05-04 16:52:39
+date: 2022-05-04
 title: Zookeeper实现分布式锁
 category: 
   - 设计
@@ -14,7 +14,7 @@ head:
       content: 在分布式场景中，虽然可以用Redis实现分布式锁的概念，但是Redis在实现的过程中需要考虑到客户端锁释放以...
 ---
 # Zookeeper实现分布式锁
- 在分布式场景中，虽然可以用Redis实现分布式锁的概念，但是Redis在实现的过程中需要考虑到客户端锁释放以及客户端挂掉的种种情况发生。但是Zookeeper由于是基于临时节点实现的锁，所以当客户端挂掉的时候，会自动释放锁。所以我们只需要关注用锁，释放锁的流程就行。![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210538.jpg)width="100" height="100"}}}
+ 在分布式场景中，虽然可以用Redis实现分布式锁的概念，但是Redis在实现的过程中需要考虑到客户端锁释放以及客户端挂掉的种种情况发生。但是Zookeeper由于是基于临时节点实现的锁，所以当客户端挂掉的时候，会自动释放锁。所以我们只需要关注用锁，释放锁的流程就行。![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210538.jpg)
 
 ## 实现方案
 目前有两种，一是使用JDK的API底层实现、二是使用市场上已经成熟的Zookeeper分布式锁框架 **CURATOR**。
@@ -178,4 +178,4 @@ private CountDownLatch lockWathch = new CountDownLatch(1);
             <version>2.11.0</version>
         </dependency>
 ```
-具体使用比较简单，和一般Lock锁一模一样，其实现原理还需后续阅读源码阶段一一品尝。![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210445.jpg)width="100" height="100"}}}
+具体使用比较简单，和一般Lock锁一模一样，其实现原理还需后续阅读源码阶段一一品尝。![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210445.jpg)

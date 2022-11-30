@@ -1,5 +1,5 @@
 ---
-date: 2021-09-24 15:33:43
+date: 2021-09-24
 title: LeetCode-101.对称二叉树
 category: 刷题日记
 tag:

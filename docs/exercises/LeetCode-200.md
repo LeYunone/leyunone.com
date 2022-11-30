@@ -1,5 +1,5 @@
 ---
-date: 2021-11-10 14:52:43
+date: 2021-11-10
 title: LeetCode-200. 岛屿数量
 category: 刷题日记
 tag:

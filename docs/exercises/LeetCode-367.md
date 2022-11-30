@@ -1,5 +1,5 @@
 ---
-date: 2021-10-09 10:33:11
+date: 2021-10-09
 title: LeetCode-367. 有效的完全平方数
 category: 刷题日记
 tag:
@@ -25,7 +25,7 @@ head:
 所以二分查找时，可以将num/2 设为right，2为left。然后遍历判断的过程就和普通的查找一个数字的过程类似了。
 
 ### 牛顿迭代
-![QQ截图20211009103050.png](https://www.leyuna.xyz/image/2021-10-09/QQ截图20211009103050.png)
+![QQ截图20211009103050.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-10-09/QQ截图20211009103050.png)
 算法比较通俗，意思就是从num/2开始，通过牛顿迭代的公式无限的逼近平方根。
 ## 代码
 ### 二分查找

@@ -1,5 +1,5 @@
 ---
-date: 2021-11-01 20:43:30
+date: 2021-11-01
 title: 常用算法之 【回溯法】
 category: 
   - 算法
@@ -19,7 +19,8 @@ head:
 回溯算法 == 递归算法，他是在递归的基础上，进行原数组的回溯撤销操作。
 所以回溯函数的雏形在递归上，有：终止条件，递归条件。
 那么在一个回溯函数中，对于全排序问题时
-![fig14.png](https://www.leyuna.xyz/image/2021-11-01/fig14.png)width="auto" height="auto"
+
+![fig14.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-11-01/fig14.png)
 可以知道，函数中，回溯的宽度处决于结果集的大小。回溯的深度处决与回溯条件。
 
 所以在递归的原基础上。

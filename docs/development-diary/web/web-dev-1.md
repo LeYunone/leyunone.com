@@ -1,5 +1,5 @@
 ---
-date: 2022-03-26 12:53:02
+date: 2022-03-26
 title: 日记1
 category: 
   - 开发日记
@@ -52,7 +52,7 @@ Jdk8+Nginx+Tomcat+Mysql+Redis+腾讯云[轻量应用服务器]。
             rewrite ^/(.*)$ https://leyuna.xyz:443/$1 permanent;
         }
 ```
-锁定80以及443端口的转发，就解决了https证书的问题。好含糊的感觉![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210510.jpg)。
+锁定80以及443端口的转发，就解决了https证书的问题。好含糊的感觉![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210510.jpg)。
 **Tomcat**
 最后就是后端的上线，这步比较简单。因为tomcat配置的简单性，只需要开放对应的端口需求就行。
 不过也是在这里，没有注意到文件传输的限制。到开发云盘后，就出现了对应的bug。
@@ -80,16 +80,16 @@ Jdk8+Nginx+Tomcat+Mysql+Redis+腾讯云[轻量应用服务器]。
 第二次，加入微服务体系
 第三次，加入exe、e，domain，领域对象、指令概念
 第四次，代码解耦，细分功能。
-每一次重构都带着很大的勇气与耐心，但也很难一步走完，因为更好的永远的后面，所以只能耗着耐心一点点的完善。![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210452.png)width="100" height="100"}}}
+每一次重构都带着很大的勇气与耐心，但也很难一步走完，因为更好的永远的后面，所以只能耗着耐心一点点的完善。![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210452.png)
 
 除了重构，还加入的两个新功能。
 随着微服务体系的到来，开发的自开发云盘，据我朋友总结：挺好用的[我也这么觉得]。
 自开发云盘完成后，就再也不用担心一些资料的丢失或是无法从一天电脑将某些资料移到另一台电脑的复杂步骤。
-只要有网就可以通过自己的云盘完成文件的保存和下载啦![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210457.jpg)。
+只要有网就可以通过自己的云盘完成文件的保存和下载啦![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210457.jpg)。
 
 除此之外，因为慢慢在自己网站上写博客的增加，所以体验到了某些功能的缺失：**表情包**！！！
 所以开发了emoJi和表情包上传和使用功能。
 
 ## 最后
 人们总说，一半就是开端[我编的]。所以1.0.5到2.0.0只有5个小版本的时日，而未来的蓝图也慢慢开始展开绘画。
-所以这个现在看起来很不好的网站，在今年肯定会变的好看[**爆发吧，我的审美**]![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210443.jpg)。
+所以这个现在看起来很不好的网站，在今年肯定会变的好看[**爆发吧，我的审美**]![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210443.jpg)。

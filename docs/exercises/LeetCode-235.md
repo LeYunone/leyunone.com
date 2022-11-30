@@ -1,5 +1,5 @@
 ---
-date: 2021-09-29 15:26:29
+date: 2021-09-29
 title: LeetCode-235. 二叉搜索树的最近公共祖先
 category: 刷题日记
 tag:
@@ -13,7 +13,7 @@ head:
       content: 乐云一刷题日记！！！
 ---
 **示例：**
-![image.png](https://www.leyuna.xyz/image/2021-09-29/image.png)
+![image.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-29/image.png)
 
 ## 思路
 二叉树经典问题，寻找最近公共祖先。

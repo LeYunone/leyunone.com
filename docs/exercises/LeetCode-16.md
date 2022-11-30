@@ -1,5 +1,5 @@
 ---
-date: 2022-05-13 14:39:31
+date: 2022-05-13
 title: LeetCode-16. 最接近的三数之和
 category: 刷题日记
 tag:

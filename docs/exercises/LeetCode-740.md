@@ -1,5 +1,5 @@
 ---
-date: 2021-11-09 14:33:19
+date: 2021-11-09
 title: LeetCode-740. 删除并获得点数
 category: 刷题日记
 tag:

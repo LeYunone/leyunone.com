@@ -1,5 +1,5 @@
 ---
-date: 2021-12-15 11:28:34
+date: 2021-12-15
 title: LeetCode-1936. 新增的最少台阶数
 category: 刷题日记
 tag:

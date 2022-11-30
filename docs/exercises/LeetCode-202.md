@@ -1,5 +1,5 @@
 ---
-date: 2021-09-27 15:34:21
+date: 2021-09-27
 title: LeetCode-202.快乐数
 category: 刷题日记
 tag:

@@ -1,5 +1,5 @@
 ---
-date: 2021-09-25 13:34:53
+date: 2021-09-25
 title: LeetCode-108. 将有序数组转换为二叉搜索树
 category: 刷题日记
 tag:
@@ -13,7 +13,7 @@ head:
       content: 乐云一刷题日记！！！
 ---
 **示例：**
-![2021-9-25-108leetcode.png](https://www.leyuna.xyz/image/2021-09-25/2021-9-25-108leetcode.png)
+![2021-9-25-108leetcode.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-25/2021-9-25-108leetcode.png)
 
 ## 思路
 将有序【升序】数组转换为平衡二叉树。

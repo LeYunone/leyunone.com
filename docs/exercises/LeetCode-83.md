@@ -1,5 +1,5 @@
 ---
-date: 2021-09-24 13:59:41
+date: 2021-09-24
 title: LeetCode-83. 删除排序链表中的重复元素
 category: 刷题日记
 tag:
@@ -14,7 +14,7 @@ head:
 ---
 **示例：**
 :::align-center
-![list2.jpg](https://www.leyuna.xyz/image/2021-09-24/list2.jpg)
+![list2.jpg](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-24/list2.jpg)
 :::
 ```
 输入：head = [1,1,2,3,3]

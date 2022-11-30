@@ -1,5 +1,5 @@
 ---
-date: 2021-11-19 16:38:50
+date: 2021-11-19
 title: LeetCode-64. 最小路径和
 category: 刷题日记
 tag:
@@ -12,7 +12,7 @@ head:
     - name: description
       content: 乐云一刷题日记！！！
 ---
-![QQ截图20211119163406.png](https://www.leyuna.xyz/image/2021-11-19/QQ截图20211119163406.png)
+![QQ截图20211119163406.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-11-19/QQ截图20211119163406.png)
 ## 思路
 本题的解决思路和[LeetCode-62. 不同路径](https://leyuna.xyz/#/blog?blogId=73)
 相似。

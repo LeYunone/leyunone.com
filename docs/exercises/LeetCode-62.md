@@ -1,5 +1,5 @@
 ---
-date: 2021-11-19 16:33:50
+date: 2021-11-19
 title: LeetCode-62. 不同路径
 category: 刷题日记
 tag:
@@ -12,7 +12,7 @@ head:
     - name: description
       content: 乐云一刷题日记！！！
 ---
-![QQ截图20211119162824.png](https://www.leyuna.xyz/image/2021-11-19/QQ截图20211119162824.png)
+![QQ截图20211119162824.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-11-19/QQ截图20211119162824.png)
 ## 思路
 方块移动问题，一般都逃不过搜索或者动态规划。
 本题考查的是动态规划，因为只有向右和向下两种行为。

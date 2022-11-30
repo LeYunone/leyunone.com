@@ -1,5 +1,5 @@
 ---
-date: 2022-05-12 16:38:50
+date: 2022-05-12
 title: LeetCode-1019. 链表中的下一个更大节点
 category: 刷题日记
 tag:
@@ -14,7 +14,7 @@ head:
 ---
 **示例**
 
-![image.png](https://www.leyuna.xyz/image/2022-05-12/image.png)
+![image.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-12/image.png)
 
 
 
@@ -69,7 +69,7 @@ head:
     }
 ```
 
-![image.png](https://www.leyuna.xyz/image/2022-05-13/DDDD.png)
+![image.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-13/DDDD.png)
 
 ### 单调栈
 
@@ -103,4 +103,4 @@ head:
         return arr;
     }
 ```
-![EEEE.png](https://www.leyuna.xyz/image/2022-05-13/EEEE.png)
+![EEEE.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-13/EEEE.png)

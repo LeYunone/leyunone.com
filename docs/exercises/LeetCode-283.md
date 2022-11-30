@@ -1,5 +1,5 @@
 ---
-date: 2021-09-09 10:18:21
+date: 2021-09-09
 title: LeetCode-283. 移动零
 category: 刷题日记
 tag:
@@ -56,4 +56,4 @@ public void moveZeroes(int[] nums) {
        }
 }
 ``` 
-![QQ截图20210909103028.png](https://www.leyuna.xyz/image/2021-09-09/QQ截图20210909103028.png)
+![QQ截图20210909103028.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-09/QQ截图20210909103028.png)

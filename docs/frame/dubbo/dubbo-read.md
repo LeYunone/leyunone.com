@@ -1,5 +1,5 @@
 ---
-date: 2022-05-03 16:01:54
+date: 2022-05-03
 title: Dubbo源码阅读-可扩展机制
 category: 
   - Dubbo
@@ -28,7 +28,7 @@ JDK的SPI依靠**ServiceLoader**
 
 首先根据ServiceLoader的源码可以看到一个关键字
 
-![](https://www.leyuna.xyz/image/2022-05-03/jdkSPI.png)
+![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-03/jdkSPI.png)
 
 **META-INF/services**文件夹，首先关注在ServiceLoader中哪里使用到了它。
 
@@ -69,11 +69,11 @@ JDK的SPI依靠**ServiceLoader**
 
 2. 在 **resources/META-INF/services**下创建一个名为 **CarInterface**接口的全类名的文件。
 
-   ![](https://www.leyuna.xyz/image/2022-05-03/spi2.png)
+   ![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-03/spi2.png)
 
 3. 在该文件夹中，添加 **RedCar**、 **YellowCar**的全类名。
 
-   ![](https://www.leyuna.xyz/image/2022-05-03/spi3.png)
+   ![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-03/spi3.png)
 
 4. 使用JDK的SPI测试
 

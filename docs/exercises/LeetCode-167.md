@@ -1,5 +1,5 @@
 ---
-date: 2021-09-26 20:01:16
+date: 2021-09-26
 title: LeetCode-167. 两数之和 II - 输入有序数组
 category: 刷题日记
 tag:

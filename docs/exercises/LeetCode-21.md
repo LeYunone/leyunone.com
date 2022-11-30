@@ -1,5 +1,5 @@
 ---
-date: 2021-09-23 10:27:56
+date: 2021-09-23
 title: LeetCode-21. 合并两个有序链表
 category: 刷题日记
 tag:
@@ -14,7 +14,7 @@ head:
 ---
 **示例**
 
-![QQ截图20210923102315.png](https://www.leyuna.xyz/image/2021-09-23/QQ截图20210923102315.png)
+![QQ截图20210923102315.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-23/QQ截图20210923102315.png)
 
 ```
 输入：l1 = [1,2,4], l2 = [1,3,4]

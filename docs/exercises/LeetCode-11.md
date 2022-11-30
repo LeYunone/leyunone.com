@@ -1,5 +1,5 @@
 ---
-date: 2021-11-05 14:15:10
+date: 2021-11-05
 title: LeetCode-11. 盛最多水的容器
 category: 刷题日记
 tag:
@@ -12,7 +12,7 @@ head:
     - name: description
       content: 乐云一刷题日记！！！
 ---
-![QQ截图20211105141053.png](https://www.leyuna.xyz/image/2021-11-05/QQ截图20211105141053.png)
+![QQ截图20211105141053.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-11-05/QQ截图20211105141053.png)
 ## 思路
 非常经典的双指针问题。
 根据图形可以看出，最大的面积有两个条件，一是高度一定是高的，左边和右边有距离。

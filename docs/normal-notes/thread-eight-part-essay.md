@@ -1,5 +1,5 @@
 ---
-date: 2022-04-01 15:04:14
+date: 2022-04-01
 title: 自拟！并发线程死知识！
 category: 
   - 笔记
@@ -113,7 +113,7 @@ CPU缓存通常指的就是CPU内存，与CPU主存的关系相当于，redis和
 #### JMM模型
 
 线程和主存进行数据交换的模型
-![QQ截图20220404004146.png](https://www.leyuna.xyz/image/2022-04-04/QQ截图20220404004146.png)
+![QQ截图20220404004146.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-04/QQ截图20220404004146.png)
 
 为了防止出现，线程A读到主内存，并且更新；线程B读到本地内存中的旧副本值的场景出现。
 

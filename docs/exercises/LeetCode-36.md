@@ -1,5 +1,5 @@
 ---
-date: 2021-11-29 10:36:42
+date: 2021-11-29
 title: LeetCode-36. 有效的数独
 category: 刷题日记
 tag:
@@ -12,7 +12,7 @@ head:
     - name: description
       content: 乐云一刷题日记！！！
 ---
-![企业微信截图_20211129103012.png](https://www.leyuna.xyz/image/2021-11-29/企业微信截图_20211129103012.png)
+![企业微信截图_20211129103012.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-11-29/企业微信截图_20211129103012.png)
 ## 思路
 题目给的难度是中等，但是用中等难度的路线想就很绕了。
 其实本题很简单，就是遍历所有格的字符，判断当前这个字符的位置，是否符合题意中的三规则。

@@ -1,5 +1,5 @@
 ---
-date: 2021-11-09 11:12:58
+date: 2021-11-09
 title: LeetCode-198. 打家劫舍
 category: 刷题日记
 tag:

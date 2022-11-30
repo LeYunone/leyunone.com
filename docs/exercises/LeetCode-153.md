@@ -1,5 +1,5 @@
 ---
-date: 2021-11-03 11:29:39
+date: 2021-11-03
 title: LeetCode-153. 寻找旋转排序数组中的最小值
 category: 刷题日记
 tag:

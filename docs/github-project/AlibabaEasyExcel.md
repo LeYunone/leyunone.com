@@ -1,5 +1,5 @@
 ---
-date: 2022-04-13 13:01:26
+date: 2022-04-13
 title: Alibaba Easy Excel 工具
 category: 
   - GitHub
@@ -32,7 +32,7 @@ github地址:https://github.com/alibaba/easyexcel。
 Easy这个单词说明了该工具的上手难度。
 需要准备：
 1. 一个类，类中属性使用@ExcelProperty("文档展示名")注释。这个类为写入文档的对象，和读文档转换的对象
-2. 一个基础了AnalysisEventListener<T>的监听器。这个监听器为，文档读操作时，其中的invoke(data,analysisContext)方法，data为当前读到的一条数据[读出来转换为对象]，和doAfterAllAnalysed（analysisContext）读操作全部完成后的动作。
+2. 一个基础了AnalysisEventListener的监听器。这个监听器为，文档读操作时，其中的invoke(data,analysisContext)方法，data为当前读到的一条数据[读出来转换为对象]，和doAfterAllAnalysed（analysisContext）读操作全部完成后的动作。
 3. 一个文件夹，最好能有一个.xlsx的文件。用来存储导出或导入的excel文档。
 
 准备好以上这些，就可以直接完成EasyExcel的读写动作了。

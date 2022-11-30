@@ -1,5 +1,5 @@
 ---
-date: 2021-09-26 15:04:35
+date: 2021-09-26
 title: LeetCode-136. 只出现一次的数字
 category: 刷题日记
 tag:
@@ -24,11 +24,11 @@ head:
 对于重复元素，其实在数学中还有一种处理方式：位运算。
 当有两个重复数字 10和10 时。
 :::align-center
-![QQ截图20210926150031.png](https://www.leyuna.xyz/image/2021-09-26/QQ截图20210926150031.png)
+![QQ截图20210926150031.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-26/QQ截图20210926150031.png)
 :::
 使用异或 ^ 运算，相同的为0，不相同的为1。
 那么当数组是[4,10,10]时，有
-![QQ截图20210926150249.png](https://www.leyuna.xyz/image/2021-09-26/QQ截图20210926150249.png)width="auto" height="350"}}}
+![QQ截图20210926150249.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-26/QQ截图20210926150249.png)
 使用异或运算时，会将计算的两个数保存在一个数中，所以这样操作可以将所有的重复元素消除掉，最终得到的就是唯一一个没有重复元素的值。
 ## 代码
 ```

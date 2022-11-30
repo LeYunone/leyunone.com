@@ -1,5 +1,5 @@
 ---
-date: 2021-09-23 10:21:48
+date: 2021-09-23
 title: LeetCode-14. 最长公共前缀
 category: 刷题日记
 tag:
@@ -51,4 +51,4 @@ head:
 ```
 和LeetCode官网的代码很不同，虽然结果不好，但是感觉也是一种思路
 
-![QQ截图20210923102110.png](https://www.leyuna.xyz/image/2021-09-23/QQ截图20210923102110.png)
+![QQ截图20210923102110.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-23/QQ截图20210923102110.png)

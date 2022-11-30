@@ -1,5 +1,5 @@
 ---
-date: 2021-09-26 14:38:50
+date: 2021-09-26
 title: LeetCode-125. 验证回文串
 category: 刷题日记
 tag:

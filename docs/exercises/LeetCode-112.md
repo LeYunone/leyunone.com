@@ -1,5 +1,5 @@
 ---
-date: 2021-09-26 11:18:08
+date: 2021-09-26
 title: LeetCode-112. 路径总和
 category: 刷题日记
 tag:
@@ -13,7 +13,7 @@ head:
       content: 乐云一刷题日记！！！
 ---
 **示例：**
-![QQ截图20210924100703.png](https://www.leyuna.xyz/image/2021-09-26/QQ截图20210924100703.png)
+![QQ截图20210924100703.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-26/QQ截图20210924100703.png)
 ## 思路
 二叉树的经典简单问题之一，求路径之和。
 和遍历树的方式息息相关，深度优先遍历或广度优先遍历。

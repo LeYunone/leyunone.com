@@ -1,5 +1,5 @@
 ---
-date: 2021-09-10 16:53:17
+date: 2021-09-10
 title: Lucene，全文检索工具
 category: 
   - Lucene
@@ -20,7 +20,7 @@ head:
 
 [非中文文档](https://lucene.apache.org/core/7_7_3/index.html)
 ## 作者
-![QQ截图20210910164546.png](https://www.leyuna.xyz/image/2021-09-10/QQ截图20210910164546.png)width="auto" height="auto"作者：Doug Cutting,老大哥镇图。
+![QQ截图20210910164546.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-10/QQ截图20210910164546.png)width="auto" height="auto"作者：Doug Cutting,老大哥镇图。
 ## 能做什么
 Lucene的本质就是搜索，使用空间换时间的观念，将需要搜索查询的数据建立一份Lucene规定的索引文档。然后Lucene根据倒排序的方式，根据搜索的关键字使用Lucene各版本对应的算法特性，比如跳跃表、TSF算法...用最快的时间拿到对应的文档。
 然后根据业务的需要取文档中的field域。
@@ -240,5 +240,5 @@ public final class MyIKTokenizer extends Tokenizer {
 Lucene的简单使用就是这样了，Lucene还有很多很多的复杂使用场景。比如搜索的关键字，他可以是个值区间或是组合关键词；高级使用的排序功能等等...
 不过都躲不开一点，和磁盘的IO交互，所以Lucene的优化，在总的上来说就是对其IO优化的处理。
 :::align-center
-![44e0e286c9177f3e58b85c6e7fcf3bc79e3d56e9.jpg](https://www.leyuna.xyz/image/2021-09-13/44e0e286c9177f3e58b85c6e7fcf3bc79e3d56e9.jpg)width="auto" height="auto"
+![44e0e286c9177f3e58b85c6e7fcf3bc79e3d56e9.jpg](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-13/44e0e286c9177f3e58b85c6e7fcf3bc79e3d56e9.jpg)width="auto" height="auto"
 :::

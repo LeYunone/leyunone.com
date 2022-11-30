@@ -1,5 +1,5 @@
 ---
-date: 2021-10-13 11:20:05
+date: 2021-10-13
 title: LeetCode-647. 回文子串
 category: 刷题日记
 tag:

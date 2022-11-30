@@ -1,5 +1,5 @@
 ---
-date: 2021-09-29 11:20:48
+date: 2021-09-29
 title: LeetCode-228. 汇总区间
 category: 刷题日记
 tag:

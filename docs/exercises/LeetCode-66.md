@@ -1,5 +1,5 @@
 ---
-date: 2021-09-23 14:16:19
+date: 2021-09-23
 title: LeetCode-66. 加一
 category: 刷题日记
 tag:

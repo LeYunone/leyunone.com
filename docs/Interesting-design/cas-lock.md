@@ -1,5 +1,5 @@
 ---
-date: 2022-04-16 11:42:17
+date: 2022-04-16
 title: 自定义一个CAS独占锁
 category: 
   - 设计
@@ -29,7 +29,7 @@ head:
  **AtomicReference**作为原子类，可以保证一次操作原子性。
 **BlockingQueue**阻塞队列，自定义规则存储什么情况下让线程进入并且阻塞，当然也可以使用任何队列，但为了锁的扩展及并发下的安全性，还是应该使用更为安全的阻塞形式。
 :::align-center
-![emo](https://www.leyuna.xyz/image/emo/QQ图片20220302210445.jpg)
+![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210445.jpg)
 :::
 那么作为一把锁，当然需要两个方法，一是**lock**，二是**unLock**。
 **lock():**

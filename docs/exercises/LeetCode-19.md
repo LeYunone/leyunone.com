@@ -1,5 +1,5 @@
 ---
-date: 2021-10-11 10:23:16
+date: 2021-10-11
 title: LeetCode-19. 删除链表的倒数第 N 个结点
 category: 刷题日记
 tag:
@@ -12,7 +12,7 @@ head:
     - name: description
       content: 乐云一刷题日记！！！
 ---
-![image.png](https://www.leyuna.xyz/image/2021-10-11/image.png)
+![image.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-10-11/image.png)
 ## 思路
 删除指定结点，题目的难度是中等，因为标明倒数第N个结点，以及遍历一次的条件所以比删除第N个结点难上不少。
 不过看题目第一反应还是写出了删除第N个结点的代码（看错题了）。

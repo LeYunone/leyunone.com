@@ -1,5 +1,5 @@
 ---
-date: 2021-09-29 15:44:24
+date: 2021-09-29
 title: LeetCode-219. 存在重复元素 II
 category: 刷题日记
 tag:

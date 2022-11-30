@@ -1,5 +1,5 @@
 ---
-date: 2021-10-13 10:20:02
+date: 2021-10-13
 title: LeetCode-17. 电话号码的字母组合
 category: 刷题日记
 tag:
@@ -13,7 +13,7 @@ head:
       content: 乐云一刷题日记！！！
 ---
 **示例：**
-![image.png](https://www.leyuna.xyz/image/2021-10-13/image.png)
+![image.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-10-13/image.png)
 ```
 输入：digits = "23"
 输出：["ad","ae","af","bd","be","bf","cd","ce","cf"]

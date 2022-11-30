@@ -1,5 +1,5 @@
 ---
-date: 2021-11-09 14:59:16
+date: 2021-11-09
 title: LeetCode-55. 跳跃游戏
 category: 刷题日记
 tag:

@@ -8,14 +8,14 @@ export const sidebarConfig = sidebar({
     "/": [
         {
             text: "框架全家桶",
-            icon: "interview",
+            icon: "xueqiushou",
             collapsible: true,
             prefix: "frame/",
             children: [
                 {
                     text: "Spring&",
                     prefix: "spring/",
-                    icon: "basic",
+                    icon: "bxl-spring-boot",
                     collapsible: true,
                     children: [
                         "spring-boot-error",
@@ -27,7 +27,7 @@ export const sidebarConfig = sidebar({
                     text: "mybatis&",
                     prefix: "mybatis/",
                     collapsible: true,
-                    icon: "basic",
+                    icon: "shujuku",
                     children: [
                         "mybatis-interceptor"
                     ]
@@ -36,7 +36,7 @@ export const sidebarConfig = sidebar({
                     text: "搜索引擎&",
                     prefix: "search/",
                     collapsible: true,
-                    icon: "basic",
+                    icon: "sousuo",
                     children: [
                         "lucene-introduce"
                     ]
@@ -44,7 +44,7 @@ export const sidebarConfig = sidebar({
                 {
                     text: "Dubbo",
                     prefix: "dubbo/",
-                    icon: "basic",
+                    icon: "electric-car",
                     collapsible: true,
                     children: [
                         "dubbo-read"
@@ -53,7 +53,7 @@ export const sidebarConfig = sidebar({
                 {
                     text: "Nacos",
                     prefix: "nacos/",
-                    icon: "basic",
+                    icon: "fusion",
                     collapsible: true,
                     children: [
                         "nacos-read"
@@ -63,14 +63,14 @@ export const sidebarConfig = sidebar({
         },
         {
             text: "开发日记",
-            icon: "interview",
+            icon: "heiqiushou",
             collapsible: true,
             prefix: "development-diary/",
             children: [
                 {
                     text: "本地方法测试工具",
                     prefix: "wayLocation/",
-                    icon: "basic",
+                    icon: "yongqihuizhang-taiyi",
                     collapsible: true,
                     children: [
                         "wayLocation-dev-1",
@@ -84,7 +84,7 @@ export const sidebarConfig = sidebar({
                     text: "基于Swing的QQ&",
                     prefix: "swing-qq/",
                     collapsible: true,
-                    icon: "basic",
+                    icon: "yongqihuizhang-taiyi",
                     children: [
                         "swing-qq-dev-1",
                         "swing-qq-dev-2",
@@ -95,7 +95,7 @@ export const sidebarConfig = sidebar({
                     text: "网盘",
                     prefix: "disk/",
                     collapsible: true,
-                    icon: "basic",
+                    icon: "yongqihuizhang-taiyi",
                     children: [
                         "disk-dev-1",
                         "disk-dev-2"
@@ -104,7 +104,7 @@ export const sidebarConfig = sidebar({
                 {
                     text: "这个网站",
                     prefix: "web/",
-                    icon: "basic",
+                    icon: "yongqihuizhang-taiyi",
                     collapsible: true,
                     children: [
                         "web-dev-1"
@@ -114,7 +114,7 @@ export const sidebarConfig = sidebar({
         },
         {
             text: "啥啥啥的业务",
-            icon: "tool",
+            icon: "badashou",
             prefix: "unidentified-business/",
             collapsible: true,
             children: [
@@ -126,7 +126,7 @@ export const sidebarConfig = sidebar({
         {
             text: "刷题日记",
             prefix: "exercises/",
-            icon: "framework",
+            icon: "trash",
             collapsible: true,
             children: [
                 "LeetCode-2",
@@ -198,7 +198,7 @@ export const sidebarConfig = sidebar({
         },
         {
             text: "正经笔记",
-            icon: "xitongsheji",
+            icon: "oven",
             prefix: "normal-notes/",
             collapsible: true,
             children: [
@@ -214,7 +214,7 @@ export const sidebarConfig = sidebar({
         },
         {
             text: "杂谈日记",
-            icon: "xitongsheji",
+            icon: "bigaoshou",
             prefix: "rambling-diary/",
             collapsible: true,
             children: [
@@ -230,7 +230,7 @@ export const sidebarConfig = sidebar({
             children: [
                 {
                     text: "Git",
-                    icon: "xitongsheji",
+                    icon: "github",
                     prefix: "git/",
                     collapsible: true,
                     children: [
@@ -239,7 +239,7 @@ export const sidebarConfig = sidebar({
                 },
                 {
                     text: "IDEA",
-                    icon: "xitongsheji",
+                    icon: "intellijidea",
                     prefix: "idea/",
                     collapsible: true,
                     children: [
@@ -250,7 +250,7 @@ export const sidebarConfig = sidebar({
         },
         {
             text: "更新日志",
-            icon: "xitongsheji",
+            icon: "expand",
             prefix: "update-diary/",
             collapsible: true,
             children: [
@@ -262,7 +262,7 @@ export const sidebarConfig = sidebar({
         },
         {
             text: "GitHub工具鉴赏",
-            icon: "xitongsheji",
+            icon: "heart",
             prefix: "github-project/",
             collapsible: true,
             children: [
@@ -272,7 +272,7 @@ export const sidebarConfig = sidebar({
         },
         {
             text: "算法",
-            icon: "xitongsheji",
+            icon: "compass",
             prefix: "algorithm/",
             collapsible: true,
             children: [
@@ -297,7 +297,7 @@ export const sidebarConfig = sidebar({
         },
         {
             text:"JAVA!!!",
-            icon:"xitongsheji",
+            icon:"java",
             prefix:"java/",
             collapsible: true,
             children:[
@@ -307,7 +307,7 @@ export const sidebarConfig = sidebar({
         },
         {
             text:"某些总结",
-            icon:"xitongsheji",
+            icon:"professional",
             prefix:"summary/",
             collapsible: true,
             children:[

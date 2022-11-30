@@ -1,10 +1,9 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { commentPlugin } from "vuepress-plugin-comment2";
 import { navbarConfig } from "./navbar";
 import { sidebarConfig } from "./sidebar";
 
 export const themeConfig = hopeTheme({
-  logo: "/logo.gif",
+  logo: "/logo.png",
   hostname: "https://leyunone.com/",
   author: {
     name: "乐云一",
@@ -34,13 +33,14 @@ export const themeConfig = hopeTheme({
     medias: {
       Zhihu: "https://www.zhihu.com/people/leyuna",
       Github: "https://github.com/LeYunone",
-      QQ:"http://wpa.qq.com/msgrd?v=3&uin=365627310&site=qq&menu=yes"
+      QQ:"http://wpa.qq.com/msgrd?v=3&uin=365627310&site=qq&menu=yes",
+      BiliBili:"https://space.bilibili.com/7749032"
     },
     roundAvatar:true,
     timeline:"时间线上的船只"
   },
   footer:
-    '<a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备2020015769号-1</a>',
+    '<a href="https://beian.miit.gov.cn/" target="_blank">湘ICP备2022021814号-1</a>',
   displayFooter: true,
   plugins: {
     blog: true,
