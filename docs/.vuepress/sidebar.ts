@@ -293,6 +293,7 @@ export const sidebarConfig = sidebar({
                 "upload-file",
                 "vue-simple-upload",
                 "Zookeeper-lock",
+                "function-programming"
             ]
         },
         {
