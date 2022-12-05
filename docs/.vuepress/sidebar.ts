@@ -1,9 +1,11 @@
 import {sidebar} from "vuepress-theme-hope";
 import {aboutTheAuthor} from "./sidebar/about-the-author";
+import { webabout } from "./sidebar/webabout";
 
 export const sidebarConfig = sidebar({
     // 应该把更精确的路径放置在前边
     "/leyunone/": ["intro"],
+    '/webabout/':webabout,
     // 必须放在最后面
     "/": [
         {
@@ -246,18 +248,6 @@ export const sidebarConfig = sidebar({
                         "idea-easycode"
                     ]
                 }
-            ]
-        },
-        {
-            text: "更新日志",
-            icon: "expand",
-            prefix: "update-diary/",
-            collapsible: true,
-            children: [
-                "1.0.0",
-                "1.0.1",
-                "1.0.2",
-                "1.0.3"
             ]
         },
         {

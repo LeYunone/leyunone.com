@@ -5,12 +5,10 @@ export const navbarConfig = navbar([
   {
     text: "网站相关",
     icon: "about",
-    children: [
-      { text: "关于作者", icon: "zuozhe", link: "/about-the-author/" },
-    ],
+    link:"/webabout/"
   },
   {
-    text: "更新历史",
+    text: "时间线",
     icon: "history",
     link: "/timeline/",
   },
