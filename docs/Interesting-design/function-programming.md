@@ -39,7 +39,7 @@ head:
     }
 ```
 
-![img](http://m.qpic.cn/psc?/V50BEfnH3sUFjn3JzZn10uzWqB09AiWh/ruAMsa53pVQWN7FLK88i5m2HEdUT1H7oYKBz0cwHW0tuej7*p1bGglIMsZVnxiw805Wjxuu32QD7UGF2mWy0bkEp9d7JQYvL2g9o*nvJZT0!/b&bo=LwOGAQAAAAADF5k!&rf=viewer_4)
+![img](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/1.png)
 
 
 
@@ -80,7 +80,8 @@ arr[j+1].compareTo(array[j]) < 0
 
 所以我们可以创建一个接口：
 
-![img](http://m.qpic.cn/psc?/V50BEfnH3sUFjn3JzZn10uzWqB09AiWh/ruAMsa53pVQWN7FLK88i5vmtiJOV3HcVxFBn0FHYOkwI5Suq.dbmgHYvgn8Qgccko7wIIHOoseBNcKQqr32LD8t5.WnM00ZinrsBgJaZTB4!/b&bo=KAJCAQAAAAADF1s!&rf=viewer_4)
+![img](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/2.png)
+
 
 将这个接口作为入参给到排序函数：
 
@@ -109,21 +110,25 @@ public static <T> void mainTest(T[] arr, CompareFunction<T> compareFunction) {
 
 ## Lambda表达式与函数式接口
 
-![img](http://m.qpic.cn/psc?/V50BEfnH3sUFjn3JzZn10uzWqB09AiWh/ruAMsa53pVQWN7FLK88i5vmtiJOV3HcVxFBn0FHYOkwAIBvzKQD67RoE29ZszMXD24r0zZGOXwn9N6YvQBKcF6OO6T6J19oTqkaqnp2jZyc!/b&bo=QQPdAAAAAAADF60!&rf=viewer_4)
+![img](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/3.png)
+
 
 **Java中：**Lambda表达式称为闭包，是JDK8引入的配合函数式接口使用的新特性，两者是不可切割的。
 
-![img](http://m.qpic.cn/psc?/V50BEfnH3sUFjn3JzZn10uzWqB09AiWh/ruAMsa53pVQWN7FLK88i5vmtiJOV3HcVxFBn0FHYOkwxBwiqO66Ex2GjRC893xzl4nMedQM0FbEHpApN08UExnL7Rrbay2jtdIXfyidkZ*U!/b&bo=jAZfAgAAAAADF.U!&rf=viewer_4)
+![img](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/4.png)
+
 
 **函数接口为lambda表达式和方法引用提供目标类型。**
 
 
 
-![img](https://img-blog.csdnimg.cn/20191103211359980.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3MDgwMDcw,size_16,color_FFFFFF,t_70)
+![img](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/5.png)
+
 
 [https://docs.oracle.com/javase/8/docs/api/java/lang/FunctionalInterface.html](https://docs.oracle.com/javase/8/docs/api/java/lang/FunctionalInterface.html)
 
-![img](http://m.qpic.cn/psc?/V50BEfnH3sUFjn3JzZn10uzWqB09AiWh/ruAMsa53pVQWN7FLK88i5m2HEdUT1H7oYKBz0cwHW0tNumdmpsTatgU7o9WQf8EJhjNxTfMxlL8QgpYs9jJUfwT.vD1yAdMZQB*3c*gpE7w!/b&bo=VAewAQAAAAADF9A!&rf=viewer_4)
+![img](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/6.png)
+
 
 **函数式接口**：有且仅只有一个方法且被@FuctionInterface修饰编译通过的接口
 
