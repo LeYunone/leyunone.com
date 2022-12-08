@@ -64,6 +64,103 @@ export const sidebarConfig = sidebar({
             ],
         },
         {
+            text: "有趣的业务设计",
+            icon: "xitongsheji",
+            prefix: "Interesting-design/",
+            collapsible: true,
+            children: [
+                "cas-lock",
+                "unique-set",
+                "upload-file",
+                "vue-simple-upload",
+                "Zookeeper-lock",
+                "function-programming"
+            ]
+        },
+        {
+            text: "GitHub工具鉴赏",
+            icon: "heart",
+            prefix: "github-project/",
+            collapsible: true,
+            children: [
+                "AlibabaEasyExcel",
+                "Diboot"
+            ]
+        },
+        {
+            text:"JAVA!!!",
+            icon:"java",
+            prefix:"java/",
+            collapsible: true,
+            children:[
+                "java8-arrayssort",
+                "java-agent-1"
+            ]
+        },
+        {
+            text: "开发工具",
+            icon: "tool",
+            prefix: "development-tool/",
+            collapsible: true,
+            children: [
+                {
+                    text: "Git",
+                    icon: "github",
+                    prefix: "git/",
+                    collapsible: true,
+                    children: [
+                        "git-error"
+                    ]
+                },
+                {
+                    text: "IDEA",
+                    icon: "intellijidea",
+                    prefix: "idea/",
+                    collapsible: true,
+                    children: [
+                        "idea-easycode"
+                    ]
+                }
+            ]
+        },
+        {
+            text: "啥啥啥的业务",
+            icon: "badashou",
+            prefix: "unidentified-business/",
+            collapsible: true,
+            children: [
+                "database-conflict",
+                "payment",
+                "service-platform"
+            ],
+        },
+        {
+            text: "正经笔记",
+            icon: "oven",
+            prefix: "normal-notes/",
+            collapsible: true,
+            children: [
+                "2022-04-19-eeg.md",
+                "db-eight-part-essay.md",
+                "httpServletResponse.md",
+                "java-eight-part-essay.md",
+                "lambda-serialize.md",
+                "redis-eight-part-essay.md",
+                "reflex-use-case.md",
+                "thread-eight-part-essay.md"
+            ]
+        },
+        {
+            text: "杂谈日记",
+            icon: "bigaoshou",
+            prefix: "rambling-diary/",
+            collapsible: true,
+            children: [
+                "FUCKN3ANDrestructure",
+                "What-Happened-MYWORK"
+            ]
+        },
+        {
             text: "开发日记",
             icon: "heiqiushou",
             collapsible: true,
@@ -112,17 +209,6 @@ export const sidebarConfig = sidebar({
                         "web-dev-1"
                     ]
                 }
-            ],
-        },
-        {
-            text: "啥啥啥的业务",
-            icon: "badashou",
-            prefix: "unidentified-business/",
-            collapsible: true,
-            children: [
-                "database-conflict",
-                "payment",
-                "service-platform"
             ],
         },
         {
@@ -199,68 +285,6 @@ export const sidebarConfig = sidebar({
             ]
         },
         {
-            text: "正经笔记",
-            icon: "oven",
-            prefix: "normal-notes/",
-            collapsible: true,
-            children: [
-                "2022-04-19-eeg.md",
-                "db-eight-part-essay.md",
-                "httpServletResponse.md",
-                "java-eight-part-essay.md",
-                "lambda-serialize.md",
-                "redis-eight-part-essay.md",
-                "reflex-use-case.md",
-                "thread-eight-part-essay.md"
-            ]
-        },
-        {
-            text: "杂谈日记",
-            icon: "bigaoshou",
-            prefix: "rambling-diary/",
-            collapsible: true,
-            children: [
-                "FUCKN3ANDrestructure",
-                "What-Happened-MYWORK"
-            ]
-        },
-        {
-            text: "开发工具",
-            icon: "tool",
-            prefix: "development-tool/",
-            collapsible: true,
-            children: [
-                {
-                    text: "Git",
-                    icon: "github",
-                    prefix: "git/",
-                    collapsible: true,
-                    children: [
-                        "git-error"
-                    ]
-                },
-                {
-                    text: "IDEA",
-                    icon: "intellijidea",
-                    prefix: "idea/",
-                    collapsible: true,
-                    children: [
-                        "idea-easycode"
-                    ]
-                }
-            ]
-        },
-        {
-            text: "GitHub工具鉴赏",
-            icon: "heart",
-            prefix: "github-project/",
-            collapsible: true,
-            children: [
-                "AlibabaEasyExcel",
-                "Diboot"
-            ]
-        },
-        {
             text: "算法",
             icon: "compass",
             prefix: "algorithm/",
@@ -270,30 +294,6 @@ export const sidebarConfig = sidebar({
                 "dichotomy",
                 "dynamic-programming",
                 "sorting-algorithm"
-            ]
-        },
-        {
-            text: "有趣的业务设计",
-            icon: "xitongsheji",
-            prefix: "Interesting-design/",
-            collapsible: true,
-            children: [
-                "cas-lock",
-                "unique-set",
-                "upload-file",
-                "vue-simple-upload",
-                "Zookeeper-lock",
-                "function-programming"
-            ]
-        },
-        {
-            text:"JAVA!!!",
-            icon:"java",
-            prefix:"java/",
-            collapsible: true,
-            children:[
-                "java8-arrayssort",
-                "java-agent-1"
             ]
         },
         {
