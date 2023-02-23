@@ -15,7 +15,8 @@ head:
 ---
 # DIBoot
 [DiBoot](https://www.diboot.com/)低代码开发平台。
-> 10年前，业内有一个故事，超！CRUD，重复的表单好恶心！有没有画图一样的图形化界面，把这些操作点一点、画一画就完成。
+
+> 开发的时候总是感觉，CRUD，重复的表单好恶心！有没有画图一样的图形化界面，把这些操作点一点、画一画就完成。
 
 现在，DiBoot就是一款让你点一点，少量代码完成CRUD操作的工具。
 按照官方介绍![QQ截图20211009135710.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-10-09/QQ截图20211009135710.png)
