@@ -85,7 +85,8 @@ export const sidebarConfig = sidebar({
             collapsible: true,
             children: [
                 "AlibabaEasyExcel",
-                "Diboot"
+                "Diboot",
+                "XXL-Job"
             ]
         },
         {
