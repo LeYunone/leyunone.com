@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/github-project/XXL-Job.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JavaGuide.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +166,10 @@
       <workItem from="1669559996463" duration="6662000" />
       <workItem from="1669645126574" duration="7001000" />
       <workItem from="1677320847928" duration="1435000" />
-      <workItem from="1677322969751" duration="1564000" />
+      <workItem from="1677322969751" duration="1615000" />
+      <workItem from="1677326066237" duration="954000" />
+      <workItem from="1677424131819" duration="792000" />
+      <workItem from="1677514422695" duration="1376000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
@@ -178,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677169522598</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[add] add XXL-Job.md">
+      <created>1677324584878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677324584878</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,57 +247,58 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="[copy] vuepress-theme-hope" />
     <MESSAGE value="[add] add db-sync-model.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[add] add db-sync-model.md" />
+    <MESSAGE value="[add] add XXL-Job.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add] add XXL-Job.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="99" key="#Project_Structure" timestamp="1677322757083">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="440" y="99" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1677322757083" />
-    <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1669035633418">
+    <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1677324550057">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1669035633418" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1677169521985">
+    <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1677324550057" />
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1677324584157">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1677169521985" />
-    <state x="41" y="186" width="1736" height="866" key="DiffContextDialog" timestamp="1677324145770">
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1677324584157" />
+    <state x="41" y="186" width="1736" height="866" key="DiffContextDialog" timestamp="1677326763767">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="41" y="186" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677324145770" />
+    <state x="41" y="186" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677326763767" />
     <state x="819" y="422" width="696" height="264" key="Github.ShareDialog" timestamp="1668965147465">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="819" y="422" width="696" height="264" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1668965147465" />
-    <state width="1876" height="2" key="GridCell.Tab.0.bottom" timestamp="1677323549405">
+    <state width="1876" height="229" key="GridCell.Tab.0.bottom" timestamp="1677515795825">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1677323549405" />
-    <state width="1876" height="2" key="GridCell.Tab.0.center" timestamp="1677323549405">
+    <state width="1876" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1677515795825" />
+    <state width="1876" height="229" key="GridCell.Tab.0.center" timestamp="1677515795825">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="2" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1677323549405" />
-    <state width="1876" height="2" key="GridCell.Tab.0.left" timestamp="1677323549405">
+    <state width="1876" height="229" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1677515795825" />
+    <state width="1876" height="229" key="GridCell.Tab.0.left" timestamp="1677515795824">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="2" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1677323549405" />
-    <state width="1876" height="2" key="GridCell.Tab.0.right" timestamp="1677323549405">
+    <state width="1876" height="229" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1677515795824" />
+    <state width="1876" height="229" key="GridCell.Tab.0.right" timestamp="1677515795825">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="2" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1677323549405" />
+    <state width="1876" height="229" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1677515795825" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1677321083082">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1677321083082" />
-    <state x="724" y="221" key="VCS.ChangeListViewerDialog" timestamp="1677324141339">
+    <state x="724" y="221" key="VCS.ChangeListViewerDialog" timestamp="1677326772965">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="724" y="221" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677324141339" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1677169526069">
+    <state x="724" y="221" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677326772965" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1677324588162">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1677169526069" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1677324588162" />
     <state x="-114" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1668965871907">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -303,18 +311,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="765" y="258" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1668944286808" />
-    <state x="647" y="257" width="678" height="678" key="find.popup" timestamp="1669654653784">
+    <state x="647" y="257" width="678" height="678" key="find.popup" timestamp="1677326145210">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="647" y="257" width="678" height="678" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1669654653784" />
+    <state x="647" y="257" width="678" height="678" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1677326145210" />
     <state x="744" y="311" key="git4idea.merge.GitPullDialog" timestamp="1668945044529">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="744" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1668945044529" />
-    <state x="761" y="431" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1668965830209">
+    <state x="761" y="431" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1677326119869">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="761" y="431" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1668965830209" />
+    <state x="761" y="431" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677326119869" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1669651984075">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
