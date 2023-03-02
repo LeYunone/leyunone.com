@@ -86,7 +86,8 @@ export const sidebarConfig = sidebar({
             children: [
                 "AlibabaEasyExcel",
                 "Diboot",
-                "XXL-Job"
+                "XXL-Job",
+                "GitLab-codex"
             ]
         },
         {
