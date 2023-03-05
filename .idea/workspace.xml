@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/github-project/GitLab-codex.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/summary/Warn！Warn！.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/github-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/summary" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -67,11 +66,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TheCore\leyunone.com\docs\summary" />
       <recent name="E:\TheCore\leyunone.com\docs\github-project" />
       <recent name="E:\TheCore\leyunone.com" />
       <recent name="E:\TheCore\leyunone.com\docs\.vuepress\public" />
       <recent name="E:\TheCore\leyunone.com\docs" />
-      <recent name="E:\TheCore\leyunone.com\docs\.vuepress\public\iconfont" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-build">
@@ -177,6 +176,8 @@
       <workItem from="1677670434815" duration="1186000" />
       <workItem from="1677672964367" duration="1346000" />
       <workItem from="1677765937099" duration="1076000" />
+      <workItem from="1677853740815" duration="763000" />
+      <workItem from="1678032566838" duration="1679000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
@@ -286,6 +287,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1677673118290" />
+    <state width="194" height="592" key="Git.Branch.Popup" timestamp="1677853905157">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="194" height="592" key="Git.Branch.Popup/0.0.1920.1050@0.0.1920.1050" timestamp="1677853905157" />
     <state width="1876" height="229" key="GridCell.Tab.0.bottom" timestamp="1677515795825">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -334,10 +339,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1669651984075" />
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1669560232387">
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1678034548395">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1669560232387" />
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1678034548395" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

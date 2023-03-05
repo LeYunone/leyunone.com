@@ -308,7 +308,8 @@ export const sidebarConfig = sidebar({
                 "about-this-web",
                 "beian",
                 "interview-question",
-                "leyunone-action"
+                "leyunone-action",
+                "Warn！Warn！.md"
             ]
         }
 
