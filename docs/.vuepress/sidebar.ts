@@ -160,7 +160,8 @@ export const sidebarConfig = sidebar({
             collapsible: true,
             children: [
                 "FUCKN3ANDrestructure",
-                "What-Happened-MYWORK"
+                "What-Happened-MYWORK",
+                "cyber-manhunt.md"
             ]
         },
         {
@@ -213,6 +214,19 @@ export const sidebarConfig = sidebar({
                     ]
                 }
             ],
+        },
+        {
+            text:"某些总结",
+            icon:"professional",
+            prefix:"summary/",
+            collapsible: true,
+            children:[
+                "about-this-web",
+                "beian",
+                "interview-question",
+                "leyunone-action",
+                "Warn！Warn！.md"
+            ]
         },
         {
             text: "刷题日记",
@@ -298,20 +312,6 @@ export const sidebarConfig = sidebar({
                 "dynamic-programming",
                 "sorting-algorithm"
             ]
-        },
-        {
-            text:"某些总结",
-            icon:"professional",
-            prefix:"summary/",
-            collapsible: true,
-            children:[
-                "about-this-web",
-                "beian",
-                "interview-question",
-                "leyunone-action",
-                "Warn！Warn！.md"
-            ]
         }
-
     ]
 });
