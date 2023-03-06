@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/rambling-diary/cyber-manhunt.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/rambling-diary/FUCKN3ANDrestructure.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/rambling-diary/FUCKN3ANDrestructure.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/rambling-diary/What-Happened-MYWORK.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/rambling-diary/What-Happened-MYWORK.md" afterDir="false" />
-    </list>
+    <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,6 +174,7 @@
       <workItem from="1677765937099" duration="1076000" />
       <workItem from="1677853740815" duration="763000" />
       <workItem from="1678032566838" duration="2107000" />
+      <workItem from="1678120214725" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
