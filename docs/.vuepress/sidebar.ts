@@ -171,6 +171,15 @@ export const sidebarConfig = sidebar({
             prefix: "development-diary/",
             children: [
                 {
+                    text:"DBShop",
+                    prefix:"dbshop/",
+                    collapsible: true,
+                    icon: "yongqihuizhang-taiyi",
+                    children: [
+                        "dbshop-1"
+                    ]
+                },
+                {
                     text: "本地方法测试工具",
                     prefix: "wayLocation/",
                     icon: "yongqihuizhang-taiyi",
@@ -210,7 +219,8 @@ export const sidebarConfig = sidebar({
                     icon: "yongqihuizhang-taiyi",
                     collapsible: true,
                     children: [
-                        "web-dev-1"
+                        "web-dev-1",
+                        "web-dev-2"
                     ]
                 }
             ],
