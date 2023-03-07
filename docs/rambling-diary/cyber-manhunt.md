@@ -38,7 +38,7 @@ tag:
 
 **社工库是用各大网站用户的资料数据库搭建的数据库查询平台，“人肉搜索”有时候就会靠查询社工库信息来进行。**
 
-它是一个最终手段，一个无主造物，一种互联网上的威慑纪元；
+它是一个最终手段，一个无主造物，一种互联网上的威慑纪元；![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-03-07/34f5f6cf-2e86-4690-8bd6-fb6552a28c0f.gif)
 
 ## 再言
 
@@ -60,7 +60,7 @@ tag:
 
 ## 就言
 
-接下来，我会根据以自己为目标，通过社工思路简单的模拟一下，我是怎么把自己的零碎信息拼接成一个**人**的；
+接下来，我会根据以自己为目标，通过社工思路简单的模拟一下，我是怎么把自己的零碎信息拼接成一个**人**的；![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-03-07/aaad13b5-bfe1-4c08-ac85-fbc022d9ab6c.jpg)
 
 **模拟背景【在模拟前，未对本人信息作任何的加工或隐藏，都是原汁原味】：** 在一场游戏后，我被人威胁人肉，那么他将从何起收集“我”的身体？
 
@@ -70,7 +70,7 @@ tag:
 
 首先眼见为实的，游戏的主页：
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-02-28/c6e2f7b0-8606-46ad-84c2-56f9c8c4f59f.png)
+<img src="https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-02-28/c6e2f7b0-8606-46ad-84c2-56f9c8c4f59f.png" style="zoom:67%;" />
 
 收集到：**网名乐云一、Java Software Engineer、Changsha,Hunan、China**
 
@@ -92,11 +92,11 @@ tag:
 
 百度：
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-06/f1a28d4e-4c3a-49d3-a1aa-fc6e7d034cc9.png)
+<img src="https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-06/f1a28d4e-4c3a-49d3-a1aa-fc6e7d034cc9.png" style="zoom:67%;" />
 
 谷歌：
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-06/a2dd4f63-8d6d-4f53-8e93-c0526e7037a2.png)
+<img src="https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-06/a2dd4f63-8d6d-4f53-8e93-c0526e7037a2.png" style="zoom: 67%;" />
 
 
 
@@ -292,19 +292,62 @@ https://api.bilibili.com/x/v2/reply/main?csrf=549cb187308bd2a1fa01ccd1174a15bc&m
 
 #### 手机号
 
-因为QQ通讯录添加好友的特性，我们可先拿他的QQ号进行忘记密码，腾讯会告诉我们前3位以及后2位。然后结合最可能的号码通信地。
+因为很多很多平台有通讯录关联平台好友的特性，我们可以通过 知道平台账号 > 遍历手机号 > 将平台账号与手机号匹配，这系列操作来反推出目标物的账号。
 
-可遍历几千次号码，导入手机中，然后可匹配出qq对应的手机号。
+<img src="https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-07/cdaaee63-361f-40f8-bba8-89ac029675c5.PNG" style="zoom: 25%;" />
+
+当然在操作前，我们计算一下，首先大伙都知道手机号是11位，而在很多平台上，我们可以通过忘记账号然后手机短信验证得到如下图：
+
+![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-07/3c5947ce-2960-4a5e-9d54-03f077cd871c.png)
+
+前三位和后两位，
+
+手机号11位的组成是：1-3位为运营商识别号，4-7位是地区编码，8-11位是用户码；
 
 
 
+而我们只需要结合IP以及对目标物手机号归属地的猜测，可以详细的得到 
 
+**890500**条或**23800**条 或**6500**条号码；
 
+![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-07/a2dddd62-8688-4ecb-afa0-52fbf2437fa8.png)
 
+因为前三位的运营商定义的4-7为地区编码是有一定规则的，上图的功能在网络上也是比较容易寻找到；
 
+**那么，** 我们得到了 890500/23800/6500 条号码，而这些号码中，一定一定有一条就是目标物的手机号。
 
+对于6500/23800条来说，我们只需要将其导成Excel文档，然后批量导入到自己的手机中就可以人眼一条条过目，直到和目标物匹配的那一条出现；（以看小说的速度来说，还是很快的）
 
-爬虫，评论，通过程序找到他在网上留下的任何痕迹。
+而890500，努点力来说，还是有一些可行的：）
 
-当然了，
+**一个小技巧，不管什么平台，获得通讯录好友都是通过接口调用的，所以我们可以通过抓包的方式，将接口的出参导出，然后放入代码中进行号码匹配**
 
+#### 好友
+
+如果目标物过于干净，从好友入手何尝不是一种办法；
+
+比如我的好友，我知道的，有一个可以从他入手然后得到我的QQ号以至于拿到手机号；
+
+## 总言
+
+因为本次是偏科普的文章，所以很多很多细节都是一笔带过；
+
+尤其是关于社工思路这块，是语言不好表述的，它更像是出于丝毫“线索”，然后创造出一个个天马行空猜想的潜意识；
+
+### 关于预防
+
+在以我为目标大伙应该可以看出来，**网名、隐藏隐私、多手机号、勤换绑等等**才能比较好的预防信息泄漏；
+
+不过我们能做到的其实都是片面的无效操作，因为在这个泄漏信息的时代；
+
+某东、某讯、某多多等等，都会因一些原因出现不同程度的账号信息在网络上贩卖；
+
+而这些信息通通都被“**有能之士**” 收集到 社工库中；
+
+所以，
+
+在网络上
+
+我们一定要定一个绿色向上友好青年 
+
+![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-03-07/4aa4ce34-a0c9-4217-97cc-d43caf656d10.jpg)
