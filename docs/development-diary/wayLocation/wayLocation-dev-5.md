@@ -1,6 +1,6 @@
 ---
 date: 2022-04-09
-title: 日记5
+title: wayLocation日记5
 category: 
   - 开发日记
 tag:

@@ -1,6 +1,6 @@
 ---
 date: 2022-03-09
-title: 日记2
+title: QQ日记2
 category: 
   - 开发日记
 tag:

@@ -1,6 +1,6 @@
 ---
 date: 2022-03-08
-title: 日记3
+title: wayLocation日记3
 category: 
   - 开发日记
 tag:

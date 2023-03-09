@@ -1,6 +1,6 @@
 ---
 date: 2022-04-25
-title: 日记2
+title: Disk日记2
 category: 
   - 开发日记
 tag:
