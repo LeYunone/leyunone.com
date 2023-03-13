@@ -21,21 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/development-diary/dbshop/dbshop-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/dbshop/dbshop-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/development-diary/disk/disk-dev-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/disk/disk-dev-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/development-diary/disk/disk-dev-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/disk/disk-dev-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/development-diary/swing-qq/swing-qq-dev-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/swing-qq/swing-qq-dev-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/development-diary/swing-qq/swing-qq-dev-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/swing-qq/swing-qq-dev-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/development-diary/swing-qq/swing-qq-dev-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/swing-qq/swing-qq-dev-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/development-diary/wayLocation/wayLocation-dev-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/wayLocation/wayLocation-dev-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/development-diary/wayLocation/wayLocation-dev-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/wayLocation/wayLocation-dev-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/development-diary/wayLocation/wayLocation-dev-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/wayLocation/wayLocation-dev-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/development-diary/wayLocation/wayLocation-dev-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/wayLocation/wayLocation-dev-4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/development-diary/wayLocation/wayLocation-dev-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/wayLocation/wayLocation-dev-5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/development-diary/web/web-dev-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/web/web-dev-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/development-diary/web/web-dev-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/web/web-dev-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/rambling-diary/What-Happened-MYWORK.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/rambling-diary/What-Happened-MYWORK.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/rambling-diary/cyber-manhunt.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/rambling-diary/cyber-manhunt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/github-project/GitLab-codex.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/github-project/GitLab-codex.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,6 +180,8 @@
       <workItem from="1678120214725" duration="598000" />
       <workItem from="1678203319199" duration="960000" />
       <workItem from="1678371619225" duration="3319000" />
+      <workItem from="1678546068036" duration="9000" />
+      <workItem from="1678722673215" duration="2564000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
@@ -323,22 +311,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="194" height="592" key="Git.Branch.Popup/0.0.1920.1050@0.0.1920.1050" timestamp="1677853905157" />
-    <state width="1876" height="229" key="GridCell.Tab.0.bottom" timestamp="1677515795825">
+    <state width="1876" height="342" key="GridCell.Tab.0.bottom" timestamp="1678724949024">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1677515795825" />
-    <state width="1876" height="229" key="GridCell.Tab.0.center" timestamp="1677515795825">
+    <state width="1876" height="342" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1678724949024" />
+    <state width="1876" height="342" key="GridCell.Tab.0.center" timestamp="1678724949024">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="229" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1677515795825" />
-    <state width="1876" height="229" key="GridCell.Tab.0.left" timestamp="1677515795824">
+    <state width="1876" height="342" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1678724949024" />
+    <state width="1876" height="342" key="GridCell.Tab.0.left" timestamp="1678724949024">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="229" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1677515795824" />
-    <state width="1876" height="229" key="GridCell.Tab.0.right" timestamp="1677515795825">
+    <state width="1876" height="342" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1678724949024" />
+    <state width="1876" height="342" key="GridCell.Tab.0.right" timestamp="1678724949024">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="229" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1677515795825" />
+    <state width="1876" height="342" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1678724949024" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1677321083082">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -367,14 +355,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="761" y="431" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677326119869" />
-    <state x="616" y="243" key="run.anything.popup" timestamp="1669651984075">
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1678724910331">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1669651984075" />
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1678034548395">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1678034548395" />
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1678724910331" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
