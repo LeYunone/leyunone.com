@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/development-diary/web/web-dev-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/web/web-dev-2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/github-project/GitLab-codex.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/github-project/GitLab-codex.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +73,7 @@
       <recent name="E:\TheCore\leyunone.com\docs\github-project" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.vite-build">
+  <component name="RunManager" selected="npm.vite-serve">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:8080">
       <method v="2" />
     </configuration>
@@ -138,8 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.vite-build" />
         <item itemvalue="npm.vite-serve" />
+        <item itemvalue="npm.vite-build" />
         <item itemvalue="npm.webpack-build" />
         <item itemvalue="npm.docs:dev" />
         <item itemvalue="npm.docs:build" />
@@ -182,7 +183,7 @@
       <workItem from="1678371619225" duration="3319000" />
       <workItem from="1678546068036" duration="9000" />
       <workItem from="1678722673215" duration="2564000" />
-      <workItem from="1678804459816" duration="673000" />
+      <workItem from="1678804459816" duration="1289000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
@@ -219,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678203383584</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[UPDATE]GitLab-codex.md">
+      <created>1678806788145</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678806788145</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +293,8 @@
     <MESSAGE value="[UPDATE]NEW package.json :(" />
     <MESSAGE value="[ADD]Warn！Warn！.md" />
     <MESSAGE value="[UPDATE]cyber-manhunt.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]cyber-manhunt.md" />
+    <MESSAGE value="[UPDATE]GitLab-codex.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]GitLab-codex.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="99" key="#Project_Structure" timestamp="1677322757083">
@@ -296,10 +305,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1677324550057" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1678203382804">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1678806787487">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1678203382804" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1678806787487" />
     <state x="41" y="186" width="1736" height="866" key="DiffContextDialog" timestamp="1677598101413">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -312,22 +321,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="194" height="592" key="Git.Branch.Popup/0.0.1920.1050@0.0.1920.1050" timestamp="1677853905157" />
-    <state width="1876" height="342" key="GridCell.Tab.0.bottom" timestamp="1678724949024">
+    <state width="938" height="133" key="GridCell.Tab.0.bottom" timestamp="1678807348833">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1678724949024" />
-    <state width="1876" height="342" key="GridCell.Tab.0.center" timestamp="1678724949024">
+    <state width="938" height="133" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1678807348833" />
+    <state width="938" height="133" key="GridCell.Tab.0.center" timestamp="1678807348833">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1678724949024" />
-    <state width="1876" height="342" key="GridCell.Tab.0.left" timestamp="1678724949024">
+    <state width="938" height="133" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1678807348833" />
+    <state width="938" height="133" key="GridCell.Tab.0.left" timestamp="1678807348832">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1678724949024" />
-    <state width="1876" height="342" key="GridCell.Tab.0.right" timestamp="1678724949024">
+    <state width="938" height="133" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1678807348832" />
+    <state width="938" height="133" key="GridCell.Tab.0.right" timestamp="1678807348833">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1678724949024" />
+    <state width="938" height="133" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1678807348833" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1677321083082">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -336,10 +345,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="724" y="221" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677598020700" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1678203390999">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1678806791852">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1678203390999" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1678806791852" />
     <state x="194" y="85" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1677322948886">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -356,10 +365,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="761" y="431" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677326119869" />
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1678724910331">
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1678807289661">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1678724910331" />
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1678807289661" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

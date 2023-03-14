@@ -65,13 +65,13 @@ head:
 
 ### 3\拿到所有分支下的提交记录
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-14/42848433-6242-45d1-a941-963ef3c8d5e1.png)
+<img src="https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-14/42848433-6242-45d1-a941-963ef3c8d5e1.png" style="zoom: 85%;" />
 
 ### 4\对所有提交记录进行内容解析
 
  提交者，时间，提交者与提交项目关联，本次提交量，提交者累计提交量...
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-14/33905a99-fe93-43fa-ae01-319bc1562348.png)
+<img src="https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-14/33905a99-fe93-43fa-ae01-319bc1562348.png" style="zoom:85%;" />
 
 ### 5\将所有表的数据清空
 
@@ -155,6 +155,7 @@ head:
         return new GitLabAPIService(gitLabApi);
     }
 ```
+
 
 
 
