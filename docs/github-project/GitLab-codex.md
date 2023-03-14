@@ -1,5 +1,5 @@
 ---
-date: 2023-03-03
+date: 2023-03-14
 title: GitLab-codex 代码统计
 category: 
   - GitHub
@@ -55,7 +55,106 @@ head:
 
 ## GitLab解析
 
+### 1\拿到所有可见的项目
 
+![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-14/61d5596d-5a4a-476c-b917-32ac9acaf118.png)
+
+### 2\拿到项目下的所有分支
+
+![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-14/a98f0086-1dd9-46d9-a663-f0500a0ffe54.png)
+
+### 3\拿到所有分支下的提交记录
+
+![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-14/42848433-6242-45d1-a941-963ef3c8d5e1.png)
+
+### 4\对所有提交记录进行内容解析
+
+ 提交者，时间，提交者与提交项目关联，本次提交量，提交者累计提交量...
+
+![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-14/33905a99-fe93-43fa-ae01-319bc1562348.png)
+
+### 5\将所有表的数据清空
+
+因为代码统计属于每天进行一次全量同步的方式
+
+所以重新同步时，最好将前一次的同步信息清空
+
+### 6\将收集到的数据进行批量插入或更新
+
+使用 **ON DUPLICATE key update**
+
+```sql
+    INSERT INTO x_commit
+    (id,commit_date,committer_email,committer_name,title,project_id,message,additions,deletions,total,storage_url)
+        VALUES
+        <foreach collection="commits" item="item" separator=",">
+            (#{item.id},#{item.commitDate},#{item.committerEmail},#{item.committerName},#{item.title},#{item.projectId},#{item.message}
+            ,#{item.additions},#{item.deletions},#{item.total},#{item.storageUrl})
+        </foreach>
+        ON DUPLICATE key update
+        id = values(id),
+        commit_date = values(commit_date),
+        committer_email = values(committer_email),
+        committer_name = values(committer_name),
+        title = values(title),
+        project_id = values(project_id),
+        message = values (message),
+        additions = values(additions),
+        deletions = values(deletions),
+        total = values(total),
+        storage_url = values(storage_url)
+```
+
+## 定时操作
+
+**定时原因**： 每天进行一个全量同步
+
+### 推荐
+
+定时的方式很多，可使用Spring-task、Quartz、线程...等等
+
+方法很多，但是我推荐使用**XXL-JOB**
+
+[XXL—Job任务调度中心](https://leyunone.com/github-project/XXL-Job.html)
+
+**原因**：
+
+因为会出现多个GitLab仓库需要进行统一的统计的原因；
+
+所以需要通过自定义的去给GitLabApi对象进行不同的
+
+**url、privateToken** 入参；
+
+所以外置的定时调度中心做这件事刚刚好
+
+```java
+    @XxlJob(value = "git_summary")
+    @Override
+    public void execute() {
+        String jobParam = XxlJobHelper.getJobParam();
+        String[] split = jobParam.split("#");
+        String token = null;
+        String url = null;
+        if(split.length>1){
+            //自定义时间场景
+            url = split[0];
+            token = split[1];
+        }
+ codexSummaryService.summaryCodeX(url,token);
+    }
+```
+
+```java
+    public void summaryCodeX(String url, String token) {
+        GitLabAPIService gitLabAPIService = GitLabAPIService.buildGitApiService(new GitLabApi(url, token));
+        ......
+```
+
+```java
+    public static GitLabAPIService buildGitApiService(GitLabApi gitLabApi){
+        return new GitLabAPIService(gitLabApi);
+    }
+```
 
 
 
