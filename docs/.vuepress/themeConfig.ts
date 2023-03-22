@@ -56,7 +56,7 @@ export const themeConfig = hopeTheme({
     comment:{
       provider: "Waline",
       search:true,
-      serverURL:"https://leyuna-com-comment-lhhmusl8l-leyunone.vercel.app/"
+      serverURL:"https://example.leyunone.com"
     }
   },
 });

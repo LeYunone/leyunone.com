@@ -1,4 +1,4 @@
-export const webabout = [
+export const talkabout = [
   {
     text: "更新日志",
     icon: "expand",

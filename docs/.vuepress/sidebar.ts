@@ -1,11 +1,12 @@
 import {sidebar} from "vuepress-theme-hope";
-import {aboutTheAuthor} from "./sidebar/about-the-author";
-import { webabout } from "./sidebar/webabout";
+import {writeabout} from "./sidebar/writeabout";
+import {talkabout} from "./sidebar/talkabout";
 
 export const sidebarConfig = sidebar({
     // 应该把更精确的路径放置在前边
     "/leyunone/": ["intro"],
-    '/webabout/':webabout,
+    '/talkabout/': talkabout,
+    '/writeabout/': writeabout,
     // 必须放在最后面
     "/": [
         {
@@ -91,11 +92,11 @@ export const sidebarConfig = sidebar({
             ]
         },
         {
-            text:"JAVA!!!",
-            icon:"java",
-            prefix:"java/",
+            text: "JAVA!!!",
+            icon: "java",
+            prefix: "java/",
             collapsible: true,
-            children:[
+            children: [
                 "java8-arrayssort",
                 "java-agent-1"
             ]
@@ -171,8 +172,8 @@ export const sidebarConfig = sidebar({
             prefix: "development-diary/",
             children: [
                 {
-                    text:"DBShop",
-                    prefix:"dbshop/",
+                    text: "DBShop",
+                    prefix: "dbshop/",
                     collapsible: true,
                     icon: "yongqihuizhang-taiyi",
                     children: [
@@ -226,11 +227,11 @@ export const sidebarConfig = sidebar({
             ],
         },
         {
-            text:"某些总结",
-            icon:"professional",
-            prefix:"summary/",
+            text: "某些总结",
+            icon: "professional",
+            prefix: "summary/",
             collapsible: true,
-            children:[
+            children: [
                 "about-this-web",
                 "beian",
                 "interview-question",
