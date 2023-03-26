@@ -20,18 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/writeabout/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/frame/mqtt/MQTT-about.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/navbar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/navbar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar/about-the-author.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar/about-the-author.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar/webabout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar/webabout.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/themeConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/themeConfig.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/webabout/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/webabout/update-diary/1.0.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/update-diary/1.0.0.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/webabout/update-diary/1.0.1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/update-diary/1.0.1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/webabout/update-diary/1.0.2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/update-diary/1.0.2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/webabout/update-diary/1.0.3.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/update-diary/1.0.3.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/writeabout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/frame/mqtt" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -75,14 +65,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TheCore\leyunone.com\docs\frame\mqtt" />
       <recent name="E:\TheCore\leyunone.com\docs\writeabout" />
       <recent name="E:\TheCore\leyunone.com\docs\development-diary\dbshop" />
       <recent name="E:\TheCore\leyunone.com\docs\development-diary\web" />
       <recent name="E:\TheCore\leyunone.com\docs\rambling-diary" />
-      <recent name="E:\TheCore\leyunone.com\docs\summary" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.vite-serve">
+  <component name="RunManager" selected="npm.vite-build">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:8080">
       <method v="2" />
     </configuration>
@@ -148,8 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.vite-serve" />
         <item itemvalue="npm.vite-build" />
+        <item itemvalue="npm.vite-serve" />
         <item itemvalue="npm.webpack-build" />
         <item itemvalue="npm.docs:dev" />
         <item itemvalue="npm.docs:build" />
@@ -196,6 +186,9 @@
       <workItem from="1678809291749" duration="247000" />
       <workItem from="1679240006715" duration="2332000" />
       <workItem from="1679496107030" duration="4076000" />
+      <workItem from="1679581754587" duration="721000" />
+      <workItem from="1679810015748" duration="599000" />
+      <workItem from="1679834999141" duration="695000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
