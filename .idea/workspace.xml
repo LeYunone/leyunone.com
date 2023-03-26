@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/frame/mqtt/MQTT-about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/frame/mqtt/MQTT-about.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/frame/messagequeuing/MQTT-about.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
       <recent name="E:\TheCore\leyunone.com\docs\rambling-diary" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.vite-build">
+  <component name="RunManager" selected="npm.vite-serve">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:8080">
       <method v="2" />
     </configuration>
@@ -138,8 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.vite-build" />
         <item itemvalue="npm.vite-serve" />
+        <item itemvalue="npm.vite-build" />
         <item itemvalue="npm.webpack-build" />
         <item itemvalue="npm.docs:dev" />
         <item itemvalue="npm.docs:build" />
@@ -188,7 +188,7 @@
       <workItem from="1679496107030" duration="4076000" />
       <workItem from="1679581754587" duration="721000" />
       <workItem from="1679810015748" duration="599000" />
-      <workItem from="1679834999141" duration="695000" />
+      <workItem from="1679834999141" duration="1013000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
@@ -239,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678807443070</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[ADD]MQTT-about.md">
+      <created>1679849966542</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679849966542</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +313,8 @@
     <MESSAGE value="[ADD]Warn！Warn！.md" />
     <MESSAGE value="[UPDATE]cyber-manhunt.md" />
     <MESSAGE value="[UPDATE]GitLab-codex.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]GitLab-codex.md" />
+    <MESSAGE value="[ADD]MQTT-about.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]MQTT-about.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="99" key="#Project_Structure" timestamp="1677322757083">

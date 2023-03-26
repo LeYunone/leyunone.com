@@ -61,6 +61,15 @@ export const sidebarConfig = sidebar({
                     children: [
                         "nacos-read"
                     ]
+                },
+                {
+                    text:"消息队列",
+                    prefix:"messagequeuing/",
+                    icon:"tap-plumbing",
+                    collapsible: true,
+                    children: [
+                        "MQTT-about"
+                    ]
                 }
             ],
         },
