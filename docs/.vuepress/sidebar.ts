@@ -68,7 +68,8 @@ export const sidebarConfig = sidebar({
                     icon:"tap-plumbing",
                     collapsible: true,
                     children: [
-                        "MQTT-about"
+                        "MQTT-about",
+                        "MQTT-use"
                     ]
                 }
             ],
