@@ -1,5 +1,5 @@
 /node_modules
-/package-lock.json
+.idea
 *.drawio
 *.drawio.bkp
 .DS_Store
@@ -13,4 +13,3 @@
 dist/
 # Build files
 packages/*/lib/
-.idea
