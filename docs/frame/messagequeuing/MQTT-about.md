@@ -2,9 +2,9 @@
 date: 2023-03-27
 title: MQTT IOT物联网协议 入门
 category: 
-  - Mybatis
+  - 消息队列
 tag:
-  - Mybatis
+  - Mq、MQTT、IOT
 head:
   - - meta
     - name: keywords

@@ -63,7 +63,7 @@ export const sidebarConfig = sidebar({
                     ]
                 },
                 {
-                    text:"消息队列",
+                    text:"消息队列&",
                     prefix:"messagequeuing/",
                     icon:"tap-plumbing",
                     collapsible: true,
