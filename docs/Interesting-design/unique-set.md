@@ -18,7 +18,7 @@ head:
 一个List中Person对象，根据Person对象中的age年龄去重，留下年龄不重复的集合。
 
 ## 实现方案一：
-也是最传统最简单的：![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210445.jpg)
+也是最传统最简单的：![emo](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210445.jpg)
 ```
         List<Person> list = new ArrayList();
        //将list转成TreeSet 自定义一个比较器compartor
@@ -43,7 +43,7 @@ head:
 
 ## 实现方案二：
 通过自定义一个唯一规则，定义一个uniqueSet。
-通过Function<T，R> 函数式接口，以及Set底层map的特点，实现重复时不添加，不重复添加map的效果。![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210521.jpg)
+通过Function<T，R> 函数式接口，以及Set底层map的特点，实现重复时不添加，不重复添加map的效果。![emo](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210521.jpg)
 .
 **Function<T,R>**
 JDK8引入的函数式接口，其特点是：接受一个T，返回一个R。
@@ -116,7 +116,7 @@ this.uniqueCondition.apply(v)申请出来的是对象的属性值。
         return map.size();
     }
 ```
-理由不言而喻，懂的都懂![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210528.gif)
+理由不言而喻，懂的都懂![emo](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210528.gif)
 最后贴出完整的代码和测试。
 ### UniqueSet：
 ```

@@ -16,7 +16,7 @@ tag:
 比如：Control层出参无法经过jast-json解析，不存在编码[缺失Get、Set方法；缺失重要依赖或组件]。所以很没有头绪的解决这个bug，后来也是在某些巧合[spring下的英文提问]。将原项目的依赖整理和工具重复依赖清理。问题突然就莫名其妙解决了。
 
 还有，视图解析器的奇怪bug。在出现的时候，我的视图请求:"/waylocation",接口返回的是waylocation的字符串。
-然后测试的时候，无论怎么操作都会报返回解析异常的错误。然后手一抖，把请求改成了:"/viewhtml"和返回值不重复之后。bug又莫名其妙的修复了，更关键的是之后想要复现，又将请求改回来之后，它又不报错了。![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210422.jpg)
+然后测试的时候，无论怎么操作都会报返回解析异常的错误。然后手一抖，把请求改成了:"/viewhtml"和返回值不重复之后。bug又莫名其妙的修复了，更关键的是之后想要复现，又将请求改回来之后，它又不报错了。![emo](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210422.jpg)
 
 **总之**很多这样的问题，没有任何头绪的出现错误。
 不过好在慢慢的解决了，到现在我想这些错误出现的原因：拉本地依赖包出现旧版本问题，需要在打包前进行clear或者删除文件夹的错误。
@@ -30,7 +30,7 @@ tag:
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
 com.leyuna.waylocation.autoconfig.WaylocationAutoConfiguration
 ```
-就完成了一个自定义start，并且根据项目需要在public WaylocationAutoConfiguration() 构造器初始化时，进行业务的属性注入等操作。![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210514.jpg)
+就完成了一个自定义start，并且根据项目需要在public WaylocationAutoConfiguration() 构造器初始化时，进行业务的属性注入等操作。![emo](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210514.jpg)
 
 ## 发布
 通过准备、测试、整理之后，就是将工具的依赖发布到Maven中央仓库的时候了。
@@ -41,7 +41,7 @@ com.leyuna.waylocation.autoconfig.WaylocationAutoConfiguration
 1、创建仓库
 2、在groupId那行，用自己的域名倒过来的顺序
 3、创建成功之后，bot发个验证码需要你在你的域名DNS解析上映射。
-![image.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-11/image.png)
+![image.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-11/image.png)
 记录值是：**https://issues.sonatype.org/browse/OSSRH-79702**  ，后面就是验证码
 4、等，可能是几小时也可能是一星期。
 5、bot发邮件告诉你通过了
@@ -167,7 +167,7 @@ com.leyuna.waylocation.autoconfig.WaylocationAutoConfiguration
 最后就是 **mvn clear** **mvn deploy** 过程.
 最后就可以在[https://s01.oss.sonatype.org/#view-repositories;snapshots~browsestorage](https://s01.oss.sonatype.org/#view-repositories;snapshots~browsestorage)看到自己上传上去的依赖了。
 但是到这里并不是将依赖上传到了中央仓库，还需要手动进行同步操作。
-![企业微信截图_20220411171929.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-11/企业微信截图_20220411171929.png)
+![企业微信截图_20220411171929.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-11/企业微信截图_20220411171929.png)
 到这里，只需要静等一天左右。
 就可以通过Maven中央仓库，引入自己的工具项目了。
 

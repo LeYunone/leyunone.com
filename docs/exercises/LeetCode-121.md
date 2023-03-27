@@ -23,7 +23,7 @@ head:
 
 ## 思路
 最佳点问题，按照下图
-![cc4ef55d97cfef6f9215285c7573027c4b265c31101dd54e8555a7021c95c927-file_1555699418271.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-26/cc4ef55d97cfef6f9215285c7573027c4b265c31101dd54e8555a7021c95c927-file_1555699418271.png)
+![cc4ef55d97cfef6f9215285c7573027c4b265c31101dd54e8555a7021c95c927-file_1555699418271.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-26/cc4ef55d97cfef6f9215285c7573027c4b265c31101dd54e8555a7021c95c927-file_1555699418271.png)
 可以看得出，如果想要收获最大化，则需要在最低谷时买入，离最低谷最远的最高谷时抛出。
 最高谷一定是在最低谷之后的日子中，所以我们只需要找到最低谷的日子，然后以这一天为准往后找最大的差。
 

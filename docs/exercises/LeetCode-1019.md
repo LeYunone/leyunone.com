@@ -14,7 +14,7 @@ head:
 ---
 **示例**
 
-![image.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-12/image.png)
+![image.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-12/image.png)
 
 
 
@@ -69,7 +69,7 @@ head:
     }
 ```
 
-![image.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-13/DDDD.png)
+![image.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-13/DDDD.png)
 
 ### 单调栈
 
@@ -103,4 +103,4 @@ head:
         return arr;
     }
 ```
-![EEEE.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-13/EEEE.png)
+![EEEE.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-13/EEEE.png)

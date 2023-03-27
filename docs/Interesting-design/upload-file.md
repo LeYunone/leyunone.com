@@ -31,7 +31,7 @@ head:
 2. 前台展示，可以根据小文件的传输成功数目，动态变化整个文件的传输进度
 3. 小文件=分片，通过客户端与服务端定义分片规则，可以达到一次文件，多次上传，高效处理的模式。
 
-那么跟着这三点我们可以得到常见的一个名称：**分片上传**![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210445.jpg)
+那么跟着这三点我们可以得到常见的一个名称：**分片上传**![emo](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210445.jpg)
 ## 分片上传
 在第三点我们提到：小文件 = 分片。
 倘若我们有一个1G = 1024MB的文件，通过量级计算，
@@ -43,7 +43,7 @@ head:
 再通过前端操作，并发的形式传给服务端。
 这时候，后端接收的，至少是一份这样的数据：
 :::align-center
-![data.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-21/data.png)
+![data.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-21/data.png)
 :::
 后端接收到了一份小文件后，第一时间不是进行存储，而是应该进行安全性的校验：
 1. 这个小文件是否是大文件的分片
@@ -59,7 +59,7 @@ head:
 不管是哪方面的处理，对一个文件而言，都应该有一个标识码，去绑定这个文件。无论这个文件如何变化，只要文件本身内容不变，那么我们都可以通过这个标识码定位到这个文件，像文件拥有一张身份证一样。
 根据这个理解，可以非常快速的画出秒传的流程。
 :::align-center
-![jiaoy.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-22/jiaoy.png)
+![jiaoy.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-22/jiaoy.png)
 :::
 身份证可以是和文件信息绑定的，随机生成的UUID。
 但更推荐，基于文件流通道解析出来的MD5
@@ -169,7 +169,7 @@ head:
 看思路，很明显，断点下载非常考验客户端这边的合法及可用的。
 比如用户将半下载的文件删除，清理返回信息、时间长久等等
 都会导致断点下载不稳定的出现异常。
-![ddxc.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-22/ddxc.png)
+![ddxc.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-22/ddxc.png)
 ## 小文件处理
 以上，不管是断点续传还是分片。
 都是高效处理、完美体验，解决文件上传的一些难题。

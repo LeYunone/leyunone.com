@@ -56,4 +56,4 @@ public void moveZeroes(int[] nums) {
        }
 }
 ``` 
-![QQ截图20210909103028.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-09/QQ截图20210909103028.png)
+![QQ截图20210909103028.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-09/QQ截图20210909103028.png)

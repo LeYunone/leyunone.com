@@ -27,10 +27,10 @@ head:
 确定了一个回文子串后，移动他的左右指针可以得到新的回文子串。
 所以问题就演变为，怎么确定一个回文子串。
 在一个字符串中，最短的字符串首先是当字符串。
-![QQ截图20211012095319.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-10-12/QQ截图20211012095319.png)
+![QQ截图20211012095319.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-10-12/QQ截图20211012095319.png)
 当最长字符串的中心为a时，即bab，一定是个奇数字符串。
 所以当最长字符串是偶数字符串时，他的中心一定是偶数字符串。
-![QQ截图20211012095544.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-10-12/QQ截图20211012095544.png)
+![QQ截图20211012095544.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-10-12/QQ截图20211012095544.png)
 依靠两种求字符串的模式，可以写出解题步骤
 1. 从头到尾遍历字符串
 2. 默认情况：当遍历下标i时，默认他是单字符串，则移动他的左右边下标，直到左右边下标不相等时，下标i的最长回文字符串长度则是，right-left-1.

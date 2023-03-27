@@ -13,7 +13,7 @@ head:
       content: 乐云一刷题日记！！！
 ---
 **示例：**
-![image.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-29/image.png)
+![image.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-29/image.png)
 
 ## 思路
 二叉树经典问题，寻找最近公共祖先。

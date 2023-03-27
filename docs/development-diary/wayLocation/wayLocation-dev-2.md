@@ -13,7 +13,7 @@ tag:
 项目的前期是最煎熬的，没人帮想需求，这也代表了自己需要非常非常的注意到小细节，不在开发中走过多的弯路。
 然后因为这次开发的属于工具类别，不是基于数据库结构开发业务。而是从代码底层出发，所以要先在脑中模拟出一个“类数据库”的概念。
 好在开发前就已经写好了草略版的需求原型，发现很多很多功能都围绕不开一个东西展开：“搜索库”。
-![QQ图片20220302210445.jpg](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-03-02/QQ图片20220302210445.jpg)
+![QQ图片20220302210445.jpg](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-03-02/QQ图片20220302210445.jpg)
 ### 搜索库概念
 以Lucene这样的搜索框架为技术，在应用内构建出应用内容的一套类搜索引擎。
 从搜索库出发，
@@ -26,7 +26,7 @@ tag:
 所以难在了着，找不到有用的自定义分词器->需要自己自定义->Lucene是国外的，没有中文文档。
 所以学习如何自定义分词器是一个很艰难的过程。不过好在通过网络上各类大牛的帮助，还是完成了符合本工具：一字符一字符模糊搜索的概念的分词器。
 :::align-center
-![QQ图片20220302210452.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-03-02/QQ图片20220302210452.png)
+![QQ图片20220302210452.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-03-02/QQ图片20220302210452.png)
 :::
 
 第三步：**使用**
@@ -35,14 +35,14 @@ tag:
 
 ## 关于开发痛苦
 :::align-center
-![QQ图片20220302210422.jpg](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-03-02/QQ图片20220302210422.jpg)
+![QQ图片20220302210422.jpg](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-03-02/QQ图片20220302210422.jpg)
 :::
 先不提上面Lucene给我带来的痛苦，我认为本项目的几个难点是：
 - [x] 拿到使用本工具项目的所有方法以及类信息
 - [x] 解析方法入参或出参完整结构
-- [x] 孤立无援的需求分析![QQ图片20220302210536.jpg](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-03-02/QQ图片20220302210536.jpg)
+- [x] 孤立无援的需求分析![QQ图片20220302210536.jpg](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-03-02/QQ图片20220302210536.jpg)
 - [x] 调用方法，对入参字符串的解析
-- [x] 万恶之源的反射底层![QQ图片20220302210454.jpg](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-03-02/QQ图片20220302210454.jpg)
+- [x] 万恶之源的反射底层![QQ图片20220302210454.jpg](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-03-02/QQ图片20220302210454.jpg)
 
 以上，是印象比较深刻的。
 先说关于参数解析这件事。
@@ -54,7 +54,7 @@ tag:
 所以直接迭代这个流程要走很远很远的判断,所以暂时搁浅放弃。
 
 - [ ] 然后就是第二套方案：走注释的流程，规则一个注释，在对象上或属性上使用。项目启动后解析所有包含注释的类属性，放在一个**多维表**上。然后解析的过程就比较简单，拿这个对象在多维表上一比一拿，就可以拿到清晰的结构。这个方案是可行的，但是仅局限于某个项目组或者公司内部规定使用。因为需要开发者自己在自己的属性上规定注释，完全不符合开箱即用工具这个概念。所以这个方案也搁浅了，不过这个过程很享受，也给自己涨了比较大的注释使用经验。
-- [ ] 第三套方案：也是朋友提供的一个小方案，因为还没用上，在测试阶段就暴死了![QQ图片20220302210543.jpg](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-03-02/QQ图片20220302210543.jpg)。过程就是，使用Easy-Random工具，直接生成一个被随机赋值的对象，然后将这个对象直接返回出去。
+- [ ] 第三套方案：也是朋友提供的一个小方案，因为还没用上，在测试阶段就暴死了![QQ图片20220302210543.jpg](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-03-02/QQ图片20220302210543.jpg)。过程就是，使用Easy-Random工具，直接生成一个被随机赋值的对象，然后将这个对象直接返回出去。
 但是在测试流程中，发现Easy-Random无法生成带有接口属性的对象，但因为本工具是测试所有本地方法，很有可能会有带接口属性的这样域对象作为入参出现。除此之外，当属性存在集合类型时，随机赋值会发生一种很奇妙的化学反应，不能找到属性本身。所以该方案直接暴死。
 
 - [x] 第四套方案:暂时可用方案，但还有难度需要突破，也是在这个方案执行过程中，反射的原理和各类底层有了比较深的了解。
@@ -79,6 +79,6 @@ tag:
 回答都很奇怪，没get到要点。但是自己最后也想通了一下，解决方案也在这个回答里。
 
 第二点，就是不断的看jdk文档和百度的过程。
-ParameterizedType这个类和泛型息息相关，这次我也是记死了。![QQ图片20220302210510.jpg](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-03-02/QQ图片20220302210510.jpg)
+ParameterizedType这个类和泛型息息相关，这次我也是记死了。![QQ图片20220302210510.jpg](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-03-02/QQ图片20220302210510.jpg)
 
 **本章完**

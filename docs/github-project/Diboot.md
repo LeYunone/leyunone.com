@@ -19,7 +19,7 @@ head:
 > 开发的时候总是感觉，CRUD，重复的表单好恶心！有没有画图一样的图形化界面，把这些操作点一点、画一画就完成。
 
 现在，DiBoot就是一款让你点一点，少量代码完成CRUD操作的工具。
-按照官方介绍![QQ截图20211009135710.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-10-09/QQ截图20211009135710.png)
+按照官方介绍![QQ截图20211009135710.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-10-09/QQ截图20211009135710.png)
 从中我就看到这几大字：**写得更少，性能更好**
 ## 低代码
 虽然DiBoot有很多库功能，但是我着重的是他封装的数据库关联功能。
@@ -27,7 +27,7 @@ head:
 说起对数据库的优化，就要先谈谈关于数据库和《阿里巴巴JAVA开发手册》
 ## 高性能的MySQL
 在17年版的《[阿里巴巴JAVA开发手册](https://yq.aliyun.com/attachment/download/?id=5585)》中，有提到
-![QQ截图20210930102847.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930102847.png)
+![QQ截图20210930102847.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930102847.png)
 明确禁止三张表的join连接，甚至尽可能少的关联表连接查询。
 会出现这种禁令，其实是在数据库设计之初就隐约规定了的。
 首先要知道，join连接的一大缺点：
@@ -37,7 +37,7 @@ head:
 且join连接的表越多，对比当次查询的性能就越明显。
 在必须需要关联查询的场景下。
 《高性能的MySQL》书中也有建议的解决方案，
-![QQ截图20210930104135.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930104135.png)
+![QQ截图20210930104135.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930104135.png)
 
 将join连接的表，分别拆开单词查询。配合主键索引，极大的增加了索引利用和减少无用匹对。
 更重要的是，单次连接采取主键，可以更好的发挥出缓存的作用。
@@ -62,8 +62,8 @@ head:
 4. 建立业务对应输出的DTO类
 
 在DiBoot规则下，dao层接口和他的实现类必须实现MyBatis-Plus的Iservice和ServiceImpl /DiBoot封装的BaseService和BaseServiceimpl
-![QQ截图20210930110545.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930110545.png)
-![QQ截图20210930110642.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930110642.png)。
+![QQ截图20210930110545.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930110545.png)
+![QQ截图20210930110642.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930110642.png)。
 
 ### 注解
 准备工作完成后，就是注解使用去绑定需要关联查询的表了，在注解前，先展示一条sql语句
@@ -85,7 +85,7 @@ select from order_workflow orderworkflow where order_id=o.id;
 在不使用DiBoot注解的前提下，需要在代码中作逻辑分别查询，如果查询出来的不是单条数据，还要额外进行逻辑处理。
 **但是使用了Diboot后，简化成了一行**
 在业务对应输出的DTO类中
-![QQ截图20210930111656.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930111656.png)
+![QQ截图20210930111656.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930111656.png)
 #### @BindEntity
 使用 **@BindEntity** 注释，绑定一个表关联对象，其中 **entry=?.class** 为关联表的entry实体类，**condition=？** 为关联的条件，
 比如order表和customer表关联，this.customerId=id,其中 this.customerId 是指OrderResultDTO中custommerId的属性，id是指customer表的id字段。
@@ -93,18 +93,18 @@ select from order_workflow orderworkflow where order_id=o.id;
 
 #### @BindField
 除了绑定对应表的实体对象，在我们只需要指定的字段时，可以绑定需要的数据库字段，来进行关联赋值。
-![QQ截图20210930131904.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930131904.png)
+![QQ截图20210930131904.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930131904.png)
 
 #### @BindDict
 用于绑定数据库中配置好了的数据字典枚举属性
-![QQ截图20210930132818.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930132818.png)
+![QQ截图20210930132818.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930132818.png)
 
 ### 触发绑定查询
 在绑定好了对应的实体类或属性后，
 在代码中实现：
-![QQ截图20210930132136.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930132136.png)
+![QQ截图20210930132136.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930132136.png)
 或者
-![QQ截图20210930132310.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930132310.png)
+![QQ截图20210930132310.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930132310.png)
 
 两者效果是相同的，视场景而变。
 

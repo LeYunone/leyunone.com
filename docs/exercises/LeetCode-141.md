@@ -13,13 +13,13 @@ head:
       content: 乐云一刷题日记！！！
 ---
 **示例：**
-![QQ截图20210926162706.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-26/QQ截图20210926162706.png)
+![QQ截图20210926162706.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-26/QQ截图20210926162706.png)
 ## 思路
 又是一道链表的经典问题，求环形链表，不过本题比较简单只需要判断是否是环形链表。
 那么我们有很多种方式解决：
 1. 使用哈希表存储各结点，在遍历结点的过程中，去hash表中判断有无当前节点，如果有，则说明遍历的过程中又回来了，形成了回路结构，所以是环形链表。
 2. 由于本题有限制[只有100000个节点]
-![QQ截图20210926162947.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-26/QQ截图20210926162947.png)所以可以偷偷的直接循环100000次，如果node.next==null，则说明最后一个节点的下指针是null，不是环形链表。
+![QQ截图20210926162947.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-26/QQ截图20210926162947.png)所以可以偷偷的直接循环100000次，如果node.next==null，则说明最后一个节点的下指针是null，不是环形链表。
 
 3. 最后就是推荐思路，快慢指针。
 

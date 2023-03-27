@@ -342,13 +342,13 @@ https://XX.XX.XX.XX:9999/xxl-job-admin
 
 密码：123456
 
-![T1.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-07/5aabe50e-85f1-4831-b635-6b2bd2180cca.png)
+![T1.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-07/5aabe50e-85f1-4831-b635-6b2bd2180cca.png)
 
 **这里可以看到被注册到调度中心的执行器，即引入了core依赖的项目**
 
-![T2.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-07/85dc4925-8b9f-4e09-8961-5492f0798244.png)
+![T2.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-07/85dc4925-8b9f-4e09-8961-5492f0798244.png)
 
-![T3.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-07/1336eda7-34c6-4e00-9f4b-d4a630807a2b.png)
+![T3.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-07/1336eda7-34c6-4e00-9f4b-d4a630807a2b.png)
 
 ****
 
@@ -358,7 +358,7 @@ https://XX.XX.XX.XX:9999/xxl-job-admin
 
 # 运行
 
-![T4.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-07/c728b763-4ed1-4645-be99-979062765c48.png)
+![T4.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-07/c728b763-4ed1-4645-be99-979062765c48.png)
 
 可手动执行，也可启动后根据设定的Cron轮询执行。
 

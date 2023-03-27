@@ -39,7 +39,7 @@ head:
     }
 ```
 
-![img](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/1.png)
+![img](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/1.png)
 
 
 
@@ -80,7 +80,7 @@ arr[j+1].compareTo(array[j]) < 0
 
 所以我们可以创建一个接口：
 
-![img](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/2.png)
+![img](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/2.png)
 
 
 将这个接口作为入参给到排序函数：
@@ -110,24 +110,24 @@ public static <T> void mainTest(T[] arr, CompareFunction<T> compareFunction) {
 
 ## Lambda表达式与函数式接口
 
-![img](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/3.png)
+![img](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/3.png)
 
 
 **Java中：**Lambda表达式称为闭包，是JDK8引入的配合函数式接口使用的新特性，两者是不可切割的。
 
-![img](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/4.png)
+![img](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/4.png)
 
 
 **函数接口为lambda表达式和方法引用提供目标类型。**
 
 
 
-![img](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/5.png)
+![img](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/5.png)
 
 
 [https://docs.oracle.com/javase/8/docs/api/java/lang/FunctionalInterface.html](https://docs.oracle.com/javase/8/docs/api/java/lang/FunctionalInterface.html)
 
-![img](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/6.png)
+![img](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/6.png)
 
 
 **函数式接口**：有且仅只有一个方法且被@FuctionInterface修饰编译通过的接口

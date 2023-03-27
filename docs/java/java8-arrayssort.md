@@ -62,7 +62,7 @@ Arrays.sort是我们常用来排序数组的方法，不止如此，其实Collec
 
 根据最小长度以及排序长度的偏移量，进行不断Binary Sort过程：
 
-![image-20220531020302342.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-31/image-20220531020302342.png)
+![image-20220531020302342.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-31/image-20220531020302342.png)
 
 ### 基本类型数组
 
@@ -71,10 +71,10 @@ Arrays.sort是我们常用来排序数组的方法，不止如此，其实Collec
 **DualPivotQuicksort**
 
 1. 当数组长度小于47时，采用直接插入排序算法。
-![image-20220531020546250.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-31/image-20220531020546250.png)
+![image-20220531020546250.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-31/image-20220531020546250.png)
 
 2. 当数组长度大于等于47，小于286时，采用快速排序。
-![image-20220531020956652.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-31/image-20220531020956652.png)
+![image-20220531020956652.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-31/image-20220531020956652.png)
 
    ```
                    /*

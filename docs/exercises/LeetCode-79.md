@@ -12,7 +12,7 @@ head:
     - name: description
       content: 乐云一刷题日记！！！
 ---
-![企业微信截图_20211112104543.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-11-12/企业微信截图_20211112104543.png)
+![企业微信截图_20211112104543.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-11-12/企业微信截图_20211112104543.png)
 ## 思路
 单词搜索，重要的是题意中的二维数组。
 由于是在二维数组中操作，所以需要想到二维数组中的遍历方式。

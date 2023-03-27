@@ -17,7 +17,7 @@ head:
 作用是传输文件的时候，有分片上传/下载、断点上传/下载这样的功能，不过是通过Vue前端实现的。
 了解了一下，想到自己还有一个云盘坑没填，指目前云盘的上传、下载功能，没经过特殊化处理。
 也就顺其自然的去了解断点续传、分片续传、秒传、并发上传等等这些云盘应用肯定会有的场景及功能。
-![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210443.jpg)
+![emo](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210443.jpg)
 # 蓝图
 所以重新画了新云盘的蓝图，并且对项目结构进行的重构，之前根据WEB应用+纯服务应用搭建的。
 所以架构仅仅是**Web**>**Service**>Dao这样的流程，很不利于往后将这个云盘拓展出来，所以目前将项目改造成了
@@ -26,7 +26,7 @@ head:
 ## 新增表
 之前的表结构为：
 :::align-center
-![file.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-24/file.png)
+![file.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-24/file.png)
 :::
 可以看到核心表是和userId冗余的，但是这是张文件信息表，所以当前非常不可取。
 所以拆成了以下表:
@@ -40,7 +40,7 @@ head:
 但是当前是基于文件的名字、大小去定位相同的文件的，在本次更新中就使用了文件的数据流MD5的形式当作文件的唯一标识。
 获得文件MD5的手法：
 :::align-center
-![image.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-24/image.png)
+![image.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-24/image.png)
 :::
 那么有了MD5作为文件标识，我们只需要将此值去**file_md5**中查询，所有有值则说明服务器中已经有这个文件了，只需要在**file_user**表中新增本次上传用户和次文件的绑定关联即可。
 ## 分片
@@ -50,7 +50,7 @@ head:
 3. 大文件在IO流传输中非常不稳定，容易造成数据丢失、修改等问题
 4. .....
 但是，以上这些问题都是基于一个场景下：大文件、量大且多。
-所以如果是小文件传输上传、下载，依然可以使用当前这套：直接通过IO流一遍传输，你永远想象不到IO流的快速![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210521.jpg)
+所以如果是小文件传输上传、下载，依然可以使用当前这套：直接通过IO流一遍传输，你永远想象不到IO流的快速![emo](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210521.jpg)
 
 那么我们处理大文件，其实不管是分片还是断点都是一个原理。
 但是在上传场景中，我们一定要选择分片，理由如下：
@@ -78,7 +78,7 @@ head:
 但是断点续传场景只是在一条线程上执行，属于一对于传输模式，所以有很多复杂的场景也可以不用考虑
 ## 服务改造
 目前不管是上传、查询、下载、更新等等操作，云盘都是一个纯微服务项目。所以不管什么请求，都是通过Rpc去再请求调用的。
-现在想想，当时这样设计不是一般的蠢![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210452.png)。莫名其妙的增加了服务器的压力，并且还多了很多考虑不到的不稳定性。
+现在想想，当时这样设计不是一般的蠢![emo](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210452.png)。莫名其妙的增加了服务器的压力，并且还多了很多考虑不到的不稳定性。
 所以现在，只要**查询**、**更新**这样的没有IO流操作的功能点才走一个简单的RPC请求。
 **上传**、**下载**这样的直接由云盘和前端进行对接。
 这样好处很多，当对我来说最有意义的是：
@@ -104,4 +104,4 @@ LockSupport.park();
 但是要高效，体验好，还需要很多细节判断。
 比如什么情况下用分片，什么情况用普通，什么情况用断点。
 虽然都知道大文件、小文件这概念，但是多小是小文件，多大是大文件是真不好说，一切都是基于服务器计算吧。
-并且分片这一涉及并发的场景，在实际生产中肯定会出现一些意想不到的Bug的，还需要好好参谋![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210445.jpg)
+并且分片这一涉及并发的场景，在实际生产中肯定会出现一些意想不到的Bug的，还需要好好参谋![emo](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210445.jpg)

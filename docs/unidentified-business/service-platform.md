@@ -48,7 +48,7 @@ tag:
 
 即，**内务登记单**。:smiley:
 
-但是这些都只是个人理解。![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210445.jpg)
+但是这些都只是个人理解。![emo](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210445.jpg)
 ## 业务实施
 
 以上述的营销服务平台为例：
@@ -103,4 +103,4 @@ tag:
 
 首先说好，以上纯属个人理解，不带任何第三方因素影响。
 
-加上自己开发的分支模块：财务模块，开发过程的理解。![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210538.jpg)
+加上自己开发的分支模块：财务模块，开发过程的理解。![emo](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210538.jpg)

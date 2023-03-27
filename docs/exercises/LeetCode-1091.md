@@ -12,7 +12,7 @@ head:
     - name: description
       content: 乐云一刷题日记！！！
 ---
-![QQ截图20211119162613.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-11-19/QQ截图20211119162613.png)
+![QQ截图20211119162613.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-11-19/QQ截图20211119162613.png)
 ## 思路
 很经典的搜索问题，这种方块路径的问题[因为有八个方位]如果开始想着用深度优先的路子走的话一定超时。
 老规矩列先出八个方位的移动。

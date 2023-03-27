@@ -33,7 +33,7 @@ head:
 
 除了解题步骤，更关心的是二分搜索时的细节。
 比如在确定区间时，要注意等于目标值的情况。
-![QQ截图20211102112628.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-11-02/QQ截图20211102112628.png)
+![QQ截图20211102112628.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-11-02/QQ截图20211102112628.png)
 
 ## 代码
 ```

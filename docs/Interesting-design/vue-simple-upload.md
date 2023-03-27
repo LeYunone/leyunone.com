@@ -48,7 +48,7 @@ npm install vue-simple-uploader@next --save
 这里就直接用分片上传举例：
 ## 上传
 ### 第一：
-![image.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-27/image.png)
+![image.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-27/image.png)
 ```
                 options: {
                     target: '/disk/file/uploadFile',
@@ -83,9 +83,9 @@ options属性，属性很多很多，这里可以直接看工具文档去了解 
 
 除了上面这些常用的属性外，还有很多很多设置上传限制、回调等的属性。
 每个分片的请求参数默认为：
-![fp.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-27/fp.png)
+![fp.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-27/fp.png)
 ### 第二：
-![sss.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-27/sss.png)
+![sss.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-27/sss.png)
 #### @file-added
 指定上传文件前【当默认设置选择文件即上传时】，先调用的函数。
 这里可用作秒传，并解析文件MD5码以及设置。
@@ -114,7 +114,7 @@ file不是文件，而是工具封装的一个文件对象，其包含很多操�
 # 总结
 总之这只是一个上传文件的工具，倘若不使用他，使用原生的axios也可以完成所有的操作。
 并且他也有他的局限性，一个很明显的是，完全规定写死了一次分片请求的入参：
-![43434.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-27/43434.png)
+![43434.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-27/43434.png)
 并且在Vue3下还有很多方法以及Bug没补全，所以最好不只是依赖工具完成文件上传、分片、断点这些操作，最重要的还是思维理解。
 # 遇到的坑
 1. 前文提到的**checkChunkUploadedByResponse**属性校验分片的请求路径问题，和target相同，不同请求方式

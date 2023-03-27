@@ -44,11 +44,11 @@ head:
 根据 **restart**方法的链路，最终会指向 **NacosServiceRegistry**类中的 **register**方法
 
 ### NacosServiceRegistry
-![image-20220522215131182.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-22/image-20220522215131182.png)width="auto" height="auto"
+![image-20220522215131182.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-22/image-20220522215131182.png)width="auto" height="auto"
 
 
 在服务注册前，nacos客户端侧都通过对配置文件的信息解析以及客户端的解析，构造出一个Instance实例，这个实例成为客户端与服务端的信息交互媒介
-![image-20220522215324684.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-22/image-20220522215324684.png)width="auto" height="auto"
+![image-20220522215324684.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-22/image-20220522215324684.png)width="auto" height="auto"
 
 
 在通过**NacosNamingService**类中的 **registerInstance**方法的进一步加工后，将成熟的入参转交给下一流程，准备开始发起HTTP请求。
@@ -58,13 +58,13 @@ head:
 本类是nacos进行服务注册的实际执行者，发生在 **reqApi**方法中。
 
 **在nacos服务端为单机环境下时：**
-![image-20220522215953485.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-22/image-20220522215953485.png)width="auto" height="auto"
+![image-20220522215953485.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-22/image-20220522215953485.png)width="auto" height="auto"
 
 通过开发者在配置文件中设置的 **namingRequestDomainMaxRetryCount**数，重连服务端次数，将注册信息交给 **callServer**方法处理。
 
 **在nacos服务端集群环境，服务端数量>1时：**
 
-![image-20220522220117574.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-22/image-20220522220117574.png)width="auto" height="auto"
+![image-20220522220117574.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-22/image-20220522220117574.png)width="auto" height="auto"
 
 生成一个随机初始点，尝试连接服务器，如果服务器连接失败，则继续连接该初始点的下一个服务器，直接连接成功或连接次数超过服务器总数。
 
@@ -72,7 +72,7 @@ head:
 
 方法内部，简单的概述就是将入参的端口与ip地址拼接为请求路径，然后将待注册的客户端信息包装后发起请求。
 
-![image-20220522220525854.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-22/image-20220522220525854.png)width="auto" height="auto"
+![image-20220522220525854.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-22/image-20220522220525854.png)width="auto" height="auto"
 
 向http://localhost:8848/nacos/v1/ns/instance发起请求，最终返回值ok，code200，则说明客户端服务注册成功。并且在后续中，会开启一个频率为5的心跳包。
 

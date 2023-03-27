@@ -13,7 +13,7 @@ head:
       content: 乐云一刷题日记！！！
 ---
 **示例：**
-![QQ截图20210930171003.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930171003.png)
+![QQ截图20210930171003.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-30/QQ截图20210930171003.png)
 ## 思路
 链表的两数相加，首先根据题意要注意以下几点：
 1. 两联表长度不一

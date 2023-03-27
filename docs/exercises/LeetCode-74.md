@@ -12,7 +12,7 @@ head:
     - name: description
       content: 乐云一刷题日记！！！
 ---
-![QQ截图20211102151636.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-11-02/QQ截图20211102151636.png)
+![QQ截图20211102151636.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-11-02/QQ截图20211102151636.png)
 
 ## 思路
 虽然题目强调了二维矩阵，但当我们确定目标数在二维数组中的一个数组中时。

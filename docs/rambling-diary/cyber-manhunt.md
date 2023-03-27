@@ -20,7 +20,7 @@ tag:
 
 通过最简单的百度：
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-02-27/0aa5ed2f-3bd0-4e71-ace2-2b5b1c9c303e.png)
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-02-27/0aa5ed2f-3bd0-4e71-ace2-2b5b1c9c303e.png)
 
 **通过一个用户名、一串数字、一串英文代码，社会工程师就可以通过这么几条的线索，通过社工攻击手段，加以筛选、整理，就能把你的所有个人情况信息、家庭状况、兴趣爱好、婚姻状况、你在网上留下的一切痕迹等个人信息全部掌握得一清二楚**
 
@@ -34,11 +34,11 @@ tag:
 
 再次通过最简单的百度：
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-02-27/324fb9fb-f060-4873-b9dc-c321894e305e.png)
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-02-27/324fb9fb-f060-4873-b9dc-c321894e305e.png)
 
 **社工库是用各大网站用户的资料数据库搭建的数据库查询平台，“人肉搜索”有时候就会靠查询社工库信息来进行。**
 
-它是一个最终手段，一个无主造物，一种互联网上的威慑纪元；![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-03-07/34f5f6cf-2e86-4690-8bd6-fb6552a28c0f.gif)
+它是一个最终手段，一个无主造物，一种互联网上的威慑纪元；![emo](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-03-07/34f5f6cf-2e86-4690-8bd6-fb6552a28c0f.gif)
 
 # 再言
 
@@ -60,7 +60,7 @@ tag:
 
 # 就言
 
-接下来，我会根据以自己为目标，通过社工思路简单的模拟一下，我是怎么把自己的零碎信息拼接成一个**人**的；![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-03-07/aaad13b5-bfe1-4c08-ac85-fbc022d9ab6c.jpg)
+接下来，我会根据以自己为目标，通过社工思路简单的模拟一下，我是怎么把自己的零碎信息拼接成一个**人**的；![emo](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-03-07/aaad13b5-bfe1-4c08-ac85-fbc022d9ab6c.jpg)
 
 **模拟背景【在模拟前，未对本人信息作任何的加工或隐藏，都是原汁原味】：** 在一场游戏后，我被人威胁人肉，那么他将从何起收集“我”的身体？
 
@@ -70,7 +70,7 @@ tag:
 
 首先眼见为实的，游戏的主页：
 
-<img src="https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-02-28/c6e2f7b0-8606-46ad-84c2-56f9c8c4f59f.png" style="zoom:67%;" />
+<img src="https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-02-28/c6e2f7b0-8606-46ad-84c2-56f9c8c4f59f.png" style="zoom:67%;" />
 
 收集到：**网名乐云一、Java Software Engineer、Changsha,Hunan、China**
 
@@ -92,11 +92,11 @@ tag:
 
 百度：
 
-<img src="https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-06/f1a28d4e-4c3a-49d3-a1aa-fc6e7d034cc9.png" style="zoom:67%;" />
+<img src="https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-06/f1a28d4e-4c3a-49d3-a1aa-fc6e7d034cc9.png" style="zoom:67%;" />
 
 谷歌：
 
-<img src="https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-06/a2dd4f63-8d6d-4f53-8e93-c0526e7037a2.png" style="zoom: 67%;" />
+<img src="https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-06/a2dd4f63-8d6d-4f53-8e93-c0526e7037a2.png" style="zoom: 67%;" />
 
 
 
@@ -114,7 +114,7 @@ tag:
 
 首先是B站，我的关注，粉丝，收藏、最近点赞以及投币等等都未隐藏。
 
-<img src="https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-09/43f7a3e9-f462-4ad1-a96b-8cebafc49d76.png" style="zoom:67%;" />
+<img src="https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-09/43f7a3e9-f462-4ad1-a96b-8cebafc49d76.png" style="zoom:67%;" />
 
 
 
@@ -135,7 +135,7 @@ tag:
 
 **继续**，知乎；
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-06/29caeca3-aa6e-4ec9-9373-50f7882114fb.png)
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-06/29caeca3-aa6e-4ec9-9373-50f7882114fb.png)
 
 可以找到在19年发表过的一篇文章，大致内容分析，可知19年在读大学。
 
@@ -143,7 +143,7 @@ tag:
 
 **继续**，csdn；
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-06/2db015be-4ee3-4325-920f-dc11907f8413.png)
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-06/2db015be-4ee3-4325-920f-dc11907f8413.png)
 
 根据ip、码龄，加之前可知的java，可知我大概率目前在广东省，有可能已经参加工作；
 
@@ -157,7 +157,7 @@ tag:
 
 因为社工库的存在，我甚至可以非常非常简单的通过 **8E社工库【免费版】** 拿到QQ所绑定的手机号码；
 
-![image-20230307000023817](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-07/0870c679-8db1-430f-a7a6-b7b5b0cf5556.png)
+![image-20230307000023817](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-07/0870c679-8db1-430f-a7a6-b7b5b0cf5556.png)
 
 拿到手机号，我们可以轰炸，骚扰，直接问候等等。
 
@@ -193,7 +193,7 @@ tag:
 
 根据 百度
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-07/c1c90606-eb06-490d-9405-bd425b444e3b.png)
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-07/c1c90606-eb06-490d-9405-bd425b444e3b.png)
 
 这里以B站爬虫为例，目标是 网络痕迹，那么什么最重要？
 
@@ -224,7 +224,7 @@ https://api.bilibili.com/x/v2/reply/main?csrf=549cb187308bd2a1fa01ccd1174a15bc&m
 
 在我未登录时，
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-07/7f766d94-200c-4f00-8d73-2d9f85294eea.png)
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-07/7f766d94-200c-4f00-8d73-2d9f85294eea.png)
 
 
 
@@ -300,11 +300,11 @@ https://api.bilibili.com/x/v2/reply/main?csrf=549cb187308bd2a1fa01ccd1174a15bc&m
 
 因为很多很多平台有通讯录关联平台好友的特性，我们可以通过 知道平台账号 > 遍历手机号 > 将平台账号与手机号匹配，这系列操作来反推出目标物的账号。
 
-<img src="https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-07/cdaaee63-361f-40f8-bba8-89ac029675c5.PNG" style="zoom: 25%;" />
+<img src="https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-07/cdaaee63-361f-40f8-bba8-89ac029675c5.PNG" style="zoom: 25%;" />
 
 当然在操作前，我们计算一下，首先大伙都知道手机号是11位，而在很多平台上，我们可以通过忘记账号然后手机短信验证得到如下图：
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-07/3c5947ce-2960-4a5e-9d54-03f077cd871c.png)
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-07/3c5947ce-2960-4a5e-9d54-03f077cd871c.png)
 
 前三位和后两位，
 
@@ -316,7 +316,7 @@ https://api.bilibili.com/x/v2/reply/main?csrf=549cb187308bd2a1fa01ccd1174a15bc&m
 
 **890500**条或**23800**条 或**6500**条号码；
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-07/a2dddd62-8688-4ecb-afa0-52fbf2437fa8.png)
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-07/a2dddd62-8688-4ecb-afa0-52fbf2437fa8.png)
 
 因为前三位的运营商定义的4-7为地区编码是有一定规则的，上图的功能在网络上也是比较容易寻找到；
 
@@ -362,7 +362,7 @@ https://api.bilibili.com/x/v2/reply/main?csrf=549cb187308bd2a1fa01ccd1174a15bc&m
 
 **地理图片**
 
-<img src="https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-10/7c227f80-2c9e-478b-ac67-ddb242ead111.png" style="zoom:80%;" />
+<img src="https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-10/7c227f80-2c9e-478b-ac67-ddb242ead111.png" style="zoom:80%;" />
 
 记得国外的安全圈里经常会举办一个比赛，参赛者会收到一张毫无逻辑的图片，然后判断出这张图片所拍的地址；
 
@@ -414,4 +414,4 @@ https://api.bilibili.com/x/v2/reply/main?csrf=549cb187308bd2a1fa01ccd1174a15bc&m
 
 我们一定要定一个绿色向上友好青年 
 
-![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-03-07/4aa4ce34-a0c9-4217-97cc-d43caf656d10.jpg)
+![emo](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-03-07/4aa4ce34-a0c9-4217-97cc-d43caf656d10.jpg)

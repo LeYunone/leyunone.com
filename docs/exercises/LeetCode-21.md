@@ -14,7 +14,7 @@ head:
 ---
 **示例**
 
-![QQ截图20210923102315.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-23/QQ截图20210923102315.png)
+![QQ截图20210923102315.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-23/QQ截图20210923102315.png)
 
 ```
 输入：l1 = [1,2,4], l2 = [1,3,4]

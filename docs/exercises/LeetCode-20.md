@@ -67,11 +67,11 @@ head:
 
 > 算法的实现，网络上有很多教程
 
-![QQ截图20210914154509.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-14/QQ截图20210914154509.png)
+![QQ截图20210914154509.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-14/QQ截图20210914154509.png)
 
 这是最常用的思路，不难，就是循环遍历字符串的过程中，判断其是否是数字或是操作符，然后将其压入对应栈里进行判断。
 不过在只是翻译的前提下，我推荐使用括号法。
 #### 括号法
-![QQ截图20210914155926.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-14/QQ截图20210914155926.png)
+![QQ截图20210914155926.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-14/QQ截图20210914155926.png)
 
 出自：[CSDN-中缀表达式转后缀表达式](https://blog.csdn.net/qianyayun19921028/article/details/89228263)

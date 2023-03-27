@@ -24,7 +24,7 @@ redis是基于内存存储的数据库，读写速度十分之快，所以多用
 但在分布式业务中，也可用于分布式锁，或作为消息队列存储，进行消耗和接受。
 
 此外，redis可存储很多中数据类型，又因为key - value Hash对、set、zset、list，存储String的原因，使其数据结构很丰富。
-![emo](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210457.jpg)
+![emo](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/QQ图片20220302210457.jpg)
 ### 指令
 
 包括set、get、exists、decrease、setex等等

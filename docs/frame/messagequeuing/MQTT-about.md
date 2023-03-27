@@ -64,7 +64,7 @@ MQTT是一个基于**客户端-服务器**的消息**发布/订阅**传输协议
 
 ...
 
-大致是这样![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-03-07/aaad13b5-bfe1-4c08-ac85-fbc022d9ab6c.jpg)
+大致是这样![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-03-07/aaad13b5-bfe1-4c08-ac85-fbc022d9ab6c.jpg)
 
 ## 实现
 
@@ -87,7 +87,7 @@ MQTT是一个基于**客户端-服务器**的消息**发布/订阅**传输协议
 
 ### 模型
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-27/bc97d86f-79cb-41d6-b37d-6dec7b350a8a.png)
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-27/bc97d86f-79cb-41d6-b37d-6dec7b350a8a.png)
 
 后台应用、APP、WEB在MQTT服务器上订阅了速度主题；
 
@@ -95,7 +95,7 @@ MQTT是一个基于**客户端-服务器**的消息**发布/订阅**传输协议
 
 反之
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-27/fab22b6d-0a09-48d6-9dfa-4b402004002e.png)
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-03-27/fab22b6d-0a09-48d6-9dfa-4b402004002e.png)
 
 也可各自对速度主题进行推送。
 

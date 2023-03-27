@@ -13,7 +13,7 @@ head:
       content: 乐云一刷题日记！！！
 ---
 **示例：**
-![image.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-26/image.png)
+![image.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-26/image.png)
 ## 思路
 杨辉三角，数学问题。
 已知规律是，某一数字为头上左右数相加， 第n行数有n+1个。

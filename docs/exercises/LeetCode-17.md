@@ -13,7 +13,7 @@ head:
       content: 乐云一刷题日记！！！
 ---
 **示例：**
-![image.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-10-13/image.png)
+![image.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-10-13/image.png)
 ```
 输入：digits = "23"
 输出：["ad","ae","af","bd","be","bf","cd","ce","cf"]

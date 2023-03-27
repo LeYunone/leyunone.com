@@ -20,7 +20,7 @@ head:
 所以回溯函数的雏形在递归上，有：终止条件，递归条件。
 那么在一个回溯函数中，对于全排序问题时
 
-![fig14.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-11-01/fig14.png)
+![fig14.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-11-01/fig14.png)
 可以知道，函数中，回溯的宽度处决于结果集的大小。回溯的深度处决与回溯条件。
 
 所以在递归的原基础上。

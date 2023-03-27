@@ -40,7 +40,7 @@ tag:
 
 第一阶段的功能，无非围绕这四个展开。其中，文件这个名词极为重要，所以我们需要设计一张fileinfo，文件信息表，用来开荒。
 简单的设计如下：
-![image.png](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2022-02-20/image.png)
+![image.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-02-20/image.png)
 
 有了文件信息表，可以开始以上功能的分析。
 

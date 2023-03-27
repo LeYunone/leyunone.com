@@ -125,7 +125,7 @@ public class InvtbDO extends BaseModel implements Serializable {
 
 服务中存储，每一张表的表名，主键，以及表对应的BaseMapper基类；
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-02-24/bc4a7f2c-1330-4a42-8426-ebb0fe797973.png)
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-02-24/bc4a7f2c-1330-4a42-8426-ebb0fe797973.png)
 
 ### 第三步
 
@@ -133,15 +133,15 @@ public class InvtbDO extends BaseModel implements Serializable {
 
 这里最好是看项目代码
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-02-24/c5ec1ffc-0724-4bea-adaf-e316c8cefbaf.png)
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-02-24/c5ec1ffc-0724-4bea-adaf-e316c8cefbaf.png)
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-02-24/6f816f5d-1005-48dc-90bc-464e2d275a27.png)
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-02-24/6f816f5d-1005-48dc-90bc-464e2d275a27.png)
 
 ### 第四步
 
 最终通过已经自动装配好的所有表的SourceService、TargetService、BaseSourceDao、BaseTargetDao，通过定时任务设置好的参数，来进行各自表的读、写、删除等同步操作；互不干涉。
 
-![](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2023-02-24/cb0398f3-acee-4daa-bf77-7ca7698ea411.png)
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-02-24/cb0398f3-acee-4daa-bf77-7ca7698ea411.png)
 
 # 总结
 

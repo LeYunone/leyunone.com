@@ -14,7 +14,7 @@ head:
 ---
 **示例：**
 :::align-center
-![2021-9-24-leetcode100.jpg](https://leyuna-blog-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-24/2021-9-24-leetcode100.jpg)
+![2021-9-24-leetcode100.jpg](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-24/2021-9-24-leetcode100.jpg)
 :::
 ```
 输入：p = [1,2,3], q = [1,2,3]
