@@ -4,7 +4,8 @@ title: MQTT IOT物联网协议 入门
 category: 
   - 消息队列
 tag:
-  - Mq、MQTT、IOT
+  - MQTT
+  - IOT
 head:
   - - meta
     - name: keywords

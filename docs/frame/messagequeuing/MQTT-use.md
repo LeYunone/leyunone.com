@@ -4,7 +4,8 @@ title: MQTT使用-集成SpringBoot自动装配
 category: 
   - 消息队列
 tag:
-  - Mq、MQTT、IOT
+  - MQTT
+  - IOT
 head:
   - - meta
     - name: keywords
