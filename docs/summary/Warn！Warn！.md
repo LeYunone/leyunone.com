@@ -56,8 +56,18 @@ https://blog.csdn.net/qq_38225558/article/details/128641561
 ## 生活
 
 ### 1/信念
-
 ```
 快乐是可以具象化的！
 ```
+
+### 2/人工智障
+
+#### chatGPT
+
+```properties
+(墙外)chatGPT: https://freegpt.one/
+chatGPT: https://1.chat58.top/chat
+```
+
+
 
