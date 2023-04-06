@@ -115,7 +115,7 @@ head:
 
 方法很多，但是我推荐使用**XXL-JOB**
 
-[XXL—Job任务调度中心](https://leyunone.com/github-project/XXL-Job.html)
+[XXL—Job任务调度中心](https://www.leyunone.com/github-project/XXL-Job.html)
 
 **原因**：
 

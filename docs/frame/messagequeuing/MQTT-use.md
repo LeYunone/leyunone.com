@@ -14,7 +14,7 @@ head:
     - name: description
       content: 。MQTT协议是轻量、简单、开放和易于实现的，这些特点使它适用范围非常广泛。在很多情况下，包括受限的环境中，如：机器与机器（M2M）通信和物联网。
 ---
->  前篇介绍了MQTT的基本知识与其特性 [MQTT协议入门](https://leyunone.com/frame/messagequeuing/MQTT-about.html)
+>  前篇介绍了MQTT的基本知识与其特性 [MQTT协议入门](https://www.leyunone.com/frame/messagequeuing/MQTT-about.html)
 
 # 使用
 

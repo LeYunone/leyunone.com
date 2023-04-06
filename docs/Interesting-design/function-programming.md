@@ -295,7 +295,7 @@ public static <T, R>void mainTest4(List<T> ls, UniqueFunction<T, R> uniqueFuncti
 
 ### 唯一规则函数Rule
 
-[集合去重方案Function<T,R>](https://leyunone.com/Interesting-design/unique-set.html)
+[集合去重方案Function<T,R>](https://www.leyunone.com/Interesting-design/unique-set.html)
 
 ### Dao层配合MP灵活应用
 

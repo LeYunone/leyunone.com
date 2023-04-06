@@ -4,10 +4,10 @@ import { sidebarConfig } from "./sidebar";
 
 export const themeConfig = hopeTheme({
   logo: "/logo.png",
-  hostname: "https://leyunone.com/",
+  hostname: "https://www.leyunone.com/",
   author: {
     name: "乐云一",
-    url: "https://leyunone.com/article/",
+    url: "https://www.leyunone.com/article/",
   },
   repo: "https://github.com/LeYunone/leyunone.com",
   docsDir: "docs",
