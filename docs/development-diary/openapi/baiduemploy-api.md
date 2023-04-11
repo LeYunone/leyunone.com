@@ -3,7 +3,7 @@ date: 2023-04-11
 title: 百度站长API收录-JAVA封装
 category: 
   - OpenApi
-tag
+tag:
   - 开发日记
   - OpenApi
 ---
@@ -108,6 +108,3 @@ tag
         }
 }
 ```
-
-
-
