@@ -182,6 +182,15 @@ export const sidebarConfig = sidebar({
             prefix: "development-diary/",
             children: [
                 {
+                    text: "leyunone-open-api",
+                    prefix: "openapi/",
+                    collapsible: true,
+                    icon: "yongqihuizhang-taiyi",
+                    children: [
+                        "baiduemploy-api"
+                    ] 
+                },
+                {
                     text: "DBShop",
                     prefix: "dbshop/",
                     collapsible: true,
