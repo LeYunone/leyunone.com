@@ -6,7 +6,7 @@ export default defineUserConfig({
   dest: "./dist",
   theme: themeConfig,
   shouldPrefetch: false,
-  title: "Leyunone",
+  title: "乐云一",
   description:
     "「乐云一,博客,Java,后端开发,杂谈,番剧  ",
   head: [
