@@ -134,6 +134,15 @@ export const sidebarConfig = sidebar({
                     children: [
                         "idea-easycode"
                     ]
+                },
+                {
+                    text:"Jenkins",
+                    icon:"jenkins",
+                    prefix: "jenkins/",
+                    collapsible: true,
+                    children: [
+                        "jenkins-init"
+                    ]
                 }
             ]
         },

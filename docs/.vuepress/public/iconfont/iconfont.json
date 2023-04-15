@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "5634730",
+      "name": "jenkins",
+      "font_class": "jenkins",
+      "unicode": "f1d9",
+      "unicode_decimal": 61913
+    },
+    {
       "icon_id": "5244045",
       "name": "插件",
       "font_class": "chajian1",
