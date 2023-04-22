@@ -164,7 +164,8 @@ export const sidebarConfig = sidebar({
             children: [
                 "database-conflict",
                 "payment",
-                "service-platform"
+                "service-platform",
+                "auto-scenes"
             ],
         },
         {
