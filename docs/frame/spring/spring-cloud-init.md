@@ -194,7 +194,7 @@ public interface LeyunaDiskRpcService {
 ```
 **解释:**
 1. @FeignClient中，**value**为服务注册中心列表中，服务提供者的名字
-![企业微信截图_20211224151628.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-12-24/企业微信截图_20211224151628.png)width="auto" height="auto"
+![企业微信截图_20211224151628.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-12-24/企业微信截图_20211224151628.png)
 2. @FeignClient的熔断器设置，一是fallback，二是fallbackFactory 。推荐使用后者，因为只有后者可以获得本次熔断异常的错误。
 3. 方法类注明，只需要注意是否和该方法提供者的接口入参一一对应，需要注意请求方式，和当对象传输时的情况
 ### rpcFallbackFactory.java

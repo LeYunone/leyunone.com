@@ -25,7 +25,7 @@ head:
 ```
 本题按照动态规划的思路来展示。
 首先要将爬完楼梯这个问题，划分为多个子问题。
-![企业微信截图_20211116140445.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-11-16/企业微信截图_20211116140445.png)width="auto" height="auto"
+![企业微信截图_20211116140445.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-11-16/企业微信截图_20211116140445.png)
 将每一次抬腿看成一次子问题，则所有的抬腿动作完成后，它的总和就是本次楼梯问题的总和。
 当我们有 3 阶楼梯时：
 划分的子问题为：爬前两阶楼梯的方法F2+爬最后一阶楼梯的方法。

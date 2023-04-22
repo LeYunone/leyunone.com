@@ -40,7 +40,7 @@ public class DiskStartApplication {
 ```
 ### 2、包扫描问题
 **场景**： 发生某个模块无法自动注入相关类到bean中供使用
-**原因**： 因为是多模块，假设当前：![企业微信截图_20211222140613.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-12-22/企业微信截图_20211222140613.png)width="auto" height="auto"
+**原因**： 因为是多模块，假设当前：![企业微信截图_20211222140613.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-12-22/企业微信截图_20211222140613.png)
  ...一定要确认模块之间的依赖为start->web->service->dao->domain ，从start开始找到所有的模块包；否则，需要自定义扫描类进行配置。
 **解决**： 
 ```
