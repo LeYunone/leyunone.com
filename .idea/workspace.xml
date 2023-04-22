@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/development-tool/jenkins/Jenkins-init.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/frame/netty/netty-oom-1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/iconfont/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/iconfont/iconfont.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/iconfont/iconfont.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/iconfont/iconfont.js" afterDir="false" />
@@ -58,7 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/development-tool/jenkins" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/frame/netty" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -72,11 +72,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\TheCore\leyunone.com\docs\development-tool\jenkins" />
+      <recent name="E:\TheCore\leyunone.com\docs\frame\netty" />
       <recent name="E:\TheCore\leyunone.com\docs\.vuepress\public\iconfont" />
+      <recent name="E:\TheCore\leyunone.com\docs\development-tool\jenkins" />
       <recent name="E:\TheCore\leyunone.com\docs\development-diary\openapi" />
       <recent name="E:\TheCore\leyunone.com\docs\.vuepress\public" />
-      <recent name="E:\TheCore\leyunone.com\docs\frame\messagequeuing" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-serve">
@@ -207,7 +207,11 @@
       <workItem from="1680881263403" duration="947000" />
       <workItem from="1681224304108" duration="109000" />
       <workItem from="1681229396500" duration="8000" />
-      <workItem from="1681583524347" duration="484000" />
+      <workItem from="1681583524347" duration="1319000" />
+      <workItem from="1681656501304" duration="597000" />
+      <workItem from="1681736104513" duration="822000" />
+      <workItem from="1681913897710" duration="596000" />
+      <workItem from="1682173726541" duration="681000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
@@ -321,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681228927542</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="[ADD]jenkins-init.md">
+      <created>1681584244768</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681584244768</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +408,8 @@
     <MESSAGE value="[UPDATE]update warn!warn!" />
     <MESSAGE value="[UPDATE]baiduemploy-api.md" />
     <MESSAGE value="[UPDATE]Fix bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]Fix bug" />
+    <MESSAGE value="[ADD]jenkins-init.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]jenkins-init.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="99" key="#Project_Structure" timestamp="1677322757083">
@@ -408,10 +420,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1680012310102" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1681228926843">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1681584243738">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1681228926843" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1681584243738" />
     <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1681228918367">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -424,22 +436,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="194" height="592" key="Git.Branch.Popup/0.0.1920.1050@0.0.1920.1050" timestamp="1677853905157" />
-    <state width="1876" height="241" key="GridCell.Tab.0.bottom" timestamp="1681229380563">
+    <state width="1876" height="222" key="GridCell.Tab.0.bottom" timestamp="1681584256646">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="241" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1681229380563" />
-    <state width="1876" height="241" key="GridCell.Tab.0.center" timestamp="1681229380563">
+    <state width="1876" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1681584256646" />
+    <state width="1876" height="222" key="GridCell.Tab.0.center" timestamp="1681584256645">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="241" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1681229380563" />
-    <state width="1876" height="241" key="GridCell.Tab.0.left" timestamp="1681229380563">
+    <state width="1876" height="222" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1681584256645" />
+    <state width="1876" height="222" key="GridCell.Tab.0.left" timestamp="1681584256645">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="241" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1681229380563" />
-    <state width="1876" height="241" key="GridCell.Tab.0.right" timestamp="1681229380563">
+    <state width="1876" height="222" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1681584256645" />
+    <state width="1876" height="222" key="GridCell.Tab.0.right" timestamp="1681584256645">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="241" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1681229380563" />
+    <state width="1876" height="222" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1681584256645" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1677321083082">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -448,10 +460,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="724" y="221" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677598020700" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1681228931479">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1681584247572">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1681228931479" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1681584247572" />
     <state x="194" y="85" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1677322948886">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

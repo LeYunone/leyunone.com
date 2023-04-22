@@ -102,7 +102,7 @@ HttpRequest serviceRequest = new ServiceRequestWrapper(HttpRequest, ServiceInsta
 可以看到拦截方法中，除了前置的通过本次RestTemplate的HTTP请求头，拿到需要的服务名/路径等，主要是调用LoadBalancerClient的execute方法。
 
 那么我们来到LoadBalancerClient中找到方法实例
-![image-20220518235924952.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-19/image-20220518235924952.png)width="auto" height="auto"
+![image-20220518235924952.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-19/image-20220518235924952.png)
 
 可以看到有两个实例，根据内容分析。
 
@@ -159,7 +159,7 @@ execute->getServer->execute
 key在我们默认下，即没有指定hint对象时，使用默认key，那么这个默认key是什么呢
 
 
-![image-20220519001133033.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-19/image-20220519001133033.png)width="auto" height="auto"
+![image-20220519001133033.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-19/image-20220519001133033.png)
 
  **RoundRobinRule**对象，直译出来轮询规则，这也是Cloud默认的负载均衡算法是轮询的原因。
 
@@ -171,7 +171,7 @@ key在我们默认下，即没有指定hint对象时，使用默认key，那么�
 轮询算法很简单，指定一个标识，然后这个标识对应位置就是当前服务器位置，轮询则是将上一次位置+1 = 当前服务器位置。并且在服务器数量范围内区间内不断循环。
     
 ```
-![image-20220519001618219.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-19/image-20220519001618219.png)width="auto" height="auto"
+![image-20220519001618219.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-19/image-20220519001618219.png)
 
 在incrementAndGetModulo中进行新节点位置的计算：
 

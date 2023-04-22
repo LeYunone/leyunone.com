@@ -10,7 +10,7 @@ export const sidebarConfig = sidebar({
     // 必须放在最后面
     "/": [
         {
-            text: "框架全家桶",
+            text: "道具全家桶",
             icon: "xueqiushou",
             collapsible: true,
             prefix: "frame/",
@@ -45,18 +45,18 @@ export const sidebarConfig = sidebar({
                     ]
                 },
                 {
-                    text: "Dubbo",
+                    text: "Dubbo&",
                     prefix: "dubbo/",
-                    icon: "electric-car",
+                    icon: "dubbo",
                     collapsible: true,
                     children: [
                         "dubbo-read"
                     ]
                 },
                 {
-                    text: "Nacos",
+                    text: "Nacos&",
                     prefix: "nacos/",
-                    icon: "fusion",
+                    icon: "nacos",
                     collapsible: true,
                     children: [
                         "nacos-read"
@@ -69,7 +69,17 @@ export const sidebarConfig = sidebar({
                     collapsible: true,
                     children: [
                         "MQTT-about",
-                        "MQTT-use"
+                        "MQTT-use",
+                        "rabbitmq-delay"
+                    ]
+                },
+                {
+                    text:"Netty&",
+                    prefix:"netty/",
+                    icon:"fusion",
+                    collapsible: true,
+                    children: [
+                        "netty-oom-1",
                     ]
                 }
             ],

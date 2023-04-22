@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "26313498",
+      "name": "nacos",
+      "font_class": "nacos",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "1121424",
+      "name": "dubbo",
+      "font_class": "dubbo",
+      "unicode": "e7a8",
+      "unicode_decimal": 59304
+    },
+    {
       "icon_id": "5634730",
       "name": "jenkins",
       "font_class": "jenkins",
