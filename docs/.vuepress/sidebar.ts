@@ -118,7 +118,8 @@ export const sidebarConfig = sidebar({
             collapsible: true,
             children: [
                 "java8-arrayssort",
-                "java-agent-1"
+                "java-agent-1",
+                "java-release"
             ]
         },
         {

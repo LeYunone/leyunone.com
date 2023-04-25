@@ -65,7 +65,6 @@ head:
 ![image-20230424233944016](C:/Users/leyuna/AppData/Roaming/Typora/typora-user-images/image-20230424233944016.png)
 
 ```markdown
-
 gpg --gen-key
  Real name: 名字
  Email address: 邮箱
@@ -84,7 +83,7 @@ gpg --gen-key
 
 ### 2/配置Maven-Setting
 
-在Maven的Setting文件中
+**在Maven的Setting文件中**
 
 ```xml
 <servers>
@@ -112,7 +111,7 @@ gpg --gen-key
   </profiles>
 ```
 
-项目的Pom文件，如果是多模块项目，则添加在父类模块的pom文件中
+**项目的Pom文件，如果是多模块项目，则添加在父类模块的pom文件中**
 
 ```xml
   <!--协议-->
@@ -142,7 +141,7 @@ gpg --gen-key
 
     <profiles>
         <profile>
-            <!--注意,此id必须与setting.xml中指定的一致,不要自作聪明改它名字-->
+            <!--此id必须与setting.xml中指定的一致-->
             <id>ossrh</id>
             <!--            <id>release</id>-->
             <activation>
@@ -250,5 +249,45 @@ gpg --gen-key
         </profile>
     </profiles>
     
+```
+
+### 3/发布
+
+**使用Maven**
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-04-25/79973622-e4d9-435c-9616-168f2d4391d4.png)
+
+Clean->package>deploy
+
+####  SNAPSHOT版本
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-04-25/c7e82bb3-fda2-45f9-8a52-b2239e0b1033.png)
+
+POM中使用id=ossrh，并且使用SHAPSHOT版本插件
+
+Maven的Setting文件中，一定要一致
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-04-25/1d51cb94-9589-4005-999d-6bccf8d061fb.png)
+
+在deploy，控制台显示成功后，打开中央仓库管理页面，如图所示可以搜索到上传上去的jar包版本
+
+[https://s01.oss.sonatype.org/#welcome](https://s01.oss.sonatype.org/#welcome)
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-04-25/03014e5d-e409-4a99-a7ff-f8c1436e60e1.png)
+
+#### RELEASE版本
+
+Pom中
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-04-25/ec1cf658-ff11-4719-944d-0403d74c18c1.png)
+
+Maven中
+
+![](C:/Users/leyuna/AppData/Roaming/Typora/typora-user-images/image-20230425235033801.png)
+
+最终将POM中的版本号改为
+
+```xml
+<version>X.X.X-SNAPSHOT</version>
 ```
 
