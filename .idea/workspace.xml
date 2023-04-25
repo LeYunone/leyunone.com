@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/java/java-release.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java/java-release.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +72,7 @@
       <recent name="E:\TheCore\leyunone.com\docs\development-tool\jenkins" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.vite-serve">
+  <component name="RunManager" selected="npm.vite-build">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:8080">
       <method v="2" />
     </configuration>
@@ -139,8 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.vite-serve" />
         <item itemvalue="npm.vite-build" />
+        <item itemvalue="npm.vite-serve" />
         <item itemvalue="npm.webpack-build" />
         <item itemvalue="npm.docs:dev" />
         <item itemvalue="npm.docs:build" />
@@ -209,7 +208,7 @@
       <workItem from="1682253997320" duration="675000" />
       <workItem from="1682348410453" duration="995000" />
       <workItem from="1682431900557" duration="596000" />
-      <workItem from="1682435153464" duration="775000" />
+      <workItem from="1682435153464" duration="1004000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
@@ -344,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682174630205</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="[UPDATE]java-release.md">
+      <created>1682438057895</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1682438057895</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +429,8 @@
     <MESSAGE value="[ADD]jenkins-init.md" />
     <MESSAGE value="[ADD]netty-oom-1.md" />
     <MESSAGE value="[UPDATE]图片格式错误" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]图片格式错误" />
+    <MESSAGE value="[UPDATE]java-release.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]java-release.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="99" key="#Project_Structure" timestamp="1677322757083">
@@ -434,10 +441,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1680012310102" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1682174629604">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1682438057344">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1682174629604" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1682438057344" />
     <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1681228918367">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -450,22 +457,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="194" height="592" key="Git.Branch.Popup/0.0.1920.1050@0.0.1920.1050" timestamp="1677853905157" />
-    <state width="1876" height="222" key="GridCell.Tab.0.bottom" timestamp="1682175020426">
+    <state width="1876" height="222" key="GridCell.Tab.0.bottom" timestamp="1682438151891">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1682175020426" />
-    <state width="1876" height="222" key="GridCell.Tab.0.center" timestamp="1682175020426">
+    <state width="1876" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1682438151891" />
+    <state width="1876" height="222" key="GridCell.Tab.0.center" timestamp="1682438151889">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="222" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1682175020426" />
-    <state width="1876" height="222" key="GridCell.Tab.0.left" timestamp="1682175020426">
+    <state width="1876" height="222" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1682438151889" />
+    <state width="1876" height="222" key="GridCell.Tab.0.left" timestamp="1682438151889">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="222" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1682175020426" />
-    <state width="1876" height="222" key="GridCell.Tab.0.right" timestamp="1682175020426">
+    <state width="1876" height="222" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1682438151889" />
+    <state width="1876" height="222" key="GridCell.Tab.0.right" timestamp="1682438151890">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="222" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1682175020426" />
+    <state width="1876" height="222" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1682438151890" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1677321083082">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -474,18 +481,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="724" y="221" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677598020700" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1682174634699">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1682438060968">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1682174634699" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1682438060968" />
     <state x="194" y="85" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1677322948886">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="194" y="85" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677322948886" />
-    <state x="647" y="257" width="678" height="678" key="find.popup" timestamp="1682174611624">
+    <state x="647" y="257" width="678" height="678" key="find.popup" timestamp="1682438185611">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="647" y="257" width="678" height="678" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1682174611624" />
+    <state x="647" y="257" width="678" height="678" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1682438185611" />
     <state x="652" y="311" key="git4idea.merge.GitPullDialog" timestamp="1677585676066">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

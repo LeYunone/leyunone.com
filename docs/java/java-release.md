@@ -36,7 +36,7 @@ head:
 
 点开仓库链接，可以看到BOT发来的最新动态
 
-![image-20230424232139457](C:/Users/leyuna/AppData/Roaming/Typora/typora-user-images/image-20230424232139457.png)
+![image-20230424232139457](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-04-25/d7f6ce2f-209e-4736-a8d9-985caf86cd32.png)
 
 意思是，
 
@@ -62,7 +62,7 @@ head:
 
 安装之后，打开cmd命令
 
-![image-20230424233944016](C:/Users/leyuna/AppData/Roaming/Typora/typora-user-images/image-20230424233944016.png)
+![image-20230424233944016](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-04-25/0de8c8a3-23aa-4c44-986d-2118cfb63d97.png)
 
 ```markdown
 gpg --gen-key
@@ -283,11 +283,11 @@ Pom中
 
 Maven中
 
-![](C:/Users/leyuna/AppData/Roaming/Typora/typora-user-images/image-20230425235033801.png)
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-04-25/b4b81203-e308-4b93-8599-1b1e410c211c.png)
 
 最终将POM中的版本号改为
 
 ```xml
-<version>X.X.X-SNAPSHOT</version>
+<version>X.X.X-RELEASE</version>
 ```
 
