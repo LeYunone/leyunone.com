@@ -20,13 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/algorithm/abouot-algorithm1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/java/java-release.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java/java-release.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java/java8-arrayssort.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java/java8-arrayssort.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -47,11 +56,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/algorithm" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -65,11 +75,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TheCore\leyunone.com\docs\algorithm" />
       <recent name="E:\TheCore\leyunone.com\docs\java" />
       <recent name="E:\TheCore\leyunone.com\docs\unidentified-business" />
       <recent name="E:\TheCore\leyunone.com\docs\frame\netty" />
       <recent name="E:\TheCore\leyunone.com\docs\.vuepress\public\iconfont" />
-      <recent name="E:\TheCore\leyunone.com\docs\development-tool\jenkins" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-build">
@@ -208,7 +218,9 @@
       <workItem from="1682253997320" duration="675000" />
       <workItem from="1682348410453" duration="995000" />
       <workItem from="1682431900557" duration="596000" />
-      <workItem from="1682435153464" duration="1004000" />
+      <workItem from="1682435153464" duration="2047000" />
+      <workItem from="1682696342129" duration="77000" />
+      <workItem from="1683017632327" duration="4233000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
@@ -350,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682438057895</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="[UPDATE]java-release.md">
+      <created>1682438368077</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1682438368077</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,14 +460,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1680012310102" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1682438057344">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1682438367379">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1682438057344" />
-    <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1681228918367">
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1682438367379" />
+    <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1682439309043">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="41" y="184" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1681228918367" />
+    <state x="41" y="184" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1682439309043" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1679926392053">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -457,22 +476,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="194" height="592" key="Git.Branch.Popup/0.0.1920.1050@0.0.1920.1050" timestamp="1677853905157" />
-    <state width="1876" height="222" key="GridCell.Tab.0.bottom" timestamp="1682438151891">
+    <state width="1876" height="437" key="GridCell.Tab.0.bottom" timestamp="1682439273898">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1682438151891" />
-    <state width="1876" height="222" key="GridCell.Tab.0.center" timestamp="1682438151889">
+    <state width="1876" height="437" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1682439273898" />
+    <state width="1876" height="437" key="GridCell.Tab.0.center" timestamp="1682439273898">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="222" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1682438151889" />
-    <state width="1876" height="222" key="GridCell.Tab.0.left" timestamp="1682438151889">
+    <state width="1876" height="437" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1682439273898" />
+    <state width="1876" height="437" key="GridCell.Tab.0.left" timestamp="1682439273898">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="222" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1682438151889" />
-    <state width="1876" height="222" key="GridCell.Tab.0.right" timestamp="1682438151890">
+    <state width="1876" height="437" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1682439273898" />
+    <state width="1876" height="437" key="GridCell.Tab.0.right" timestamp="1682439273898">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="222" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1682438151890" />
+    <state width="1876" height="437" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1682439273898" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1677321083082">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -481,10 +500,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="724" y="221" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677598020700" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1682438060968">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1682438371265">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1682438060968" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1682438371265" />
     <state x="194" y="85" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1677322948886">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -501,10 +520,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="761" y="431" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677326119869" />
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1681228709528">
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1683017879779">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1681228709528" />
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1683017879779" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -358,6 +358,7 @@ export const sidebarConfig = sidebar({
             prefix: "algorithm/",
             collapsible: true,
             children: [
+                "abouot-algorithm1",
                 "backtracking-algorithm",
                 "dichotomy",
                 "dynamic-programming",

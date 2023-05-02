@@ -54,7 +54,7 @@ Arrays.sort是我们常用来排序数组的方法，不止如此，其实Collec
 
 基本的排序思路和legacyMergeSort无差，都采取了分治+归并的排序思想。
 
-当待排序的数组的长度小于32时，直接采取Binary Sort，使用二分查找找到已排序数组，在找到对应的插入顺序进行排序。
+当待排序的数组的长度小于32时，采取Binary Sort[二分插入排序]，使用二分查找找到已排序数组，在找到对应的插入顺序进行排序。
 
 当元素长度大于32时，采用TimSort排序过程:
 
@@ -70,10 +70,10 @@ Arrays.sort是我们常用来排序数组的方法，不止如此，其实Collec
 
 **DualPivotQuicksort**
 
-1. 当数组长度小于47时，采用直接插入排序算法。
+1. 当数组长度小于47时,采用直接插入排序算法.
 ![image-20220531020546250.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-31/image-20220531020546250.png)
 
-2. 当数组长度大于等于47，小于286时，采用快速排序。
+2. 当数组长度大于等于47,小于286时,采用快速排序.
 ![image-20220531020956652.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-31/image-20220531020956652.png)
 
    ```
