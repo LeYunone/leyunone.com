@@ -138,7 +138,9 @@ Integer [] arr = new Integer []{6,4,1,7,8,9};
 然后我们上点并发的技术用来收集
 
 ```java
-        int[] arr = new int[]{1, 5, 3, 2, 8,4,100,400,200};
+public static void sleepSort() {
+        Integer[] arr = new Integer[]{1, 5, 3, 2, 8,4,100,400,200};
+        Arrays.sort(arr);
         CopyOnWriteArrayList<Integer> cwa = new CopyOnWriteArrayList<>();
         for (int i = 0; i < arr.length; i++) {
             long time = arr[i];
@@ -152,12 +154,13 @@ Integer [] arr = new Integer []{6,4,1,7,8,9};
                 cwa.add(arr[j]);
             }).start();
         }
-		//等待数组排序完成
+    	//等待数组排序完成
         while(cwa.size()!=arr.length){
         }
         for(Integer num:cwa){
             System.out.println(num);
         }
+    }
 ```
 
 免责声明：以上排序，切勿出现在生产中
