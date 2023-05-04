@@ -81,6 +81,14 @@ export const sidebarConfig = sidebar({
                     children: [
                         "netty-oom-1",
                     ]
+                },
+                {
+                    text:"Skywalking&",
+                    prefix:"skywalking",
+                    collapsible: true,
+                    children:[
+                        "skywalking-reading1"
+                    ]
                 }
             ],
         },

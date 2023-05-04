@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/algorithm/abouot-algorithm1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/frame/skwalking/skywalking-reading1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/java/java8-arrayssort.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java/java8-arrayssort.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/algorithm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/frame/skwalking" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -220,7 +219,9 @@
       <workItem from="1682431900557" duration="596000" />
       <workItem from="1682435153464" duration="2047000" />
       <workItem from="1682696342129" duration="77000" />
-      <workItem from="1683017632327" duration="4233000" />
+      <workItem from="1683017632327" duration="4812000" />
+      <workItem from="1683040443453" duration="349000" />
+      <workItem from="1683209325252" duration="1496000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
@@ -369,7 +370,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682438368077</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="[ADD]abouot-algorithm1.md">
+      <created>1683039714629</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1683039714629</updated>
+    </task>
+    <task id="LOCAL-00023" summary="[UPDATE]abouot-algorithm1.md">
+      <created>1683040173032</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1683040173032</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +464,9 @@
     <MESSAGE value="[ADD]netty-oom-1.md" />
     <MESSAGE value="[UPDATE]图片格式错误" />
     <MESSAGE value="[UPDATE]java-release.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]java-release.md" />
+    <MESSAGE value="[ADD]abouot-algorithm1.md" />
+    <MESSAGE value="[UPDATE]abouot-algorithm1.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]abouot-algorithm1.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="99" key="#Project_Structure" timestamp="1677322757083">
@@ -460,10 +477,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1680012310102" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1682438367379">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1683040172505">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1682438367379" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1683040172505" />
     <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1682439309043">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -476,22 +493,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="194" height="592" key="Git.Branch.Popup/0.0.1920.1050@0.0.1920.1050" timestamp="1677853905157" />
-    <state width="1876" height="437" key="GridCell.Tab.0.bottom" timestamp="1682439273898">
+    <state width="1876" height="13" key="GridCell.Tab.0.bottom" timestamp="1683040277612">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="437" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1682439273898" />
-    <state width="1876" height="437" key="GridCell.Tab.0.center" timestamp="1682439273898">
+    <state width="1876" height="13" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1683040277612" />
+    <state width="1876" height="13" key="GridCell.Tab.0.center" timestamp="1683040277612">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="437" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1682439273898" />
-    <state width="1876" height="437" key="GridCell.Tab.0.left" timestamp="1682439273898">
+    <state width="1876" height="13" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1683040277612" />
+    <state width="1876" height="13" key="GridCell.Tab.0.left" timestamp="1683040277612">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="437" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1682439273898" />
-    <state width="1876" height="437" key="GridCell.Tab.0.right" timestamp="1682439273898">
+    <state width="1876" height="13" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1683040277612" />
+    <state width="1876" height="13" key="GridCell.Tab.0.right" timestamp="1683040277612">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="437" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1682439273898" />
+    <state width="1876" height="13" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1683040277612" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1677321083082">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -500,10 +517,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="724" y="221" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677598020700" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1682438371265">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1683040175891">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1682438371265" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1683040175891" />
     <state x="194" y="85" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1677322948886">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
