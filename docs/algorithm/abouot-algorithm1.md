@@ -18,7 +18,7 @@ head:
 
 >  虽然我们90%的工程师都在用你写的Homebrew，但这也并没有什么卵用，你连二叉树翻转都写不出，直接滚蛋吧！
 
-Max Howell【Homebrew作者】在2015年面试谷歌的故事很多人都知道，在但是也带来了一系列的讨论，算法有什么用？这么牛的人连翻转二叉树都写不出，我上我也行...
+Max Howell【Homebrew作者】在2015年面试谷歌的故事很多人都知道，这本是一个面试官放水，求职者水过的喜剧片，却被主角演成了逗比，在当时也带来了一系列的讨论，算法有什么用？这么牛的人连翻转二叉树都写不出，我上我也行...
 
 所以今天给大伙带来一些我上我也行的算法
 
@@ -167,7 +167,7 @@ public static void sleepSort() {
 
 # 有效算法
 
-说道排序，不得不提提尝用到的:
+说到排序，不得不提提尝用到的:
 
 ```java
         int[] arr = new int[]{1, 5, 3, 2, 8,4,100,400,200};
@@ -338,6 +338,57 @@ console.log(transObject(data, keys))
 ![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-05-02/75c7e9ca-2400-4827-8267-ff8969f8140c.png)
 
 是不是和字典树的构造一样
+
+## 搜索Dfs和Bfs
+
+首先搜索算法的思路是一个用度比较广的设计
+
+比如树的迭代，循环解析，统合对象等等都有用到的场景
+
+**背景：** 一个场景的执行指令，包括**执行动作**和**执行另一个场景**； 需要拿到一个场景的所有执行指令。
+
+这里其实就是套娃的对象，需要解析出所有基本属性。
+
+我们可以使用迭代，使用For循环，但是如果采用了Dfs的一些思路，代码会显得非常优雅。
+
+```java
+    private List<指令> depthSearch(List<场景对象> scenes) {
+        if (CollectionUtil.isEmpty(scenes)) return CollectionUtil.newArrayList();
+        //深度查找
+        List<指令集合> result = new ArrayList<>();
+        //唯一指令
+        Set<String> unitCommand = new HashSet<>();
+        //防止套娃
+        Set<Integer> filterScenesId = new HashSet<>();
+        Stack<场景对象> statck = new Stack<>();
+        statck.addAll(scenes);
+        while (!statck.empty()) {
+            场景对象 pop = statck.pop();
+            if (filterScenesId.contains(pop.getScenesId())) continue;
+			//如果指令是执行另一个场景
+            if (ObjectUtil.isNull(pop.getExecScenesId())) {
+                //设备指令
+                String unitC = pop.get(指令唯一编码);
+                if (!unitCommand.contains(unitC)) {
+                    result.add(pop);
+                    unitCommand.add(unitC);
+                }
+            } else {
+                //场景指令
+                Integer execScenesId = pop.getExecScenesId();
+                List<场景对象> scenesCommandDOS = dao.查询该场景的所有执行指令
+                if (CollectionUtil.isNotEmpty(scenesCommandDOS)) {
+                    statck.addAll(ScenesCommandConvert.INSTANCE.dos2Dto(scenesCommandDOS));
+                }
+            }
+            //套娃场景 只处理一次
+            filterScenesId.add(pop.getScenesId());
+        }
+        return result;
+    }
+```
+
+整个处理都会比较线性，可读性很高。
 
 # 总结
 
