@@ -22,7 +22,7 @@ Max Howell【Homebrew作者】在2015年面试谷歌的故事很多人都知道�
 
 所以今天给大伙带来一些我上我也行的算法
 
-
+<img src="https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-05-06/a5a2df38-b2ad-4099-8fd6-9bd564515ff1.png" style="zoom:33%;" />
 
 # 猴子与睡眠排序
 
@@ -39,6 +39,8 @@ Max Howell【Homebrew作者】在2015年面试谷歌的故事很多人都知道�
 **其实这个理论的根本内容很简单，那就是不论一件事的概率有多么小，当这个概率乘以一个无限大的基数时，就一定会发生。这个理论就这么简单，只不过爱丁顿把它给戏剧化了一下而已。**
 
 那么对于排序算法来说，是否也可以有一只猴子完成排序？
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-04-23/3707b310-1788-4545-90d8-bd97a8af4957.gif)
 
 ## **猴子排序**
 
@@ -95,6 +97,8 @@ Integer [] arr = new Integer []{6,4,1,7,8,9};
 作为一个算法，抛开时间\空间复杂度不谈，哲学系的感觉我认为是TOP one的。
 
 什么，你需要一个最高级别排序的算法？OK，我带来一个O(N)级别，多线程，并发排序的算法
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-04-23/86e824a2-9f51-4770-899d-4ec06595bed0.jpg)
 
 ## 睡眠排序
 
@@ -164,6 +168,8 @@ public static void sleepSort() {
 ```
 
 免责声明：以上排序，切勿出现在生产中
+
+<img src="https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-05-06/50888f7b-5842-401f-84ea-e9ac1b5d168e.png" style="zoom:25%;" />
 
 # 有效算法
 

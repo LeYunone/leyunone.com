@@ -1,5 +1,5 @@
 ---
-date: 2023-05-4
+date: 2023-05-04
 title: Skywalking源码系列-探针
 category: 
   - Skywalking
@@ -10,6 +10,9 @@ tag:
 head:
   - - meta
     - name: keywords
+      content: skywalking,源码阅读
+  - - meta
+    - name: description
       content: skywalking 8.6.0 版本源码阅读，探针分析
 ---
 # Skywalking源码系列-探针 
