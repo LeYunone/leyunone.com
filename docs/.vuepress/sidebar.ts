@@ -127,7 +127,8 @@ export const sidebarConfig = sidebar({
             children: [
                 "java8-arrayssort",
                 "java-agent-1",
-                "java-release"
+                "java-release",
+                "DatabaseMetaData"
             ]
         },
         {
