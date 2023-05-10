@@ -128,7 +128,8 @@ export const sidebarConfig = sidebar({
                 "java8-arrayssort",
                 "java-agent-1",
                 "java-release",
-                "DatabaseMetaData"
+                "DatabaseMetaData",
+                "Java-agent-2"
             ]
         },
         {

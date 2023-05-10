@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/java/DatabaseMetaData.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/java/Java-agent-2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/frame/skwalking/skywalking-reading1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/frame/skwalking/skywalking-reading1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java/java-agent-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java/java-agent-1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,6 +228,7 @@
       <workItem from="1683302256649" duration="1850000" />
       <workItem from="1683458494355" duration="604000" />
       <workItem from="1683647785967" duration="126000" />
+      <workItem from="1683730035524" duration="2065000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
