@@ -22,7 +22,6 @@
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/frame/skwalking/skywalking-reading1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/frame/skwalking/skywalking-reading1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/java/Java-agent-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java/Java-agent-2.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +226,8 @@
       <workItem from="1683458494355" duration="604000" />
       <workItem from="1683647785967" duration="126000" />
       <workItem from="1683730035524" duration="3915000" />
-      <workItem from="1683801504403" duration="284000" />
+      <workItem from="1683801504403" duration="903000" />
+      <workItem from="1683815620525" duration="1200000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
@@ -425,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683737046292</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="[Update]图片bug">
+      <created>1683801802811</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1683801802811</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +492,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[add] add db-sync-model.md" />
     <MESSAGE value="[add] add XXL-Job.md" />
     <MESSAGE value="[UPDATE]NEW package.json :(" />
     <MESSAGE value="[ADD]Warn！Warn！.md" />
@@ -510,7 +516,8 @@
     <MESSAGE value="[Update]abouot-algorithm1.md" />
     <MESSAGE value="[Update]fix bug" />
     <MESSAGE value="[Update]Java-agent-2.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Update]Java-agent-2.md" />
+    <MESSAGE value="[Update]图片bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Update]图片bug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="99" key="#Project_Structure" timestamp="1677322757083">
@@ -521,10 +528,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1680012310102" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1683737045512">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1683801802151">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1683737045512" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1683801802151" />
     <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1683303152955">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -561,10 +568,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="724" y="221" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677598020700" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1683737052139">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1683801807090">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1683737052139" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1683801807090" />
     <state x="194" y="85" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1677322948886">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -581,10 +588,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="761" y="431" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677326119869" />
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1683303464717">
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1683821045140">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1683303464717" />
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1683821045140" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
