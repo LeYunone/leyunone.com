@@ -31,7 +31,7 @@ Fork下来的时候，记得别勾上框框中的选项，不然看不到其他�
 
 ![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-05-04/a40861a0-898d-4160-bee5-f39f6e422c72.png)
 
-![image-20230504234448065](C:/Users/leyuna/AppData/Roaming/Typora/typora-user-images/image-20230504234448065.png)
+![image-20230504234448065](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-05-06/035a8431-2ae5-43bb-ad22-7c36155b99d6.png)
 
 本次使用的是**8.6**版本的skywalking
 
