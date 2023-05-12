@@ -1,5 +1,16 @@
 export const talkabout = [
   {
+    text: "杂谈日记",
+    icon: "bigaoshou",
+    prefix: "rambling-diary/",
+    collapsible: true,
+    children: [
+      "FUCKN3ANDrestructure",
+      "What-Happened-MYWORK",
+      "cyber-manhunt.md"
+    ]
+  },
+  {
     text: "更新日志",
     icon: "expand",
     prefix: "update-diary/",

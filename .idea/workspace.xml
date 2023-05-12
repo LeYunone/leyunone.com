@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/frame/skwalking/skywalking-reading1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/frame/skwalking/skywalking-reading1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,6 +227,7 @@
       <workItem from="1683730035524" duration="3915000" />
       <workItem from="1683801504403" duration="903000" />
       <workItem from="1683815620525" duration="1200000" />
+      <workItem from="1683894923848" duration="1695000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>

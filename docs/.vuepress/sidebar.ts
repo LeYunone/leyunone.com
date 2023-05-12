@@ -196,17 +196,6 @@ export const sidebarConfig = sidebar({
             ]
         },
         {
-            text: "杂谈日记",
-            icon: "bigaoshou",
-            prefix: "rambling-diary/",
-            collapsible: true,
-            children: [
-                "FUCKN3ANDrestructure",
-                "What-Happened-MYWORK",
-                "cyber-manhunt.md"
-            ]
-        },
-        {
             text: "开发日记",
             icon: "heiqiushou",
             collapsible: true,
