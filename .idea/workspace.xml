@@ -21,6 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/rambling-diary/FUCKN3ANDrestructure.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/FUCKN3ANDrestructure.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/rambling-diary/What-Happened-MYWORK.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/What-Happened-MYWORK.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/rambling-diary/cyber-manhunt.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/cyber-manhunt.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +74,9 @@
     <property name="ts.external.directory.path" value="E:\software\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\TheCore\leyunone.com\docs\java" />
       <recent name="E:\TheCore\leyunone.com\docs\frame\skwalking" />
@@ -79,7 +85,7 @@
       <recent name="E:\TheCore\leyunone.com\docs\frame\netty" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.vite-build">
+  <component name="RunManager" selected="npm.vite-serve">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:8080">
       <method v="2" />
     </configuration>
@@ -145,8 +151,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.vite-build" />
         <item itemvalue="npm.vite-serve" />
+        <item itemvalue="npm.vite-build" />
         <item itemvalue="npm.webpack-build" />
         <item itemvalue="npm.docs:dev" />
         <item itemvalue="npm.docs:build" />
@@ -227,7 +233,7 @@
       <workItem from="1683730035524" duration="3915000" />
       <workItem from="1683801504403" duration="903000" />
       <workItem from="1683815620525" duration="1200000" />
-      <workItem from="1683894923848" duration="1695000" />
+      <workItem from="1683894923848" duration="2562000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
@@ -432,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683801802811</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="[Update]talkabout.ts">
+      <created>1683901945696</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1683901945696</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,7 +505,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[add] add XXL-Job.md" />
     <MESSAGE value="[UPDATE]NEW package.json :(" />
     <MESSAGE value="[ADD]Warn！Warn！.md" />
     <MESSAGE value="[UPDATE]cyber-manhunt.md" />
@@ -517,7 +529,8 @@
     <MESSAGE value="[Update]fix bug" />
     <MESSAGE value="[Update]Java-agent-2.md" />
     <MESSAGE value="[Update]图片bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Update]图片bug" />
+    <MESSAGE value="[Update]talkabout.ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Update]talkabout.ts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="99" key="#Project_Structure" timestamp="1677322757083">
@@ -528,10 +541,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1680012310102" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1683801802151">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1683901944675">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1683801802151" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1683901944675" />
     <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1683303152955">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -544,22 +557,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="194" height="592" key="Git.Branch.Popup/0.0.1920.1050@0.0.1920.1050" timestamp="1677853905157" />
-    <state width="1876" height="142" key="GridCell.Tab.0.bottom" timestamp="1683737299821">
+    <state width="1876" height="339" key="GridCell.Tab.0.bottom" timestamp="1683902076958">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1683737299821" />
-    <state width="1876" height="142" key="GridCell.Tab.0.center" timestamp="1683737299820">
+    <state width="1876" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1683902076958" />
+    <state width="1876" height="339" key="GridCell.Tab.0.center" timestamp="1683902076957">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="142" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1683737299820" />
-    <state width="1876" height="142" key="GridCell.Tab.0.left" timestamp="1683737299820">
+    <state width="1876" height="339" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1683902076957" />
+    <state width="1876" height="339" key="GridCell.Tab.0.left" timestamp="1683902076957">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="142" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1683737299820" />
-    <state width="1876" height="142" key="GridCell.Tab.0.right" timestamp="1683737299821">
+    <state width="1876" height="339" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1683902076957" />
+    <state width="1876" height="339" key="GridCell.Tab.0.right" timestamp="1683902076958">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="142" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1683737299821" />
+    <state width="1876" height="339" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1683902076958" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1677321083082">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -588,10 +601,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="761" y="431" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677326119869" />
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1683821045140">
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1683902047934">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1683821045140" />
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1683902047934" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
