@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/frame/skwalking/skywalking-fast-init.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/frame/skwalking/skywalking-reading2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/rambling-diary/FUCKN3ANDrestructure.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/FUCKN3ANDrestructure.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/rambling-diary/What-Happened-MYWORK.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/What-Happened-MYWORK.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/rambling-diary/cyber-manhunt.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/cyber-manhunt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/frame/skwalking/skywalking-reading1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/frame/skwalking/skywalking-reading1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/frame/skwalking" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -74,15 +76,15 @@
     <property name="ts.external.directory.path" value="E:\software\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\TheCore\leyunone.com\docs\java" />
       <recent name="E:\TheCore\leyunone.com\docs\frame\skwalking" />
+      <recent name="E:\TheCore\leyunone.com\docs\java" />
       <recent name="E:\TheCore\leyunone.com\docs\algorithm" />
       <recent name="E:\TheCore\leyunone.com\docs\unidentified-business" />
       <recent name="E:\TheCore\leyunone.com\docs\frame\netty" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-serve">
@@ -233,7 +235,8 @@
       <workItem from="1683730035524" duration="3915000" />
       <workItem from="1683801504403" duration="903000" />
       <workItem from="1683815620525" duration="1200000" />
-      <workItem from="1683894923848" duration="2562000" />
+      <workItem from="1683894923848" duration="2583000" />
+      <workItem from="1684162658352" duration="1060000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
@@ -445,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683901945696</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="[Update]talkabout.ts">
+      <created>1683903154299</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1683903154299</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,10 +551,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1680012310102" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1683901944675">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1683903153134">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1683901944675" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1683903153134" />
     <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1683303152955">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -581,10 +591,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="724" y="221" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677598020700" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1683801807090">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1683903157986">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1683801807090" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1683903157986" />
     <state x="194" y="85" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1677322948886">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -601,10 +611,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="761" y="431" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677326119869" />
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1683902047934">
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1684163542672">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1683902047934" />
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1684163542672" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

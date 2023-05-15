@@ -87,7 +87,9 @@ export const sidebarConfig = sidebar({
                     prefix:"skywalking",
                     collapsible: true,
                     children:[
-                        "skywalking-reading1"
+                        "skywalking-fast-init",
+                        "skywalking-reading1",
+                        "skywalking-reading2"
                     ]
                 }
             ],
