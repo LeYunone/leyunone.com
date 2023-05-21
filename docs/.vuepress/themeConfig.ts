@@ -42,6 +42,7 @@ export const themeConfig = hopeTheme({
   footer:
     '<a href="https://beian.miit.gov.cn/" target="_blank">湘ICP备2022021814号-1</a>',
   displayFooter: true,
+  hotReload: true,
   plugins: {
     blog: true,
     copyright: true,

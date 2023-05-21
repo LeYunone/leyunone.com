@@ -8,7 +8,7 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: Vue,分片上传,断点续传
+      content: Vue,乐云一,分片上传,断点续传
   - - meta
     - name: description
       content: 浅谈Vue-Simple-Upload

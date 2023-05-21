@@ -8,7 +8,7 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: Java,CAS,线程锁
+      content: Java,CAS,线程锁,乐云一
   - - meta
     - name: description
       content: 首先作为一个简单的CAS控制并发，需要用到：一个控制锁状态的变量key，一个存储未抢到锁线程的阻塞队列。

@@ -8,7 +8,7 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: jenkins,插件,自动部署,脚本
+      content: jenkins,乐云一,插件,自动部署,脚本
 ---
 # Jenkins-Windows
 

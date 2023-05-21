@@ -20,14 +20,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/talkabout/web-about.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/writeabout/write-about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/unidentified-business/message-center-design.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/public/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about-the-author/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about-the-author/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/summary/Warn！Warn！.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/summary/Warn！Warn！.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/talkabout/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/writeabout/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/writeabout/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/themeConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/themeConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/Zookeeper-lock.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/Zookeeper-lock.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/cas-lock.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/cas-lock.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/db-sync-model.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/db-sync-model.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/function-programming.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/function-programming.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/message-collectos.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/message-collectos.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/unique-set.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/unique-set.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/vue-simple-upload.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/vue-simple-upload.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/algorithm/abouot-algorithm1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/abouot-algorithm1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/algorithm/backtracking-algorithm.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/backtracking-algorithm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/algorithm/dichotomy.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/dichotomy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/algorithm/dynamic-programming.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/dynamic-programming.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/algorithm/sorting-algorithm.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/algorithm/sorting-algorithm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/development-diary/disk/disk-dev-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/disk/disk-dev-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/development-tool/git/git-error.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-tool/git/git-error.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/development-tool/idea/idea-easycode.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-tool/idea/idea-easycode.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/development-tool/jenkins/jenkins-init.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-tool/jenkins/jenkins-init.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-100.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-100.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-1019.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-1019.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-104.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-104.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-108.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-108.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-1091.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-1091.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-111.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-111.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-112.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-112.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-117.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-117.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-118.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-118.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-121.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-121.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-1218.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-1218.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-125.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-125.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-136.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-136.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-14.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-14.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-141.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-141.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-15.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-15.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-153.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-153.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-1567.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-1567.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-16.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-16.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-162.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-162.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-167.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-167.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-1685.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-1685.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-17.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-17.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-19.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-19.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-1936.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-1936.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-198.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-198.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-20.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-20.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-202.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-202.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-21.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-21.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-219.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-219.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-228.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-228.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-26.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-26.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-283.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-283.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-33.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-33.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-36.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-36.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-39.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-39.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-40.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-40.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-55.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-55.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-58.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-58.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-62.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-62.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-64.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-64.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-647.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-647.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-66.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-66.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-67.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-67.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-69.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-69.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-740.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-740.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-79.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-79.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-83.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-83.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-918.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-918.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/exercises/LeetCode-986.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/exercises/LeetCode-986.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/frame/dubbo/dubbo-read.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/frame/dubbo/dubbo-read.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/frame/messagequeuing/MQTT-about.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/frame/messagequeuing/MQTT-about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/frame/messagequeuing/MQTT-use.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/frame/messagequeuing/MQTT-use.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/frame/messagequeuing/rabbitmq-delay.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/frame/messagequeuing/rabbitmq-delay.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +135,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/writeabout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/.vuepress/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -78,14 +148,14 @@
     <property name="ts.external.directory.path" value="E:\software\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\TheCore\leyunone.com\docs\writeabout" />
-      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
-      <recent name="E:\TheCore\leyunone.com\docs\frame\skwalking" />
-      <recent name="E:\TheCore\leyunone.com\docs\java" />
-      <recent name="E:\TheCore\leyunone.com\docs\algorithm" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TheCore\leyunone.com\docs\.vuepress\public" />
+      <recent name="E:\TheCore\leyunone.com\docs\.vuepress\public\assets" />
+      <recent name="E:\TheCore\leyunone.com\docs\unidentified-business" />
+      <recent name="E:\TheCore\leyunone.com\docs\writeabout" />
       <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
     </key>
   </component>
@@ -239,6 +309,10 @@
       <workItem from="1683815620525" duration="1200000" />
       <workItem from="1683894923848" duration="2583000" />
       <workItem from="1684162658352" duration="3022000" />
+      <workItem from="1684249664944" duration="599000" />
+      <workItem from="1684334885001" duration="599000" />
+      <workItem from="1684585801443" duration="658000" />
+      <workItem from="1684674534361" duration="3193000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
@@ -576,22 +650,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="194" height="592" key="Git.Branch.Popup/0.0.1920.1050@0.0.1920.1050" timestamp="1677853905157" />
-    <state width="1876" height="2" key="GridCell.Tab.0.bottom" timestamp="1684167053153">
+    <state width="1876" height="301" key="GridCell.Tab.0.bottom" timestamp="1684682891659">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1684167053153" />
-    <state width="1876" height="2" key="GridCell.Tab.0.center" timestamp="1684167053153">
+    <state width="1876" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1684682891659" />
+    <state width="1876" height="301" key="GridCell.Tab.0.center" timestamp="1684682891659">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="2" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1684167053153" />
-    <state width="1876" height="2" key="GridCell.Tab.0.left" timestamp="1684167053153">
+    <state width="1876" height="301" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1684682891658" />
+    <state width="1876" height="301" key="GridCell.Tab.0.left" timestamp="1684682891658">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="2" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1684167053153" />
-    <state width="1876" height="2" key="GridCell.Tab.0.right" timestamp="1684167053153">
+    <state width="1876" height="301" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1684682891658" />
+    <state width="1876" height="301" key="GridCell.Tab.0.right" timestamp="1684682891659">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="2" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1684167053153" />
+    <state width="1876" height="301" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1684682891659" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1677321083082">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -608,10 +682,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="194" y="85" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677322948886" />
-    <state x="647" y="257" width="678" height="678" key="find.popup" timestamp="1684166945457">
+    <state x="647" y="257" width="678" height="678" key="find.popup" timestamp="1684680746802">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="647" y="257" width="678" height="678" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1684166945457" />
+    <state x="647" y="257" width="678" height="678" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1684680746802" />
     <state x="652" y="311" key="git4idea.merge.GitPullDialog" timestamp="1677585676066">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -620,10 +694,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="761" y="431" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677326119869" />
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1684166853454">
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1684674590009">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1684166853454" />
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1684674590009" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

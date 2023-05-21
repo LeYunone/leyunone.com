@@ -7,7 +7,7 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: GitHub,错误异常解决指南
+      content: GitHub,乐云一,错误异常解决指南
   - - meta
     - name: description
       content: 记录使用GitHub过程中的异常和解决方式

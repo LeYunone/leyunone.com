@@ -170,7 +170,7 @@ export const sidebarConfig = sidebar({
             ]
         },
         {
-            text: "啥啥啥的业务",
+            text: "哇,这是什么业务？",
             icon: "badashou",
             prefix: "unidentified-business/",
             collapsible: true,
@@ -178,7 +178,8 @@ export const sidebarConfig = sidebar({
                 "database-conflict",
                 "payment",
                 "service-platform",
-                "auto-scenes"
+                "auto-scenes",
+                "message-center-design"
             ],
         },
         {
@@ -268,7 +269,7 @@ export const sidebarConfig = sidebar({
             ],
         },
         {
-            text: "某些总结",
+            text: "多于总结",
             icon: "professional",
             prefix: "summary/",
             collapsible: true,

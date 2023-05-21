@@ -7,7 +7,7 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: 数据结构,算法,常用算法
+      content: 数据结构,乐云一,算法,常用算法
   - - meta
     - name: description
       content: 动态规划多用于以时间为单位划分阶段的动态优化过程问题，思路和分治法相似，都是将大问题划分为多个子问题。通过解决子问题的关联问题，算出动态规划的转换方程式。

@@ -8,7 +8,7 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: JAVA,消息队列,阻塞队列,线程池,rabbitmq
+      content: JAVA,消息队列,阻塞队列,线程池,rabbitmq,乐云一
   - - meta
     - name: description
       content: 需要将接收到的消息进行累计，然后每过X秒之后，统一消费；以此循环，只要有消息接收，就进行累计-统一消费的逻辑
