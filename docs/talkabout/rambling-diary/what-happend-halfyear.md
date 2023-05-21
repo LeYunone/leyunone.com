@@ -16,6 +16,8 @@ tag:
 
 那么离最后一趟车，已经只剩4小时考虑的我，是如何破的这个局？
 
+![1](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-05-21/7e44f13f-454e-46f7-b518-8cd748bc2850.gif)
+
 **巧+狠**
 
 在知道买反票的那一刻，就只想到了两个去处：
@@ -37,6 +39,8 @@ tag:
 
 幸运的是，马上找到了一张票，长沙 - 衡阳；
 
+<img src="https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-05-21/6ac6a1fb-a696-42c4-86fd-70a12dfa6b16.jpg" style="zoom:25%;" />
+
 <img src="https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-05-21/0b88688f-c9f3-4829-affd-5844f9475cc1.png" style="zoom:33%;" />
 
 不过坐2小时冷地板是真的累:(
@@ -54,6 +58,8 @@ tag:
 但是，在项目方面，也是找到了自己目前会主要研究的项目： **DbShop** ， [数据库对比工具](https://leyunone.com/development-diary/dbshop/dbshop-1.html)
 
 因为这是第一个会非常非常便捷我开发的一个工具，所以到时候如果有人使用了，并且受到了帮助，是会得到偌大满足感的事，我觉得，这件事， 泰裤辣！！！
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-05-21/893a3a23-23ed-4def-8300-edd7150e7120.jpg)
 
 ## 我好像成长了
 
@@ -75,6 +81,8 @@ tag:
 
 并且，后续根据自己对代码的理解，写了相关用于人肉搜索的应用代码，嘘~
 
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-04-23/61924685-ad34-4163-a2bf-96d183019976.jpg)
+
 **技术:**
 
 技术上最直观的变化，是对业务的设计。
@@ -92,7 +100,7 @@ tag:
 
 莫名其妙的就带入了策略模式去考虑数据库获取数据策略，-_-||
 
-
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-05-21/bdcd88d4-3354-4d3f-8c6b-4985cdec0dee.gif)
 
 除了业务上的提升外，也是逐渐了感觉到了以前刷算法获得的收获了，这在我之前写的一篇博客中有提到：
 
@@ -121,6 +129,8 @@ tag:
 
 然后拿起了从7岁玩起，导致现在即使很久没玩，也可以比较轻松的上S的CS。
 
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-04-23/3707b310-1788-4545-90d8-bd97a8af4957.gif)
+
 **笔力:**
 
 感觉自己好像是写诗的~~天才~~
@@ -145,7 +155,7 @@ tag:
 
 所以说，在风口上，猪都能起飞。
 
-
+<img src="https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/emo/2023-05-21/dee4ef76-8feb-420f-a850-d9597faea90c.jpg" style="zoom: 50%;" />
 
 
 

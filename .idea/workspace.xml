@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/what-happend-halfyear.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/unidentified-business/message-center-design.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/message-center-design.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/talkabout/rambling-diary/what-happend-halfyear.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/what-happend-halfyear.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +235,7 @@
       <workItem from="1684249664944" duration="599000" />
       <workItem from="1684334885001" duration="599000" />
       <workItem from="1684585801443" duration="658000" />
-      <workItem from="1684674534361" duration="4004000" />
+      <workItem from="1684674534361" duration="4529000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
@@ -470,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684682953569</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="[ADD]what-happend-halfyear.md">
+      <created>1684684241007</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1684684241007</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +535,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[UPDATE]cyber-manhunt.md" />
     <MESSAGE value="[UPDATE]GitLab-codex.md" />
     <MESSAGE value="[ADD]MQTT-about.md" />
     <MESSAGE value="[ADD]Git manager add package-lock.json controller my project version npm" />
@@ -555,7 +559,8 @@
     <MESSAGE value="[Update]talkabout.ts" />
     <MESSAGE value="[ADD]skywalking-reading2.md" />
     <MESSAGE value="[UPDATE]KEY word" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]KEY word" />
+    <MESSAGE value="[ADD]what-happend-halfyear.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]what-happend-halfyear.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="99" key="#Project_Structure" timestamp="1677322757083">
@@ -566,10 +571,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1680012310102" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1684682952434">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1684684240485">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1684682952434" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1684684240485" />
     <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1683303152955">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -582,22 +587,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="194" height="592" key="Git.Branch.Popup/0.0.1920.1050@0.0.1920.1050" timestamp="1677853905157" />
-    <state width="1876" height="301" key="GridCell.Tab.0.bottom" timestamp="1684683022778">
+    <state width="1876" height="294" key="GridCell.Tab.0.bottom" timestamp="1684684730119">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1684683022778" />
-    <state width="1876" height="301" key="GridCell.Tab.0.center" timestamp="1684683022777">
+    <state width="1876" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1684684730119" />
+    <state width="1876" height="294" key="GridCell.Tab.0.center" timestamp="1684684730119">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="301" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1684683022777" />
-    <state width="1876" height="301" key="GridCell.Tab.0.left" timestamp="1684683022777">
+    <state width="1876" height="294" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1684684730119" />
+    <state width="1876" height="294" key="GridCell.Tab.0.left" timestamp="1684684730119">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="301" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1684683022777" />
-    <state width="1876" height="301" key="GridCell.Tab.0.right" timestamp="1684683022778">
+    <state width="1876" height="294" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1684684730119" />
+    <state width="1876" height="294" key="GridCell.Tab.0.right" timestamp="1684684730119">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="301" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1684683022778" />
+    <state width="1876" height="294" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1684684730119" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1677321083082">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -606,10 +611,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="724" y="221" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1677598020700" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1684164006879">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1684684244451">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1684164006879" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1684684244451" />
     <state x="194" y="85" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1677322948886">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
