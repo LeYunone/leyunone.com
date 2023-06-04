@@ -132,7 +132,8 @@ export const sidebarConfig = sidebar({
                 "java-release",
                 "DatabaseMetaData",
                 "Java-agent-2",
-                "test-unit-mockfactory"
+                "test-unit-mockfactory",
+                "thread-wait"
             ]
         },
         {
