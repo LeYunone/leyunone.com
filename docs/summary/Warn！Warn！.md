@@ -84,6 +84,14 @@ Lucene很不好用，因为他的分词器好垃圾...
 @Value(XXX)
 private String xxx;
 ```
+### 3/ 小心事务
+
+```markdown
+在被@Transactional标记 或手动控制一个方法的事务 中
+使用Sqlsession.commit
+无法提交事务
+```
+
 
 在这里记录的原因是要注意，当属性为static修饰静态时，无法正常的加载注释使用。
 想要正常的使用，但又要修饰静态，只能在使用属性的方法上使用@Value
