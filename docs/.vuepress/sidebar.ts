@@ -84,9 +84,10 @@ export const sidebarConfig = sidebar({
                 },
                 {
                     text:"Skywalking&",
-                    prefix:"skywalking",
+                    prefix:"skywalking/",
+                    icon:"SkyWalking",
                     collapsible: true,
-                    children:[
+                    children: [
                         "skywalking-fast-init",
                         "skywalking-reading1",
                         "skywalking-reading2"
@@ -106,7 +107,8 @@ export const sidebarConfig = sidebar({
                 "vue-simple-upload",
                 "Zookeeper-lock",
                 "function-programming",
-                "db-sync-model"
+                "db-sync-model",
+                "strategy-factory-together"
             ]
         },
         {
@@ -133,7 +135,8 @@ export const sidebarConfig = sidebar({
                 "DatabaseMetaData",
                 "Java-agent-2",
                 "test-unit-mockfactory",
-                "thread-wait"
+                "thread-wait",
+                "lambda-serialize"
             ]
         },
         {
@@ -194,7 +197,6 @@ export const sidebarConfig = sidebar({
                 "db-eight-part-essay.md",
                 "httpServletResponse.md",
                 "java-eight-part-essay.md",
-                "lambda-serialize.md",
                 "redis-eight-part-essay.md",
                 "reflex-use-case.md",
                 "thread-eight-part-essay.md"

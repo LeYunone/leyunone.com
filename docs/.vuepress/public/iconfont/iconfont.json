@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "29785631",
+      "name": "SkyWalking",
+      "font_class": "SkyWalking",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
       "icon_id": "26313498",
       "name": "nacos",
       "font_class": "nacos",
