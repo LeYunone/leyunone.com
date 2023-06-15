@@ -223,7 +223,8 @@ export const sidebarConfig = sidebar({
                     collapsible: true,
                     icon: "yongqihuizhang-taiyi",
                     children: [
-                        "dbshop-1"
+                        "dbshop-1",
+                        "dbshop-2"
                     ]
                 },
                 {
