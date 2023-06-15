@@ -23,9 +23,9 @@ head:
 但是这样也太不优雅了。
 对于重复元素，其实在数学中还有一种处理方式：位运算。
 当有两个重复数字 10和10 时。
-:::align-center
+
 ![QQ截图20210926150031.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-26/QQ截图20210926150031.png)
-:::
+
 使用异或 ^ 运算，相同的为0，不相同的为1。
 那么当数组是[4,10,10]时，有
 ![QQ截图20210926150249.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-26/QQ截图20210926150249.png)

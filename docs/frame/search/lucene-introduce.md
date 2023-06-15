@@ -239,6 +239,6 @@ public final class MyIKTokenizer extends Tokenizer {
 ## 总结
 Lucene的简单使用就是这样了，Lucene还有很多很多的复杂使用场景。比如搜索的关键字，他可以是个值区间或是组合关键词；高级使用的排序功能等等...
 不过都躲不开一点，和磁盘的IO交互，所以Lucene的优化，在总的上来说就是对其IO优化的处理。
-:::align-center
+
 ![44e0e286c9177f3e58b85c6e7fcf3bc79e3d56e9.jpg](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-13/44e0e286c9177f3e58b85c6e7fcf3bc79e3d56e9.jpg)
-:::
+

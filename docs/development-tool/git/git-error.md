@@ -16,9 +16,9 @@ head:
 > 记录使用GitHub过程中的异常和解决方式
 # 交不上代码类
 ## 1、can't push
-:::align-center
+
 ![QQ截图20210923143418.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-23/QQ截图20210923143418.png)
-:::
+
 **场景：** 多出现在，新创建项目后idea共享到git仓库，交代码的时候，出现错误error.
 **原因：** https://github.com/LeYunone/reptile.git，这种类型的地址协议为只读protocol，不支持push。
 **解决方案：**
@@ -28,9 +28,9 @@ head:
 2. git remote add origin git@github.com:[用户名]/[项目名].git  [添加新节点，节点url为git@类型，支持push]   
 ```
 ## 2、ssh密钥问题
-:::align-center
+
 ![企业微信截图_20211209140011.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-12-09/企业微信截图_20211209140011.png)
-:::
+
 **场景**：出现在使用新电脑交代码时，或者手贱把github的密钥删除时，出现error。
 **原因**：在一台电脑上需要使用github交代码到某个账号仓库，需要该这个电脑下的git的SSH密钥与账号上的SSH密钥相匹配。
 **解决方案**：

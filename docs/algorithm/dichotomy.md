@@ -37,7 +37,7 @@ while(left<=right){
 }
 ```
 
-:::tip 细节
+tip 细节
 定义mid时，常用（right-left）/2+left,而不用(left+right)/2
 原因：right+left 容易超出int的数据范围。
 
@@ -48,7 +48,7 @@ while(left<=right){
 原因：很多使用场景中，因为下标原因，在其目标值判断时，需要对比前后数值或无需找到最后的目标值，那么就需要使用left<right的条件过滤掉最后一次left=right=mid的循环
 
 待补充
-:::
+
 
 # 涉及题目
 ### 1、[LeetCode-33. 搜索旋转排序数组](https://leyuna.xyz/#/blog?blogId=51)

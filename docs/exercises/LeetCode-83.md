@@ -13,9 +13,9 @@ head:
       content: 乐云一刷题日记！！！
 ---
 **示例：**
-:::align-center
+
 ![list2.jpg](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-24/list2.jpg)
-:::
+
 ```
 输入：head = [1,1,2,3,3]
 输出：[1,2,3]

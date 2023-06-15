@@ -25,9 +25,9 @@ head:
 并且想了想这些功能的蓝图：
 ## 新增表
 之前的表结构为：
-:::align-center
+
 ![file.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-24/file.png)
-:::
+
 可以看到核心表是和userId冗余的，但是这是张文件信息表，所以当前非常不可取。
 所以拆成了以下表:
 **file_user**:记录文件与用户的绑定关系，**file_id**、**user_id**
@@ -39,9 +39,9 @@ head:
 那么就只需要在服务端内部进行拷贝处理了。
 但是当前是基于文件的名字、大小去定位相同的文件的，在本次更新中就使用了文件的数据流MD5的形式当作文件的唯一标识。
 获得文件MD5的手法：
-:::align-center
+
 ![image.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-24/image.png)
-:::
+
 那么有了MD5作为文件标识，我们只需要将此值去**file_md5**中查询，所有有值则说明服务器中已经有这个文件了，只需要在**file_user**表中新增本次上传用户和次文件的绑定关联即可。
 ## 分片
 经过后续了解，如果我们只是用一对一连接传输文件，问题很多：
