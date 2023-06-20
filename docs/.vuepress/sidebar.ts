@@ -136,7 +136,8 @@ export const sidebarConfig = sidebar({
                 "Java-agent-2",
                 "test-unit-mockfactory",
                 "thread-wait",
-                "lambda-serialize"
+                "lambda-serialize",
+                "about-code-explanatory"
             ]
         },
         {
