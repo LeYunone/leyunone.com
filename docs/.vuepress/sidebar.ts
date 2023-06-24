@@ -120,7 +120,8 @@ export const sidebarConfig = sidebar({
                 "AlibabaEasyExcel",
                 "Diboot",
                 "XXL-Job",
-                "GitLab-codex"
+                "GitLab-codex",
+                "dbshop"
             ]
         },
         {
