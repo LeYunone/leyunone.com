@@ -108,7 +108,8 @@ export const sidebarConfig = sidebar({
                 "Zookeeper-lock",
                 "function-programming",
                 "db-sync-model",
-                "strategy-factory-together"
+                "strategy-factory-together",
+                "condition-command"
             ]
         },
         {
