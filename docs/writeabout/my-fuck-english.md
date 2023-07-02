@@ -21,4 +21,8 @@ category:
 | My English vocabulary is limited |  我的英语词汇量有限  |
 |              P2 50               | 是p2 50 不是 P 2 5 0 |
 |       who aimpunch my head       |    谁瞄准了我的头    |
+|       Let's jump right in        |     让我们开始吧     |
+| I will do my best to assist you  |    尽我可能帮助你    |
+
+
 
