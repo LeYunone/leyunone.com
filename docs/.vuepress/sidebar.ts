@@ -187,7 +187,8 @@ export const sidebarConfig = sidebar({
                 "payment",
                 "service-platform",
                 "auto-scenes",
-                "message-center-design"
+                "message-center-design",
+                "summertime"
             ],
         },
         {
