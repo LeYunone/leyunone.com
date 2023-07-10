@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Interesting-design/templated-application.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/model-degin.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/templated-application.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/templated-application.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +267,7 @@
       <workItem from="1688661247155" duration="874000" />
       <workItem from="1688725693980" duration="1504000" />
       <workItem from="1688915040725" duration="1245000" />
-      <workItem from="1688998624616" duration="881000" />
+      <workItem from="1688998624616" duration="1219000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
@@ -601,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688916807924</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="[ADD]templated-application.md">
+      <created>1689005925094</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1689005925094</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -661,7 +665,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[ADD]jenkins-init.md" />
     <MESSAGE value="[ADD]netty-oom-1.md" />
     <MESSAGE value="[UPDATE]图片格式错误" />
     <MESSAGE value="[UPDATE]java-release.md" />
@@ -686,37 +689,38 @@
     <MESSAGE value="[ADD] condition-command.md" />
     <MESSAGE value="[ADD]summertime.md" />
     <MESSAGE value="[UPDATE]update time" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]update time" />
+    <MESSAGE value="[ADD]templated-application.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]templated-application.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1686415954877">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1686415954877" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1688916807171">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1689005924433">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1688916807171" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1689005924433" />
     <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1688661408386">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="41" y="184" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1688661408386" />
-    <state width="1876" height="188" key="GridCell.Tab.0.bottom" timestamp="1688731206048">
+    <state width="1876" height="188" key="GridCell.Tab.0.bottom" timestamp="1689006205059">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="188" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1688731206048" />
-    <state width="1876" height="188" key="GridCell.Tab.0.center" timestamp="1688731206048">
+    <state width="1876" height="188" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1689006205059" />
+    <state width="1876" height="188" key="GridCell.Tab.0.center" timestamp="1689006205058">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="188" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1688731206048" />
-    <state width="1876" height="188" key="GridCell.Tab.0.left" timestamp="1688731206048">
+    <state width="1876" height="188" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1689006205058" />
+    <state width="1876" height="188" key="GridCell.Tab.0.left" timestamp="1689006205057">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="188" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1688731206048" />
-    <state width="1876" height="188" key="GridCell.Tab.0.right" timestamp="1688731206048">
+    <state width="1876" height="188" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1689006205057" />
+    <state width="1876" height="188" key="GridCell.Tab.0.right" timestamp="1689006205059">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="188" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1688731206048" />
+    <state width="1876" height="188" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1689006205059" />
     <state width="1876" height="342" key="GridCell.Tab.1.bottom" timestamp="1687620041165">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -773,10 +777,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="724" y="221" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1685282360449" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1688916811787">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1689005928701">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1688916811787" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1689005928701" />
     <state x="41" y="72" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1685279723572">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
