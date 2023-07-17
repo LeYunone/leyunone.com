@@ -17,7 +17,7 @@ head:
 
 一款简单、安全且拆箱即用的评论框架，以下是它的部署使用即注意要点
 
-## 注册LeanCloud数据库
+## 注册LeanCloud数据库 
 
 [登录](https://console.leancloud.app/login) 或 [注册](https://console.leancloud.app/register)
 

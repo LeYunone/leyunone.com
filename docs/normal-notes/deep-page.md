@@ -10,7 +10,7 @@ head:
     - name: keywords
       content: MySql,分页,深分页问题,深分页解决方案
 ---
-# MySQL深分页
+# MySQL深分页 
 
 深分页是一个老生常谈，出现在数据长久累积，查询分页时的慢查询问题；
 
