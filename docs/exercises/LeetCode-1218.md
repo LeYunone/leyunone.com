@@ -12,7 +12,7 @@ head:
     - name: description
       content: 乐云一刷题日记！！！
 ---
-**示例：**
+**示例**：
 ```
 输入：arr = [1,5,7,8,5,3,4,2,1], difference = -2
 输出：4

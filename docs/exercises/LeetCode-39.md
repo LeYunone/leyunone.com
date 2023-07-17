@@ -12,7 +12,7 @@ head:
     - name: description
       content: 乐云一刷题日记！！！
 ---
-**示例：**
+**示例**：
 ```
 输入: candidates = [2,3,6,7], target = 7
 输出: [[7],[2,2,3]]

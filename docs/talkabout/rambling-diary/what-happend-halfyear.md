@@ -147,7 +147,7 @@ tag:
 
 感受到了文字被翻译成语言后，那传染至脑的画面感，真的很棒。
 
-**其他：**
+**其他**：
 
 首先是祝贺自己终于在得空时，把 [Butter-Fly](https://www.bilibili.com/video/BV1ey4y1t7cy/?spm_id_from=333.337.search-card.all.click)学会了，然后是人生中第一笔~~大投资~~ 奇怪的大丰收：
 

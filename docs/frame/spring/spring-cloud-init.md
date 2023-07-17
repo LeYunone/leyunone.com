@@ -105,7 +105,7 @@ spring:
   application:
     name: eurka-server
 ```
-**解释：**
+**解释**：
     1. registerWithEureka: false
     2. fetchRegistry: false
 ```

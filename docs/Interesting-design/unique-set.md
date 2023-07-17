@@ -77,7 +77,7 @@ public class UniqueSet<K,V> extends AbstractSet<V> implements Serializable {
 简单的定义出一个，unique规则的set，但是这也只是个骨架，肉还是来自里面的方法。
 那么作为set，在去重中的定位应该是这样的流程：
 List转换为set，set在转换为List返回出去。
-**第一步：**
+**第一步**：
 List转换为set，相当于**set.addAll(list)**
 我们调用set.addAll(list)时，由AbstractSet指定。调用其特征类的add方法。
 当我们没有重写add方法时，会调用到AbstractSet，然后直接抛出异常。
@@ -104,7 +104,7 @@ this.uniqueCondition.apply(v)申请出来的是对象的属性值。
 ### 细节
 通过上面定义一个Fuction接口，并且重写add方法。
 已经可以达到进入到uniqueSet的集合会由定义的某个属性值去重。
-但是我们一定需要重写：**iterator**和**size**
+但是我们一定需要重写**：iterator**和**size**
 ```
     @Override
     public Iterator<V> iterator() {

@@ -12,7 +12,7 @@ head:
     - name: description
       content: 乐云一刷题日记！！！
 ---
-**示例：**
+**示例**：
 
 ![list2.jpg](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-24/list2.jpg)
 

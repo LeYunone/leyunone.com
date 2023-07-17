@@ -12,7 +12,7 @@ head:
     - name: description
       content: 乐云一刷题日记！！！
 ---
-**示例：**
+**示例**：
 ![image.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-26/image.png)
 ## 思路
 求最小深度，和求[最大深度](https://leyuna.xyz/#/blog?blogId=25)一样，都是求离根节点最远或最近叶子节点的问题。

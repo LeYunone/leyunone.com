@@ -12,7 +12,7 @@ head:
     - name: description
       content: 乐云一刷题日记！！！
 ---
-**示例：**
+**示例**：
 ![QQ截图20210926162706.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-26/QQ截图20210926162706.png)
 ## 思路
 又是一道链表的经典问题，求环形链表，不过本题比较简单只需要判断是否是环形链表。

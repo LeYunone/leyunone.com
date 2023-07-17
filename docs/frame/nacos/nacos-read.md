@@ -57,12 +57,12 @@ head:
 
 本类是nacos进行服务注册的实际执行者，发生在 **reqApi**方法中。
 
-**在nacos服务端为单机环境下时：**
+**在nacos服务端为单机环境下时**：
 ![image-20220522215953485.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-22/image-20220522215953485.png)
 
 通过开发者在配置文件中设置的 **namingRequestDomainMaxRetryCount**数，重连服务端次数，将注册信息交给 **callServer**方法处理。
 
-**在nacos服务端集群环境，服务端数量>1时：**
+**在nacos服务端集群环境，服务端数量>1时**：
 
 ![image-20220522220117574.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-05-22/image-20220522220117574.png)
 

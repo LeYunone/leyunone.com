@@ -30,9 +30,9 @@ head:
 
 上图为 [菜鸟教程](https://www.runoob.com/design-pattern/strategy-pattern.html) 中对于策略模式的定义，在我看来可以简单的解释为：
 
-- 抽象策略角色：**抽象的定义了执行方法，以及注册策略到用户仓库的抽象类**
-- 具体策略角色：**实现了抽象执行方法的具体类**
-- 环境角色：**存储策略及具体实现类的用户仓库**
+- 抽象策略角色**：抽象的定义了执行方法，以及注册策略到用户仓库的抽象类**
+- 具体策略角色**：实现了抽象执行方法的具体类**
+- 环境角色**：存储策略及具体实现类的用户仓库**
 
 在白话点，就是将诸葛亮的锦囊，通过字典的方式放到对应的目录索引下。
 
@@ -157,7 +157,7 @@ public class TransformRuleHandlerFactory {
 
 我们可以使用抽象工厂，将整个策略仓库抽象化，即新增：
 
-**抽象工厂：**
+**抽象工厂**：
 
 ```java
 public abstract class AbstractRuleFactory {
@@ -168,7 +168,7 @@ public abstract class AbstractRuleFactory {
 }
 ```
 
-**具体工厂：**
+**具体工厂**：
 
 ```java
 public class TransformRuleHandlerFactory extends AbstractRuleFactory{
@@ -181,7 +181,7 @@ public class TransformRuleHandlerFactory extends AbstractRuleFactory{
 
 那么我们就可以由具体策略实现者去管控他的策略仓库逻辑，
 
-**抽象策略者：**
+**抽象策略者**：
 
 ```java
 public abstract class AbstractRule implements InitializingBean {
@@ -204,7 +204,7 @@ public abstract class AbstractRule implements InitializingBean {
 }
 ```
 
-**具体策略：**
+**具体策略**：
 
 ```java
 @RuleHandler("type_transform")

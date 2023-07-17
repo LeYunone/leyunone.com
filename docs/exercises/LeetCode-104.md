@@ -12,7 +12,7 @@ head:
     - name: description
       content: 乐云一刷题日记！！！
 ---
-**示例：**
+**示例**：
 
 ```
 给定二叉树 [3,9,20,null,null,15,7]，

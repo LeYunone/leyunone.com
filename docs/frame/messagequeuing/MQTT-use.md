@@ -147,7 +147,7 @@ public class MqttSubscribe implements MqttCallback {
 
 ## 开发Springboot-mqtt自动装配项目
 
-**项目：** [https://github.com/LeYunone/springboot-mqtt-leyunone](https://github.com/LeYunone/springboot-mqtt-leyunone)
+**项目**： [https://github.com/LeYunone/springboot-mqtt-leyunone](https://github.com/LeYunone/springboot-mqtt-leyunone)
 
 ### 配置
 

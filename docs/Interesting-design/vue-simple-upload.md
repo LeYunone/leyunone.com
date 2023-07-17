@@ -33,7 +33,7 @@ head:
 
 ## 依赖：
 
-**Vue2：**
+**Vue2**：
 ```
 npm install vue-simple-uploader --save
 ```

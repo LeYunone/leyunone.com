@@ -12,7 +12,7 @@ head:
     - name: description
       content: 乐云一刷题日记！！！
 ---
-**示例：**
+**示例**：
 ![2021-9-25-108leetcode.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-25/2021-9-25-108leetcode.png)
 
 ## 思路

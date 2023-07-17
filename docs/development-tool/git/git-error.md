@@ -19,9 +19,9 @@ head:
 
 ![QQ截图20210923143418.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-09-23/QQ截图20210923143418.png)
 
-**场景：** 多出现在，新创建项目后idea共享到git仓库，交代码的时候，出现错误error.
-**原因：** https://github.com/LeYunone/reptile.git，这种类型的地址协议为只读protocol，不支持push。
-**解决方案：**
+**场景**： 多出现在，新创建项目后idea共享到git仓库，交代码的时候，出现错误error.
+**原因**： https://github.com/LeYunone/reptile.git，这种类型的地址协议为只读protocol，不支持push。
+**解决方案**：
 在项目对应文件夹下cmd控制台输入：
 ```
 1. git remote rm origin  [移除当前节点]
@@ -39,7 +39,7 @@ head:
 分为两步：
 1、如果电脑里已经生成了github的SSH密钥，则在c:用户\user\.ssh 文件夹里找到id_rsa.pub[公钥]然后进行第二步
 ```
-**第二步：**
+**第二步**：
 ![企业微信截图_20211209141509.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-12-09/企业微信截图_20211209141509.png)
 
 

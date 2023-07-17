@@ -19,13 +19,13 @@ head:
 # 启动
 ## 配置问题
 ### 1、@ComponentScan
-**场景：** 在多模块中，单独设置启动模块时。
+**场景**： 在多模块中，单独设置启动模块时。
                                         .
 
 ![企业微信截图_20211221104819.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2021-12-21/企业微信截图_20211221104819.png)width="400" height="auto"
 
-**原因：** SpringBoot自动解析项目注入的前提是，application启动类在该项目的根目录下。但在多模块的场景下，必须使用@ComponentScan标明需要SpringBoot扫描的其他模块包
-**解决：**
+**原因**： SpringBoot自动解析项目注入的前提是，application启动类在该项目的根目录下。但在多模块的场景下，必须使用@ComponentScan标明需要SpringBoot扫描的其他模块包
+**解决**：
 ```
 @SpringBootApplication
 @ComponentScan({"com.leyuna.*"})

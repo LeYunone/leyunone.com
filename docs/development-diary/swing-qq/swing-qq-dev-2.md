@@ -60,10 +60,10 @@ tag:
 
 在这里我们就要用创建新东西，udp服务器——指令服务器。
 udp的特点，只管发送。若不处理这个问题，那么就不能体现出离线功能，所以对每一个指令又要进行二次处理。
-**图解：**
+**图解**：
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191225205648513.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQ1NDIyNQ==,size_16,color_FFFFFF,t_70)
-关键点：**1、Json格式信息的传输。**
+关键点**：1、Json格式信息的传输。**
 2、udp发送信息发送的是一个**包裹**。
 
 所以针对这个问题，又可以用到**面向对象**的思想。
@@ -132,7 +132,7 @@ public class Mess {
 **点对点聊天**
 双击好友或群下用户，弹出聊天界面。
 这里又要用**面向对象**的思想
-**问题1：**
+**问题1**：
 **将每一个用户的聊天窗口看作一个对象**
 所以在双击用户的时候就要进行聊天窗口的登记
 

@@ -55,7 +55,7 @@ void addDateHeader(String name, long date)
 
 添加指定名称的响应头和日期值。
 
-**应用场景：**
+**应用场景**：
 
 一般要用到这个方法的场景，肯定是希望后端返回一个和业务有关的日期值出来。
 
@@ -79,7 +79,7 @@ void addHeader(String name, String value)
 
 添加指定名称的响应头和值。
 
-**应用场景：**
+**应用场景**：
 
 addHeader应用场景可太多了，主要是因为很多功能的刷新点是基于Key - Value进行配置的。
 
@@ -113,7 +113,7 @@ boolean containsHeader(String name)
 
 返回指定的响应头是否存在.
 
-**应用场景：**
+**应用场景**：
 
 暂时研究不出来，因为对于后端来说，前端将自己的数据设置到Response中我们还要去判断也太怪了。
 
@@ -127,7 +127,7 @@ void setHeader(String name, String value)
 
 使用指定名称和值设置响应头的名称和内容。
 
-**应用场景：**
+**应用场景**：
 
 一个大头，可以取代以上的所有方法。
 
@@ -169,7 +169,7 @@ void setIntHeader(String name, int value)
 
 指定 int 类型的值到 name 标头。
 
-**应用场景：**
+**应用场景**：
 
 和setHeader的用法区别不大，主要是value一个是String，一个是value。
 
@@ -195,7 +195,7 @@ void setStatus(int sc)
 
 设置响应的状态码
 
-**应用场景：**
+**应用场景**：
 
 状态编码，请求头返回时，html协议首先是判断状态编码的类型，然后选择对应的处理方式：
 

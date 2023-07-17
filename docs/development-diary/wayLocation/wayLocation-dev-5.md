@@ -42,7 +42,7 @@ com.leyuna.waylocation.autoconfig.WaylocationAutoConfiguration
 2、在groupId那行，用自己的域名倒过来的顺序
 3、创建成功之后，bot发个验证码需要你在你的域名DNS解析上映射。
 ![image.png](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-04-11/image.png)
-记录值是：**https://issues.sonatype.org/browse/OSSRH-79702**  ，后面就是验证码
+记录值是**：https://issues.sonatype.org/browse/OSSRH-79702**  ，后面就是验证码
 4、等，可能是几小时也可能是一星期。
 5、bot发邮件告诉你通过了
 

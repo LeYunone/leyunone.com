@@ -12,7 +12,7 @@ head:
     - name: description
       content: 乐云一刷题日记！！！
 ---
-**示例1：**
+**示例1**：
 ```
 输入：rungs = [1,3,5,10], dist = 2
 输出：2

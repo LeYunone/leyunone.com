@@ -63,7 +63,7 @@ apache/skywalking-ui:8.6.0
 
 ## 项目配置
 
-### **引入依赖：**
+### **引入依赖**：
 
 ```xml
 	    <dependency>

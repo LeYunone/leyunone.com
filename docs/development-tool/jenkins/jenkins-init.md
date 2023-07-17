@@ -53,7 +53,7 @@ https://www.jenkins.io/download/
 
 **工作空间**：JenKins关联项目打包产生的缓存及包，以及GitLab拉取的代码和Jenkins工作缓存的存储空间。
 
-**TIP：**1、注意如果需要修改工作空间，则在修改前不进行插件、项目等的关联、安装。
+**TIP**：1、注意如果需要修改工作空间，则在修改前不进行插件、项目等的关联、安装。
 
 ​		  2、JenKins在Windows环境下为系统服务，修改前后需在服务中将名为Jenkins的服务重新启动
 
@@ -115,7 +115,7 @@ www.google.com -> www.baidu.com
 
 ![image-20220822143439148](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-04-16/ce63342d-d53a-4fb9-b817-14b1968317df.png)
 
-**TIP：** 注意合理设置timeout，SSH的默认连接时间大多超过秒级，所以控制在3000ms内即可
+**TIP**： 注意合理设置timeout，SSH的默认连接时间大多超过秒级，所以控制在3000ms内即可
 
 #### SSH连接器
 
@@ -153,7 +153,7 @@ www.google.com -> www.baidu.com
 
 ![image-20220822145038993](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-04-16/774baabe-5727-49e5-b6b0-cd59a33bc9a8.png)
 
-**TIP：** 指定分支，一定需要 指定到具体的分支上，比如*/release ，这里的 * 代表全匹配，一般在Git不设置的情况下都是 origin
+**TIP**： 指定分支，一定需要 指定到具体的分支上，比如*/release ，这里的 * 代表全匹配，一般在Git不设置的情况下都是 origin
 
 ### 构建触发器
 

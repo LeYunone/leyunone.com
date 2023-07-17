@@ -26,7 +26,7 @@ head:
 
 在创建好仓库之后，BOT会向注册邮箱中发送两条邮信
 
-**创建成功的：**
+**创建成功的**：
 
 <img src="https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-04-24/6702fa2e-3954-4e1b-9e0b-462599521f61.png" style="zoom:67%;" />
 

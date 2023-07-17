@@ -197,15 +197,15 @@ public class MockBeanFactory {
 
 ```
 
-**代码地址：** [https://github.com/LeYunone/leyuna-laboratory/blob/master/laboratory-core/src/main/java/com/leyunone/laboratory/core/factory/MockBeanFactory.java](https://github.com/LeYunone/leyuna-laboratory/blob/master/laboratory-core/src/main/java/com/leyunone/laboratory/core/factory/MockBeanFactory.java)
+**代码地址**： [https://github.com/LeYunone/leyuna-laboratory/blob/master/laboratory-core/src/main/java/com/leyunone/laboratory/core/factory/MockBeanFactory.java](https://github.com/LeYunone/leyuna-laboratory/blob/master/laboratory-core/src/main/java/com/leyunone/laboratory/core/factory/MockBeanFactory.java)
 
 ## 设计思想
 
-**背景：** 需要对DoService 中的 XX方法 进行单元测试的覆盖， 其中，XX方法调用了 AService 、BService、CDao、DValid...
+**背景**： 需要对DoService 中的 XX方法 进行单元测试的覆盖， 其中，XX方法调用了 AService 、BService、CDao、DValid...
 
 
 
-### **正常思路：**
+### **正常思路**：
 
 通过：
 
@@ -222,16 +222,16 @@ CDao c = Mockito.mock(CDao.class);
 
 
 
-### **自定义工厂思路：**
+### **自定义工厂思路**：
 
-**通过：**
+**通过**：
 
 ```java
 MockBeanFactory mockBeanFactory = MockBeanFactory.buildMockBeanFactory();
 DoService doS = mockBeanFactory.getBeMockBean(DoService.class);
 ```
 
-**工厂中：**
+**工厂中**：
 
 ```java
     @SneakyThrows

@@ -15,7 +15,7 @@ head:
 ---
 # Rabbit延时消费方案实现
 
-**业务背景：**
+**业务背景**：
 
 - 验证码业务，验证码过期时需要做回执处理【过期短信发送/日志记录/...】
 - 订单业务【支付/办理/..】，一个订单时间后，做订正/查额/失效...等操作
@@ -26,7 +26,7 @@ head:
 
 ### 1\插件
 
-**地址：**[https://github.com/rabbitmq/rabbitmq-delayed-message-exchange/releases](https://github.com/rabbitmq/rabbitmq-delayed-message-exchange/releases)
+**地址**：[https://github.com/rabbitmq/rabbitmq-delayed-message-exchange/releases](https://github.com/rabbitmq/rabbitmq-delayed-message-exchange/releases)
 
 由于RabbitMq并不自带延时消费的功能，且延时消费对于消费队列来说并不保证百分百安全、可控。而且延时消费业务在设计上来说本身就不属于**RabbitMQ** 消费队列的设计理念；
 

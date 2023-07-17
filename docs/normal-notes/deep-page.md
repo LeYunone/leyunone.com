@@ -45,7 +45,7 @@ SELECT from test WHERE create_time>='2023-07-18' AND id > 10 LIMIT 10;
 
 ### 子查询SQL
 
-**当ID同样为自增主键时：**
+**当ID同样为自增主键时**：
 
 可通过先将条件中分页数据的临界值查询出来，在进行ID的过滤
 
@@ -53,7 +53,7 @@ SELECT from test WHERE create_time>='2023-07-18' AND id > 10 LIMIT 10;
 SELECT FROM test WHERE id > (SELECT FROM test WHERE create_time >='2023-7-18' LIMIT 1) LIMIT 10000,10
 ```
 
-**当ID为不规则主键时：**
+**当ID为不规则主键时**：
 
 可通过子查询分页，只查询ID，虽然没有根本性解决问题，但是可以解决索引回表的问题。
 

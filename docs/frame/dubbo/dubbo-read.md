@@ -271,7 +271,7 @@ public interface CarInterface {
 }
 ```
 
-**注入接口的实例类：**
+**注入接口的实例类**：
 
 ```
 public class My implements PersonInterface{

@@ -81,7 +81,7 @@ public void messagePublish(...){
 }
 ```
 
-**抽象策略者：**
+**抽象策略者**：
 
 ```java
 public abstract class MessageCenterManager<T extends MessageCenterBean> {
@@ -152,7 +152,7 @@ public class UserMessageManager extends MessageCenterManager<MessageCenterBean.u
 
 `消息模板`：
 
-对于所有消息来说，相同的业务都会出现这样的问题：**消息主题不变，变的只有消息的 “你” “我” 宾语**，所以我们可以维护一张消息模板表，去覆盖业务中所有的业务，消息模板包括：
+对于所有消息来说，相同的业务都会出现这样的问题**：消息主题不变，变的只有消息的 “你” “我” 宾语**，所以我们可以维护一张消息模板表，去覆盖业务中所有的业务，消息模板包括：
 
 - 模型文本
 - 触发文本
@@ -249,7 +249,7 @@ public class UserMessageManager extends MessageCenterManager<MessageCenterBean.u
 
 判断是否在免打扰时段：
 
-如果应用不存在海外市场，那么我们只需要简单的判断 星期 - 时间段，是否合法；但是如果存在海外市场，那么还需要：**维护一张用户-时区的表**
+如果应用不存在海外市场，那么我们只需要简单的判断 星期 - 时间段，是否合法；但是如果存在海外市场，那么还需要**：维护一张用户-时区的表**
 
 将设置上的时间转化成系统时区的时间，然后判断时间是否在区间内，至于转化有很多办法，我偏向于将数据中的时间转换成系统时间：
 

@@ -12,7 +12,7 @@ head:
     - name: description
       content: 乐云一刷题日记！！！
 ---
-**示例：**
+**示例**：
 ```
 输入：nums = [4,5,6,7,0,1,2], target = 0
 输出：4

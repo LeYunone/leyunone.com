@@ -13,7 +13,7 @@ tag:
 
 然，API接口则没有报错的问题，所以对于每一个站长来说，封装一个优于百度站长收录体验的Open-api是非常有必要的；
 
-**项目地址：** [https://github.com/LeYunone/leyunone-open-api](https://github.com/LeYunone/leyunone-open-api)
+**项目地址**： [https://github.com/LeYunone/leyunone-open-api](https://github.com/LeYunone/leyunone-open-api)
 
 ## 两个方法
 

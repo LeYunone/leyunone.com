@@ -113,7 +113,7 @@ public static <T> void mainTest(T[] arr, CompareFunction<T> compareFunction) {
 ![img](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/3.png)
 
 
-**Java中：**Lambda表达式称为闭包，是JDK8引入的配合函数式接口使用的新特性，两者是不可切割的。
+**Java中**：Lambda表达式称为闭包，是JDK8引入的配合函数式接口使用的新特性，两者是不可切割的。
 
 ![img](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2022-12-05/4.png)
 

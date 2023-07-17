@@ -119,7 +119,7 @@ Collection.class.isAssignableFrom(class)
 在反射应用中，方法以及属性显得尤为核心。
 ### 场景一：
 调用方法：
-在反射调用方法的流程中：**class.forName()** 拿到class -> **getMethod** 拿到方法 -> invoke() 调用。
+在反射调用方法的流程中**：class.forName()** 拿到class -> **getMethod** 拿到方法 -> invoke() 调用。
 基础流程是这样走没错，但是很多节点中需要诸多条件。
 比如**获取方法**时：
 需要明确方法的参数列表 **Class<?>[]**。
