@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/github-project/Waline.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/Interesting-design" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/github-project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -71,16 +72,16 @@
     <property name="ts.external.directory.path" value="E:\software\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TheCore\leyunone.com\docs\github-project" />
+      <recent name="E:\TheCore\leyunone.com\docs\normal-notes" />
+      <recent name="E:\TheCore\leyunone.com\docs\Interesting-design" />
+      <recent name="E:\TheCore\leyunone.com\docs\unidentified-business" />
+      <recent name="E:\TheCore\leyunone.com\docs\writeabout" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\TheCore\leyunone.com\docs\java" />
       <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\TheCore\leyunone.com\docs\Interesting-design" />
-      <recent name="E:\TheCore\leyunone.com\docs\unidentified-business" />
-      <recent name="E:\TheCore\leyunone.com\docs\github-project" />
-      <recent name="E:\TheCore\leyunone.com\docs\writeabout" />
-      <recent name="E:\TheCore\leyunone.com\docs\java" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-build">
@@ -272,6 +273,7 @@
       <workItem from="1689173132519" duration="597000" />
       <workItem from="1689260397443" duration="691000" />
       <workItem from="1689497161469" duration="770000" />
+      <workItem from="1689693597544" duration="1383000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>
@@ -609,7 +611,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689005925094</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="[ADD]deep-page.md">
+      <created>1689693721667</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1689693721667</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -669,7 +678,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[ADD]netty-oom-1.md" />
     <MESSAGE value="[UPDATE]图片格式错误" />
     <MESSAGE value="[UPDATE]java-release.md" />
     <MESSAGE value="[ADD]abouot-algorithm1.md" />
@@ -694,17 +702,18 @@
     <MESSAGE value="[ADD]summertime.md" />
     <MESSAGE value="[UPDATE]update time" />
     <MESSAGE value="[ADD]templated-application.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]templated-application.md" />
+    <MESSAGE value="[ADD]deep-page.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]deep-page.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1686415954877">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1686415954877" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1689005924433">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1689693720984">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1689005924433" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1689693720984" />
     <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1688661408386">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
