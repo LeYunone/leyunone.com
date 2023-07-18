@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/templated-application.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/templated-application.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,6 +268,10 @@
       <workItem from="1688725693980" duration="1504000" />
       <workItem from="1688915040725" duration="1245000" />
       <workItem from="1688998624616" duration="1219000" />
+      <workItem from="1689085839212" duration="1209000" />
+      <workItem from="1689173132519" duration="597000" />
+      <workItem from="1689260397443" duration="691000" />
+      <workItem from="1689497161469" duration="770000" />
     </task>
     <task id="LOCAL-00001" summary="[add] add db-sync-model.md">
       <created>1677169522598</created>

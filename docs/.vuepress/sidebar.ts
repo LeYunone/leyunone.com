@@ -198,6 +198,7 @@ export const sidebarConfig = sidebar({
             prefix: "normal-notes/",
             collapsible: true,
             children: [
+                "deep-page",
                 "2022-04-19-eeg.md",
                 "db-eight-part-essay.md",
                 "httpServletResponse.md",
