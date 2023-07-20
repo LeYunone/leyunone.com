@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="" />
+    <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/github-project/Waline.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/github-project/Waline.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -270,21 +273,9 @@
       <workItem from="1689173132519" duration="597000" />
       <workItem from="1689260397443" duration="691000" />
       <workItem from="1689497161469" duration="770000" />
-      <workItem from="1689693597544" duration="1685000" />
-    </task>
-    <task id="LOCAL-00002" summary="[add] add XXL-Job.md">
-      <created>1677324584878</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1677324584878</updated>
-    </task>
-    <task id="LOCAL-00003" summary="[UPDATE]NEW package.json :(">
-      <created>1677597207659</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1677597207659</updated>
+      <workItem from="1689693597544" duration="2007000" />
+      <workItem from="1689778406261" duration="596000" />
+      <workItem from="1689864025421" duration="1047000" />
     </task>
     <task id="LOCAL-00004" summary="[ADD]Warn！Warn！.md">
       <created>1678034692476</created>
@@ -615,7 +606,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689695947373</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="[ADD]Waline.md deep-page.md">
+      <created>1689609943463</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1689609943463</updated>
+    </task>
+    <task id="LOCAL-00052" summary="[UPDATE]**XX：** cancel new **XX**：">
+      <created>1689610124969</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1689610124969</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,8 +680,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[UPDATE]java-release.md" />
-    <MESSAGE value="[ADD]abouot-algorithm1.md" />
     <MESSAGE value="[UPDATE]abouot-algorithm1.md" />
     <MESSAGE value="[ADD]skywalking-reading1.md" />
     <MESSAGE value="[Update]abouot-algorithm1.md" />
@@ -700,17 +703,19 @@
     <MESSAGE value="[ADD]templated-application.md" />
     <MESSAGE value="[ADD]deep-page.md" />
     <MESSAGE value="[ADD]Waline.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]Waline.md" />
+    <MESSAGE value="[ADD]Waline.md deep-page.md" />
+    <MESSAGE value="[UPDATE]**XX：** cancel new **XX**：" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]**XX：** cancel new **XX**：" />
   </component>
   <component name="WindowStateProjectService">
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1686415954877">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1686415954877" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1689695946879">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1689610124184">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1689695946879" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1689610124184" />
     <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1688661408386">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -787,26 +792,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="724" y="221" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1685282360449" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1689696205901">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1689610133286">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1689696205901" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1689610133286" />
     <state x="41" y="72" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1685279723572">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="41" y="72" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1685279723572" />
-    <state x="647" y="257" width="678" height="678" key="find.popup" timestamp="1689005863497">
+    <state x="647" y="257" width="678" height="678" key="find.popup" timestamp="1689610037547">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="647" y="257" width="678" height="678" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1689005863497" />
+    <state x="647" y="257" width="678" height="678" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1689610037547" />
     <state x="652" y="311" key="git4idea.merge.GitPullDialog" timestamp="1689695994368">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="652" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1689695994368" />
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1689005805070">
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1689868332384">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1689005805070" />
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1689868332384" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
