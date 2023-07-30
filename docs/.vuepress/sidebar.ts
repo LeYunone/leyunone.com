@@ -110,7 +110,8 @@ export const sidebarConfig = sidebar({
                 "db-sync-model",
                 "strategy-factory-together",
                 "condition-command",
-                "templated-application"
+                "templated-application",
+                "mailpush-service"
             ]
         },
         {
