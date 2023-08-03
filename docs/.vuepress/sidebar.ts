@@ -23,7 +23,8 @@ export const sidebarConfig = sidebar({
                     children: [
                         "spring-boot-error",
                         "spring-cloud-init",
-                        "spring-cloud-read"
+                        "spring-cloud-read",
+                        "springboot-18n-error"
                     ]
                 },
                 {
