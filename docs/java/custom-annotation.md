@@ -133,3 +133,8 @@ public class CheckAdvice {
 
 ##  使用实例
 
+我挑选两个通过自定义注解解决问题的例子：
+
+一个是在项目 [DbShop](https://github.com/LeYunone/dbshop) 中通过自定义注解去结合策略模式进行业务设计；
+
+另一个是在项目 [springboot-mqtt-leyunone](https://github.com/LeYunone/springboot-mqtt-leyunone) 中通过自定义注解去设计一个自动装配、订阅的架构模型。

@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/java/custom-annotation.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java/custom-annotation.md" afterDir="false" />
-    </list>
+    <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -282,14 +279,7 @@
       <workItem from="1690724808748" duration="1338000" />
       <workItem from="1690816166372" duration="19000" />
       <workItem from="1691079583353" duration="785000" />
-      <workItem from="1691506190672" duration="672000" />
-    </task>
-    <task id="LOCAL-00007" summary="[UPDATE]GitLab-codex.md">
-      <created>1678807443070</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1678807443070</updated>
+      <workItem from="1691506190672" duration="946000" />
     </task>
     <task id="LOCAL-00008" summary="[ADD]MQTT-about.md">
       <created>1679849966542</created>
@@ -627,7 +617,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691079819978</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="[UPDATE]custom-annotation.md">
+      <created>1691510386058</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1691510386059</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,7 +684,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[Update]fix bug" />
     <MESSAGE value="[Update]Java-agent-2.md" />
     <MESSAGE value="[Update]图片bug" />
     <MESSAGE value="[Update]talkabout.ts" />
@@ -712,17 +708,18 @@
     <MESSAGE value="[UPDATE]Waline.md" />
     <MESSAGE value="[ADD]mailpush-service.md" />
     <MESSAGE value="[ADD]springboot-18n-error.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]springboot-18n-error.md" />
+    <MESSAGE value="[UPDATE]custom-annotation.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]custom-annotation.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1686415954877">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1686415954877" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1691079819333">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1691510385479">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1691079819333" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1691510385479" />
     <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1688661408386">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -799,10 +796,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="724" y="221" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1685282360449" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1691079823635">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1691510390107">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1691079823635" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1691510390107" />
     <state x="41" y="72" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1685279723572">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
