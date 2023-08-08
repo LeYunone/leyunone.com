@@ -1,10 +1,25 @@
+---
+date: 2023-08-08
+title: 自定义注解-实例应用
+category:
+  - Java
+tag:
+  - Java
+head:
+  - - meta
+    - name: keywords
+      content: JAVA、注解、自定义注解
+  - - meta
+    - name: description
+      content: 自定义注解在JAVA中是非常常用的工具，尤其在各框架中起了导向性开发的作用。
+---
 # 自定义注解-实例场景
 
 自定义注解在JAVA中是非常常用的工具，尤其在各框架中起了导向性开发的作用。
 
 比如用到SpringBoot，那么就得想到自动注入，那么如何将一个对象自动创建的同时并且正确的自动引入到使用类中；SpringBoot就是围绕着这一展开，**@Configuration** 、**@Component**、... 等注解就是为了达到这个目的开始设计的。
 
-在比如Dubbo，其中的服务注册以及服务发现也是围绕着两个主题展开设计，**@DubboService** 即是他的功能入口。
+在比如Dubbo，其中的服务注册以及服务发现也是围绕着两个主题展开设计，**@DubboService** 即是他的功能入口。并且为了服务拓展以及协议多样性的处理，专门设计了一套源于JDK-spi的Dubbo-spi机制，**@SPI** 、**@Adaptive** 等注解基于这么目的诞生。
 
 本文在介绍JAVA中基本自定义注解的使用手法，也会分享笔者在项目中的实际应用。
 
@@ -56,4 +71,65 @@ public @interface testAnno {
 
 ### 使用手法
 
-核心流程是
+核心流程是通过反射的原理，获取被自定义注解标注的类或方法，并且通过注解中定义的属性值去控制对应的注解逻辑。
+
+我们通过`class.getAnnotation()`的方式，去获取对应method或class上被标注的注解信息。
+
+比如我有 一下 **@Check** 的自定义注解
+
+```java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface Check {
+
+    boolean required() default true;
+}
+```
+
+定义在一个方法上
+
+```java
+public class Test{
+    @Check
+    public void deleteUser(){
+        .....
+    }
+}
+```
+
+那么我们在执行这个方法的过程中，通过反射去控制该方法需不需要做校验补强
+
+```java
+    public static void main(String[] args) throws InvocationTargetException, IllegalAccessException {
+        Test test = new Test();
+        Class<?> clazz = Test.class;
+        Method[] methods = clazz.getMethods();
+        for(Method method : methods){
+            Check annotation = method.getAnnotation(Check.class);
+            if(annotation.required()){
+                System.out.println("删除校验");
+            }
+            method.invoke(test);
+        }
+    }
+```
+
+除了通过获取自定义注解的属性去控制业务的手法，还可以通过对是否标注指定注解然后结合Aspect去做AOP思路。
+
+```java
+@Aspect
+@Order
+@Component
+public class CheckAdvice {
+
+    @Around("@annotation(Check) || @within(Check)")
+    public Object doAround(ProceedingJoinPoint joinPoint,Check check){
+		System.out.println("删除校验");
+        return joinPoint.proceed();
+    }
+
+}
+```
+
+##  使用实例
+

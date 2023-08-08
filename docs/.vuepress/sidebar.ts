@@ -142,7 +142,8 @@ export const sidebarConfig = sidebar({
                 "test-unit-mockfactory",
                 "thread-wait",
                 "lambda-serialize",
-                "about-code-explanatory"
+                "about-code-explanatory",
+                "custom-annotation"
             ]
         },
         {
