@@ -13,7 +13,7 @@ head:
     - name: description
       content: 自定义注解在JAVA中是非常常用的工具，尤其在各框架中起了导向性开发的作用。
 ---
-# 自定义注解-实例场景
+# 自定义注解-实例应用
 
 自定义注解在JAVA中是非常常用的工具，尤其在各框架中起了导向性开发的作用。
 
@@ -138,3 +138,124 @@ public class CheckAdvice {
 一个是在项目 [DbShop](https://github.com/LeYunone/dbshop) 中通过自定义注解去结合策略模式进行业务设计；
 
 另一个是在项目 [springboot-mqtt-leyunone](https://github.com/LeYunone/springboot-mqtt-leyunone) 中通过自定义注解去设计一个自动装配、订阅的架构模型。
+
+### 结合策略模式使用
+
+简单的带过一下策略模式的概念：
+
+将每一个算法/方法封装到一个共同的接口，然后通过一个选定动作去获取需要的方法，就如诸葛锦囊妙计的道理一样。
+
+依靠这个道理，我设计以下自定义注解去解决封装方法的问题：
+
+```java
+@Component
+@Retention(RetentionPolicy.RUNTIME)
+@Target({ElementType.TYPE})
+@Documented
+public @interface RuleHandler {
+    
+    @AliasFor("identifs")
+    String[] value() default {""};
+
+    //标识
+    @AliasFor("value")
+    String[] identifs() default {""};
+    
+    //结果集返回
+    RuleTypeEnum type() default RuleTypeEnum.NONE;
+}
+```
+
+然后通过spring的 `InitializingBean` 对象初始化特性以及自定义注解的属性配置将策略类注册到策略模式中的实际角色中：
+
+```java
+@RuleHandler(value = "type_transform",type = RuleTypeEnum.RESULT)
+public class SqlDataTypeRule extends AbstractRule {
+```
+
+```java
+public abstract class AbstractRule implements InitializingBean {
+    private List<String> setRuleIdentif() {
+        RuleHandler annotation = AnnotationUtils.getAnnotation(this.getClass(), RuleHandler.class);
+        //拿到自定义注解的策略名
+        return Arrays.asList(annotation.identifs());
+    }
+    
+    public abstract AbstractRuleFactory registRuleFactory();
+    
+    @Override
+    public void afterPropertiesSet() {
+        AbstractRuleFactory abstractRuleFactory = registRuleFactory();
+        if(ObjectUtil.isNull(abstractRuleFactory)) return;
+        //没有注册工厂 退回规则
+        this.setRuleIdentif().forEach((t) -> {
+            abstractRuleFactory.register(t, this);
+        });
+    }
+}
+
+```
+
+通过对自定义注解的属性获取可以灵活的装配各策略实例以及策略名，然后使用策略方法时只需要从策略工厂中入参对应的策略名就可以拿到被注解修饰的类。
+
+除此之外，我还可以通过自定义注解中的 `RuleTypeEnum type()` 属性去控制执行时，策略类是否有返回值。
+
+### 自动订阅
+
+SpringBoot的自动装配，可通过上下文 `ApplicationContext` 去获取被自定义注解的类：
+
+```java
+Map<String, Object> handlerArray = context.getBeansWithAnnotation(MqttConsumerHandler.class);
+```
+
+随后可通过遍历这些类中的方法，找到被自动订阅注解标注的方法，然后放到待处理集合中等待触发；这样就完成了一个自动订阅的动作。
+
+在[springboot-mqtt-leyunone](https://github.com/LeYunone/springboot-mqtt-leyunone) 我设计了以下两个自定义注解：
+
+```java
+@Component
+@Target({ElementType.TYPE})
+@Retention(RetentionPolicy.RUNTIME)
+public @interface MqttConsumerHandler {
+
+    @AliasFor(annotation = Component.class)
+    String value() default "";
+}
+```
+
+```java
+@Target({ElementType.METHOD})
+@Retention(RetentionPolicy.RUNTIME)
+public @interface MqttSubscribe {
+
+    @AliasFor("topic")
+    String topic() default "\\.*.*";
+
+    @AliasFor("value")
+    String value() default "";
+}
+```
+
+然后在自动订阅的类方法中进行标注：
+
+```java
+@MqttConsumerHandler
+@Component
+public class MqttMessageConsumer {
+
+    private final static Logger logger = LoggerFactory.getLogger(MqttMessageConsumer.class);
+    
+    @MqttSubscribe(topic = "指定的topic主题")
+    public void messageAccept(String topic, MqttMessage message) {
+        logger.info("MQTT message receive topic:{},message:{}", topic, message.toString());
+    }
+}
+```
+
+随后根据spring的 `InitializingBean` 对象初始化特性进行方法的自动装配
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-08-10/76d2da35-263a-4731-b2ea-9ef6bfd88f72.png)
+
+最后在mqtt的消息接收的方法中，就可以实现基于注解的自动订阅模式：
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-08-10/14b4bea9-8275-425a-b6d7-ef345a7d99f8.png)
