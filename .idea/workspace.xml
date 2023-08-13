@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/java/java-spi.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/java/custom-annotation.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java/custom-annotation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/frame/dubbo/dubbo-read.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/frame/dubbo/dubbo-read.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/frame/spring" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -72,16 +74,16 @@
     <property name="ts.external.directory.path" value="E:\software\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\TheCore\leyunone.com\docs\java" />
+      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TheCore\leyunone.com\docs\java" />
       <recent name="E:\TheCore\leyunone.com\docs\frame\spring" />
       <recent name="E:\TheCore\leyunone.com\docs\Interesting-design" />
       <recent name="E:\TheCore\leyunone.com\docs\github-project" />
       <recent name="E:\TheCore\leyunone.com\docs\normal-notes" />
-      <recent name="E:\TheCore\leyunone.com\docs\unidentified-business" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\TheCore\leyunone.com\docs\java" />
-      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-build">
@@ -284,6 +286,8 @@
       <workItem from="1691079583353" duration="785000" />
       <workItem from="1691506190672" duration="946000" />
       <workItem from="1691595374199" duration="1452000" />
+      <workItem from="1691847601459" duration="1804000" />
+      <workItem from="1691937911911" duration="963000" />
     </task>
     <task id="LOCAL-00008" summary="[ADD]MQTT-about.md">
       <created>1679849966542</created>
@@ -816,10 +820,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="652" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1689695994368" />
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1691510278642">
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1691937928008">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1691510278642" />
+    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1691937928008" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -143,7 +143,8 @@ export const sidebarConfig = sidebar({
                 "thread-wait",
                 "lambda-serialize",
                 "about-code-explanatory",
-                "custom-annotation"
+                "custom-annotation",
+                "java-spi"
             ]
         },
         {
