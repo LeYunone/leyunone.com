@@ -112,7 +112,8 @@ export const sidebarConfig = sidebar({
                 "strategy-factory-together",
                 "condition-command",
                 "templated-application",
-                "mailpush-service"
+                "mailpush-service",
+                "spi-oss"
             ]
         },
         {

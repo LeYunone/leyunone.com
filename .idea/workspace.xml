@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/java/java-spi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Interesting-design/spi-oss.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/frame/dubbo/dubbo-read.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/frame/dubbo/dubbo-read.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/Interesting-design" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -79,9 +78,9 @@
       <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TheCore\leyunone.com\docs\Interesting-design" />
       <recent name="E:\TheCore\leyunone.com\docs\java" />
       <recent name="E:\TheCore\leyunone.com\docs\frame\spring" />
-      <recent name="E:\TheCore\leyunone.com\docs\Interesting-design" />
       <recent name="E:\TheCore\leyunone.com\docs\github-project" />
       <recent name="E:\TheCore\leyunone.com\docs\normal-notes" />
     </key>
@@ -287,14 +286,7 @@
       <workItem from="1691506190672" duration="946000" />
       <workItem from="1691595374199" duration="1452000" />
       <workItem from="1691847601459" duration="1804000" />
-      <workItem from="1691937911911" duration="963000" />
-    </task>
-    <task id="LOCAL-00008" summary="[ADD]MQTT-about.md">
-      <created>1679849966542</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1679849966542</updated>
+      <workItem from="1691937911911" duration="2224000" />
     </task>
     <task id="LOCAL-00009" summary="[ADD]Git manager add package-lock.json controller my project version npm">
       <created>1679927364873</created>
@@ -632,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691510386059</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="[ADD]java-spi.md">
+      <created>1691938897707</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1691938897708</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -692,7 +691,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[Update]Java-agent-2.md" />
     <MESSAGE value="[Update]图片bug" />
     <MESSAGE value="[Update]talkabout.ts" />
     <MESSAGE value="[ADD]skywalking-reading2.md" />
@@ -717,37 +715,38 @@
     <MESSAGE value="[ADD]mailpush-service.md" />
     <MESSAGE value="[ADD]springboot-18n-error.md" />
     <MESSAGE value="[UPDATE]custom-annotation.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]custom-annotation.md" />
+    <MESSAGE value="[ADD]java-spi.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]java-spi.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1686415954877">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1686415954877" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1691510385479">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1691938897065">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1691510385479" />
-    <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1688661408386">
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1691938897065" />
+    <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1691938891698">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="41" y="184" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1688661408386" />
-    <state width="938" height="471" key="GridCell.Tab.0.bottom" timestamp="1691080370780">
+    <state x="41" y="184" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1691938891698" />
+    <state width="938" height="165" key="GridCell.Tab.0.bottom" timestamp="1691940883548">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="938" height="471" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1691080370780" />
-    <state width="938" height="471" key="GridCell.Tab.0.center" timestamp="1691080370780">
+    <state width="938" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1691940883548" />
+    <state width="938" height="165" key="GridCell.Tab.0.center" timestamp="1691940883548">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="938" height="471" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1691080370780" />
-    <state width="938" height="471" key="GridCell.Tab.0.left" timestamp="1691080370780">
+    <state width="938" height="165" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1691940883548" />
+    <state width="938" height="165" key="GridCell.Tab.0.left" timestamp="1691940883547">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="938" height="471" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1691080370780" />
-    <state width="938" height="471" key="GridCell.Tab.0.right" timestamp="1691080370780">
+    <state width="938" height="165" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1691940883547" />
+    <state width="938" height="165" key="GridCell.Tab.0.right" timestamp="1691940883548">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="938" height="471" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1691080370780" />
+    <state width="938" height="165" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1691940883548" />
     <state width="1876" height="342" key="GridCell.Tab.1.bottom" timestamp="1687620041165">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
