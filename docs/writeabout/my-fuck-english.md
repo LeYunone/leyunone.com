@@ -16,13 +16,17 @@ category:
 - 听力：直播/比赛
 - 口语：任何一种游戏的国际服
 
-|               英语               |         中文         |
-| :------------------------------: | :------------------: |
-| My English vocabulary is limited |  我的英语词汇量有限  |
-|              P2 50               | 是p2 50 不是 P 2 5 0 |
-|       who aimpunch my head       |    谁瞄准了我的头    |
-|       Let's jump right in        |     让我们开始吧     |
-| I will do my best to assist you  |    尽我可能帮助你    |
+|                英语                 |         中文         |
+| :---------------------------------: | :------------------: |
+|  My English vocabulary is limited   |  我的英语词汇量有限  |
+|                P2 50                | 是p2 50 不是 P 2 5 0 |
+|        who aimpunch my head         |    谁瞄准了我的头    |
+|         Let's jump right in         |     让我们开始吧     |
+|   I will do my best to assist you   |    尽我可能帮助你    |
+|    Ditto. /  likewise /same here    |        我也是        |
+|       i'll take a rain check        |  我改天[雨天的内涵]  |
+| you're not skill mad at me ,are you | 你是不是在生我的气？ |
+| we did really like for you to come  | 我们真的很希望你能来 |
 
 
 
