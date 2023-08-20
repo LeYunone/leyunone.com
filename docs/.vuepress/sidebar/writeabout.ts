@@ -9,4 +9,9 @@ export const writeabout = [
         icon: "desk-lamp",
         link: "my-fuck-english",
     },
+    {
+        text: "医理自救指南",
+        icon: "desk-lamp",
+        link: "hosptial",
+    },
 ];
