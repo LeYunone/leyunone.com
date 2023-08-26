@@ -145,7 +145,8 @@ export const sidebarConfig = sidebar({
                 "lambda-serialize",
                 "about-code-explanatory",
                 "custom-annotation",
-                "java-spi"
+                "java-spi",
+                "string-hashcode"
             ]
         },
         {
