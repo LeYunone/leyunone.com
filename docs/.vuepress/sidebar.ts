@@ -211,7 +211,8 @@ export const sidebarConfig = sidebar({
                 "java-eight-part-essay.md",
                 "redis-eight-part-essay.md",
                 "reflex-use-case.md",
-                "thread-eight-part-essay.md"
+                "thread-eight-part-essay.md",
+                ""
             ]
         },
         {
