@@ -205,13 +205,13 @@ export const sidebarConfig = sidebar({
             collapsible: true,
             children: [
                 "deep-page",
-                "2022-04-19-eeg.md",
-                "db-eight-part-essay.md",
-                "httpServletResponse.md",
-                "java-eight-part-essay.md",
-                "redis-eight-part-essay.md",
-                "reflex-use-case.md",
-                "thread-eight-part-essay.md",
+                "2022-04-19-eeg",
+                "db-eight-part-essay",
+                "httpServletResponse",
+                "java-eight-part-essay",
+                "redis-eight-part-essay",
+                "reflex-use-case",
+                "thread-eight-part-essay",
                 ""
             ]
         },
@@ -295,7 +295,7 @@ export const sidebarConfig = sidebar({
                 "about-this-web",
                 "beian",
                 "interview-question",
-                "Warn！Warn！.md"
+                "Warn！Warn！"
             ]
         },
         {
