@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/java/string-hashcode.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/normal-notes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -73,16 +71,16 @@
     <property name="ts.external.directory.path" value="E:\software\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\TheCore\leyunone.com\docs\java" />
-      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TheCore\leyunone.com\docs\normal-notes" />
       <recent name="E:\TheCore\leyunone.com\docs\java" />
       <recent name="E:\TheCore\leyunone.com\docs\writeabout" />
       <recent name="E:\TheCore\leyunone.com\docs\Interesting-design" />
       <recent name="E:\TheCore\leyunone.com\docs\frame\spring" />
-      <recent name="E:\TheCore\leyunone.com\docs\github-project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\TheCore\leyunone.com\docs\java" />
+      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-build">
@@ -290,13 +288,14 @@
       <workItem from="1692110251899" duration="599000" />
       <workItem from="1692537236485" duration="791000" />
       <workItem from="1693068336444" duration="82000" />
-    </task>
-    <task id="LOCAL-00011" summary="[UPDATE]leyuna-blog-img &gt; leyunone-img">
-      <created>1679932727472</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1679932727472</updated>
+      <workItem from="1693320122408" duration="598000" />
+      <workItem from="1693407501170" duration="599000" />
+      <workItem from="1693495099122" duration="599000" />
+      <workItem from="1693572538856" duration="1083000" />
+      <workItem from="1693751752244" duration="603000" />
+      <workItem from="1693930129977" duration="176000" />
+      <workItem from="1694013071524" duration="599000" />
+      <workItem from="1694181302650" duration="558000" />
     </task>
     <task id="LOCAL-00012" summary="[UPDATE]HEAD">
       <created>1680791462079</created>
@@ -634,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692545584721</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="[ADD]mysql-index-explain.md">
+      <created>1693930276942</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1693930276943</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -694,7 +700,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[ADD]skywalking-reading2.md" />
     <MESSAGE value="[UPDATE]KEY word" />
     <MESSAGE value="[ADD]what-happend-halfyear.md" />
     <MESSAGE value="[ADD]thread-wait.md" />
@@ -719,37 +724,38 @@
     <MESSAGE value="[ADD]java-spi.md" />
     <MESSAGE value="[ADD]spi-oss.md" />
     <MESSAGE value="[ADD]hosptial.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]hosptial.md" />
+    <MESSAGE value="[ADD]mysql-index-explain.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]mysql-index-explain.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1686415954877">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1686415954877" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1692545584114">
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1693930275360">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1692545584114" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1693930275360" />
     <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1691938891698">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="41" y="184" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1691938891698" />
-    <state width="938" height="165" key="GridCell.Tab.0.bottom" timestamp="1691940938997">
+    <state width="938" height="165" key="GridCell.Tab.0.bottom" timestamp="1693930260087">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="938" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1691940938997" />
-    <state width="938" height="165" key="GridCell.Tab.0.center" timestamp="1691940938997">
+    <state width="938" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1693930260087" />
+    <state width="938" height="165" key="GridCell.Tab.0.center" timestamp="1693930260087">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="938" height="165" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1691940938997" />
-    <state width="938" height="165" key="GridCell.Tab.0.left" timestamp="1691940938997">
+    <state width="938" height="165" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1693930260087" />
+    <state width="938" height="165" key="GridCell.Tab.0.left" timestamp="1693930260086">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="938" height="165" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1691940938997" />
-    <state width="938" height="165" key="GridCell.Tab.0.right" timestamp="1691940938997">
+    <state width="938" height="165" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1693930260086" />
+    <state width="938" height="165" key="GridCell.Tab.0.right" timestamp="1693930260087">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="938" height="165" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1691940938997" />
+    <state width="938" height="165" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1693930260087" />
     <state width="1876" height="342" key="GridCell.Tab.1.bottom" timestamp="1687620041165">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -802,18 +808,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1050@0.0.1920.1050" timestamp="1686235809113" />
-    <state x="724" y="221" key="VCS.ChangeListViewerDialog" timestamp="1685282360449">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="724" y="221" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1685282360449" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1692545589522">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1692545589522" />
-    <state x="41" y="72" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1685279723572">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="41" y="72" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1685279723572" />
     <state x="647" y="257" width="678" height="678" key="find.popup" timestamp="1689610037547">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
