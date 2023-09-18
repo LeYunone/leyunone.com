@@ -1,6 +1,6 @@
 ---
 date: 2023-09-13
-title: Nginx
+title: Nginx稀有错误收集
 category: 笔记
 tag:
   - note
