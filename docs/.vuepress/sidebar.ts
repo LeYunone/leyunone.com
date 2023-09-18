@@ -212,7 +212,7 @@ export const sidebarConfig = sidebar({
                 "redis-eight-part-essay",
                 "reflex-use-case",
                 "thread-eight-part-essay",
-                ""
+                "nginx-error"
             ]
         },
         {
