@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="" />
+    <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/java/buddy-1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/normal-notes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -69,19 +72,19 @@
     <property name="ts.external.directory.path" value="E:\software\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\TheCore\leyunone.com\docs\normal-notes" />
-      <recent name="E:\TheCore\leyunone.com\docs\java" />
-      <recent name="E:\TheCore\leyunone.com\docs\writeabout" />
-      <recent name="E:\TheCore\leyunone.com\docs\Interesting-design" />
-      <recent name="E:\TheCore\leyunone.com\docs\frame\spring" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\TheCore\leyunone.com\docs\java" />
       <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TheCore\leyunone.com\docs\java" />
+      <recent name="E:\TheCore\leyunone.com\docs\normal-notes" />
+      <recent name="E:\TheCore\leyunone.com\docs\writeabout" />
+      <recent name="E:\TheCore\leyunone.com\docs\Interesting-design" />
+      <recent name="E:\TheCore\leyunone.com\docs\frame\spring" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.vite-build">
+  <component name="RunManager" selected="npm.vite-serve">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:8080">
       <method v="2" />
     </configuration>
@@ -147,8 +150,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.vite-build" />
         <item itemvalue="npm.vite-serve" />
+        <item itemvalue="npm.vite-build" />
         <item itemvalue="npm.webpack-build" />
         <item itemvalue="npm.docs:dev" />
         <item itemvalue="npm.docs:build" />
@@ -295,14 +298,8 @@
       <workItem from="1694013071524" duration="599000" />
       <workItem from="1694181302650" duration="558000" />
       <workItem from="1694534063597" duration="114000" />
-      <workItem from="1695047806284" duration="670000" />
-    </task>
-    <task id="LOCAL-00013" summary="[UPDATE]//leyunone.com &gt; www.leyunone.com&#10;and &#10;UPDATE rabbitmq-delay.md">
-      <created>1680796086986</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1680796086986</updated>
+      <workItem from="1695047806284" duration="993000" />
+      <workItem from="1695651532705" duration="186000" />
     </task>
     <task id="LOCAL-00014" summary="[UPDATE]update warn!warn!">
       <created>1680796921531</created>
@@ -640,7 +637,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695048428807</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="[ADD]标题">
+      <created>1695048780697</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1695048780697</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -700,7 +704,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[ADD]what-happend-halfyear.md" />
     <MESSAGE value="[ADD]thread-wait.md" />
     <MESSAGE value="[UPDATE]Warn！Warn！.md" />
     <MESSAGE value="[ADD]strategy-factory-together.md AND UPDATE index icon" />
@@ -725,13 +728,10 @@
     <MESSAGE value="[ADD]hosptial.md" />
     <MESSAGE value="[ADD]mysql-index-explain.md" />
     <MESSAGE value="[ADD]导航" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]导航" />
+    <MESSAGE value="[ADD]标题" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]标题" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1686415954877">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="700" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1686415954877" />
     <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1695048428195">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -816,9 +816,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="652" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1695048468823" />
-    <state x="616" y="178" width="672" height="676" key="search.everywhere.popup" timestamp="1691940985087">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="616" y="242" width="672" height="677" key="run.anything.popup" timestamp="1695651675994">
+      <screen x="0" y="0" width="1920" height="1046" />
     </state>
+    <state x="616" y="242" width="672" height="677" key="run.anything.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1695651675994" />
+    <state x="616" y="177" width="672" height="674" key="search.everywhere.popup" timestamp="1695651703555">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="616" y="177" width="672" height="674" key="search.everywhere.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1695651703555" />
     <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1691940985087" />
   </component>
   <component name="XDebuggerManager">
