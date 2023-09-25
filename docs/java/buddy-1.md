@@ -1,9 +1,9 @@
 ---
 date: 2023-09-24
 title: ByteBuddy - 字节码伙伴(一)
-category: 笔记
+category: Java
 tag:
-  - note
+  - Java
 head:
   - - meta
     - name: keywords

@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/java/buddy-1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java/buddy-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java/buddy-1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,14 +299,7 @@
       <workItem from="1694181302650" duration="558000" />
       <workItem from="1694534063597" duration="114000" />
       <workItem from="1695047806284" duration="993000" />
-      <workItem from="1695651532705" duration="186000" />
-    </task>
-    <task id="LOCAL-00014" summary="[UPDATE]update warn!warn!">
-      <created>1680796921531</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1680796921531</updated>
+      <workItem from="1695651532705" duration="504000" />
     </task>
     <task id="LOCAL-00015" summary="[UPDATE]baiduemploy-api.md">
       <created>1681227208805</created>
@@ -644,7 +637,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695048780697</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="[ADD]buddy-1.md&#10;字节码伙伴">
+      <created>1695651991273</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1695651991274</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -704,7 +704,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[ADD]thread-wait.md" />
     <MESSAGE value="[UPDATE]Warn！Warn！.md" />
     <MESSAGE value="[ADD]strategy-factory-together.md AND UPDATE index icon" />
     <MESSAGE value="[ADD]dbshop-2.md“&#10;device-app-smarthome.md" />
@@ -729,32 +728,38 @@
     <MESSAGE value="[ADD]mysql-index-explain.md" />
     <MESSAGE value="[ADD]导航" />
     <MESSAGE value="[ADD]标题" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]标题" />
+    <MESSAGE value="[ADD]buddy-1.md&#10;字节码伙伴" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]buddy-1.md&#10;字节码伙伴" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1695048428195">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1695651990675">
+      <screen x="0" y="0" width="1920" height="1046" />
     </state>
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1046@0.0.1920.1046" timestamp="1695651990675" />
     <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1695048428194" />
     <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1691938891698">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="41" y="184" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1691938891698" />
-    <state width="938" height="165" key="GridCell.Tab.0.bottom" timestamp="1695048766826">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="938" height="164" key="GridCell.Tab.0.bottom" timestamp="1695651965976">
+      <screen x="0" y="0" width="1920" height="1046" />
     </state>
+    <state width="938" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1046@0.0.1920.1046" timestamp="1695651965976" />
     <state width="938" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1695048766826" />
-    <state width="938" height="165" key="GridCell.Tab.0.center" timestamp="1695048766826">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="938" height="164" key="GridCell.Tab.0.center" timestamp="1695651965975">
+      <screen x="0" y="0" width="1920" height="1046" />
     </state>
+    <state width="938" height="164" key="GridCell.Tab.0.center/0.0.1920.1046@0.0.1920.1046" timestamp="1695651965975" />
     <state width="938" height="165" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1695048766826" />
-    <state width="938" height="165" key="GridCell.Tab.0.left" timestamp="1695048766825">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="938" height="164" key="GridCell.Tab.0.left" timestamp="1695651965975">
+      <screen x="0" y="0" width="1920" height="1046" />
     </state>
+    <state width="938" height="164" key="GridCell.Tab.0.left/0.0.1920.1046@0.0.1920.1046" timestamp="1695651965975" />
     <state width="938" height="165" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1695048766825" />
-    <state width="938" height="165" key="GridCell.Tab.0.right" timestamp="1695048766826">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="938" height="164" key="GridCell.Tab.0.right" timestamp="1695651965976">
+      <screen x="0" y="0" width="1920" height="1046" />
     </state>
+    <state width="938" height="164" key="GridCell.Tab.0.right/0.0.1920.1046@0.0.1920.1046" timestamp="1695651965976" />
     <state width="938" height="165" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1695048766826" />
     <state width="1876" height="342" key="GridCell.Tab.1.bottom" timestamp="1687620041165">
       <screen x="0" y="0" width="1920" height="1050" />
