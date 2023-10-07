@@ -8,7 +8,8 @@ export const talkabout = [
       "what-happend-halfyear",
       "FUCKN3ANDrestructure",
       "What-Happened-MYWORK",
-      "cyber-manhunt.md"
+      "cyber-manhunt",
+      "qq-secure"
     ]
   },
   {
