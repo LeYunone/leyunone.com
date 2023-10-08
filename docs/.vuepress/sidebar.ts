@@ -113,7 +113,8 @@ export const sidebarConfig = sidebar({
                 "condition-command",
                 "templated-application",
                 "mailpush-service",
-                "spi-oss"
+                "spi-oss",
+                "easyExcel-custom"
             ]
         },
         {
