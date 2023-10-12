@@ -192,6 +192,7 @@ export const sidebarConfig = sidebar({
             prefix: "unidentified-business/",
             collapsible: true,
             children: [
+                "cloud",
                 "database-conflict",
                 "payment",
                 "service-platform",
