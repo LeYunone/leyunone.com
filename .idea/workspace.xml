@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/unidentified-business/cloud.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -303,6 +302,7 @@
       <workItem from="1696691879162" duration="781000" />
       <workItem from="1696777710534" duration="837000" />
       <workItem from="1697129360420" duration="96000" />
+      <workItem from="1697341358008" duration="1202000" />
     </task>
     <task id="LOCAL-00016" summary="[UPDATE]Fix bug">
       <created>1681228927542</created>
