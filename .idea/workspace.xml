@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/summary/Warn！Warn！.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/summary/Warn！Warn！.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,16 +71,16 @@
     <property name="ts.external.directory.path" value="E:\software\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\TheCore\leyunone.com\docs\java" />
+      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
       <recent name="E:\TheCore\leyunone.com\docs\java" />
       <recent name="E:\TheCore\leyunone.com\docs\normal-notes" />
       <recent name="E:\TheCore\leyunone.com\docs\writeabout" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\TheCore\leyunone.com\docs\java" />
-      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-serve">
@@ -305,14 +304,7 @@
       <workItem from="1697129360420" duration="96000" />
       <workItem from="1697341358008" duration="1202000" />
       <workItem from="1697468612109" duration="1396000" />
-      <workItem from="1697987230111" duration="559000" />
-    </task>
-    <task id="LOCAL-00017" summary="[ADD]jenkins-init.md">
-      <created>1681584244768</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1681584244768</updated>
+      <workItem from="1697987230111" duration="1175000" />
     </task>
     <task id="LOCAL-00018" summary="[ADD]netty-oom-1.md">
       <created>1682174551323</created>
@@ -650,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697468705996</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="[UPDATE]UPDATE Warn！Warn！.md">
+      <created>1697987796670</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1697987796670</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -710,7 +709,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[ADD]dbshop-2.md“&#10;device-app-smarthome.md" />
     <MESSAGE value="[UPDATE] delete all ::: error deliver" />
     <MESSAGE value="[ADD] my-fuck-english.md&#10;      dbshop.md" />
     <MESSAGE value="[UPDATE] condition-command.md" />
@@ -735,17 +733,18 @@
     <MESSAGE value="[ADD]buddy-1.md&#10;字节码伙伴" />
     <MESSAGE value="[ADD]easyExcel-custom.md" />
     <MESSAGE value="[UPDATE]UPDATE date" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]UPDATE date" />
+    <MESSAGE value="[UPDATE]UPDATE Warn！Warn！.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]UPDATE Warn！Warn！.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1696692288556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1696692288556" />
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1697468705443">
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1697987796186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1697468705443" />
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1697987796186" />
     <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1046@0.0.1920.1046" timestamp="1695651990675" />
     <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1695048428194" />
     <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1691938891698">
@@ -780,10 +779,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1696692311563" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1697468806427">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1697987801940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1697468806427" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1697987801940" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1695048436437" />
     <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1696780431665">
       <screen x="0" y="0" width="1920" height="1040" />
