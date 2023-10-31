@@ -198,7 +198,8 @@ export const sidebarConfig = sidebar({
                 "service-platform",
                 "auto-scenes",
                 "message-center-design",
-                "summertime"
+                "summertime",
+                "system-mill-resole"
             ],
         },
         {
