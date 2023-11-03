@@ -217,7 +217,8 @@ export const sidebarConfig = sidebar({
                 "reflex-use-case",
                 "thread-eight-part-essay",
                 "nginx-error",
-                "java-swing"
+                "java-swing",
+                "test"
             ]
         },
         {
