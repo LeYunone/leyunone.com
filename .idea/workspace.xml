@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/normal-notes/test.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-    </list>
+    <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -311,14 +307,7 @@
       <workItem from="1698155805560" duration="599000" />
       <workItem from="1698244379201" duration="680000" />
       <workItem from="1698332967799" duration="1298000" />
-      <workItem from="1699029979965" duration="518000" />
-    </task>
-    <task id="LOCAL-00020" summary="[UPDATE]java-release.md">
-      <created>1682438057895</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1682438057895</updated>
+      <workItem from="1699029979965" duration="983000" />
     </task>
     <task id="LOCAL-00021" summary="[UPDATE]java-release.md">
       <created>1682438368077</created>
@@ -656,7 +645,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698336558685</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="[ADD]test.md">
+      <created>1699030514521</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1699030514521</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -716,7 +712,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[UPDATE] condition-command.md" />
     <MESSAGE value="[ADD] condition-command.md" />
     <MESSAGE value="[ADD]summertime.md" />
     <MESSAGE value="[UPDATE]update time" />
@@ -741,17 +736,18 @@
     <MESSAGE value="[UPDATE]UPDATE Warn！Warn！.md" />
     <MESSAGE value="[ADD]java-swing.md" />
     <MESSAGE value="[ADD]system-mill-resole.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]system-mill-resole.md" />
+    <MESSAGE value="[ADD]test.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]test.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1696692288556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1696692288556" />
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1698336558152">
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1699030513982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1698336558152" />
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1699030513982" />
     <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1046@0.0.1920.1046" timestamp="1695651990675" />
     <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1695048428194" />
     <state x="41" y="184" width="1736" height="866" key="DiffContextDialog" timestamp="1691938891698">
@@ -786,10 +782,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1696692311563" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1698336589060">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1699030518285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1698336589060" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1699030518285" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1695048436437" />
     <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1696780431665">
       <screen x="0" y="0" width="1920" height="1040" />
