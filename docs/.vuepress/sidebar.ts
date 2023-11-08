@@ -243,7 +243,8 @@ export const sidebarConfig = sidebar({
                     icon: "yongqihuizhang-taiyi",
                     children: [
                         "dbshop-1",
-                        "dbshop-2"
+                        "dbshop-2",
+                        "dbshop-3"
                     ]
                 },
                 {
