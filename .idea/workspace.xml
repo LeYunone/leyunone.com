@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/development-diary/dbshop/dbshop-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/dbshop/dbshop-3.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,6 +311,7 @@
       <workItem from="1698332967799" duration="1298000" />
       <workItem from="1699029979965" duration="983000" />
       <workItem from="1699460032081" duration="102000" />
+      <workItem from="1699541783974" duration="599000" />
     </task>
     <task id="LOCAL-00021" summary="[UPDATE]java-release.md">
       <created>1682438368077</created>
