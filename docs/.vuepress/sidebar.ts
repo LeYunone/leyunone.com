@@ -148,7 +148,8 @@ export const sidebarConfig = sidebar({
                 "about-code-explanatory",
                 "custom-annotation",
                 "java-spi",
-                "string-hashcode"
+                "string-hashcode",
+                "list-iteration"
             ]
         },
         {
