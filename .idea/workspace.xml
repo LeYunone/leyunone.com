@@ -21,8 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/java/list-iteration.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java/list-iteration.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar/talkabout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar/talkabout.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/summary/Warn！Warn！.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/summary/Warn！Warn！.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/talkabout/rambling-diary/alibaba-error.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/alibaba-error.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unidentified-business/cloud.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/cloud.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/normal-notes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/talkabout/rambling-diary" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -315,6 +317,8 @@
       <workItem from="1699460032081" duration="102000" />
       <workItem from="1699541783974" duration="599000" />
       <workItem from="1699890315332" duration="267000" />
+      <workItem from="1699974717780" duration="1052000" />
+      <workItem from="1700395779994" duration="349000" />
     </task>
     <task id="LOCAL-00021" summary="[UPDATE]java-release.md">
       <created>1682438368077</created>
@@ -808,14 +812,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="601" y="529" key="jetbrains.nodejs.interpreters-dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1696692263606" />
-    <state x="616" y="242" width="672" height="677" key="run.anything.popup" timestamp="1695651675994">
-      <screen x="0" y="0" width="1920" height="1046" />
-    </state>
-    <state x="616" y="242" width="672" height="677" key="run.anything.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1695651675994" />
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1699460041324">
+    <state x="616" y="241" width="672" height="674" key="run.anything.popup" timestamp="1700395945598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1699460041324" />
+    <state x="616" y="241" width="672" height="674" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1700395945598" />
+    <state x="616" y="242" width="672" height="677" key="run.anything.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1695651675994" />
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1700395870384">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1700395870384" />
     <state x="616" y="177" width="672" height="674" key="search.everywhere.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1695651703555" />
     <state x="616" y="178" width="672" height="676" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1691940985087" />
   </component>

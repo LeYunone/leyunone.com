@@ -127,6 +127,14 @@ SELECT IFNULL(no,99) FROM t_test ORDER BY no
 
 ![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-05-28/fcffe46e-3697-4b82-a0f1-1dbfddd5f592.png)
 
+## 文件上
+
+### 1/ 文件MD5值
+
+在代码中，会由这种场景：将字符串打包成.json文件上传至OSS，并且记录这个文件的MD5值。
+
+一定要担心：不可以使用原字符串的byte[]形式去生成MD5值，一定要在上传文件后，通过文件URL下载文件，将这个文件的byte[]去进行计算；这样MD5值才是对的！
+
 ## 生活
 
 ### 1/信念
