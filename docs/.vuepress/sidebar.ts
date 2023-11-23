@@ -200,7 +200,8 @@ export const sidebarConfig = sidebar({
                 "auto-scenes",
                 "message-center-design",
                 "summertime",
-                "system-mill-resole"
+                "system-mill-resole",
+                "operation-log"
             ],
         },
         {
@@ -228,6 +229,15 @@ export const sidebarConfig = sidebar({
             collapsible: true,
             prefix: "development-diary/",
             children: [
+                {
+                    text: "God-Search",
+                    prefix: "god-search/",
+                    collapsible: true,
+                    icon: "yongqihuizhang-taiyi",
+                    children: [
+                        "god-search"
+                    ]
+                },
                 {
                     text: "leyunone-open-api",
                     prefix: "openapi/",
