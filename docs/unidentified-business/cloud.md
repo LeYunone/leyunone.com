@@ -1,6 +1,6 @@
 ---
 date: 2023-10-13
-title: 云平台时代o.0
+title: 公有云与私有云o.0
 category:
   - 业务
 tag:

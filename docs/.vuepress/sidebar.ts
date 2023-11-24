@@ -148,7 +148,8 @@ export const sidebarConfig = sidebar({
                 "about-code-explanatory",
                 "custom-annotation",
                 "java-spi",
-                "string-hashcode"
+                "string-hashcode",
+                "list-iteration"
             ]
         },
         {
@@ -199,7 +200,8 @@ export const sidebarConfig = sidebar({
                 "auto-scenes",
                 "message-center-design",
                 "summertime",
-                "system-mill-resole"
+                "system-mill-resole",
+                "operation-log"
             ],
         },
         {
@@ -228,6 +230,15 @@ export const sidebarConfig = sidebar({
             prefix: "development-diary/",
             children: [
                 {
+                    text: "God-Search",
+                    prefix: "god-search/",
+                    collapsible: true,
+                    icon: "yongqihuizhang-taiyi",
+                    children: [
+                        "god-search"
+                    ]
+                },
+                {
                     text: "leyunone-open-api",
                     prefix: "openapi/",
                     collapsible: true,
@@ -243,7 +254,8 @@ export const sidebarConfig = sidebar({
                     icon: "yongqihuizhang-taiyi",
                     children: [
                         "dbshop-1",
-                        "dbshop-2"
+                        "dbshop-2",
+                        "dbshop-3"
                     ]
                 },
                 {
