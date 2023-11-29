@@ -84,7 +84,7 @@
       <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.vite-serve">
+  <component name="RunManager" selected="npm.vite-build">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:8080">
       <method v="2" />
     </configuration>
@@ -150,8 +150,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.vite-serve" />
         <item itemvalue="npm.vite-build" />
+        <item itemvalue="npm.vite-serve" />
         <item itemvalue="npm.webpack-build" />
         <item itemvalue="npm.docs:dev" />
         <item itemvalue="npm.docs:build" />

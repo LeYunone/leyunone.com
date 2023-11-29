@@ -1,3 +1,10 @@
+---
+date: 2023-11-04
+title: 临时用
+category: 笔记
+tag:
+  - note
+---
 # 下载
 
 https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/file/maven3.rar
