@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="[ADD]test.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/unidentified-business/operation-log.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/operation-log.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,6 +322,8 @@
       <workItem from="1701098402374" duration="599000" />
       <workItem from="1701183382850" duration="599000" />
       <workItem from="1701357974549" duration="640000" />
+      <workItem from="1701437154385" duration="2246000" />
+      <workItem from="1701529250678" duration="599000" />
     </task>
     <task id="LOCAL-00022" summary="[ADD]abouot-algorithm1.md">
       <created>1683039714629</created>
