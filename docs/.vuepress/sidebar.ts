@@ -201,7 +201,8 @@ export const sidebarConfig = sidebar({
                 "message-center-design",
                 "summertime",
                 "system-mill-resole",
-                "operation-log"
+                "operation-log",
+                "long-Connection"
             ],
         },
         {
