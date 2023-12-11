@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="[ADD]test.md">
+      <change afterPath="$PROJECT_DIR$/docs/java/JDK-version.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/unidentified-business/long-Connection.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/long-Connection.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/development-diary/god-search" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -73,16 +72,16 @@
     <property name="ts.external.directory.path" value="E:\software\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\TheCore\leyunone.com\docs\java" />
+      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-diary\god-search" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
-      <recent name="E:\TheCore\leyunone.com\docs\java" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\TheCore\leyunone.com\docs\java" />
-      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-build">
@@ -327,6 +326,9 @@
       <workItem from="1701437154385" duration="2246000" />
       <workItem from="1701529250678" duration="599000" />
       <workItem from="1701620392181" duration="72000" />
+      <workItem from="1701788785839" duration="599000" />
+      <workItem from="1701875325619" duration="1197000" />
+      <workItem from="1702311173756" duration="5000" />
     </task>
     <task id="LOCAL-00022" summary="[ADD]abouot-algorithm1.md">
       <created>1683039714629</created>
