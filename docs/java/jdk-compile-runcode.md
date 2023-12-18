@@ -16,5 +16,102 @@
 
 那么我们是否可以将本应该在代码中，可读性很差的配置性代码，转移在数据库字段上了！
 
+## 背景
+
+在对接拥有天气、空气质量等等信息的相关需求时，当对方需要的值与我方配置的值有冲突时，比如AQI质量，具体值与污染等级的冲突...
+
+需要在获取对方的具体值时，转化为自身业务的值模型。
+
+因此，需要进行如下转化：
+
+```java
+return value > 300 ? "重度" : value > 200 ? "中度" : "轻度"
+```
+
+虽然是一个很简单的转换，但是在一个大的模型对接中，是一个很繁琐且极难维护的事。
+
+比如对接小度语音技能平台，其中的设备查询api中，属性的多种形态：
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-12-19/2d14af93-0430-4e3d-b787-53e9573fbac3.png)
+
+
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-12-19/1fa547e9-fafa-4afd-90b3-a7f316e99c46.png)
+
+![](C:\Users\leyunone\AppData\Roaming\Typora\typora-user-images\image-20231219235949212.png)
+
+因此针对这种值模型的冲突问题，最好可以搭建出一个通用的模块，通过数据库配置的方式进行数据的维护。
+
+## 方案
+
+### 运行字符串代码
+
+JAVA作为编译语言的一个优势：运行期可干预。
+
+因此我们可以通过替换class方法完成项目热部署，当前市面上主流的热部署插件都是通过生成新的class文件的模式进行热加载。
+
+因此我们也可以生成一个临时的class文件，调用其中自定义的方法完成运行时干预原业务。
+
+恰好字符串这一类型可以和数据库配置完美吻合，事情就变成了，如何将字符串中的代码编译并执行。
+
+JDK在tools包中已经为我们提供了一站式的服务 :`JavaCompiler`
+
+见代码：
+
+```java
+    private static Object compilerMappingCode(String mappingValue, Integer value) {
+        String runPath = "";
+        StringBuilder sb = new StringBuilder();
+        sb.append("public class CustomMappingCompiler { public Object mapping(Integer value) { return ");
+        sb.append(mappingValue);
+        sb.append(";}}");
+        Object result = null;
+        File tempFile = new File("classpath:CustomMappingCompiler.java");
+        try {
+            FileWriter writer = new FileWriter(tempFile);
+            writer.write(sb.toString());
+            writer.close();
+            runPath = tempFile.getPath();
+        } catch (Exception e) {
+        }
+        JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
+        compiler.run(null, null, null, runPath);
+
+        Class<?> customMappingCompiler = null;
+        try {
+            customMappingCompiler = Class.forName("CustomMappingCompiler");
+            Object o = customMappingCompiler.getDeclaredConstructor().newInstance();
+            result = customMappingCompiler.getMethod("mapping",Integer.class).invoke(o, value);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
+```
+
+上述代码，将输入的 `mappingValue` 字符串，凭借到临时class文件中，然后通过反射机制拿到该class，并且执行其中设置的方法。
+
+例如当我调用：
+
+```java
+    public static void main(String[] args) throws ClassNotFoundException {
+        String mappingValue = "value > 300 ? \"重度\" : value > 200 ? \"中度\" : \"轻度\"";
+        Integer valued = 100;
+        System.out.println(compilerMappingCode2(mappingValue, valued));
+    }
+```
+
+就会运行mappingValue中的三目运算字符串，最终将我映射进去的`value=100` 进行判断，得到 `轻度` 这个结果。
+
+**优点：**
+
+1. 非常自由，可根据JAVA语法结合自定义方法，在配置中自由发挥。
+2. 运行时消耗内存少，因为所创建class是直接加入到虚拟机中，执行方法时不会有额外损耗。
+
+**缺点：**
+
+1. 临时文件处理文件
+2. 太过自由的危害
+
 
 
