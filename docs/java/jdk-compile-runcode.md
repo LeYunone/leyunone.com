@@ -1,3 +1,15 @@
+---
+date: 2023-12-18
+title: 运行时，编译字符串中的代码
+category:
+  - Java
+tag:
+  - Java
+head:
+  - - meta
+    - name: keywords
+      content: java、JDK
+---
 # 编译字符串中的代码
 
 在做数据统计或者数据处理、分类等等类似需求的时候，会需要配置一段伪代码进行具体属性的获取。
@@ -97,7 +109,7 @@ JDK在tools包中已经为我们提供了一站式的服务 :`JavaCompiler`
     public static void main(String[] args) throws ClassNotFoundException {
         String mappingValue = "value > 300 ? \"重度\" : value > 200 ? \"中度\" : \"轻度\"";
         Integer valued = 100;
-        System.out.println(compilerMappingCode2(mappingValue, valued));
+        System.out.println(compilerMappingCode(mappingValue, valued));
     }
 ```
 
@@ -113,5 +125,76 @@ JDK在tools包中已经为我们提供了一站式的服务 :`JavaCompiler`
 1. 临时文件处理文件
 2. 太过自由的危害
 
+### JEXL语言引擎
 
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-12-20/9380b1ba-50be-4c03-9c85-17d972b73225.png)
+
+Jexl是JAVA中一个很冷门很冷门的分支，相信大部分开发者在学习过程中都未曾接触过 `jexl3` 包下的工具及类。
+
+如上图百度百科的阐述，Jexl是JAVA虚拟机中自带的一种表达式脚本引擎，可以用来执行各类脚本语言代码，比如JavaScript、Python等。
+
+除此之外，还可以将输入的表达式字符串进行JDK语法上的编辑解释。
+
+比如 value>2， 1+1=2 等等表达式算法。
+
+因此在本篇解决方案中，也可以完美的解决:**运行中，编译配置好的字符串代码** 问题，下来带来如何使用 `jexl`
+
+**引入依赖：**
+
+```xml
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-jexl3</artifactId>
+            <version>3.2</version>
+        </dependency>
+```
+
+**方法：**
+
+```java
+    private static Object compilerMappingCode(String mappingValue, Integer value) {
+        // 创建编译参数
+        MapContext context = new MapContext();
+        context.set("value",value);
+        context.set("date",LocalDateTime.now());
+        // 创建运行环境
+        Engine engine = new Engine();
+        // ScriptEngineManager manager = new ScriptEngineManager();
+        // ScriptEngine engine = manager.getEngineByName("JavaScript");
+        // 执行代码
+        JexlExpression expression = engine.createExpression(mappingValue);
+        return expression.evaluate(context);
+    }
+```
+
+核心原理就是使用JDK自带的脚本语言解释器 engine，翻译输入的语言环境和脚本内容。
+
+在这个方法案例中，测试调用如下：
+
+```java
+    public static void main(String[] args) throws ClassNotFoundException {
+        String mappingValue = "value > 300 ? \"重度\" : value > 200 ? \"中度\" : \"轻度\"";
+        Integer valued = 100;
+        System.out.println(compilerMappingCode(mappingValue, valued));
+    }
+```
+
+通过 `MapContext` 的值映射功能，将输入的value写入脚本中。
+
+**优点：**
+
+- 简单，多样，可以根据各类脚本语言的特点去编写适合自己业务的语法
+- 值映射关系好配置
+
+**缺点：**
+
+- 与直接执行JAVA代码而言不够自由，例如我需要动态配置value = 当前时间，不能直接在数据库字段中配置 `value= LocalDateTime.now` ，而是需要由上述的MapContext统一管理
+
+## 总结
+
+在对接各种语音平台,小米,华为,小度...时，发现需要进行定制化模板返参的转换。
+
+但是每个平台的每种类型的设备返回参都由差异，并且由代码去 `写死` 返回参数也太不 科学了。
+
+于是就有了上述 **执行字符串代码** 的方案
 

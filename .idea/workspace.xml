@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/java/JDK-version.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java/JDK-version.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/java/jdk-compile-runcode.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java/jdk-compile-runcode.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -331,6 +333,7 @@
       <workItem from="1702311173756" duration="625000" />
       <workItem from="1702653713267" duration="2170000" />
       <workItem from="1703000577106" duration="633000" />
+      <workItem from="1702975502263" duration="1351000" />
     </task>
     <task id="LOCAL-00024" summary="[ADD]skywalking-reading1.md">
       <created>1683215670870</created>

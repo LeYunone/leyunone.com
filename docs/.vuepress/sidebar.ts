@@ -136,9 +136,11 @@ export const sidebarConfig = sidebar({
             prefix: "java/",
             collapsible: true,
             children: [
+                "JDK-version",
                 "java8-arrayssort",
                 "java-agent-1",
                 "buddy-1",
+                "jdk-compile-runcode",
                 "java-release",
                 "DatabaseMetaData",
                 "Java-agent-2",
