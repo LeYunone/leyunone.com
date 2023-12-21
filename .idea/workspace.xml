@@ -21,9 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/java/JDK-version.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java/JDK-version.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/java/jdk-compile-runcode.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/java/jdk-compile-runcode.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,14 +330,7 @@
       <workItem from="1702311173756" duration="625000" />
       <workItem from="1702653713267" duration="2170000" />
       <workItem from="1703000577106" duration="633000" />
-      <workItem from="1702975502263" duration="1351000" />
-    </task>
-    <task id="LOCAL-00024" summary="[ADD]skywalking-reading1.md">
-      <created>1683215670870</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1683215670870</updated>
+      <workItem from="1702975502263" duration="1972000" />
     </task>
     <task id="LOCAL-00025" summary="[Update]abouot-algorithm1.md">
       <created>1683302280002</created>
@@ -678,7 +668,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702655498345</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="[UPDATE]jdk-compile-runcode.md&#10;JDK-version.md">
+      <created>1702990946109</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1702990946109</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,7 +735,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[ADD]templated-application.md" />
     <MESSAGE value="[ADD]deep-page.md" />
     <MESSAGE value="[ADD]Waline.md" />
     <MESSAGE value="[ADD]Waline.md deep-page.md" />
@@ -763,17 +759,18 @@
     <MESSAGE value="[ADD]god-search.md" />
     <MESSAGE value="[ADD]JDK-version.md" />
     <MESSAGE value="[ADD]jdk-compile-runcode.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]jdk-compile-runcode.md" />
+    <MESSAGE value="[UPDATE]jdk-compile-runcode.md&#10;JDK-version.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]jdk-compile-runcode.md&#10;JDK-version.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1696692288556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1696692288556" />
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1702655497852">
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1702990945577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1702655497852" />
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1702990945577" />
     <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1046@0.0.1920.1046" timestamp="1695651990675" />
     <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1695048428194" />
     <state x="41" y="182" width="1736" height="858" key="DiffContextDialog" timestamp="1700716445014">
@@ -808,10 +805,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1696692311563" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1702655501202">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1703085239140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1702655501202" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1703085239140" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1695048436437" />
     <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1696780431665">
       <screen x="0" y="0" width="1920" height="1040" />
