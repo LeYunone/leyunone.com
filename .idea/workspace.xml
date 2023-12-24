@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/normal-notes/voice-protocol.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/voice-protocol.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,16 +72,16 @@
     <property name="ts.external.directory.path" value="E:\software\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-diary\god-search" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\TheCore\leyunone.com\docs\java" />
       <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-diary\god-search" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-build">
@@ -331,6 +332,7 @@
       <workItem from="1702653713267" duration="2170000" />
       <workItem from="1703000577106" duration="633000" />
       <workItem from="1702975502263" duration="1972000" />
+      <workItem from="1703429297190" duration="1090000" />
     </task>
     <task id="LOCAL-00025" summary="[Update]abouot-algorithm1.md">
       <created>1683302280002</created>
@@ -767,16 +769,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1696692288556" />
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1702990945577">
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1703175018303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1702990945577" />
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1703175018303" />
     <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1046@0.0.1920.1046" timestamp="1695651990675" />
     <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1695048428194" />
-    <state x="41" y="182" width="1736" height="858" key="DiffContextDialog" timestamp="1700716445014">
+    <state x="41" y="182" width="1736" height="858" key="DiffContextDialog" timestamp="1703434163289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="41" y="182" width="1736" height="858" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1700716445014" />
+    <state x="41" y="182" width="1736" height="858" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1703434163289" />
     <state x="92" y="417" key="FileChooserDialogImpl" timestamp="1696692261539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -805,10 +807,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1696692311563" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1703085239140">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1703175022736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1703085239140" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1703175022736" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1695048436437" />
     <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1696780431665">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -828,10 +830,10 @@
     </state>
     <state x="616" y="241" width="672" height="674" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1700395945598" />
     <state x="616" y="242" width="672" height="677" key="run.anything.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1695651675994" />
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1700395870384">
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1703434161485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1700395870384" />
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1703434161485" />
     <state x="616" y="177" width="672" height="674" key="search.everywhere.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1695651703555" />
   </component>
   <component name="XDebuggerManager">
