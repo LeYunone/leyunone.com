@@ -50,7 +50,7 @@ return value > 300 ? "重度" : value > 200 ? "中度" : "轻度"
 
 ![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-12-19/1fa547e9-fafa-4afd-90b3-a7f316e99c46.png)
 
-![](C:\Users\leyunone\AppData\Roaming\Typora\typora-user-images\image-20231219235949212.png)
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-12-26/9f299589-3fa5-4239-840a-cc1f4bad274e.png)
 
 因此针对这种值模型的冲突问题，最好可以搭建出一个通用的模块，通过数据库配置的方式进行数据的维护。
 
