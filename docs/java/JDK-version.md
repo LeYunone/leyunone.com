@@ -82,7 +82,7 @@ public interface 接口{
 
 TIp：需要注意idea在 `Open Module Settings` 设置中需要将版本语法调整到9版本
 
-![image-20231213000327741](C:\Users\leyunone\AppData\Roaming\Typora\typora-user-images\image-20231213000327741.png)
+![image-20231213000327741](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-12-26/82db0534-9c87-4543-a567-783e588c192e.png)
 
 两个项目的 module-info 语法，主要是两类：
 
@@ -107,7 +107,7 @@ module com.leyunone.laboratory.jdk9.test {
 
 这样就可以在不通过MAVEN导入依赖的方式进行项目的模块化划分
 
-![image-20231213000616893](C:\Users\leyunone\AppData\Roaming\Typora\typora-user-images\image-20231213000616893.png)
+![image-20231213000616893](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-12-26/c057c42f-c65b-41e9-8c84-5112d6a643e7.png)
 
 **此外**
 
