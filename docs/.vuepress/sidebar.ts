@@ -195,6 +195,7 @@ export const sidebarConfig = sidebar({
             prefix: "unidentified-business/",
             collapsible: true,
             children: [
+                "bit-write",
                 "cloud",
                 "database-conflict",
                 "payment",
