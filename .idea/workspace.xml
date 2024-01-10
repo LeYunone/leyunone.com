@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/unidentified-business/bit-write.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/bit-write.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,6 +333,10 @@
       <workItem from="1702975502263" duration="1972000" />
       <workItem from="1703429297190" duration="1557000" />
       <workItem from="1704378968126" duration="1209000" />
+      <workItem from="1704546384493" duration="1198000" />
+      <workItem from="1704639305830" duration="794000" />
+      <workItem from="1704721599344" duration="599000" />
+      <workItem from="1704813449690" duration="599000" />
     </task>
     <task id="LOCAL-00026" summary="[Update]fix bug">
       <created>1683303738426</created>
