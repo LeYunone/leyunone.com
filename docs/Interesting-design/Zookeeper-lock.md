@@ -37,7 +37,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * @author LeYuna
- * @email 365627310@qq.com
+ * @email 1801370115@qq.com
  * @date 2022-05-04
  */
 public class ZookeeperLock {

@@ -193,7 +193,7 @@ import javax.swing.*;
  * :)
  *
  * @author LeYunone
- * @email 365627310@qq.com
+ * @email 1801370115@qq.com
  * @date 2023/10/23
  */
 public class LoginView extends JFrame {
@@ -269,7 +269,7 @@ import java.awt.*;
  * :)
  *
  * @author LeYunone
- * @email 365627310@qq.com
+ * @email 1801370115@qq.com
  * @date 2023/10/23
  */
 public class HomeView extends JFrame {
@@ -359,7 +359,7 @@ import java.awt.*;
  * :)
  *
  * @author LeYunone
- * @email 365627310@qq.com
+ * @email 1801370115@qq.com
  * @date 2023/10/24
  */
 public class UserTableEditView extends JDialog   {

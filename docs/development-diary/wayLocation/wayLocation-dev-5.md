@@ -64,7 +64,7 @@ com.leyuna.waylocation.autoconfig.WaylocationAutoConfiguration
     <developers>
         <developer>
             <name>leyuna</name>
-            <email>365627310@qq.com</email>
+            <email>1801370115@qq.com</email>
             <organization>https://leyuna.xyz</organization>
         </developer>
     </developers>

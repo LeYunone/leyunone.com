@@ -127,7 +127,7 @@ gpg --gen-key
     <developers>
         <developer>
             <name>leyunone</name>
-            <email>365627310@qq.com</email>
+            <email>1801370115@qq.com</email>
             <organization>https://leyuna.com</organization>
         </developer>
     </developers>

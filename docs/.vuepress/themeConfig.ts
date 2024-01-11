@@ -33,7 +33,7 @@ export const themeConfig = hopeTheme({
     medias: {
       Zhihu: "https://www.zhihu.com/people/leyuna",
       Github: "https://github.com/LeYunone",
-      QQ:"http://wpa.qq.com/msgrd?v=3&uin=365627310&site=qq&menu=yes",
+      QQ:"http://wpa.qq.com/msgrd?v=3&uin=1801370115&site=qq&menu=yes",
       BiliBili:"https://space.bilibili.com/7749032"
     },
     roundAvatar:true,
