@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/export-dev-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/export-dev-1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,6 +340,9 @@
       <workItem from="1704721599344" duration="599000" />
       <workItem from="1704813449690" duration="599000" />
       <workItem from="1704987791770" duration="996000" />
+      <workItem from="1705034658819" duration="509000" />
+      <workItem from="1705119616116" duration="2213000" />
+      <workItem from="1705225262068" duration="689000" />
     </task>
     <task id="LOCAL-00027" summary="[Update]fix bug">
       <created>1683303957817</created>
@@ -786,10 +791,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="417" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1696692261539" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1696692311563">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1705121755818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1696692311563" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1705121755818" />
     <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1704988147081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -810,10 +815,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="241" width="672" height="674" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1700395945598" />
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1704987822122">
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1705228994911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1704987822122" />
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1705228994911" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
