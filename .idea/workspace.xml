@@ -22,7 +22,7 @@
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/export-dev-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/export-dev-1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/normal-notes/mysql-sync-delayed.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/mysql-sync-delayed.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,14 +342,7 @@
       <workItem from="1704987791770" duration="996000" />
       <workItem from="1705034658819" duration="509000" />
       <workItem from="1705119616116" duration="2213000" />
-      <workItem from="1705225262068" duration="689000" />
-    </task>
-    <task id="LOCAL-00027" summary="[Update]fix bug">
-      <created>1683303957817</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1683303957817</updated>
+      <workItem from="1705225262068" duration="2094000" />
     </task>
     <task id="LOCAL-00028" summary="[Update]Java-agent-2.md">
       <created>1683737046292</created>
@@ -687,7 +680,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704988142320</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="[UPDATE]export-dev-1.md">
+      <created>1705229092076</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1705229092077</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -747,7 +747,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[ADD]Waline.md deep-page.md" />
     <MESSAGE value="[UPDATE]**XX：** cancel new **XX**：" />
     <MESSAGE value="[UPDATE]Waline.md" />
     <MESSAGE value="[ADD]mailpush-service.md" />
@@ -772,17 +771,18 @@
     <MESSAGE value="[UPDATE]jdk-compile-runcode.md&#10;JDK-version.md" />
     <MESSAGE value="[UPDATE]voice-protocol.md" />
     <MESSAGE value="[UPDATE]UPDATE my info" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]UPDATE my info" />
+    <MESSAGE value="[UPDATE]export-dev-1.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]export-dev-1.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1696692288556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1696692288556" />
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1704988141717">
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1705229091493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1704988141717" />
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1705229091493" />
     <state x="41" y="182" width="1736" height="858" key="DiffContextDialog" timestamp="1703434163289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -795,10 +795,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1705121755818" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1704988147081">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1705229096206">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1704988147080" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1705229096206" />
     <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1704987857872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

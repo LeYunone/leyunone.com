@@ -217,6 +217,7 @@ export const sidebarConfig = sidebar({
             children: [
                 "voice-protocol",
                 "deep-page",
+                "mysql-sync-delayed",
                 "2022-04-19-eeg",
                 "db-eight-part-essay",
                 "httpServletResponse",
