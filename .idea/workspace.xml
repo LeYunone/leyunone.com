@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/normal-notes/mysql-sync-delayed.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/mysql-sync-delayed.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/java" />
+    <property name="last_opened_file_path" value="E:/study/node-v16.1.0-win-x64/npm.cmd" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -69,7 +67,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="E:\software\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -125,7 +123,7 @@
       <scripts>
         <script value="vite-build" />
       </scripts>
-      <node-interpreter value="project" />
+      <node-interpreter value="node" />
       <envs />
       <method v="2" />
     </configuration>
@@ -149,6 +147,15 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm serve" />
+      <item itemvalue="npm.docs:build" />
+      <item itemvalue="npm.docs:dev" />
+      <item itemvalue="npm.vite-build" />
+      <item itemvalue="npm.vite-serve" />
+      <item itemvalue="npm.webpack-build" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.vite-build" />
@@ -342,14 +349,8 @@
       <workItem from="1704987791770" duration="996000" />
       <workItem from="1705034658819" duration="509000" />
       <workItem from="1705119616116" duration="2213000" />
-      <workItem from="1705225262068" duration="2094000" />
-    </task>
-    <task id="LOCAL-00028" summary="[Update]Java-agent-2.md">
-      <created>1683737046292</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1683737046292</updated>
+      <workItem from="1705225262068" duration="3037000" />
+      <workItem from="1705248024204" duration="14000" />
     </task>
     <task id="LOCAL-00029" summary="[Update]图片bug">
       <created>1683801802811</created>
@@ -687,7 +688,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705229092077</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="[UPDATE]mysql-sync-delayed.md">
+      <created>1705246315662</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1705246315662</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -747,7 +755,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[UPDATE]**XX：** cancel new **XX**：" />
     <MESSAGE value="[UPDATE]Waline.md" />
     <MESSAGE value="[ADD]mailpush-service.md" />
     <MESSAGE value="[ADD]springboot-18n-error.md" />
@@ -772,33 +779,54 @@
     <MESSAGE value="[UPDATE]voice-protocol.md" />
     <MESSAGE value="[UPDATE]UPDATE my info" />
     <MESSAGE value="[UPDATE]export-dev-1.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]export-dev-1.md" />
+    <MESSAGE value="[UPDATE]mysql-sync-delayed.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]mysql-sync-delayed.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1696692288556">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1705246408131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1696692288556" />
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1705229091493">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1705246408131" />
+    <state x="656" y="203" key="#vite-build" timestamp="1705248036305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1705229091493" />
+    <state x="656" y="203" key="#vite-build/0.0.1920.1040@0.0.1920.1040" timestamp="1705248036305" />
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1705246315064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1705246315064" />
     <state x="41" y="182" width="1736" height="858" key="DiffContextDialog" timestamp="1703434163289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="41" y="182" width="1736" height="858" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1703434163289" />
-    <state x="92" y="417" key="FileChooserDialogImpl" timestamp="1696692261539">
+    <state x="233" y="362" key="FileChooserDialogImpl" timestamp="1705247915254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="417" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1696692261539" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1705121755818">
+    <state x="233" y="362" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1705247915254" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1705247918192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1705121755818" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1705229096206">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1705247918192" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1705247918192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1705229096206" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1705247918192" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1705247918192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1705247918192" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1705247918192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1705247918192" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1705247917669">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1705247917669" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1705246318342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1705246318342" />
     <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1704987857872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -807,18 +835,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="652" y="308" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1697468795810" />
-    <state x="601" y="529" key="jetbrains.nodejs.interpreters-dialog" timestamp="1696692263606">
+    <state x="601" y="529" key="jetbrains.nodejs.interpreters-dialog" timestamp="1705247901459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="601" y="529" key="jetbrains.nodejs.interpreters-dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1696692263606" />
+    <state x="601" y="529" key="jetbrains.nodejs.interpreters-dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1705247901459" />
     <state x="616" y="241" width="672" height="674" key="run.anything.popup" timestamp="1700395945598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="241" width="672" height="674" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1700395945598" />
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1705228994911">
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1705246305117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1705228994911" />
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1705246305117" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
