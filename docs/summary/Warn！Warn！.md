@@ -157,6 +157,18 @@ SELECT IFNULL(no,99) FROM t_test ORDER BY no
 
 一定要担心：不可以使用原字符串的byte[]形式去生成MD5值，一定要在上传文件后，通过文件URL下载文件，将这个文件的byte[]去进行计算；这样MD5值才是对的！
 
+### 2/ 关于文件传输的请求头
+
+```
+Content-Disposition:"attachment;filename=?"
+```
+
+这是设置文件名的请求头，一般对接人员只需要从 `Content-Disposition` 中拿到filename。
+
+但是有一种情况会导致请求失败，流被强行关闭：`当filename，即文件名中出现逗号(,)时`
+
+因为Content-Disposition 的属性处理，有以逗号作为分隔符
+
 ## 国际化翻译上
 
 ## 1/安卓和IOS差异
