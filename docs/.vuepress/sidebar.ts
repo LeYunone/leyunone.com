@@ -228,6 +228,7 @@ export const sidebarConfig = sidebar({
                 "thread-eight-part-essay",
                 "nginx-error",
                 "java-swing",
+                "upload-1",
                 "test"
             ]
         },
