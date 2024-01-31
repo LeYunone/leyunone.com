@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Interesting-design/game-chat.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/game-chat.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/game-chat.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -365,6 +365,8 @@
       <workItem from="1706275860624" duration="2049000" />
       <workItem from="1706455469240" duration="1201000" />
       <workItem from="1706624449421" duration="1202000" />
+      <workItem from="1706713264662" duration="599000" />
+      <workItem from="1706801887065" duration="600000" />
     </task>
     <task id="LOCAL-00032" summary="[ADD]skywalking-reading2.md">
       <created>1684164003814</created>
