@@ -102,6 +102,7 @@ export const sidebarConfig = sidebar({
             prefix: "Interesting-design/",
             collapsible: true,
             children: [
+                "game-chat",
                 "cas-lock",
                 "unique-set",
                 "upload-file",
