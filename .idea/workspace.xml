@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/game-chat.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/game-chat.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/normal-notes/mq-comapre.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/db-comapre.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/Interesting-design" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/normal-notes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -76,11 +76,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TheCore\leyunone.com\docs\normal-notes" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-diary\god-search" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
@@ -368,13 +368,7 @@
       <workItem from="1706713264662" duration="599000" />
       <workItem from="1706801887065" duration="600000" />
       <workItem from="1706788179312" duration="647000" />
-    </task>
-    <task id="LOCAL-00032" summary="[ADD]skywalking-reading2.md">
-      <created>1684164003814</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1684164003814</updated>
+      <workItem from="1707762577826" duration="283000" />
     </task>
     <task id="LOCAL-00033" summary="[UPDATE]KEY word">
       <created>1684682953569</created>
@@ -712,7 +706,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706294803522</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="[ADD]mq-comapre.md">
+      <created>1707586580019</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1707586580020</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -772,7 +773,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[UPDATE]custom-annotation.md" />
     <MESSAGE value="[ADD]java-spi.md" />
     <MESSAGE value="[ADD]spi-oss.md" />
     <MESSAGE value="[ADD]hosptial.md" />
@@ -797,7 +797,8 @@
     <MESSAGE value="[UPDATE]iot-cloud-cloud.md" />
     <MESSAGE value="[UPDATE]Warn！Warn！.md" />
     <MESSAGE value="[ADD]upload-1.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]upload-1.md" />
+    <MESSAGE value="[ADD]mq-comapre.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]mq-comapre.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1705246408131">
@@ -808,10 +809,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="203" key="#vite-build/0.0.1920.1040@0.0.1920.1040" timestamp="1705248036305" />
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1706294802992">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1707586579431">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1706294802992" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1707586579431" />
     <state x="41" y="182" width="1736" height="858" key="DiffContextDialog" timestamp="1705507428305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -840,10 +842,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1705508339735" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1706112577443">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1707586585574">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1706112577443" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1707586585574" />
     <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1705507422890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
