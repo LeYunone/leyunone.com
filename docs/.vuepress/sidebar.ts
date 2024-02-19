@@ -324,6 +324,7 @@ export const sidebarConfig = sidebar({
                 "about-this-web",
                 "beian",
                 "interview-question",
+                "db-comapre",
                 "Warn！Warn！"
             ]
         },
