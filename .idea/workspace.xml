@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/normal-notes/JAVA-ChatGPT.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/game-chat.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/game-chat.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/Interesting-design" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/normal-notes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -75,20 +76,20 @@
     <property name="ts.external.directory.path" value="E:\study\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-diary\god-search" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
       <recent name="E:\TheCore\leyunone.com\docs\java" />
       <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-diary\god-search" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.vite-build">
+  <component name="RunManager" selected="npm.vite-serve">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:8080">
       <method v="2" />
     </configuration>
@@ -163,8 +164,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.vite-build" />
         <item itemvalue="npm.vite-serve" />
+        <item itemvalue="npm.vite-build" />
         <item itemvalue="npm.webpack-build" />
         <item itemvalue="npm.docs:dev" />
         <item itemvalue="npm.docs:build" />
@@ -368,6 +369,9 @@
       <workItem from="1706713264662" duration="599000" />
       <workItem from="1706801887065" duration="600000" />
       <workItem from="1706788179312" duration="647000" />
+      <workItem from="1706860989967" duration="854000" />
+      <workItem from="1708265364455" duration="599000" />
+      <workItem from="1708438753803" duration="1402000" />
     </task>
     <task id="LOCAL-00032" summary="[ADD]skywalking-reading2.md">
       <created>1684164003814</created>
@@ -820,22 +824,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="362" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1705247915254" />
-    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1705508418181">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1708358685581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1705508418181" />
-    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1705508418181">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1708358685581" />
+    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1708358685581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1705508418181" />
-    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1705508418181">
+    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1708358685581" />
+    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1708358685581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1705508418181" />
-    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1705508418181">
+    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1708358685581" />
+    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1708358685581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1705508418181" />
+    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1708358685581" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1705508339735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

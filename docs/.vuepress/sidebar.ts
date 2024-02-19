@@ -221,6 +221,7 @@ export const sidebarConfig = sidebar({
                 "deep-page",
                 "mysql-sync-delayed",
                 "2022-04-19-eeg",
+                "JAVA-ChatGPT",
                 "db-eight-part-essay",
                 "httpServletResponse",
                 "java-eight-part-essay",
