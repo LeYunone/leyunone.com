@@ -222,6 +222,7 @@ export const sidebarConfig = sidebar({
                 "mysql-sync-delayed",
                 "2022-04-19-eeg",
                 "JAVA-ChatGPT",
+                "fastJson-warn",
                 "db-eight-part-essay",
                 "httpServletResponse",
                 "java-eight-part-essay",
