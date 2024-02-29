@@ -103,6 +103,7 @@ export const sidebarConfig = sidebar({
             collapsible: true,
             children: [
                 "game-chat",
+                "value-assemble",
                 "cas-lock",
                 "unique-set",
                 "upload-file",
