@@ -130,7 +130,8 @@ export const sidebarConfig = sidebar({
                 "Diboot",
                 "XXL-Job",
                 "GitLab-codex",
-                "dbshop"
+                "dbshop",
+                "sa-token"
             ]
         },
         {

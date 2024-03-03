@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Interesting-design/value-assemble.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/github-project/sa-token.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
     </list>
@@ -63,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/Interesting-design" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/github-project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -76,17 +76,17 @@
     <property name="ts.external.directory.path" value="E:\study\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
-      <recent name="E:\TheCore\leyunone.com\docs\java" />
-      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\github-project" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
       <recent name="E:\TheCore\leyunone.com\docs\normal-notes" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-diary\god-search" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
+      <recent name="E:\TheCore\leyunone.com\docs\java" />
+      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-build">
@@ -373,14 +373,9 @@
       <workItem from="1708445621350" duration="40000" />
       <workItem from="1708691698287" duration="175000" />
       <workItem from="1708872304623" duration="610000" />
-      <workItem from="1709221385630" duration="107000" />
-    </task>
-    <task id="LOCAL-00034" summary="[ADD]what-happend-halfyear.md">
-      <created>1684684241007</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1684684241007</updated>
+      <workItem from="1709221385630" duration="750000" />
+      <workItem from="1709477106152" duration="608000" />
+      <workItem from="1709572028224" duration="56000" />
     </task>
     <task id="LOCAL-00035" summary="[ADD]what-happend-halfyear.md">
       <created>1684684796966</created>
@@ -718,7 +713,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708445651359</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="[ADD]value-assemble.md">
+      <created>1709221503164</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1709221503165</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -778,7 +780,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[ADD]spi-oss.md" />
     <MESSAGE value="[ADD]hosptial.md" />
     <MESSAGE value="[ADD]mysql-index-explain.md" />
     <MESSAGE value="[ADD]导航" />
@@ -803,7 +804,8 @@
     <MESSAGE value="[ADD]upload-1.md" />
     <MESSAGE value="[ADD]mq-comapre.md" />
     <MESSAGE value="[ADD]fastJson-warn.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]fastJson-warn.md" />
+    <MESSAGE value="[ADD]value-assemble.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]value-assemble.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1705246408131">
@@ -814,10 +816,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="203" key="#vite-build/0.0.1920.1040@0.0.1920.1040" timestamp="1705248036305" />
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1708445650828">
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1709221502555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1708445650828" />
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1709221502555" />
     <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1707586579431" />
     <state x="41" y="182" width="1736" height="858" key="DiffContextDialog" timestamp="1705507428305">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -847,10 +849,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1705508339735" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1708445654382">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1709221507154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1708445654382" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1709221507154" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1707586585574" />
     <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1705507422890">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -864,14 +866,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="601" y="529" key="jetbrains.nodejs.interpreters-dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1705247901459" />
-    <state x="616" y="241" width="672" height="674" key="run.anything.popup" timestamp="1700395945598">
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1709222644899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="241" width="672" height="674" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1700395945598" />
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1705507691045">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1705507691045" />
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1709222644899" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
