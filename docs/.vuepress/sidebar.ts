@@ -244,6 +244,15 @@ export const sidebarConfig = sidebar({
             prefix: "development-diary/",
             children: [
                 {
+                    text: "全平台云云接入",
+                    prefix: "cloud-cloud/",
+                    collapsible: true,
+                    icon: "yongqihuizhang-taiyi",
+                    children: [
+                        "cloud-cloud-1"
+                    ]
+                },
+                {
                     text: "God-Search",
                     prefix: "god-search/",
                     collapsible: true,

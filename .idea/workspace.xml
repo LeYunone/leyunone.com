@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/github-project/sa-token.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/development-diary/cloud-cloud/cloud-cloud-1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
     </list>
@@ -63,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/github-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/development-diary/cloud-cloud" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -76,17 +76,17 @@
     <property name="ts.external.directory.path" value="E:\study\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\github-project" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
-      <recent name="E:\TheCore\leyunone.com\docs\normal-notes" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
       <recent name="E:\TheCore\leyunone.com\docs\java" />
       <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-diary\cloud-cloud" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\github-project" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
+      <recent name="E:\TheCore\leyunone.com\docs\normal-notes" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-build">
@@ -376,6 +376,9 @@
       <workItem from="1709221385630" duration="750000" />
       <workItem from="1709477106152" duration="608000" />
       <workItem from="1709572028224" duration="56000" />
+      <workItem from="1709646961347" duration="599000" />
+      <workItem from="1709733411256" duration="604000" />
+      <workItem from="1709827006573" duration="119000" />
     </task>
     <task id="LOCAL-00035" summary="[ADD]what-happend-halfyear.md">
       <created>1684684796966</created>
@@ -866,6 +869,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="601" y="529" key="jetbrains.nodejs.interpreters-dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1705247901459" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1709827109893">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1709827109893" />
     <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1709222644899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
