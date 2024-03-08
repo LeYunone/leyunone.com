@@ -170,6 +170,7 @@ export const sidebarConfig = sidebar({
                     prefix: "git/",
                     collapsible: true,
                     children: [
+                        "git-protect-rejected",
                         "git-error"
                     ]
                 },
