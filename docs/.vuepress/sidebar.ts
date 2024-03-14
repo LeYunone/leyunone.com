@@ -220,6 +220,7 @@ export const sidebarConfig = sidebar({
             prefix: "normal-notes/",
             collapsible: true,
             children: [
+                "mysql-exception",
                 "voice-protocol",
                 "deep-page",
                 "mysql-sync-delayed",
