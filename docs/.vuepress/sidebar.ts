@@ -201,6 +201,7 @@ export const sidebarConfig = sidebar({
             collapsible: true,
             children: [
                 "iot-cloud-cloud",
+                "device-center-project",
                 "bit-write",
                 "cloud",
                 "database-conflict",
