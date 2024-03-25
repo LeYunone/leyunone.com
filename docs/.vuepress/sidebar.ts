@@ -202,6 +202,7 @@ export const sidebarConfig = sidebar({
             children: [
                 "iot-cloud-cloud",
                 "device-center-project",
+                "smart-home-project",
                 "bit-write",
                 "cloud",
                 "database-conflict",
