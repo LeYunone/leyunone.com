@@ -115,6 +115,7 @@ export const sidebarConfig = sidebar({
                 "condition-command",
                 "templated-application",
                 "mailpush-service",
+                "Wechat- Moments",
                 "spi-oss",
                 "export-dev-1.md",
                 "easyExcel-custom"
