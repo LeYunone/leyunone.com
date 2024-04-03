@@ -223,6 +223,7 @@ export const sidebarConfig = sidebar({
             prefix: "normal-notes/",
             collapsible: true,
             children: [
+                "rpc-reload",
                 "mysql-exception",
                 "voice-protocol",
                 "deep-page",

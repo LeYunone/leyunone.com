@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Interesting-design/Wechat- Moments.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/normal-notes/rpc-reload.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/Wechat- Moments.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/Wechat- Moments.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unidentified-business/device-center-project.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/device-center-project.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/unidentified-business/smart-home-project.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/smart-home-project.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +66,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/Interesting-design" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/normal-notes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -77,17 +79,17 @@
     <property name="ts.external.directory.path" value="E:\study\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-tool\git" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-diary\cloud-cloud" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
       <recent name="E:\TheCore\leyunone.com\docs\java" />
       <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-tool\git" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-diary\cloud-cloud" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-build">
@@ -389,14 +391,10 @@
       <workItem from="1711382151621" duration="109000" />
       <workItem from="1711464416620" duration="599000" />
       <workItem from="1711551872777" duration="599000" />
-      <workItem from="1711802399257" duration="767000" />
-    </task>
-    <task id="LOCAL-00040" summary="[ADD]strategy-factory-together.md AND UPDATE index icon">
-      <created>1686417069822</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1686417069822</updated>
+      <workItem from="1711802399257" duration="1589000" />
+      <workItem from="1711883264657" duration="614000" />
+      <workItem from="1711980692564" duration="601000" />
+      <workItem from="1712147872319" duration="712000" />
     </task>
     <task id="LOCAL-00041" summary="[ADD]dbshop-2.md“&#10;device-app-smarthome.md">
       <created>1686842151380</created>
@@ -734,7 +732,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711037280818</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="[ADD]Wechat- Moments.md">
+      <created>1711809386723</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1711809386723</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -794,7 +799,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[ADD]buddy-1.md&#10;字节码伙伴" />
     <MESSAGE value="[ADD]easyExcel-custom.md" />
     <MESSAGE value="[UPDATE]UPDATE date" />
     <MESSAGE value="[UPDATE]UPDATE Warn！Warn！.md" />
@@ -819,7 +823,8 @@
     <MESSAGE value="[ADD]git-protect-rejected.md" />
     <MESSAGE value="[ADD]mysql-exception.md" />
     <MESSAGE value="[ADD]device-center-project.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]device-center-project.md" />
+    <MESSAGE value="[ADD]Wechat- Moments.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]Wechat- Moments.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1705246408131">
@@ -830,10 +835,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="203" key="#vite-build/0.0.1920.1040@0.0.1920.1040" timestamp="1705248036305" />
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1711037280163">
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1711809386090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1711037280163" />
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1711809386090" />
     <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1707586579431" />
     <state x="41" y="182" width="1736" height="858" key="DiffContextDialog" timestamp="1705507428305">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -843,30 +848,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="362" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1705247915254" />
-    <state width="1877" height="257" key="GridCell.Tab.0.bottom" timestamp="1711037422894">
+    <state width="1877" height="257" key="GridCell.Tab.0.bottom" timestamp="1711810187557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1711037422894" />
-    <state width="1877" height="257" key="GridCell.Tab.0.center" timestamp="1711037422894">
+    <state width="1877" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1711810187557" />
+    <state width="1877" height="257" key="GridCell.Tab.0.center" timestamp="1711810187557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1711037422894" />
-    <state width="1877" height="257" key="GridCell.Tab.0.left" timestamp="1711037422894">
+    <state width="1877" height="257" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1711810187557" />
+    <state width="1877" height="257" key="GridCell.Tab.0.left" timestamp="1711810187557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1711037422894" />
-    <state width="1877" height="257" key="GridCell.Tab.0.right" timestamp="1711037422894">
+    <state width="1877" height="257" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1711810187557" />
+    <state width="1877" height="257" key="GridCell.Tab.0.right" timestamp="1711810187557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1711037422894" />
+    <state width="1877" height="257" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1711810187557" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1705508339735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1705508339735" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1711037286822">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1711809403569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1711037286822" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1711809403569" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1707586585574" />
     <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1711037410325">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -884,10 +889,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1709827109893" />
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1711809353319">
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1712153890055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1711809353319" />
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1712153890055" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
