@@ -229,6 +229,7 @@ export const sidebarConfig = sidebar({
                 "voice-protocol",
                 "deep-page",
                 "mysql-sync-delayed",
+                "xxl-job-error",
                 "2022-04-19-eeg",
                 "JAVA-ChatGPT",
                 "fastJson-warn",
