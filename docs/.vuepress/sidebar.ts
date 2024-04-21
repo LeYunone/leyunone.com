@@ -230,6 +230,7 @@ export const sidebarConfig = sidebar({
                 "deep-page",
                 "mysql-sync-delayed",
                 "xxl-job-error",
+                "web-cache",
                 "2022-04-19-eeg",
                 "JAVA-ChatGPT",
                 "fastJson-warn",
