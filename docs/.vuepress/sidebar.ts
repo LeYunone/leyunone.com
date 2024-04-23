@@ -131,6 +131,8 @@ export const sidebarConfig = sidebar({
                 "Diboot",
                 "XXL-Job",
                 "GitLab-codex",
+                "voice-cloud-cloud",
+                "voice-cloud-cloud-config",
                 "dbshop",
                 "sa-token"
             ]
