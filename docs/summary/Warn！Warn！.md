@@ -15,7 +15,6 @@ head:
       content: 技术、生活、游戏、工作等等警示
 
 ---
-
 # 警示，标准版
 
 ## 服务器(Linux)上
@@ -43,6 +42,23 @@ https://blog.csdn.net/qq_38225558/article/details/128641561
 原因：被全球的IP端口扫描器攻击，然后密码字典直接暴力破解【123456】，不止如此，Jenkins、Granfna...等等，在开放端口后都会存在此问题；
 
 解决：密码复杂化，尽量将服务部署在Docker中【方便恢复，直接删除，重新装载镜像】
+
+### 3/ docker日志文件
+
+docker容器内应用中产生应用日志的同时，docker会生成容器日志，地址在/安装目录/containers  ....*-json.log;
+
+随着应用运行时长的增加，这个文件会越来越大；
+
+### 4/ 清理日志文件
+
+根据上述docker的日志文件，再加上JAVA应用中Log4J产生的日志文件可用以下指令，加上一个7天执行的定时器设置清理日志脚本：
+
+```xml
+find /opt/developer/app/logs -type f -name "*.log" -mtime +7 -exec rm {} \;
+find /var/lib/docker/containers -name '*-json.log' -type f | awk '{print "echo > " $0}' |bash
+```
+
+
 
 ## 代码(JAVA)上
 
@@ -96,13 +112,7 @@ private String xxx;
 无法提交事务
 ```
 
-## 工具上
-
-### 1/ IDEA 运行找不到或无法加载主类
-
-在项目没有问题的前提下，大概率是项目还没加载模块化的时候就强行切断进程，因此网络上对该问题的解决方案都是去补全里面的文件,比如运行如下命令`mvn idea:module` 
-
-### 2/EasyExcel-poi-计算
+### 4/ EasyExcel-poi-计算
 
 导出存在计算涉及到图片-单元格宽高时，一定要注意：
 
@@ -118,11 +128,52 @@ private String xxx;
 
 并且当为1时，理论表明占满宽/高，但是会随着偏移dx1、dy1变化
 
-### 3/EasyExcel-poi-合并单元格宽
+### 5/ EasyExcel-poi-合并单元格宽
 
 通过Cell类获取的单元格宽，只会是当前单元格的宽。
 
 即使该单元格已经被合并，如需拿到合并后的总宽，需要通过反过来遍历所有单元格，通过下标判断拿到合并的单元格，然后计算总和；
+
+### 6/ AliOss客户端创建
+
+一定要注意控制客户端创建频率，并且要保证：
+
+```java
+        OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
+        ossClient.shutdown();
+```
+
+这两个代码最好同时出现，因为客户端不关闭 = http不断开，但重复创建-关闭又很离谱，因此结合业务灵活搭配
+
+## 页面上
+
+### 1/ 跨域缓存问题
+
+跨域异常也会被缓存：
+
+这里指的是，由于游览器访问base64图片会被缓存，那么如果这张图片在被生成时被抛出跨域异常，即生成出了一张错误的图片；
+
+游览器依然会访问错误异常的base64图片
+
+## 工具上
+
+### 1/ IDEA 运行找不到或无法加载主类
+
+在项目没有问题的前提下，大概率是项目还没加载模块化的时候就强行切断进程，因此网络上对该问题的解决方案都是去补全里面的文件,比如运行如下命令`mvn idea:module` 
+
+### 2/ nginx下划线问题
+
+nginx的`underscores_in_headers`选项导致所有请求头header里面的参数下划线自动转为驼峰命名法，导致参数无法获取的现象
+
+比如：HOME_ID 转换为 homeId
+
+### 3/ nginx最大连接数问题
+
+一个访问就会使用一个work_connection；
+
+当同时使用超过1024个http连接的时候会报出连接数占满的异常；
+
+不过http一般都是短链接用完就会回收，因此需要注意 **最好不要使用会走nginx代理的长连接路由**
 
 ## 数据库上
 
@@ -149,6 +200,14 @@ SELECT IFNULL(no,99) FROM t_test ORDER BY no
 
 ![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2023-05-28/fcffe46e-3697-4b82-a0f1-1dbfddd5f592.png)
 
+### 3/ 字段过长时
+
+如果一个字段过长，但因为历史遗留问题很难替换更新；
+
+那么可以选择采用 `ZIP压缩算法`
+
+通过相同字符串编码，定位赋予数量空间意义，达到压缩一个字段长度又不会又太大改动且能控制的效果
+
 ## 文件上
 
 ### 1/ 文件MD5值
@@ -171,7 +230,7 @@ Content-Disposition:"attachment;filename=?"
 
 ## 国际化翻译上
 
-## 1/安卓和IOS差异
+### 1/安卓和IOS差异
 
 因为使用语言的不同：安卓大多为JAVA，IOS不知道
 
@@ -180,6 +239,10 @@ Content-Disposition:"attachment;filename=?"
 IOS则是由手机语言绝对，即会出现地区中国，语言English的值
 
 两者在此观念上对接时需要进行区分
+
+### 2/小心中文逗号
+
+`,`和`，` 后者在海外服务器中的某些app中是不可识别的；
 
 
 
@@ -199,3 +262,13 @@ IOS则是由手机语言绝对，即会出现地区中国，语言English的值
 (墙外)chatGPT: https://freegpt.one/
 chatGPT: https://1.chat58.top/chat
 ```
+
+### 3/出行
+
+#### 抢高铁票
+
+不管是什么日子，春节也好，国企也好；如果买不到票，包括候补，~~买反~~，买错，都不用慌
+
+一个百试百灵的方法：虽然所有人都告诉你，12306APP是最先看到票的；
+
+但是在如果你人在高铁站，那么在你面前，放票的优先级是：高铁站的售票机>=人工售票机>12306>第三方平台
