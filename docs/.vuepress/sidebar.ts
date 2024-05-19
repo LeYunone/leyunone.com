@@ -324,7 +324,8 @@ export const sidebarConfig = sidebar({
                     icon: "yongqihuizhang-taiyi",
                     children: [
                         "disk-dev-1",
-                        "disk-dev-2"
+                        "disk-dev-2",
+                        "disk-dev-3"
                     ]
                 },
                 {

@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/development-diary/disk/disk-dev-3.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/summary/Warn！Warn！.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/summary/Warn！Warn！.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/disk-oss.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/disk-oss.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/Interesting-design" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/development-diary/disk" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -81,11 +83,11 @@
       <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-diary\disk" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\github-project" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-build">
@@ -406,14 +408,7 @@
       <workItem from="1714217073882" duration="599000" />
       <workItem from="1714317738065" duration="410000" />
       <workItem from="1715009585467" duration="371000" />
-      <workItem from="1716133368952" duration="852000" />
-    </task>
-    <task id="LOCAL-00045" summary="[ADD] condition-command.md">
-      <created>1688296719622</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1688296719622</updated>
+      <workItem from="1716133368952" duration="1583000" />
     </task>
     <task id="LOCAL-00046" summary="[ADD]summertime.md">
       <created>1688661415552</created>
@@ -751,7 +746,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716133482178</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="[UPDATE]Warn！Warn！.md">
+      <created>1716135034663</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1716135034663</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -822,7 +824,6 @@
     <MESSAGE value="[UPDATE]export-dev-1.md" />
     <MESSAGE value="[UPDATE]mysql-sync-delayed.md" />
     <MESSAGE value="[UPDATE]iot-cloud-cloud.md" />
-    <MESSAGE value="[UPDATE]Warn！Warn！.md" />
     <MESSAGE value="[ADD]upload-1.md" />
     <MESSAGE value="[ADD]mq-comapre.md" />
     <MESSAGE value="[ADD]fastJson-warn.md" />
@@ -836,38 +837,39 @@
     <MESSAGE value="[ADD]web-cache.md" />
     <MESSAGE value="[ADD]voice-cloud-cloud.md" />
     <MESSAGE value="[ADD]disk-oss.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]disk-oss.md" />
+    <MESSAGE value="[UPDATE]Warn！Warn！.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]Warn！Warn！.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1716133481691">
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1716135034255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1716133481691" />
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1716135034255" />
     <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1707586579431" />
     <state x="41" y="182" width="1736" height="858" key="DiffContextDialog" timestamp="1713887154155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="41" y="182" width="1736" height="858" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1713887154155" />
-    <state width="1877" height="257" key="GridCell.Tab.0.bottom" timestamp="1712158625051">
+    <state width="1877" height="309" key="GridCell.Tab.0.bottom" timestamp="1716135041260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1712158625051" />
-    <state width="1877" height="257" key="GridCell.Tab.0.center" timestamp="1712158625051">
+    <state width="1877" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1716135041260" />
+    <state width="1877" height="309" key="GridCell.Tab.0.center" timestamp="1716135041260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1712158625051" />
-    <state width="1877" height="257" key="GridCell.Tab.0.left" timestamp="1712158625051">
+    <state width="1877" height="309" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1716135041260" />
+    <state width="1877" height="309" key="GridCell.Tab.0.left" timestamp="1716135041260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1712158625051" />
-    <state width="1877" height="257" key="GridCell.Tab.0.right" timestamp="1712158625051">
+    <state width="1877" height="309" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1716135041260" />
+    <state width="1877" height="309" key="GridCell.Tab.0.right" timestamp="1716135041260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="257" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1712158625051" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1716133487455">
+    <state width="1877" height="309" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1716135041260" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1716135039308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1716133487455" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1716135039308" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1707586585574" />
     <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1713887265733">
       <screen x="0" y="0" width="1920" height="1040" />
