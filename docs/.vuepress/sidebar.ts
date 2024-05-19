@@ -106,6 +106,7 @@ export const sidebarConfig = sidebar({
                 "value-assemble",
                 "cas-lock",
                 "unique-set",
+                "disk-oss",
                 "upload-file",
                 "vue-simple-upload",
                 "Zookeeper-lock",
