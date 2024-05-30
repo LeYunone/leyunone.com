@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/normal-notes/mq-select.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/summary/Warn！Warn！.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/summary/Warn！Warn！.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,17 +74,17 @@
     <property name="ts.external.directory.path" value="E:\study\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-diary\disk" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\github-project" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
       <recent name="E:\TheCore\leyunone.com\docs\java" />
       <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-diary\disk" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\github-project" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-build">
@@ -411,14 +409,7 @@
       <workItem from="1716477380129" duration="14000" />
       <workItem from="1716480643811" duration="983000" />
       <workItem from="1717247674816" duration="597000" />
-      <workItem from="1717310720427" duration="1241000" />
-    </task>
-    <task id="LOCAL-00046" summary="[ADD]summertime.md">
-      <created>1688661415552</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1688661415552</updated>
+      <workItem from="1717310720427" duration="1308000" />
     </task>
     <task id="LOCAL-00047" summary="[UPDATE]update time">
       <created>1688916807923</created>
@@ -756,7 +747,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716135034663</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="[ADD]mq-select.md">
+      <created>1717260493970</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1717260493971</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -816,7 +814,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[ADD]system-mill-resole.md" />
     <MESSAGE value="[ADD]test.md" />
     <MESSAGE value="[ADD]god-search.md" />
     <MESSAGE value="[ADD]JDK-version.md" />
@@ -841,13 +838,14 @@
     <MESSAGE value="[ADD]voice-cloud-cloud.md" />
     <MESSAGE value="[ADD]disk-oss.md" />
     <MESSAGE value="[UPDATE]Warn！Warn！.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]Warn！Warn！.md" />
+    <MESSAGE value="[ADD]mq-select.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]mq-select.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1716135034255">
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1717260493365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1716135034255" />
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1717260493365" />
     <state x="41" y="182" width="1736" height="858" key="DiffContextDialog" timestamp="1713887154155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -884,10 +882,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1709827109893" />
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1716480666693">
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1717260504681">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1716480666693" />
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1717260504681" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

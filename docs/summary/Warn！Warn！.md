@@ -145,6 +145,18 @@ private String xxx;
 
 这两个代码最好同时出现，因为客户端不关闭 = http不断开，但重复创建-关闭又很离谱，因此结合业务灵活搭配
 
+### 7/ 虚类不要重写@EqualsAndHashCode
+
+当系统架构中涉及策略模式时，可能存在:
+
+```java
+Set<AbstractHander> set = new HashSet();
+```
+
+使用set存储获取到的所有策略方法然后遍历，这时候经过阿里巴巴规范插件会提示你需要重写作为`key` 的 `AbstractHander` 类中的`equals`和`hashcode`方法；
+
+由此会被去重，因此这里最好将AbstractHander替换为上级接口，并且不要重写虚类的`equals`和`hashcode`方法
+
 ## 页面上
 
 ### 1/ 跨域缓存问题
