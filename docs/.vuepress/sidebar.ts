@@ -230,6 +230,7 @@ export const sidebarConfig = sidebar({
                 "rpc-reload",
                 "mysql-exception",
                 "voice-protocol",
+                "mq-select",
                 "deep-page",
                 "mysql-sync-delayed",
                 "xxl-job-error",
