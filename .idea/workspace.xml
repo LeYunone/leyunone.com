@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/summary/Warn！Warn！.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/summary/Warn！Warn！.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/normal-notes/oauth2.0.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,17 +76,17 @@
     <property name="ts.external.directory.path" value="E:\study\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
+      <recent name="E:\TheCore\leyunone.com\docs\java" />
+      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-diary\disk" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\github-project" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
-      <recent name="E:\TheCore\leyunone.com\docs\java" />
-      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-build">
@@ -410,6 +412,7 @@
       <workItem from="1716480643811" duration="983000" />
       <workItem from="1717247674816" duration="597000" />
       <workItem from="1717310720427" duration="1308000" />
+      <workItem from="1716979079957" duration="651000" />
     </task>
     <task id="LOCAL-00047" summary="[UPDATE]update time">
       <created>1688916807923</created>
