@@ -33,7 +33,8 @@ export const sidebarConfig = sidebar({
                     collapsible: true,
                     icon: "shujuku",
                     children: [
-                        "mybatis-interceptor"
+                        "mybatis-interceptor",
+                        "mybatis-plus-bug"
                     ]
                 },
                 {

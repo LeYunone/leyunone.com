@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/normal-notes/oauth2.0.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/frame/mybatis/mybatis-plus-bug.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
     </list>
@@ -63,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/normal-notes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/frame/mybatis" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -76,17 +76,17 @@
     <property name="ts.external.directory.path" value="E:\study\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
-      <recent name="E:\TheCore\leyunone.com\docs\java" />
-      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\frame\mybatis" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-diary\disk" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\github-project" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
+      <recent name="E:\TheCore\leyunone.com\docs\java" />
+      <recent name="E:\TheCore\leyunone.com\docs\talkabout" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-build">
@@ -413,6 +413,7 @@
       <workItem from="1717247674816" duration="597000" />
       <workItem from="1717310720427" duration="1308000" />
       <workItem from="1716979079957" duration="651000" />
+      <workItem from="1717688820620" duration="718000" />
     </task>
     <task id="LOCAL-00047" summary="[UPDATE]update time">
       <created>1688916807923</created>
@@ -845,10 +846,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="[ADD]mq-select.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1717260493365">
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1717344067458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1717260493365" />
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1717344067458" />
     <state x="41" y="182" width="1736" height="858" key="DiffContextDialog" timestamp="1713887154155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -869,10 +870,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="309" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1716135041260" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1716135039308">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1717344073609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1716135039308" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1717344073609" />
     <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1713887265733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -885,10 +886,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1709827109893" />
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1717260504681">
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1717344927921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1717260504681" />
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1717344927921" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
