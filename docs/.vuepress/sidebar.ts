@@ -52,7 +52,8 @@ export const sidebarConfig = sidebar({
                     icon: "dubbo",
                     collapsible: true,
                     children: [
-                        "dubbo-read"
+                        "dubbo-read",
+                        "dubbo-CustomServiceDisocvery"
                     ]
                 },
                 {
