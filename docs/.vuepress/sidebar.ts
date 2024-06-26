@@ -234,6 +234,7 @@ export const sidebarConfig = sidebar({
                 "voice-protocol",
                 "mq-select",
                 "oauth2.0",
+                "linux-disk-over",
                 "deep-page",
                 "mysql-sync-delayed",
                 "xxl-job-error",
