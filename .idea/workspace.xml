@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Interesting-design/manytps-scene.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/summary/Warn！Warn！.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/summary/Warn！Warn！.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/manytps-scene.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/manytps-scene.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -425,6 +424,7 @@
       <workItem from="1719758130285" duration="2240000" />
       <workItem from="1719849066039" duration="599000" />
       <workItem from="1719847014267" duration="700000" />
+      <workItem from="1719937635499" duration="647000" />
     </task>
     <task id="LOCAL-00047" summary="[UPDATE]update time">
       <created>1688916807923</created>
