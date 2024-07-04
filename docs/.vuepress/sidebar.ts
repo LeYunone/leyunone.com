@@ -107,6 +107,7 @@ export const sidebarConfig = sidebar({
                 "game-chat",
                 "value-assemble",
                 "cas-lock",
+                'manytps-scene',
                 "unique-set",
                 "disk-oss",
                 "upload-file",
@@ -208,7 +209,6 @@ export const sidebarConfig = sidebar({
             collapsible: true,
             children: [
                 "iot-cloud-cloud",
-                "manytps-scene",
                 "device-center-project",
                 "smart-home-project",
                 "bit-write",
