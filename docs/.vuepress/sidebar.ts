@@ -208,6 +208,7 @@ export const sidebarConfig = sidebar({
             prefix: "unidentified-business/",
             collapsible: true,
             children: [
+                "thread-transactional",
                 "iot-cloud-cloud",
                 "device-center-project",
                 "smart-home-project",
