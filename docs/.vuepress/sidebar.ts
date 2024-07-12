@@ -147,6 +147,7 @@ export const sidebarConfig = sidebar({
             prefix: "java/",
             collapsible: true,
             children: [
+                "thread-local",
                 "easy-rule",
                 "JDK-version",
                 "java8-arrayssort",
