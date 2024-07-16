@@ -221,6 +221,7 @@ export const sidebarConfig = sidebar({
                 "auto-scenes",
                 "message-center-design",
                 "summertime",
+                "iot-difficulties",
                 "system-mill-resole",
                 "operation-log",
                 "long-Connection"
@@ -244,6 +245,7 @@ export const sidebarConfig = sidebar({
                 "web-cache",
                 "2022-04-19-eeg",
                 "JAVA-ChatGPT",
+                "io",
                 "fastJson-warn",
                 "db-eight-part-essay",
                 "httpServletResponse",
