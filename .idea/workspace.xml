@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Interesting-design/project-protect.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/project-protect.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/project-protect.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -434,6 +435,7 @@
       <workItem from="1721044168746" duration="599000" />
       <workItem from="1721145009501" duration="1041000" />
       <workItem from="1721661554964" duration="1221000" />
+      <workItem from="1721743553295" duration="637000" />
     </task>
     <task id="LOCAL-00049" summary="[ADD]deep-page.md">
       <created>1689693721667</created>

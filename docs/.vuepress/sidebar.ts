@@ -117,6 +117,7 @@ export const sidebarConfig = sidebar({
                 "db-sync-model",
                 "strategy-factory-together",
                 "condition-command",
+                "project-protect",
                 "templated-application",
                 "mailpush-service",
                 "Wechat- Moments",
