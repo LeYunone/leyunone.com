@@ -99,17 +99,26 @@ export const sidebarConfig = sidebar({
             ],
         },
         {
-            text: "有趣的业务设计",
+            text:"场景业务设计篇",
+            icon: "medical-symbol",
+            prefix: "business-design/",
+            collapsible: true,
+            children: [
+                "barrage-system",
+                "game-chat",
+                "disk-oss",
+            ]
+        },
+        {
+            text: "业务碎碎恋",
             icon: "xitongsheji",
             prefix: "Interesting-design/",
             collapsible: true,
             children: [
-                "game-chat",
                 "value-assemble",
                 "cas-lock",
                 'manytps-scene',
                 "unique-set",
-                "disk-oss",
                 "upload-file",
                 "vue-simple-upload",
                 "Zookeeper-lock",
