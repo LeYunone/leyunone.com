@@ -99,7 +99,7 @@ export const sidebarConfig = sidebar({
             ],
         },
         {
-            text:"场景业务设计篇",
+            text:"业务场景设计篇",
             icon: "medical-symbol",
             prefix: "business-design/",
             collapsible: true,
@@ -110,14 +110,13 @@ export const sidebarConfig = sidebar({
             ]
         },
         {
-            text: "业务碎碎恋",
+            text: "有趣的功能开发",
             icon: "xitongsheji",
             prefix: "Interesting-design/",
             collapsible: true,
             children: [
                 "value-assemble",
                 "cas-lock",
-                'manytps-scene',
                 "unique-set",
                 "upload-file",
                 "vue-simple-upload",
@@ -126,12 +125,11 @@ export const sidebarConfig = sidebar({
                 "db-sync-model",
                 "strategy-factory-together",
                 "condition-command",
-                "project-protect",
                 "templated-application",
                 "mailpush-service",
-                "Wechat- Moments",
                 "spi-oss",
-                "export-dev-1.md",
+                "export-dev-1",
+                "operation-log",
                 "easyExcel-custom"
             ]
         },
@@ -178,6 +176,32 @@ export const sidebarConfig = sidebar({
             ]
         },
         {
+            text: "杂项思考碎碎恋",
+            icon: "badashou",
+            prefix: "unidentified-business/",
+            collapsible: true,
+            children: [
+                "Wechat-Moments",
+                "project-protect",
+                'manytps-scene',
+                "thread-transactional",
+                "iot-cloud-cloud",
+                "device-center-project",
+                "smart-home-project",
+                "bit-write",
+                "cloud",
+                "database-conflict",
+                "payment",
+                "service-platform",
+                "auto-scenes",
+                "message-center-design",
+                "summertime",
+                "iot-difficulties",
+                "system-mill-resole",
+                "long-Connection"
+            ],
+        },
+        {
             text: "开发工具",
             icon: "tool",
             prefix: "development-tool/",
@@ -212,30 +236,6 @@ export const sidebarConfig = sidebar({
                     ]
                 }
             ]
-        },
-        {
-            text: "哇,这是什么业务？",
-            icon: "badashou",
-            prefix: "unidentified-business/",
-            collapsible: true,
-            children: [
-                "thread-transactional",
-                "iot-cloud-cloud",
-                "device-center-project",
-                "smart-home-project",
-                "bit-write",
-                "cloud",
-                "database-conflict",
-                "payment",
-                "service-platform",
-                "auto-scenes",
-                "message-center-design",
-                "summertime",
-                "iot-difficulties",
-                "system-mill-resole",
-                "operation-log",
-                "long-Connection"
-            ],
         },
         {
             text: "正经笔记",
