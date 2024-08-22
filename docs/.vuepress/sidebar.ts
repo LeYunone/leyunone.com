@@ -104,6 +104,7 @@ export const sidebarConfig = sidebar({
             prefix: "business-design/",
             collapsible: true,
             children: [
+                "thumbs-up",
                 "barrage-system",
                 "game-chat",
                 "disk-oss",

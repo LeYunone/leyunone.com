@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
+    <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="[ADD]thumbs-up.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/business-design/thumbs-up.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/business-design/thumbs-up.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -441,13 +443,14 @@
       <workItem from="1722786958982" duration="702000" />
       <workItem from="1722867406529" duration="3587000" />
       <workItem from="1723042715362" duration="1855000" />
-    </task>
-    <task id="LOCAL-00053" summary="[UPDATE]Waline.md">
-      <created>1689868354117</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1689868354117</updated>
+      <workItem from="1723392261205" duration="254000" />
+      <workItem from="1723549142889" duration="599000" />
+      <workItem from="1723731507106" duration="142000" />
+      <workItem from="1723888102295" duration="1237000" />
+      <workItem from="1723988365061" duration="1198000" />
+      <workItem from="1724076941622" duration="599000" />
+      <workItem from="1724165022766" duration="664000" />
+      <workItem from="1724342196974" duration="34000" />
     </task>
     <task id="LOCAL-00054" summary="[ADD]mailpush-service.md">
       <created>1690724956782</created>
@@ -785,7 +788,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722533989176</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="[ADD]thumbs-up.md">
+      <created>1723305909469</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1723305909470</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -845,7 +855,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[UPDATE]UPDATE my info" />
     <MESSAGE value="[UPDATE]export-dev-1.md" />
     <MESSAGE value="[UPDATE]mysql-sync-delayed.md" />
     <MESSAGE value="[UPDATE]iot-cloud-cloud.md" />
@@ -870,17 +879,18 @@
     <MESSAGE value="[UPDATE]iot-difficulties.md" />
     <MESSAGE value="[ADD]barrage-system.md" />
     <MESSAGE value="[UPDATE]文章重新分组" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]文章重新分组" />
+    <MESSAGE value="[ADD]thumbs-up.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]thumbs-up.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="686" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1722618067621">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="686" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1722618067621" />
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1722533988616">
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1724342211391">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1722533988616" />
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1724342211391" />
     <state x="41" y="182" width="1736" height="858" key="DiffContextDialog" timestamp="1720110043605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -901,10 +911,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1722534081336" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1722533999201">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1723305993270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1722533999201" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1723305993270" />
     <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1722140299637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
