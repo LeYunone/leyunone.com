@@ -120,6 +120,7 @@ export const sidebarConfig = sidebar({
                 "cas-lock",
                 "unique-set",
                 "upload-file",
+                "cache-collect",
                 "vue-simple-upload",
                 "Zookeeper-lock",
                 "function-programming",
