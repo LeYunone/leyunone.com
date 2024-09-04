@@ -266,6 +266,7 @@ export const sidebarConfig = sidebar({
                 "reflex-use-case",
                 "thread-eight-part-essay",
                 "nginx-error",
+                "yingshi-dev",
                 "java-swing",
                 "upload-1",
                 "test"

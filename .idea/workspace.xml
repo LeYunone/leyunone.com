@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/normal-notes/xxl-job-code.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/normal-notes/yingshi-dev.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/frame/google-api-http-code.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/normal-notes/yingshi-dev.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/yingshi-dev.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/normal-notes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/frame" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -76,19 +77,19 @@
     <property name="ts.external.directory.path" value="E:\study\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\frame" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\frame\dubbo" />
       <recent name="E:\TheCore\leyunone.com\docs\java" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-build">
@@ -457,6 +458,7 @@
       <workItem from="1724427751219" duration="9000" />
       <workItem from="1724510907848" duration="1045000" />
       <workItem from="1725378486969" duration="337000" />
+      <workItem from="1725459843310" duration="1064000" />
     </task>
     <task id="LOCAL-00056" summary="[UPDATE]custom-annotation.md">
       <created>1691510386058</created>
@@ -921,14 +923,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1724686330087" />
-    <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1724511668456">
+    <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1725464865051">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="647" y="255" width="678" height="672" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1724511668456" />
-    <state x="652" y="306" key="git4idea.merge.GitPullDialog" timestamp="1716133610541">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="652" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1716133610541" />
+    <state x="647" y="255" width="678" height="672" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1725464865051" />
     <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1722533791541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
