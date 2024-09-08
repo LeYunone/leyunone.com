@@ -1,3 +1,15 @@
+---
+date: 2024-09-09
+title: Google-api-http模块源码阅读
+category: 
+  - 笔记
+tag:
+  - note
+head:
+  - - meta
+    - name: keywords
+      content: 源码阅读,谷歌,Google,api,Http,Https
+---
 # Google-api-http模块源码阅读
 
 > Google-api的文档地址：https://developers.google.cn/api-client-library/java/google-api-java-client/setup?hl=zh-cn&authuser=0000

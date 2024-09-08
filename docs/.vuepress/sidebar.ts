@@ -245,6 +245,7 @@ export const sidebarConfig = sidebar({
             prefix: "normal-notes/",
             collapsible: true,
             children: [
+                "google-api-http-code",
                 "rpc-reload",
                 "mysql-exception",
                 "voice-protocol",
