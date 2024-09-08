@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/frame/google-api-http-code.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/google-api-http-code.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/normal-notes/google-api-http-code.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/google-api-http-code.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,7 @@
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.vite-build">
+  <component name="RunManager" selected="npm.vite-serve">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:8080">
       <method v="2" />
     </configuration>
@@ -166,8 +165,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.vite-build" />
         <item itemvalue="npm.vite-serve" />
+        <item itemvalue="npm.vite-build" />
         <item itemvalue="npm.webpack-build" />
         <item itemvalue="npm.docs:dev" />
         <item itemvalue="npm.docs:build" />
@@ -458,14 +457,7 @@
       <workItem from="1724510907848" duration="1045000" />
       <workItem from="1725378486969" duration="337000" />
       <workItem from="1725459843310" duration="1064000" />
-      <workItem from="1725890734871" duration="683000" />
-    </task>
-    <task id="LOCAL-00056" summary="[UPDATE]custom-annotation.md">
-      <created>1691510386058</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1691510386059</updated>
+      <workItem from="1725890734871" duration="833000" />
     </task>
     <task id="LOCAL-00057" summary="[ADD]java-spi.md">
       <created>1691938897707</created>
@@ -803,7 +795,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724344406470</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="[UPDATE]google-api-http-code.md">
+      <created>1725811470724</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1725811470724</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -863,7 +862,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[UPDATE]mysql-sync-delayed.md" />
     <MESSAGE value="[UPDATE]iot-cloud-cloud.md" />
     <MESSAGE value="[ADD]upload-1.md" />
     <MESSAGE value="[ADD]mq-comapre.md" />
@@ -888,37 +886,38 @@
     <MESSAGE value="[UPDATE]文章重新分组" />
     <MESSAGE value="[ADD]thumbs-up.md" />
     <MESSAGE value="[ADD]cache-collect.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]cache-collect.md" />
+    <MESSAGE value="[UPDATE]google-api-http-code.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]google-api-http-code.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="686" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1722618067621">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="686" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1722618067621" />
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1724344406030">
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1725811470055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1724344406030" />
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1725811470055" />
     <state x="41" y="182" width="1736" height="858" key="DiffContextDialog" timestamp="1724342235869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="41" y="182" width="1736" height="858" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1724342235869" />
-    <state width="1877" height="344" key="GridCell.Tab.0.bottom" timestamp="1724344469503">
+    <state width="1877" height="344" key="GridCell.Tab.0.bottom" timestamp="1725811506157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1724344469503" />
-    <state width="1877" height="344" key="GridCell.Tab.0.center" timestamp="1724344469503">
+    <state width="1877" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1725811506157" />
+    <state width="1877" height="344" key="GridCell.Tab.0.center" timestamp="1725811506157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1724344469503" />
-    <state width="1877" height="344" key="GridCell.Tab.0.left" timestamp="1724344469503">
+    <state width="1877" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1725811506157" />
+    <state width="1877" height="344" key="GridCell.Tab.0.left" timestamp="1725811506157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1724344469503" />
-    <state width="1877" height="344" key="GridCell.Tab.0.right" timestamp="1724344469503">
+    <state width="1877" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1725811506157" />
+    <state width="1877" height="344" key="GridCell.Tab.0.right" timestamp="1725811506157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1724344469503" />
+    <state width="1877" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1725811506157" />
     <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1724686330087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
