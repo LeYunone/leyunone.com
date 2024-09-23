@@ -246,6 +246,7 @@ export const sidebarConfig = sidebar({
             collapsible: true,
             children: [
                 "google-api-http-code",
+                "xxl-job-code",
                 "rpc-reload",
                 "mysql-exception",
                 "voice-protocol",
