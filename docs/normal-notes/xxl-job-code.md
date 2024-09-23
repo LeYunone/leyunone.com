@@ -18,7 +18,7 @@ xxl-job是一个业内非常认可的任务调度平台，整体架构清晰，�
 
 ## 架构
 
-![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2024-09-08/1 (2).png)
+![img](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2024-09-08/1.png)
 
 来自https://www.xuxueli.com/xxl-job/的架构图；
 

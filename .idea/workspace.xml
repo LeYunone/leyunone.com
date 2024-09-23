@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/normal-notes/xxl-job-code.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/xxl-job-code.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -461,14 +459,7 @@
       <workItem from="1725890734871" duration="833000" />
       <workItem from="1726067909790" duration="599000" />
       <workItem from="1726587037214" duration="95000" />
-      <workItem from="1727106075607" duration="60000" />
-    </task>
-    <task id="LOCAL-00057" summary="[ADD]java-spi.md">
-      <created>1691938897707</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1691938897708</updated>
+      <workItem from="1727106075607" duration="366000" />
     </task>
     <task id="LOCAL-00058" summary="[ADD]spi-oss.md">
       <created>1691940937194</created>
@@ -806,7 +797,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725811470724</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="[UPDATE]xxl-job-code.md">
+      <created>1727106152991</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1727106152991</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -866,7 +864,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[UPDATE]iot-cloud-cloud.md" />
     <MESSAGE value="[ADD]upload-1.md" />
     <MESSAGE value="[ADD]mq-comapre.md" />
     <MESSAGE value="[ADD]fastJson-warn.md" />
@@ -891,17 +888,18 @@
     <MESSAGE value="[ADD]thumbs-up.md" />
     <MESSAGE value="[ADD]cache-collect.md" />
     <MESSAGE value="[UPDATE]google-api-http-code.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]google-api-http-code.md" />
+    <MESSAGE value="[UPDATE]xxl-job-code.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]xxl-job-code.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="686" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1722618067621">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="686" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1722618067621" />
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1725811470055">
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1727106152326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1725811470055" />
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1727106152326" />
     <state x="41" y="182" width="1736" height="858" key="DiffContextDialog" timestamp="1724342235869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -922,10 +920,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1725811506157" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1724686330087">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1727106157569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1724686330087" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1727106157569" />
     <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1727106089028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
