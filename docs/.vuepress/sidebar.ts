@@ -160,7 +160,9 @@ export const sidebarConfig = sidebar({
             children: [
                 "thread-local",
                 "easy-rule",
+                "java-virtual-thread",
                 "JDK-version",
+                "java-unsafe",
                 "java8-arrayssort",
                 "java-agent-1",
                 "buddy-1",
@@ -235,7 +237,8 @@ export const sidebarConfig = sidebar({
                     prefix: "jenkins/",
                     collapsible: true,
                     children: [
-                        "jenkins-init"
+                        "jenkins-init",
+                        "jenkins-error"
                     ]
                 }
             ]
