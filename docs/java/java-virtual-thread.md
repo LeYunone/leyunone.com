@@ -29,7 +29,7 @@ head:
 3. 最后是由于JDK创建与系统线程1对1，意味着创建一个线程消耗10KB，系统运行内存就要被占用10KB；这在IO密集型应用中，非常的不友好，而我们大多数应用都需要对接数据库进行CRUD操作，以至于为IO创建频繁的类型
 4. ...
 
-![image-20241031112204610](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20241031112204610.png)
+![image-20241031112204610](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2024-11-22/image-20241031112204610.png)
 
 **总结来说**，JDK的线程要存在系统内存中，因此由系统实际掌控，管理权给JVM，理论上线程自然也就有限且有损耗
 
@@ -55,7 +55,7 @@ head:
 
 **实现**
 
-![image-20241101110918221](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20241101110918221.png)
+![image-20241101110918221](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2024-11-22/image-20241101110918221.png)
 
 虽然名为虚拟，实际还是需要依靠平台线程执行任务；JVM维护了一个由ForkJoinPool创建的平台线程池，其数量默认等于CPU核心的数量，最大值不超过256.
 
