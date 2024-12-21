@@ -43,6 +43,7 @@ export const sidebarConfig = sidebar({
                     collapsible: true,
                     icon: "sousuo",
                     children: [
+                        "es-start",
                         "lucene-introduce"
                     ]
                 },
