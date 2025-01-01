@@ -119,6 +119,7 @@ export const sidebarConfig = sidebar({
             collapsible: true,
             children: [
                 "value-assemble",
+                "es-auto-spring",
                 "cas-lock",
                 "unique-set",
                 "upload-file",

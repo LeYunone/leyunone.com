@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/frame/search/es-start.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Interesting-design/es-auto-spring.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
     </list>
@@ -63,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/normal-notes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/Interesting-design" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -76,18 +76,18 @@
     <property name="ts.external.directory.path" value="E:\study\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-tool\jenkins" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\frame" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\frame\search" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-tool\jenkins" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
     </key>
   </component>
@@ -471,14 +471,9 @@
       <workItem from="1732287041451" duration="2849000" />
       <workItem from="1732297620550" duration="700000" />
       <workItem from="1732456885593" duration="936000" />
-      <workItem from="1734880574732" duration="1211000" />
-    </task>
-    <task id="LOCAL-00060" summary="[ADD]mysql-index-explain.md">
-      <created>1693930276942</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1693930276943</updated>
+      <workItem from="1734880574732" duration="1827000" />
+      <workItem from="1734967436923" duration="598000" />
+      <workItem from="1735709642251" duration="584000" />
     </task>
     <task id="LOCAL-00061" summary="[ADD]导航">
       <created>1695048428806</created>
@@ -816,7 +811,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732294287708</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="[ADD]es-start.md">
+      <created>1734795395999</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1734795396001</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -876,7 +878,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[ADD]fastJson-warn.md" />
     <MESSAGE value="[ADD]value-assemble.md" />
     <MESSAGE value="[ADD]cloud-cloud-1.md" />
     <MESSAGE value="[ADD]git-protect-rejected.md" />
@@ -901,13 +902,18 @@
     <MESSAGE value="[UPDATE]xxl-job-code.md" />
     <MESSAGE value="[UPDATE]无效图片" />
     <MESSAGE value="[UPDATE]补充jenkins-error.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]补充jenkins-error.md" />
+    <MESSAGE value="[ADD]es-start.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]es-start.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1732294286513">
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1734795394554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1732294286513" />
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1734795394554" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1735710209893">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1735710209893" />
     <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1732298509964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -924,10 +930,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1732298509964" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1732288255130">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1734795401756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1732288255130" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1734795401756" />
     <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1732293803857">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
