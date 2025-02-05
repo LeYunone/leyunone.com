@@ -251,6 +251,7 @@ export const sidebarConfig = sidebar({
             prefix: "normal-notes/",
             collapsible: true,
             children: [
+                "acme-sh",
                 "google-api-http-code",
                 "xxl-job-code",
                 "rpc-reload",

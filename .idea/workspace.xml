@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Interesting-design/es-auto-spring.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/normal-notes/acme-sh.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
     </list>
@@ -63,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/Interesting-design" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/normal-notes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -76,18 +76,18 @@
     <property name="ts.external.directory.path" value="E:\study\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-tool\jenkins" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\frame\search" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-tool\jenkins" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
     </key>
   </component>
@@ -473,14 +473,18 @@
       <workItem from="1732456885593" duration="936000" />
       <workItem from="1734880574732" duration="1827000" />
       <workItem from="1734967436923" duration="598000" />
-      <workItem from="1735709642251" duration="584000" />
-    </task>
-    <task id="LOCAL-00061" summary="[ADD]导航">
-      <created>1695048428806</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1695048428807</updated>
+      <workItem from="1735709642251" duration="1274000" />
+      <workItem from="1735969300013" duration="599000" />
+      <workItem from="1735999314867" duration="600000" />
+      <workItem from="1736087364150" duration="807000" />
+      <workItem from="1736260611943" duration="1200000" />
+      <workItem from="1736264475432" duration="598000" />
+      <workItem from="1736349159810" duration="802000" />
+      <workItem from="1737121071522" duration="813000" />
+      <workItem from="1737468108257" duration="1298000" />
+      <workItem from="1737606224951" duration="675000" />
+      <workItem from="1738751875084" duration="1712000" />
+      <workItem from="1738766964280" duration="1037000" />
     </task>
     <task id="LOCAL-00062" summary="[ADD]标题">
       <created>1695048780697</created>
@@ -818,7 +822,14 @@
       <option name="project" value="LOCAL" />
       <updated>1734795396001</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="[ADD]es-auto-spring.md">
+      <created>1735710235979</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1735710235979</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -878,7 +889,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[ADD]value-assemble.md" />
     <MESSAGE value="[ADD]cloud-cloud-1.md" />
     <MESSAGE value="[ADD]git-protect-rejected.md" />
     <MESSAGE value="[ADD]mysql-exception.md" />
@@ -903,49 +913,54 @@
     <MESSAGE value="[UPDATE]无效图片" />
     <MESSAGE value="[UPDATE]补充jenkins-error.md" />
     <MESSAGE value="[ADD]es-start.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]es-start.md" />
+    <MESSAGE value="[ADD]es-auto-spring.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]es-auto-spring.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1734795394554">
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1735710234638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1734795394554" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1735710209893">
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1735710234638" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1738768716362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1735710209893" />
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1732298509964">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1738768716362" />
+    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1738768633595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1732298509964" />
-    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1732298509964">
+    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1738768633595" />
+    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1738768633595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1732298509964" />
-    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1732298509964">
+    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1738768633595" />
+    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1738768633595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1732298509964" />
-    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1732298509964">
+    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1738768633595" />
+    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1738768633595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1732298509964" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1734795401756">
+    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1738768633595" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1735710242492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1734795401756" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1735710242492" />
     <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1732293803857">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="647" y="255" width="678" height="672" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1732293803857" />
+    <state x="652" y="306" key="git4idea.merge.GitPullDialog" timestamp="1738768647779">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="652" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1738768647779" />
     <state x="442" y="254" key="new project wizard" timestamp="1734880641756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="254" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1734880641756" />
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1732294262875">
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1738768663713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1732294262875" />
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1738768663713" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
