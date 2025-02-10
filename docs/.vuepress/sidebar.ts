@@ -107,6 +107,7 @@ export const sidebarConfig = sidebar({
             children: [
                 "asyn-system-design",
                 "thumbs-up",
+                "data-acquisition-design",
                 "barrage-system",
                 "game-chat",
                 "disk-oss",

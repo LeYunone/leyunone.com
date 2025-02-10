@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/normal-notes/acme-sh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/business-design/data-acquisition-design.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/deppseek-recrd.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
     </list>
@@ -63,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/normal-notes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/business-design" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -76,19 +77,19 @@
     <property name="ts.external.directory.path" value="E:\study\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\development-tool\jenkins" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\frame\search" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\talkabout\rambling-diary" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-build">
@@ -484,14 +485,12 @@
       <workItem from="1737468108257" duration="1298000" />
       <workItem from="1737606224951" duration="675000" />
       <workItem from="1738751875084" duration="1712000" />
-      <workItem from="1738766964280" duration="1037000" />
-    </task>
-    <task id="LOCAL-00062" summary="[ADD]标题">
-      <created>1695048780697</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1695048780697</updated>
+      <workItem from="1738766964280" duration="2031000" />
+      <workItem from="1738857170794" duration="338000" />
+      <workItem from="1738934563230" duration="599000" />
+      <workItem from="1739027581435" duration="605000" />
+      <workItem from="1739075936858" duration="1198000" />
+      <workItem from="1739204069948" duration="63000" />
     </task>
     <task id="LOCAL-00063" summary="[ADD]buddy-1.md&#10;字节码伙伴">
       <created>1695651991273</created>
@@ -829,7 +828,14 @@
       <option name="project" value="LOCAL" />
       <updated>1735710235979</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="[ADD]acme-sh.md">
+      <created>1738768783376</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1738768783377</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -889,7 +895,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[ADD]cloud-cloud-1.md" />
     <MESSAGE value="[ADD]git-protect-rejected.md" />
     <MESSAGE value="[ADD]mysql-exception.md" />
     <MESSAGE value="[ADD]device-center-project.md" />
@@ -914,37 +919,38 @@
     <MESSAGE value="[UPDATE]补充jenkins-error.md" />
     <MESSAGE value="[ADD]es-start.md" />
     <MESSAGE value="[ADD]es-auto-spring.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]es-auto-spring.md" />
+    <MESSAGE value="[ADD]acme-sh.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]acme-sh.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1735710234638">
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1738768782403">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1735710234638" />
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1738768782403" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1738768716362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1738768716362" />
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1738768633595">
+    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1738768793009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1738768633595" />
-    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1738768633595">
+    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1738768793009" />
+    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1738768793009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1738768633595" />
-    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1738768633595">
+    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1738768793009" />
+    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1738768793009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1738768633595" />
-    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1738768633595">
+    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1738768793009" />
+    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1738768793009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1738768633595" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1735710242492">
+    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1738768793009" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1738768787321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1735710242492" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1738768787321" />
     <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1732293803857">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

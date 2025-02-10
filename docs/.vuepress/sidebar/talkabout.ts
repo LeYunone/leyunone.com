@@ -5,6 +5,7 @@ export const talkabout = [
     prefix: "rambling-diary/",
     collapsible: true,
     children: [
+      "deppseek-recrd",
       "alibaba-error",
       "what-happend-halfyear",
       "FUCKN3ANDrestructure",
