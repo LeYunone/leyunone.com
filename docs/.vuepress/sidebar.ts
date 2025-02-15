@@ -258,6 +258,7 @@ export const sidebarConfig = sidebar({
                 "rpc-reload",
                 "mysql-exception",
                 "voice-protocol",
+                "easyexcel-handle",
                 "springboot-json-web",
                 "mq-select",
                 "oauth2.0",

@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/normal-notes/easyexcel-handle.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/business-design/data-acquisition-design.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/business-design/data-acquisition-design.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/business-design" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/normal-notes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -75,19 +76,19 @@
     <property name="ts.external.directory.path" value="E:\study\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\talkabout\rambling-diary" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\frame\search" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\talkabout\rambling-diary" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-build">
@@ -491,6 +492,11 @@
       <workItem from="1739204069948" duration="63000" />
       <workItem from="1739285709740" duration="599000" />
       <workItem from="1739375878487" duration="63000" />
+      <workItem from="1739419885292" duration="633000" />
+      <workItem from="1739421591568" duration="599000" />
+      <workItem from="1739444505034" duration="1197000" />
+      <workItem from="1739706069700" duration="4777000" />
+      <workItem from="1739721752954" duration="692000" />
     </task>
     <task id="LOCAL-00063" summary="[ADD]buddy-1.md&#10;字节码伙伴">
       <created>1695651991273</created>
@@ -963,10 +969,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="254" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1734880641756" />
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1739375892735">
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1739722961897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1739375892735" />
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1739722961897" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
