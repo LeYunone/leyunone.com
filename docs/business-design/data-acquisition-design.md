@@ -10,7 +10,7 @@ tag:
 
 数据采集（主要是数据收集）作为核心需求，常出现在日志系统、图表统计项目等的实现中：
 
-<img src="C:\Users\leyunone\AppData\Roaming\Typora\typora-user-images\image-20250212235223805.png" alt="image-20250212235223805" style="zoom:50%;" />
+<img src="https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2025-02-24/image-20250212235223805.b26e5d20.png" alt="image-20250212235223805" style="zoom:50%;" />
 
 由于其数据和展示形式的多样性，不同的场景下我们选择的技术、部门、架构体系等需要进行求同存异的取舍；比方说公司中有大数据部门或相关人员，则可把数据采集与展示拆分成两个需求给两方开发。比如数据简单，展示轻松，则是一端的简单处理等等...
 

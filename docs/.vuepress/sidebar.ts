@@ -109,6 +109,7 @@ export const sidebarConfig = sidebar({
                 "thumbs-up",
                 "data-acquisition-design",
                 "barrage-system",
+                "data-acquisition-design",
                 "game-chat",
                 "disk-oss",
             ]
@@ -119,6 +120,7 @@ export const sidebarConfig = sidebar({
             prefix: "Interesting-design/",
             collapsible: true,
             children: [
+                "low-cost-ekl",
                 "value-assemble",
                 "es-auto-spring",
                 "cas-lock",
@@ -315,7 +317,7 @@ export const sidebarConfig = sidebar({
                     icon: "yongqihuizhang-taiyi",
                     children: [
                         "baiduemploy-api"
-                    ] 
+                    ]
                 },
                 {
                     text: "DBShop",
