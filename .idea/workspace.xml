@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/Interesting-design/low-cost-ekl.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/business-design/asynchronous-message-de.MD" beforeDir="false" afterPath="$PROJECT_DIR$/docs/business-design/asynchronous-message-de.MD" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -503,14 +500,9 @@
       <workItem from="1740325711656" duration="810000" />
       <workItem from="1740327328751" duration="443000" />
       <workItem from="1740586297476" duration="493000" />
-      <workItem from="1741095864119" duration="901000" />
-    </task>
-    <task id="LOCAL-00064" summary="[ADD]easyExcel-custom.md">
-      <created>1696780443835</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1696780443836</updated>
+      <workItem from="1741095864119" duration="1677000" />
+      <workItem from="1741356662927" duration="600000" />
+      <workItem from="1741528697446" duration="611000" />
     </task>
     <task id="LOCAL-00065" summary="[UPDATE]UPDATE date">
       <created>1697468705996</created>
@@ -848,7 +840,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740327430733</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="[ADD]low-cost-ekl.md">
+      <created>1741096888813</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1741096888813</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -908,7 +907,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[ADD]git-protect-rejected.md" />
     <MESSAGE value="[ADD]mysql-exception.md" />
     <MESSAGE value="[ADD]device-center-project.md" />
     <MESSAGE value="[ADD]Wechat- Moments.md" />
@@ -933,13 +931,14 @@
     <MESSAGE value="[ADD]es-start.md" />
     <MESSAGE value="[ADD]es-auto-spring.md" />
     <MESSAGE value="[ADD]acme-sh.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]acme-sh.md" />
+    <MESSAGE value="[ADD]low-cost-ekl.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]low-cost-ekl.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1740327430023">
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1741096887114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1740327430023" />
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1741096887114" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1738768716362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -960,14 +959,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1740327771456" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1740327435160">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1741096892586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1740327435160" />
-    <state x="647" y="255" width="678" height="672" key="find.popup" timestamp="1732293803857">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="647" y="255" width="678" height="672" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1732293803857" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1741096892586" />
     <state x="652" y="306" key="git4idea.merge.GitPullDialog" timestamp="1738768647779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -976,10 +971,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="254" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1734880641756" />
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1739722961897">
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1741096844768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1739722961897" />
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1741096844768" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
