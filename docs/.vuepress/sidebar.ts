@@ -107,7 +107,6 @@ export const sidebarConfig = sidebar({
             children: [
                 "asyn-system-design",
                 "thumbs-up",
-                "data-acquisition-design",
                 "barrage-system",
                 "data-acquisition-design",
                 "game-chat",
@@ -191,6 +190,7 @@ export const sidebarConfig = sidebar({
             prefix: "unidentified-business/",
             collapsible: true,
             children: [
+                "single-architecture",
                 "Wechat-Moments",
                 "project-protect",
                 'manytps-scene',

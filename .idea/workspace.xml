@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unidentified-business/single-architecture.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/single-architecture.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/Interesting-design" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/unidentified-business" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -82,11 +84,11 @@
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\talkabout\rambling-diary" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\java" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-build">
@@ -503,6 +505,8 @@
       <workItem from="1741095864119" duration="1677000" />
       <workItem from="1741356662927" duration="600000" />
       <workItem from="1741528697446" duration="611000" />
+      <workItem from="1741708193556" duration="22000" />
+      <workItem from="1741793354478" duration="738000" />
     </task>
     <task id="LOCAL-00065" summary="[UPDATE]UPDATE date">
       <created>1697468705996</created>
@@ -935,10 +939,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="[ADD]low-cost-ekl.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1741096887114">
+    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1741188388153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1741096887114" />
+    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1741188388153" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1738768716362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -959,10 +963,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1740327771456" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1741096892586">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1741188393983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1741096892586" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1741188393983" />
     <state x="652" y="306" key="git4idea.merge.GitPullDialog" timestamp="1738768647779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -971,10 +975,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="254" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1734880641756" />
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1741096844768">
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1741708205162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1741096844768" />
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1741708205162" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
