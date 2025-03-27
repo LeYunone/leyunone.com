@@ -22,7 +22,7 @@
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/unidentified-business/single-architecture.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/single-architecture.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/normal-notes/actor.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/actor.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -507,6 +507,8 @@
       <workItem from="1741528697446" duration="611000" />
       <workItem from="1741708193556" duration="22000" />
       <workItem from="1741793354478" duration="738000" />
+      <workItem from="1742135129342" duration="798000" />
+      <workItem from="1743089157014" duration="527000" />
     </task>
     <task id="LOCAL-00065" summary="[UPDATE]UPDATE date">
       <created>1697468705996</created>
@@ -963,10 +965,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1740327771456" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1741188393983">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1742140092396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1741188393983" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1742140092396" />
     <state x="652" y="306" key="git4idea.merge.GitPullDialog" timestamp="1738768647779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -975,10 +977,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="254" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1734880641756" />
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1741708205162">
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1743089627681">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1741708205162" />
+    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1743089627681" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
