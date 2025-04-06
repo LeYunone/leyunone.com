@@ -256,6 +256,7 @@ export const sidebarConfig = sidebar({
             children: [
                 "acme-sh",
                 "google-api-http-code",
+                "ai-mcp",
                 "xxl-job-code",
                 "actor",
                 "rpc-reload",
