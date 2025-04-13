@@ -257,6 +257,7 @@ export const sidebarConfig = sidebar({
                 "acme-sh",
                 "google-api-http-code",
                 "ai-mcp",
+                "sonarqube",
                 "xxl-job-code",
                 "actor",
                 "rpc-reload",
