@@ -67,9 +67,9 @@ export const sidebarConfig = sidebar({
                     ]
                 },
                 {
-                    text:"消息队列&",
-                    prefix:"messagequeuing/",
-                    icon:"tap-plumbing",
+                    text: "消息队列&",
+                    prefix: "messagequeuing/",
+                    icon: "tap-plumbing",
                     collapsible: true,
                     children: [
                         "MQTT-about",
@@ -78,18 +78,18 @@ export const sidebarConfig = sidebar({
                     ]
                 },
                 {
-                    text:"Netty&",
-                    prefix:"netty/",
-                    icon:"fusion",
+                    text: "Netty&",
+                    prefix: "netty/",
+                    icon: "fusion",
                     collapsible: true,
                     children: [
                         "netty-oom-1",
                     ]
                 },
                 {
-                    text:"Skywalking&",
-                    prefix:"skywalking/",
-                    icon:"SkyWalking",
+                    text: "Skywalking&",
+                    prefix: "skywalking/",
+                    icon: "SkyWalking",
                     collapsible: true,
                     children: [
                         "skywalking-fast-init",
@@ -100,7 +100,7 @@ export const sidebarConfig = sidebar({
             ],
         },
         {
-            text:"业务场景设计篇",
+            text: "业务场景设计篇",
             icon: "medical-symbol",
             prefix: "business-design/",
             collapsible: true,
@@ -119,12 +119,14 @@ export const sidebarConfig = sidebar({
             prefix: "Interesting-design/",
             collapsible: true,
             children: [
+                "auto-account-builder",
                 "low-cost-ekl",
                 "value-assemble",
                 "es-auto-spring",
                 "cas-lock",
                 "unique-set",
                 "upload-file",
+                "spring-ai-agent-design",
                 "cache-collect",
                 "vue-simple-upload",
                 "Zookeeper-lock",
@@ -190,13 +192,19 @@ export const sidebarConfig = sidebar({
             prefix: "unidentified-business/",
             collapsible: true,
             children: [
+                "agent-what-is-it",
+                "no-build-more-agent.md",
                 "single-architecture",
                 "Wechat-Moments",
+                "Claude-Code-nonorm",
                 "project-protect",
                 'manytps-scene',
                 "thread-transactional",
                 "iot-cloud-cloud",
                 "device-center-project",
+                "context-engineer",
+                "dao-frame-dif",
+                "Ai-token",
                 "smart-home-project",
                 "bit-write",
                 "cloud",
@@ -237,8 +245,8 @@ export const sidebarConfig = sidebar({
                     ]
                 },
                 {
-                    text:"Jenkins",
-                    icon:"jenkins",
+                    text: "Jenkins",
+                    icon: "jenkins",
                     prefix: "jenkins/",
                     collapsible: true,
                     children: [
@@ -254,11 +262,21 @@ export const sidebarConfig = sidebar({
             prefix: "normal-notes/",
             collapsible: true,
             children: [
+                "Canal",
                 "acme-sh",
+                "copilot-thing",
+                "llm-context",
+                "maxkb",
                 "google-api-http-code",
+                "AI-coding-fact",
+                "mybatis-plus",
                 "ai-mcp",
+                "cicd-full-pipeline",
                 "sonarqube",
+                "prompt-engineering",
                 "xxl-job-code",
+                "sonarqube-dev",
+                "sonarqube-scan",
                 "actor",
                 "rpc-reload",
                 "mysql-exception",
@@ -295,6 +313,19 @@ export const sidebarConfig = sidebar({
             collapsible: true,
             prefix: "development-diary/",
             children: [
+                {
+                    text: "VisTask-AI,AI任务平台,",
+                    prefix: "VisTask-AI/",
+                    collapsible: true,
+                    icon: "yongqihuizhang-taiyi",
+                    children: [
+                        "eucalyptus-diary-1",
+                        "eucalyptus-diary-2",
+                        "eucalyptus-plan",
+                        "eucalyptus-summary",
+                        "eucalyptus-value",
+                    ]
+                },
                 {
                     text: "全平台云云接入",
                     prefix: "cloud-cloud/",
@@ -388,6 +419,7 @@ export const sidebarConfig = sidebar({
             children: [
                 "about-this-web",
                 "beian",
+                "code-review-what",
                 "interview-question",
                 "db-comapre",
                 "Warn！Warn！"

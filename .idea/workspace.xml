@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,16 +22,51 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/normal-notes/sonarqube.md" afterDir="false" />
+    <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="[ADD]一次性导入2025-2026年未上传的文章，待填充优化">
+      <change afterPath="$PROJECT_DIR$/docs/Interesting-design/auto-account-builder.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Interesting-design/spring-ai-agent-design.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-diary-1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-diary-2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-plan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-summary.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-value.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/normal-notes/AI-coding-fact.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/normal-notes/Canal.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/normal-notes/cicd-full-pipeline.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/normal-notes/copilot-thing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/normal-notes/llm-context.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/normal-notes/maxkb.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/normal-notes/mybatis-plus.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/normal-notes/prompt-engineering.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/normal-notes/sonarqube-dev.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/normal-notes/sonarqube-scan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/summary/code-review-what.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/ai-acgn.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/ai-management-vs-developer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/ai-year-2025.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/info-anxiety.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/openclaw-hype.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/programmer-core-ability.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/sms-bombing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/unidentified-business/Ai-token.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/unidentified-business/Claude-Code-nonorm.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/unidentified-business/agent-what-is-it.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/unidentified-business/context-engineer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/unidentified-business/dao-frame-dif.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/unidentified-business/no-build-more-agent.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/normal-notes/ai-mcp.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/ai-mcp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar/talkabout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar/talkabout.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_E:/TheCode/leyunone.com" value="2HoGS0i2s0PsmwflSZw2guLQZoJ" />
+    </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,10 +82,23 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="3d562b4f-ca43-4d9d-a4bc-5ba247fb39af" />
-  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LeYunone&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LeYunone/leyunone.com.git&quot;,
+    &quot;accountId&quot;: &quot;adad3a2d-7e37-4ce6-bcb8-dffd3188bf8f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2HoGS0i2s0PsmwflSZw2guLQZoJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,39 +108,37 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/normal-notes" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
-    <property name="ts.external.directory.path" value="E:\study\IntelliJ IDEA 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/TheCode/leyunone.com/docs/unidentified-business",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\com.software\\IntelliJ IDEA 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TheCode\leyunone.com\docs\unidentified-business" />
+      <recent name="E:\TheCode\leyunone.com\docs\normal-notes" />
+      <recent name="E:\TheCode\leyunone.com\docs\Interesting-design" />
+      <recent name="E:\TheCode\leyunone.com\docs\talkabout\rambling-diary" />
+      <recent name="E:\TheCode\leyunone.com\docs\development-diary\eucalyptus-diary" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\TheCode\leyunone.com\docs\Interesting-design" />
+      <recent name="E:\TheCode\leyunone.com\docs\normal-notes" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\frame\search" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\unidentified-business" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\business-design" />
-      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\talkabout\rambling-diary" />
     </key>
   </component>
   <component name="RunManager" selected="npm.vite-serve">
@@ -175,6 +224,15 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -512,6 +570,10 @@
       <workItem from="1743089157014" duration="527000" />
       <workItem from="1744539377824" duration="1660000" />
       <workItem from="1744557323189" duration="1357000" />
+      <workItem from="1777080081351" duration="623000" />
+      <workItem from="1777270053723" duration="2689000" />
+      <workItem from="1777422745434" duration="4694000" />
+      <workItem from="1777511285147" duration="1813000" />
     </task>
     <task id="LOCAL-00065" summary="[UPDATE]UPDATE date">
       <created>1697468705996</created>
@@ -860,7 +922,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -873,12 +935,16 @@
     </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="1">
           <value>
             <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -897,6 +963,7 @@
                   </entry>
                 </map>
               </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
             </State>
           </value>
         </entry>
@@ -907,16 +974,9 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="1" value="TOOL_WINDOW" />
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[ADD]mysql-exception.md" />
     <MESSAGE value="[ADD]device-center-project.md" />
     <MESSAGE value="[ADD]Wechat- Moments.md" />
     <MESSAGE value="[ADD]rpc-reload.md" />
@@ -941,49 +1001,8 @@
     <MESSAGE value="[ADD]es-auto-spring.md" />
     <MESSAGE value="[ADD]acme-sh.md" />
     <MESSAGE value="[ADD]low-cost-ekl.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]low-cost-ekl.md" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="558" y="92" key="CommitChangelistDialog2" timestamp="1741188388153">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="558" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1741188388153" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1743950180261">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1743950180261" />
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1740327771456">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1740327771456" />
-    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1740327771455">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1740327771455" />
-    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1740327771455">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1740327771455" />
-    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1740327771456">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1740327771456" />
-    <state x="697" y="221" key="RollbackChangesDialog" timestamp="1743950131686">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="697" y="221" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1743950131685" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1742140092396">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1742140092396" />
-    <state x="652" y="306" key="git4idea.merge.GitPullDialog" timestamp="1743950135835">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="652" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1743950135835" />
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup" timestamp="1744557494472">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="176" width="672" height="671" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1744557494472" />
+    <MESSAGE value="[ADD]一次性导入2025-2026年未上传的文章，待填充优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]一次性导入2025-2026年未上传的文章，待填充优化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -995,5 +1014,13 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
