@@ -1,5 +1,5 @@
 ---
-date: 2026-04-23
+date: 2025-11-23
 title: 从0搭建CI/CD全链路——Jenkins到GitLab的血泪史
 category:
   - 开发工具

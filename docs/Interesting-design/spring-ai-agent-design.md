@@ -1,5 +1,5 @@
 ---
-date: 2026-04-23
+date: 2026-04-28
 title: Spring AI Agent应用架构设计
 category:
   - 设计

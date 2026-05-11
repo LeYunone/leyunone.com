@@ -1,5 +1,5 @@
 ---
-date: 2025-04-20
+date: 2026-03-27
 title: 别急着搞多Agent协作，单线程就够了
 category:
   - 笔记

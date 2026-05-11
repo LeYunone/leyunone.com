@@ -1,5 +1,5 @@
 ---
-date: 2025-04-15
+date: 2025-09-11
 title: Canal：当你的两个系统需要数据同步时
 category:
   - 笔记

@@ -1,5 +1,5 @@
 ---
-date: 2026-04-23
+date: 2026-04-26
 title: 管理层眼里的AI vs 我们眼里的AI
 category:
   - 不止所云

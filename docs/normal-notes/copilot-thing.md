@@ -1,5 +1,5 @@
 ---
-date: 2025-04-15
+date: 2026-01-07
 title: 如何让Copilot成为你的外置大脑（一）
 category:
   - 笔记
