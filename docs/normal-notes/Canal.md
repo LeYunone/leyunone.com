@@ -38,10 +38,12 @@ head:
 3. Canal解析Binlog（原始是字节流），封装成好用的数据结构
 4. 你拿到变更数据，爱怎么处理怎么处理
 
-![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2025-11-04/image-20251023100659693.png)
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/60511171734.png)
+
+
 
 简单来说，Canal就是一座架在数据库和你的业务之间的**数据桥梁**。
-
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2025-11-04/image-20251023100659693.png)
 ## 安装部署
 
 Canal的部署分两部分：MySQL配置和Canal Server部署。
@@ -241,6 +243,8 @@ Canal Server内部有一个**内存环状缓冲区**（RingBuffer），工作流
 2. 解析后存入RingBuffer
 3. Client从RingBuffer获取数据
 4. Client返回ACK确认后，Server才能覆盖这部分空间
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/60511171827.png)
 
 所以关键就是**Client的消费速率要跟得上Server拉取Binlog的速率**。一旦Client消费太慢，RingBuffer满了，新的Binlog就处理不了了。
 

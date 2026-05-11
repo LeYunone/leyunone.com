@@ -24,8 +24,6 @@ head:
 
 GitHub两个月25万Star，史上增长最快的开源项目。Discord社区挤爆了，Mac Mini被买到断货，连政府工作报告都在提"AI Agent"。
 
-![AI编程现状](https://github.com/zhaoolee/xiaohongshu-programmer-memes/raw/main/README.assets/rednote-3-4.053.jpeg)
-
 朋友圈、知乎、掘金、B站、YouTube——所有人都在聊这只"大龙虾"。
 
 我一开始也挺好奇的，心想这东西得多厉害才能火成这样。然后花了两天时间把它的源码、架构文档、社区讨论翻了个遍。
@@ -41,6 +39,10 @@ GitHub两个月25万Star，史上增长最快的开源项目。Discord社区挤�
 先给不了解的人快速科普一下。
 
 OpenClaw，原名Clawdbot，后来改名了。昵称"大龙虾"。是一个**开源的AI Agent项目**。
+
+免费且安装容易（即使如此也有大批的人在小红书等平台上贩卖免费安装或帮安装教程 (ˉ▽ˉ；)...）
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/17784818777741.png)
 
 用一句话概括：**一个跑在你自己电脑上的AI助手，通过微信/WhatsApp/Telegram等聊天工具跟你对话，能帮你收发邮件、管理日程、清理收件箱、查询信息，甚至帮你值机。**
 
@@ -60,8 +62,6 @@ OpenClaw，原名Clawdbot，后来改名了。昵称"大龙虾"。是一个**开
 ```
 
 看起来很酷对吧？
-
-![古法编程与AI编程](https://github.com/zhaoolee/xiaohongshu-programmer-memes/raw/main/README.assets/rednote-3-4.083.jpeg)
 
 而且它是**开源的**，代码全在GitHub上，**跑在你自己的机器上**，数据不上传云端。这一点确实比很多商业AI产品让人放心。
 
@@ -97,7 +97,7 @@ L3 长期记忆:  持久化的知识库（文档、笔记、经验）
 
 这就是OpenClaw的全部核心架构。说实话，**设计得确实不错**。三层解耦、插件化Skill、多模型支持，这些都是很好的工程实践。
 
-![程序员：AI编程极简配件](https://github.com/zhaoolee/xiaohongshu-programmer-memes/raw/main/README.assets/rednote-3-4.048.jpeg)
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/20260511144653.png)
 
 但我要说的是——**这些概念，没有一个是从OpenClaw开始的新东西**。
 
@@ -132,7 +132,7 @@ OpenClaw最被吹捧的一个特性是**Skills**——可扩展的技能插件�
 
 Skills本质上是**工具调用的封装**——把一个能力（查天气、发邮件、管日程）封装成一个标准化的模块，AI按需调用。
 
-这个思路我在Eucalyptus（数字分身）里用了类似的设计——41个Skill + 22个Agent协作。在Spring AI Agent平台里则通过`@Tool`注解注册工具，Spring容器启动时自动扫描。新增工具只需要写一个带`@Tool`注解的方法，零配置。
+有点类似于在Spring AI Agent平台里则通过`@Tool`注解注册工具，Spring容器启动时自动扫描。新增工具只需要写一个带`@Tool`注解的方法，零配置。
 
 ```
 OpenClaw的Skill:
@@ -146,20 +146,19 @@ OpenClaw的Skill:
   Spring AI自动注册，自动生成工具描述给LLM。
 ```
 
-原理一样，技术栈不同。OpenClaw用的TypeScript，我用的Java + Spring AI。
+原理一样，技术栈不同。OpenClaw用的TypeScript
 
 ### 对话记忆
 
 OpenClaw的三层记忆（L1/L2/L3）被很多人称为"创新设计"。
 
-但短期记忆 + 长期记忆的分层思路，在Agent领域算是比较标准的设计了。我在Spring AI Agent平台里用的是MySQL + Redis二级缓存的`PersistentChatMemory`，短期记忆走Redis，长期记忆走MySQL。Eucalyptus里更进一步——通过知识库文件维护项目级别的长期记忆，包含代码规范、架构决策、历史问题等。
+但短期记忆 + 长期记忆的分层思路，在Agent领域算是比较标准的设计了。
 
 ```
 记忆系统对比:
 ──────────────────────────────────────────
 OpenClaw:      L1(会话) + L2(偏好) + L3(知识库)
 Agent平台:     Redis(短期) + MySQL(长期)
-Eucalyptus:    会话记忆 + 项目知识库 + 经验沉淀
 
 核心逻辑都是:
   把历史消息和关键信息存下来
@@ -186,11 +185,9 @@ OpenClaw被吹最多的一个卖点是：**接入20+通信平台**——WhatsApp
 
 技术难度不算高，但**工程量确实大**。适配20多个平台的API、处理各种消息格式、维持长连接——这些脏活累活确实值得尊重，也是OpenClaw的核心壁垒之一。
 
-## 那OpenClaw到底值不值得25万Star
+## 那OpenClaw到底值不值得百万Star
 
-说到这里你可能觉得我在踩OpenClaw。
-
-不是。OpenClaw有它**真正做得好的地方**，而且有些地方确实是个人项目比不了的。
+OpenClaw有它**真正做得好的地方**，而且有些地方确实是个人项目比不了的。
 
 ### 做得好的
 
@@ -210,7 +207,7 @@ OpenClaw被吹最多的一个卖点是：**接入20+通信平台**——WhatsApp
 
 **3. 社区生态**
 
-这是25万Star最大的价值。有人的地方就有生态。几百个Skill、大量教程、活跃的社区——这些东西是任何个人项目都做不到的。
+这是百万Star最大的价值。有人的地方就有生态。几百个Skill、大量教程、活跃的社区——这些东西是任何个人项目都做不到的。
 
 ### 但也没有营销号说的那么神
 
@@ -244,7 +241,7 @@ OpenClaw真正厉害的不是概念创新，而是**把已有的技术组合在�
 
 既然核心不难，那如果要自己搞一个类似的东西，最短路径是什么？
 
-### 方案一：Claude Code + 提示词工程（我的Eucalyptus路线）
+### 方案一：Claude Code + 提示词工程
 
 这是最快的方式。零代码，纯提示词驱动。
 
@@ -265,9 +262,7 @@ OpenClaw真正厉害的不是概念创新，而是**把已有的技术组合在�
 ──────────────────────────────────────
 ```
 
-我的Eucalyptus就是这样——41个Skill、22个Agent、多层编排，全部通过提示词实现。核心就是一个精心设计的提示词工程。
-
-### 方案二：Spring AI + Java（我的Java路线）
+### 方案二：Spring AI + Java
 
 适合企业场景。
 
@@ -315,6 +310,8 @@ OpenClaw真正厉害的不是概念创新，而是**把已有的技术组合在�
 
 但**核心原理**就是上面这些东西。
 
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/20260511145152.png)
+
 ## 为什么爆火的是OpenClaw
 
 说到这里可能有人会想：既然这些设计思路不算新鲜，为什么偏偏是OpenClaw火了？
@@ -351,8 +348,6 @@ Instagram最初就是一个加了滤镜的图片分享App。微信最初就是�
 
 已经有真实案例了——某大厂AI安全总监使用OpenClaw时，**AI自主删除了200多封邮件**。
 
-![程序员：捂住BUG的嘴](https://github.com/zhaoolee/xiaohongshu-programmer-memes/raw/main/README.assets/rednote-3-4.047.jpeg)
-
 这不是开玩笑。当你的AI拥有了你邮箱的完整权限，它能帮你读邮件，也能帮你删邮件。而AI不会在删除之前问你"确定要删吗"——因为它的设计理念就是**自主执行**。
 
 九层权限系统听起来很厉害，但实际使用中，大多数人嫌麻烦，直接把权限开到最大。
@@ -362,8 +357,6 @@ Instagram最初就是一个加了滤镜的图片分享App。微信最初就是�
 虽然OpenClaw是本地部署的，但它的"大脑"是远程的LLM API。你的每一条消息、每一封邮件的摘要、每一个日程安排，都会发送给Claude或DeepSeek的API。
 
 **本地部署≠数据不出门。** 这一点很多人搞混了。
-
-![氛围编程：用AI写网红项目就不能有洁癖](https://github.com/zhaoolee/xiaohongshu-programmer-memes/raw/main/README.assets/rednote.031.jpeg)
 
 ### 过度依赖
 
@@ -384,8 +377,6 @@ OpenClaw是一个**做得非常好的工程整合项目**。它把LLM调用、�
 区别在于：大部分人是搭一个给自己用的原型，OpenClaw搭的是给全世界用的产品。
 
 **概念不稀罕，把概念做成产品才稀罕。**
-
-![狡猾的程序员：送AI一只小黄鸭](https://github.com/zhaoolee/xiaohongshu-programmer-memes/raw/main/README.assets/rednote-3-4.043.jpeg)
 
 这只大龙虾的爆火，与其说是技术胜利，不如说是**时机、工程、运营**三者共振的结果。
 

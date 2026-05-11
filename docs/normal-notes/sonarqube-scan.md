@@ -92,6 +92,8 @@ SonarQube触发扫描有三种方式：
 2. **IDE集成扫描**：写代码的时候实时扫、提交代码的时候扫
 3. **CI/CD流水线扫描**：构建前自动扫
 
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/20260511161432.png)
+
 ### 本地静态扫描
 
 适合提交代码前自查，提前发现问题，减少返工。

@@ -69,7 +69,7 @@ head:
 /**
  * 文件含义
  *
- * @author pengli
+ * @author LeYunone
  * @version V1.0.0
  * Company XXX
  * @date 日期
@@ -108,6 +108,8 @@ Copilot的输出质量完全取决于你的指令精度。
 摸爬滚打下来，总结了一个程序员专属的提示词公式：
 
 **[场景定位] + [技术栈约束] + [功能需求] + [输出规范] + [示例参考]**
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/11171501.png)
 
 以"监控预警模块"为例，对比一下模糊提示词和精准提示词的差距。
 

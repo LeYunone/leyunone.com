@@ -21,7 +21,7 @@ head:
 
 对面的老王头也不抬："优雅个锤子，你昨天那个多表联查的N+1问题查了一下午，最后还不是乖乖写了`@Query`。再说了，线上出了问题，你连生成的SQL长什么样都得靠日志猜，debug到怀疑人生。"
 
-我坐在中间，端着杯咖啡看戏。
+我坐在中间，端着杯咖啡看戏 (●ˇ∀ˇ●)
 
 说实在的，这种争论从入行听到现在，就像"甜豆腐脑还是咸豆腐脑"一样，永远不会有一个统一的答案。但是说归说，作为一个被产品蹂躏、被测试折服的卑微后台开发，我对这两个框架倒是都踩过坑，也有一些自己的理解。
 
@@ -202,6 +202,28 @@ MyBatis-Plus不好吗？在需要精细控制SQL、复杂报表查询、高并�
 - 用MP的人只会`selectList`，不会用`LambdaQueryWrapper`，不会封装BaseDao，SQL满天飞，然后怪框架
 
 就比如我在 dao层这一块，基于 MyBatis-Plus 封装了一套自己的 BaseRepository 架构。`BaseRepository<M extends BaseMapper<DO>, DO>`，通过反射自动识别实体类类型，内置逻辑删除处理，支持对象转换、条件构造、分页查询。Service 层继承一下，基本的增删改查不用写一行重复代码。
+
+```mermaid
+graph LR
+    subgraph JPA["JPA 特性"]
+        J1["方法命名查询<br/>findByXxx"]
+        J2["关联关系映射<br/>@OneToMany"]
+        J3["跨数据库方言"]
+        J4["减少样板代码"]
+        J5["N+1问题隐患"]
+        J6["SQL不透明"]
+    end
+
+    subgraph MP["MyBatis-Plus 特性"]
+        M1["Wrapper条件构造"]
+        M2["SQL完全可控"]
+        M3["复杂查询友好"]
+        M4["分页插件好用"]
+        M5["上手成本低"]
+        M6["多表关联需手写"]
+    end
+```
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/ScreenShot_2026-05-11_112511_029.png)
 
 具体怎么玩，我在[另一篇文章](mybatis-plus.md)里详细说了我的理解和封装思路。感兴趣的可以翻翻。
 

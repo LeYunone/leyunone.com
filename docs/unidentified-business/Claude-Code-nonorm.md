@@ -54,6 +54,30 @@ Claude Code的Boris Cherny原话是这么说的："你可以把复杂任务的�
 2. **AI审AI**：写完计划后，开一个新的Claude会话，让它以"资深工程师"的身份审查这个方案。这招效果出奇的好，因为AI审查AI不会有人际关系的包袱，该挑的毛病一个不留
 3. **出问题立刻回退**：如果在执行过程中发现方向偏了，别继续硬推，立刻回到Plan Mode重新讨论。**在错误的方向上加速是最昂贵的浪费**
 
+```mermaid
+flowchart LR
+    subgraph 错误方式
+        direction LR
+        E1["提需求"] --> E2["AI直接写代码"]
+        E2 --> E3["方向不对"]
+        E3 --> E4["反复纠正"]
+        E4 --> E5["越改越乱"]
+        E5 --> E6["产出不满意"]
+    end
+
+    subgraph 正确方式
+        direction LR
+        R1["提需求"] --> R2["Plan Mode讨论方案"]
+        R2 --> R3["双方对齐思路"]
+        R3 --> R4["确认后再写代码"]
+        R4 --> R5["方向偏了立刻回退"]
+        R5 --> R6["高质量产出"]
+    end
+
+    style 错误方式 fill:#FFEBEE,stroke:#F44336,color:#C62828
+    style 正确方式 fill:#E8F5E9,stroke:#4CAF50,color:#2E7D32
+```
+
 ---
 
 ## 反常识二：让AI自己修Bug，别当微操大师

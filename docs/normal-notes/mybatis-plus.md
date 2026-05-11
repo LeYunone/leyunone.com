@@ -96,6 +96,8 @@ ServiceImpl<M, DO>            ← MP提供的基类
         └── BaseRepository<M, DO>  ← 最终的基类
 ```
 
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/70835.png)
+
 接口层面：
 
 ```java

@@ -22,41 +22,34 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="[ADD]一次性导入2025-2026年未上传的文章，待填充优化">
-      <change afterPath="$PROJECT_DIR$/docs/Interesting-design/auto-account-builder.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Interesting-design/spring-ai-agent-design.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-diary-1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-diary-2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-plan.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-summary.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-value.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/normal-notes/AI-coding-fact.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/normal-notes/Canal.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/normal-notes/cicd-full-pipeline.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/normal-notes/copilot-thing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/normal-notes/llm-context.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/normal-notes/maxkb.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/normal-notes/mybatis-plus.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/normal-notes/prompt-engineering.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/normal-notes/sonarqube-dev.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/normal-notes/sonarqube-scan.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/summary/code-review-what.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/ai-acgn.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/ai-management-vs-developer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/ai-year-2025.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/info-anxiety.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/openclaw-hype.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/programmer-core-ability.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/sms-bombing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/unidentified-business/Ai-token.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/unidentified-business/Claude-Code-nonorm.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/unidentified-business/agent-what-is-it.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/unidentified-business/context-engineer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/unidentified-business/dao-frame-dif.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/unidentified-business/no-build-more-agent.md" afterDir="false" />
+    <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="[ADD]导航重置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/sidebar/talkabout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/sidebar/talkabout.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/auto-account-builder.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/auto-account-builder.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/spring-ai-agent-design.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/spring-ai-agent-design.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/normal-notes/AI-coding-fact.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/AI-coding-fact.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/normal-notes/Canal.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/Canal.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/normal-notes/cicd-full-pipeline.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/cicd-full-pipeline.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/normal-notes/copilot-thing.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/copilot-thing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/normal-notes/llm-context.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/llm-context.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/normal-notes/maxkb.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/maxkb.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/normal-notes/mybatis-plus.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/mybatis-plus.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/normal-notes/prompt-engineering.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/prompt-engineering.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/normal-notes/sonarqube-dev.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/sonarqube-dev.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/normal-notes/sonarqube-scan.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/sonarqube-scan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/summary/code-review-what.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/summary/code-review-what.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/talkabout/rambling-diary/ai-acgn.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/ai-acgn.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/talkabout/rambling-diary/ai-management-vs-developer.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/ai-management-vs-developer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/talkabout/rambling-diary/ai-year-2025.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/ai-year-2025.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/talkabout/rambling-diary/info-anxiety.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/info-anxiety.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/talkabout/rambling-diary/openclaw-hype.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/openclaw-hype.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/talkabout/rambling-diary/programmer-core-ability.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/programmer-core-ability.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/talkabout/rambling-diary/sms-bombing.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/sms-bombing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unidentified-business/Ai-token.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/Ai-token.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unidentified-business/Claude-Code-nonorm.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/Claude-Code-nonorm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unidentified-business/agent-what-is-it.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/agent-what-is-it.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unidentified-business/context-engineer.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/context-engineer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unidentified-business/dao-frame-dif.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/dao-frame-dif.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unidentified-business/no-build-more-agent.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/no-build-more-agent.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,23 +101,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/TheCode/leyunone.com/docs/unidentified-business",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\com.software\\IntelliJ IDEA 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/TheCode/leyunone.com/docs/unidentified-business&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\com.software\\IntelliJ IDEA 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\TheCode\leyunone.com\docs\unidentified-business" />
@@ -573,7 +566,8 @@
       <workItem from="1777080081351" duration="623000" />
       <workItem from="1777270053723" duration="2689000" />
       <workItem from="1777422745434" duration="4694000" />
-      <workItem from="1777511285147" duration="1813000" />
+      <workItem from="1777511285147" duration="17962000" />
+      <workItem from="1778459794499" duration="26519000" />
     </task>
     <task id="LOCAL-00065" summary="[UPDATE]UPDATE date">
       <created>1697468705996</created>
@@ -918,7 +912,7 @@
       <option name="project" value="LOCAL" />
       <updated>1741096888813</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -977,7 +971,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="[ADD]device-center-project.md" />
     <MESSAGE value="[ADD]Wechat- Moments.md" />
     <MESSAGE value="[ADD]rpc-reload.md" />
     <MESSAGE value="[ADD]web-cache.md" />
@@ -1002,7 +995,8 @@
     <MESSAGE value="[ADD]acme-sh.md" />
     <MESSAGE value="[ADD]low-cost-ekl.md" />
     <MESSAGE value="[ADD]一次性导入2025-2026年未上传的文章，待填充优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD]一次性导入2025-2026年未上传的文章，待填充优化" />
+    <MESSAGE value="[ADD]导航重置" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]导航重置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

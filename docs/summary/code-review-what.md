@@ -58,6 +58,8 @@ Code Review这件事，每个公司都说自己重视，但真正做到位的没
 └──────────────────────────────────────────────┘
 ```
 
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/20260511161115.png)
+
 ### 第一层：基本正确性
 
 这是最基本的——代码能不能跑？
@@ -309,6 +311,8 @@ AI自动Review（CI/CD中集成）
     ▼
 合并
 ```
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/20260511161248.png)
 
 AI把第一二层的"体力活"干了，人只需要关注第三四层的"脑力活"。
 

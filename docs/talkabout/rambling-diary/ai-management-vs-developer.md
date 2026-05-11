@@ -19,9 +19,11 @@ head:
 
 ## 序
 
-这篇文章憋了很久了。
+这篇文章憋了很久了,直到看到一个视频焕然：
 
-不是因为没东西写，恰恰是因为想说的话太多了，不知道从哪开始。
+[越用AI越累？跟踪16名程序员后，揭开可怕的“生产力幻觉”！你以为AI让你效率翻倍，其实你变慢了19%！](https://www.bilibili.com/video/BV1jPwQzbEeG?buvid=YF4C95F63E085FAB4FE8BAB941CDB1E311A7&from_spmid=main.my-history.0.0&is_story_h5=false&mid=iG%2B42yt07Rgnp2fHfwGM8Q%3D%3D&plat_id=116&share_from=ugc&share_medium=iphone&share_plat=ios&share_session_id=003F6B77-CB6D-483E-83AA-7D33848719C1&share_source=WEIXIN&share_tag=s_i&spmid=united.player-video-detail.0.0&timestamp=1773988838&unique_k=hi53R0P&up_id=610656868&vd_source=08af8467d86ee3cf7b802fe0f136c2d7)
+
+想说的话太多了，不知道从哪开始。
 
 事情的起因是这样的——某天开周会，领导突然很兴奋地说：
 
@@ -198,6 +200,20 @@ AI工具省的是**重复性编码**的时间，不是**思考、设计、决策
 ```
 
 越复杂的任务，AI能帮的越少。而越复杂的任务，往往才是最有价值的。
+
+```mermaid
+graph LR
+    A["简单CRUD<br/>AI提效 80%"] --> B["中等需求<br/>AI提效 50%"]
+    B --> C["复杂Bug修复<br/>AI提效 20%"]
+    C --> D["架构重构<br/>AI提效 10%"]
+    D --> E["系统设计<br/>AI提效 5%"]
+
+    style A fill:#4CAF50,color:#fff
+    style B fill:#8BC34A,color:#fff
+    style C fill:#FFC107,color:#333
+    style D fill:#FF9800,color:#fff
+    style E fill:#F44336,color:#fff
+```
 
 ### AI的优点（我们用着舒服的地方）
 

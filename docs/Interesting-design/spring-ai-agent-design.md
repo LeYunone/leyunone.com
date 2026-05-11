@@ -97,6 +97,8 @@ AgentOrchestrator（编排器，系统核心）
 返回ChatResponse（同步）或 Flux<ChatResponse>（流式）
 ```
 
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/123121172246.png)
+
 这就是整个系统最核心的一条链路。下面逐个展开。
 
 ## Agent路由：意图识别
@@ -536,6 +538,8 @@ orchestrateStream(sessionId, userMessage):
 │                                                               │
 └──────────────────────────────────────────────────────────────┘
 ```
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/xx260511172427.png)
 
 ## 最后
 

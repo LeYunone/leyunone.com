@@ -66,6 +66,8 @@ Agent（智能体）:
 └──────────────────────────────────────────────┘
 ```
 
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/20260511121650.png)
+
 ### 第一斧：工具调用（Tool Use）
 
 这是Agent最基本的能力。
@@ -119,6 +121,8 @@ ReAct 循环:
   思考: 操作完成，给用户最终回复
   行动: 返回 "用户 test001 已创建成功"
 ```
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/20260511121746.png)
 
 ReAct的精髓在于：**Agent不是一次性给出答案，而是一步一步地推理和行动，每一步都可以根据上一步的结果调整策略**。
 

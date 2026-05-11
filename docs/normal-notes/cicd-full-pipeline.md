@@ -81,6 +81,35 @@ CD（Continuous Deployment/Delivery，持续部署/交付）:
                     通知开发者
 ```
 
+```mermaid
+flowchart LR
+    A[git push] --> B[拉取代码]
+    B --> C[安装依赖]
+    C --> D[编译构建]
+    D --> E[运行测试]
+    E --> F[构建产物]
+    F --> G[传输产物]
+    G --> H[停止旧服务]
+    H --> I[启动新服务]
+    I --> J[健康检查]
+    J --> K[部署完成]
+
+    subgraph CI持续集成
+        B
+        C
+        D
+        E
+        F
+    end
+
+    subgraph CD持续部署
+        G
+        H
+        I
+        J
+    end
+```
+
 看起来挺清晰的。但实际搭的时候，每一个箭头后面都藏着坑。
 
 ## 阶段一：Jenkins——老牌选手的倔强
@@ -460,6 +489,8 @@ case "$1" in
     *)       echo "Usage: $0 {start|stop|restart}" ;;
 esac
 ```
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/511171630.png)
 
 这个脚本的几个设计要点：
 

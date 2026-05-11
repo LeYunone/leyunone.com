@@ -16,7 +16,7 @@ head:
       content: AI时代，程序员的价值到底是什么？不是写代码，是一种叫"系统思维"的东西。而这种能力，可以带你胜任任何岗位。
 ---
 
-# AI会取代程序员吗？——不会，但程序员会取代很多人
+# AI会取代程序员or会取代很多人
 
 ## 一个让人焦虑的问题
 
@@ -73,8 +73,6 @@ head:
 
 普通人面对一个复杂任务，第一反应是"从哪开始？"。程序员的第一反应是"先拆成几块，然后排个优先级"。
 
-![程序员画马](https://github.com/zhaoolee/xiaohongshu-programmer-memes/raw/main/README.assets/rednote.020.jpeg)
-
 ### 2. 前置思考——"后面会怎样"
 
 写代码的时候，程序员会本能地想：
@@ -85,8 +83,6 @@ head:
 - 用户会不会瞎点？要不要加校验？
 
 这不是杞人忧天，这是**被bug毒打出来的职业本能**。
-
-![程序员最怕什么？](https://github.com/zhaoolee/xiaohongshu-programmer-memes/raw/main/README.assets/rednote.032.jpeg)
 
 这种"做事之前先想后果"的习惯，在很多行业里都不常见。大部分人做事是线性的——做到哪算哪，出了问题再补救。程序员做事是网状的——先穷举可能的分支，再选择最优路径。
 
@@ -150,15 +146,12 @@ head:
 
 他不是在"做自媒体"，他是在**用工程化方式运营一个内容产品**。三个月做到十万粉。
 
-![一图读懂AI氛围编程](https://github.com/zhaoolee/xiaohongshu-programmer-memes/raw/main/README.assets/rednote-3-4.046.jpeg)
 
 很多纯内容出身的人，拍了两年还是凭感觉——今天灵感好就拍一条，灵感不好就停更。没有拆解，没有验证，没有优化。
 
 这不是天赋的差距，是**思维方式的差距**。
 
 ### 例子二：摆地摊
-
-别笑。
 
 我见过一个程序员朋友周末去摆摊卖柠檬茶。别人摆摊就是买材料、支个摊、喊两嗓子。
 
@@ -187,8 +180,6 @@ head:
 ```
 
 一个月后，他的周末副业收入比上班工资还高。
-
-![古法编程与AI编程](https://github.com/zhaoolee/xiaohongshu-programmer-memes/raw/main/README.assets/rednote-3-4.083.jpeg)
 
 他跟我说："摆摊本质就是一个小型创业项目。产品、流量、转化、留存，跟做互联网产品一模一样。"
 
@@ -246,6 +237,8 @@ AI写的代码质量已经不差了。简单的CRUD、常规的页面、标准�
 
 **不会写代码的程序员会失业。但有系统思维的人，不会。**
 
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/20260511141800.png)
+
 不但不会，反而会因为AI的存在，变得**更强大**。
 
 因为以前你脑子里有想法，手上实现不了，得求人。现在你脑子里有想法，跟AI说一句，它就帮你实现了。执行成本趋近于零。
@@ -266,8 +259,6 @@ AI时代:
 
 编码能力和AI工具使用能力，都是可以短期学习的。**系统思维才是那个乘数。**
 
-![AI时代程序员的键盘](https://github.com/zhaoolee/xiaohongshu-programmer-memes/raw/main/README.assets/rednote-3-4.050.jpeg)
-
 而这个乘数，不只是适用于技术岗位。它可以套在任何领域：
 
 - **做产品**：拆解需求、预判风险、验证假设、迭代优化——这不就是产品经理的日常工作吗？
@@ -279,6 +270,7 @@ AI时代:
 
 区别只在于：以前你用这套能力写代码，现在你可以用这套能力做任何事。
 
+![AI时代程序员的键盘](https://github.com/zhaoolee/xiaohongshu-programmer-memes/raw/main/README.assets/rednote-3-4.050.jpeg)
 ## 最后
 
 程序员这个职业不会消失，但"程序员=写代码的人"这个定义会过时。
@@ -296,7 +288,5 @@ AI时代:
 **如果代码不再是瓶颈，你最想解决的问题是什么？**
 
 想清楚了这个，你会发现——你不是一个只会写代码的人。你是一个带着系统思维入场的人，而这个世界到处都是待解决的问题。
-
-![程序员进阶心法：不急](https://github.com/zhaoolee/xiaohongshu-programmer-memes/raw/main/README.assets/rednote.015.jpeg)
 
 AI给了你一把更锋利的刀。至于砍什么，取决于你的脑子。

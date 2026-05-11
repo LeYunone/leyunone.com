@@ -208,6 +208,8 @@ public class PasswordRule extends BaseTreeVisitor implements JavaFileScanner {
 
 检测逻辑就看你自己的需求了。比如我做的敏感词检测，就是在AST中找到所有字符串字面量，然后用正则匹配敏感词列表。命中了就上报。
 
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/20260511162030.png)
+
 ## 打包配置
 
 代码写完了，怎么打成SonarQube能认的插件包？

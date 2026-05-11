@@ -75,6 +75,8 @@ Karpathy总结了一句话：
 工具反馈（Tools）     ──┘
 ```
 
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/scccc.png)
+
 所以上下文工程要管的就是：**这三条河里，什么该流进来、什么该挡在外面、什么该先存着以后再说。**
 
 ## 读上下文：什么该进来
@@ -207,6 +209,8 @@ LangChain总结了一套方法论，把上下文工程分成四个动作：
 | **Isolate（隔）** | 把上下文拆分给不同子Agent | 多Agent协作，各自独立上下文 |
 
 这四个动作不是孤立的，而是组合使用的。比如Agent先Write一个计划到外部存储，后续步骤Select这个计划拉进上下文，中间可能Compress掉一些不重要的工具返回结果，最后把不同子任务Isolate给不同的子Agent去并行处理。
+
+![](https://leyunone-img.oss-cn-hangzhou.aliyuncs.com/image/2026-05-11/20260511115635.png)
 
 ## 跟提示词工程的区别
 
