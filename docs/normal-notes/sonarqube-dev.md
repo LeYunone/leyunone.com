@@ -1,5 +1,5 @@
 ---
-date: 2025-04-15
+date: 2025-04-16
 title: SonarQube插件开发：给代码审查加一条自己的规则
 category:
   - 笔记

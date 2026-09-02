@@ -23,9 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c0ebd1c-3695-4ff8-be36-bd0ea07a088a" name="Default Changelist" comment="[ADD]导航重置">
+      <change afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/cyber2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Interesting-design/auto-account-builder.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/auto-account-builder.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Interesting-design/spring-ai-agent-design.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Interesting-design/spring-ai-agent-design.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-diary-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-diary-1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-diary-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-diary-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-plan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-summary.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-summary.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-value.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development-diary/VisTask-AI/eucalyptus-value.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/normal-notes/AI-coding-fact.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/AI-coding-fact.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/normal-notes/Canal.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/Canal.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/normal-notes/cicd-full-pipeline.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/cicd-full-pipeline.md" afterDir="false" />
@@ -35,7 +40,6 @@
       <change beforePath="$PROJECT_DIR$/docs/normal-notes/mybatis-plus.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/mybatis-plus.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/normal-notes/prompt-engineering.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/prompt-engineering.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/normal-notes/sonarqube-dev.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/sonarqube-dev.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/normal-notes/sonarqube-scan.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/normal-notes/sonarqube-scan.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/summary/code-review-what.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/summary/code-review-what.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/talkabout/rambling-diary/ai-acgn.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/ai-acgn.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/talkabout/rambling-diary/ai-management-vs-developer.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/ai-management-vs-developer.md" afterDir="false" />
@@ -44,7 +48,6 @@
       <change beforePath="$PROJECT_DIR$/docs/talkabout/rambling-diary/openclaw-hype.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/openclaw-hype.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/talkabout/rambling-diary/programmer-core-ability.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/programmer-core-ability.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/talkabout/rambling-diary/sms-bombing.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/talkabout/rambling-diary/sms-bombing.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/unidentified-business/Ai-token.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/Ai-token.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/unidentified-business/Claude-Code-nonorm.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/Claude-Code-nonorm.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/unidentified-business/agent-what-is-it.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/agent-what-is-it.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/unidentified-business/context-engineer.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unidentified-business/context-engineer.md" afterDir="false" />
@@ -77,21 +80,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;LeYunone&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/LeYunone/leyunone.com.git&quot;,
-    &quot;accountId&quot;: &quot;adad3a2d-7e37-4ce6-bcb8-dffd3188bf8f&quot;
-  }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
-}</component>
   <component name="ProjectId" id="2HoGS0i2s0PsmwflSZw2guLQZoJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -101,31 +89,16 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/TheCode/leyunone.com/docs/unidentified-business&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\com.software\\IntelliJ IDEA 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/talkabout/rambling-diary" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\TheCode\leyunone.com\docs\unidentified-business" />
-      <recent name="E:\TheCode\leyunone.com\docs\normal-notes" />
-      <recent name="E:\TheCode\leyunone.com\docs\Interesting-design" />
-      <recent name="E:\TheCode\leyunone.com\docs\talkabout\rambling-diary" />
-      <recent name="E:\TheCode\leyunone.com\docs\development-diary\eucalyptus-diary" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\TheCode\leyunone.com\docs\Interesting-design" />
       <recent name="E:\TheCode\leyunone.com\docs\normal-notes" />
@@ -133,8 +106,15 @@
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\normal-notes" />
       <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\Interesting-design" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leyunone\IdeaProjects\leyunone.com\docs\talkabout\rambling-diary" />
+      <recent name="E:\TheCode\leyunone.com\docs\unidentified-business" />
+      <recent name="E:\TheCode\leyunone.com\docs\normal-notes" />
+      <recent name="E:\TheCode\leyunone.com\docs\Interesting-design" />
+      <recent name="E:\TheCode\leyunone.com\docs\talkabout\rambling-diary" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.vite-serve">
+  <component name="RunManager" selected="npm.vite-build">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:8080">
       <method v="2" />
     </configuration>
@@ -209,8 +189,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.vite-serve" />
         <item itemvalue="npm.vite-build" />
+        <item itemvalue="npm.vite-serve" />
         <item itemvalue="npm.webpack-build" />
         <item itemvalue="npm.docs:dev" />
         <item itemvalue="npm.docs:build" />
@@ -225,7 +205,7 @@
       </set>
     </attachedChunks>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -568,6 +548,7 @@
       <workItem from="1777422745434" duration="4694000" />
       <workItem from="1777511285147" duration="17962000" />
       <workItem from="1778459794499" duration="26519000" />
+      <workItem from="1778503720234" duration="3332000" />
     </task>
     <task id="LOCAL-00065" summary="[UPDATE]UPDATE date">
       <created>1697468705996</created>
@@ -916,7 +897,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -929,16 +910,12 @@
     </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="1" value="TOOL_WINDOW" />
-      </map>
-    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="1">
           <value>
             <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -957,7 +934,6 @@
                   </entry>
                 </map>
               </option>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
             </State>
           </value>
         </entry>
@@ -968,6 +944,12 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -997,6 +979,40 @@
     <MESSAGE value="[ADD]一次性导入2025-2026年未上传的文章，待填充优化" />
     <MESSAGE value="[ADD]导航重置" />
     <option name="LAST_COMMIT_MESSAGE" value="[ADD]导航重置" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1778505706316">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1778505706316" />
+    <state width="1877" height="368" key="GridCell.Tab.0.bottom" timestamp="1778509272371">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="368" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1778509272371" />
+    <state width="1877" height="368" key="GridCell.Tab.0.center" timestamp="1778509272371">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="368" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1778509272371" />
+    <state width="1877" height="368" key="GridCell.Tab.0.left" timestamp="1778509272371">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="368" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1778509272371" />
+    <state width="1877" height="368" key="GridCell.Tab.0.right" timestamp="1778509272371">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="368" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1778509272371" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1778504284048">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1778504284048" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1778504965768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1778504965768" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1778506058991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1778506058991" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,5 +1,5 @@
 ---
-date: 2025-04-15
+date: 2025-07-04
 title: MaxKB：给AI喂一本你的私人教材
 category:
   - 笔记

@@ -1,5 +1,5 @@
 ---
-date: 2025-04-15
+date: 2025-06-23
 title: JPA与MyBatis-Plus：别吵了，选自己顺手的就完事
 category:
   - 笔记
