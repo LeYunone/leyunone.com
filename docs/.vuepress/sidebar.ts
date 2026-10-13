@@ -64,6 +64,7 @@ export const sidebarConfig = sidebar({
             icon: "xitongsheji",
             collapsible: true,
             children: [
+                "Interesting-design/vibe-prompt-factory",
                 "Interesting-design/pseudo-smart-home",
                 "Interesting-design/low-cost-ekl",
                 "Interesting-design/value-assemble",
